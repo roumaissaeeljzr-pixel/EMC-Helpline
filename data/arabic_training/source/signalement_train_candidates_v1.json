@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train_ar_signalement_0001",
+    "text": "أريد الإبلاغ عن هذا الحساب، كيف أفعل ذلك؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0001"
+  },
+  {
+    "id": "train_ar_signalement_0002",
+    "text": "أين يمكنني تقديم بلاغ عن هذه الإساءة الرقمية؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0002"
+  },
+  {
+    "id": "train_ar_signalement_0003",
+    "text": "كيف أبلغ المنصة عن المحتوى المسيء؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0003"
+  },
+  {
+    "id": "train_ar_signalement_0004",
+    "text": "أريد معرفة الجهة التي يمكنني إبلاغها بما حدث.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0004"
+  },
+  {
+    "id": "train_ar_signalement_0005",
+    "text": "كيف أقدم بلاغًا رسميًا عن هذا السلوك؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0005"
+  },
+  {
+    "id": "train_ar_signalement_0006",
+    "text": "أحتاج إلى خطوات الإبلاغ عن هذه الواقعة.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0006"
+  },
+  {
+    "id": "train_ar_signalement_0007",
+    "text": "أريد الإبلاغ عن حساب يرسل لي رسائل مسيئة، وأحتاج إلى معرفة أين أجد خيار التبليغ.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0007"
+  },
+  {
+    "id": "train_ar_signalement_0008",
+    "text": "كيف يمكنني إرسال بلاغ إلى المنصة عن منشور يتضمن معلومات شخصية تخصني؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0008"
+  },
+  {
+    "id": "train_ar_signalement_0009",
+    "text": "أريد تقديم بلاغ عن صورة خاصة نُشرت دون موافقتي، فما الخطوات التي أبدأ بها؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0009"
+  },
+  {
+    "id": "train_ar_signalement_0010",
+    "text": "هل أبلغ المنصة أولًا أم توجد جهة أخرى يمكنني إخطارها بما حدث على الإنترنت؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0010"
+  },
+  {
+    "id": "train_ar_signalement_0011",
+    "text": "أريد الإبلاغ عن حساب مزيف يستخدم اسمي وصورتي، وأحتاج إلى معرفة الطريقة الصحيحة داخل المنصة.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0011"
+  },
+  {
+    "id": "train_ar_signalement_0012",
+    "text": "كيف أبلغ عن شخص دخل إلى حسابي دون إذني ثم بدأ يستخدمه؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0012"
+  },
+  {
+    "id": "train_ar_signalement_0013",
+    "text": "أحتاج إلى معرفة طريقة إرسال بلاغ يتضمن رابط الحساب والرسائل المرتبطة بالواقعة.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0013"
+  },
+  {
+    "id": "train_ar_signalement_0014",
+    "text": "أريد أن أعرف كيف أبلغ عن محتوى تم نشره عني من دون موافقتي.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0014"
+  },
+  {
+    "id": "train_ar_signalement_0015",
+    "text": "كيف يمكنني متابعة بلاغ بعد إرساله إذا لم يتغير شيء على المنصة؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0015"
+  },
+  {
+    "id": "train_ar_signalement_0016",
+    "text": "أريد معرفة أين أبلغ عن تهديدات رقمية متكررة تصلني من نفس الشخص.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0016"
+  },
+  {
+    "id": "train_ar_signalement_0017",
+    "text": "تعرضت لسلوك مسيء عبر عدة حسابات، وأريد الآن تقديم بلاغ منظم يوضح ما حدث، لكنني لا أعرف من أين أبدأ أو ما القناة المناسبة داخل المنصة لإرسال المعلومات مع توضيح الحسابات والروابط المرتبطة بالواقعة بصورة منظمة.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0017"
+  },
+  {
+    "id": "train_ar_signalement_0018",
+    "text": "تم نشر محتوى خاص بي ثم أعيدت مشاركته في أكثر من مكان، وأريد الإبلاغ عنه بطريقة واضحة تشمل الحسابات والروابط المرتبطة بكل نسخة حتى تتمكن الجهة المختصة من فهم المشكلة حتى تصل المعلومات إلى الجهة التي يمكنها مراجعة المحتوى أو الحساب.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0018"
+  },
+  {
+    "id": "train_ar_signalement_0019",
+    "text": "اكتشفت حسابًا ينتحل هويتي ويتواصل مع أشخاص أعرفهم، وأريد أن أرسل بلاغًا يوضح أن الحساب ليس لي ويستخدم اسمي وصورتي دون إذني، لكنني لا أعرف الخطوات المطلوبة مع إمكانية إضافة تفاصيل أخرى إذا استمرت المشكلة بعد إرسال البلاغ.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0019"
+  },
+  {
+    "id": "train_ar_signalement_0020",
+    "text": "أريد اتخاذ خطوة رسمية بشأن ما حدث على الإنترنت، وأحتاج إلى معرفة أين يمكنني تقديم البلاغ، وما المعلومات التي ينبغي أن أرفقها، وكيف أميز بين الإبلاغ داخل المنصة والتواصل مع جهة رسمية.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0020"
+  },
+  {
+    "id": "train_ar_signalement_0021",
+    "text": "أبحث عن المكان المخصص للتبليغ داخل التطبيق.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0021"
+  },
+  {
+    "id": "train_ar_signalement_0022",
+    "text": "لا أعرف إلى من أرسل ما حدث.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0022"
+  },
+  {
+    "id": "train_ar_signalement_0023",
+    "text": "أفكر في إخبار المنصة رسميًا بهذه المشكلة.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0023"
+  },
+  {
+    "id": "train_ar_signalement_0024",
+    "text": "أحتاج إلى جهة تستقبل بلاغًا عن هذا المحتوى.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0024"
+  },
+  {
+    "id": "train_ar_signalement_0025",
+    "text": "أريد أن يصل ما حدث إلى جهة مختصة.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0025"
+  },
+  {
+    "id": "train_ar_signalement_0026",
+    "text": "لم أستخدم خاصية التبليغ من قبل ولا أعرف خطواتها.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0026"
+  },
+  {
+    "id": "train_ar_signalement_0027",
+    "text": "وجدت زر التبليغ لكنني لا أعرف أي سبب أختار حتى يصل البلاغ إلى القسم المناسب.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0027"
+  },
+  {
+    "id": "train_ar_signalement_0028",
+    "text": "أريد أن أخبر المنصة بما يحدث، لكنني غير متأكدة من المعلومات التي يجب أن أضعها في البلاغ.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0028"
+  },
+  {
+    "id": "train_ar_signalement_0029",
+    "text": "أفكر في تقديم شكوى عن الحساب، لكنني لا أعرف هل أبدأ من الصفحة نفسها أم من مركز المساعدة.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0029"
+  },
+  {
+    "id": "train_ar_signalement_0030",
+    "text": "لدي عدة روابط مرتبطة بالواقعة وأريد إرسالها إلى الجهة التي تستقبل هذا النوع من البلاغات.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0030"
+  },
+  {
+    "id": "train_ar_signalement_0031",
+    "text": "أريد أن أوصل المشكلة رسميًا بدل الاكتفاء بحظر الحساب، لكنني لا أعرف طريقة التبليغ.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0031"
+  },
+  {
+    "id": "train_ar_signalement_0032",
+    "text": "المحتوى ما زال منشورًا وأفكر في استخدام أدوات المنصة للإبلاغ عنه بدل تجاهله.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0032"
+  },
+  {
+    "id": "train_ar_signalement_0033",
+    "text": "أريد معرفة كيف أشرح الواقعة باختصار عند إرسال البلاغ حتى تكون المعلومات واضحة.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0033"
+  },
+  {
+    "id": "train_ar_signalement_0034",
+    "text": "لا أعرف إن كان يجب إرسال بلاغ واحد عن الحساب أو بلاغ منفصل عن كل منشور.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0034"
+  },
+  {
+    "id": "train_ar_signalement_0035",
+    "text": "أحاول الوصول إلى نموذج يسمح لي بإبلاغ المنصة عن استخدام هويتي دون إذني.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0035"
+  },
+  {
+    "id": "train_ar_signalement_0036",
+    "text": "أريد متابعة الموضوع بعد التبليغ ولا أعرف أين تظهر حالة البلاغ أو نتيجته.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0036"
+  },
+  {
+    "id": "train_ar_signalement_0037",
+    "text": "منذ فترة أحظر الحسابات التي تزعجني، لكن المشكلة مستمرة، لذلك أفكر الآن في استخدام آلية التبليغ الرسمية وأريد أن أعرف كيف أقدم المعلومات بطريقة تسهل على المنصة مراجعة ما حدث لأن هدفي في هذه المرحلة هو بدء مسار التبليغ الرسمي ومتابعته.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0037"
+  },
+  {
+    "id": "train_ar_signalement_0038",
+    "text": "لدي محتوى وروابط وحسابات متعددة مرتبطة بنفس الواقعة، وأريد إيصالها إلى جهة مختصة بدل التعامل مع كل عنصر وحده، لكنني لا أعرف ما إذا كانت المنصة توفر طريقة مناسبة لذلك مع توضيح الحسابات والروابط المرتبطة بالواقعة بصورة منظمة.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0038"
+  },
+  {
+    "id": "train_ar_signalement_0039",
+    "text": "أشعر أن مجرد حذف الرسائل من عندي لا يحل المشكلة، لذلك أريد أن تصل الواقعة إلى جهة يمكنها مراجعة الحساب أو المحتوى، وأحتاج إلى فهم خطوات الإبلاغ المتاحة حتى تصل المعلومات إلى الجهة التي يمكنها مراجعة المحتوى أو الحساب.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0039"
+  },
+  {
+    "id": "train_ar_signalement_0040",
+    "text": "سبق أن أرسلت بلاغًا بسيطًا ولم أعرف ماذا حدث بعده، والآن أريد أن أفهم كيف أتابع البلاغ أو أرسل معلومات إضافية إذا استمرت المشكلة أو ظهر محتوى جديد مع إمكانية إضافة تفاصيل أخرى إذا استمرت المشكلة بعد إرسال البلاغ.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0040"
+  },
+  {
+    "id": "train_ar_signalement_0041",
+    "text": "على Instagram أريد الإبلاغ عن حساب يضايقني.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0041"
+  },
+  {
+    "id": "train_ar_signalement_0042",
+    "text": "في WhatsApp كيف أبلغ عن رقم يرسل لي إساءات؟",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0042"
+  },
+  {
+    "id": "train_ar_signalement_0043",
+    "text": "على Facebook أريد التبليغ عن منشور مسيء.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0043"
+  },
+  {
+    "id": "train_ar_signalement_0044",
+    "text": "على TikTok أحتاج إلى الإبلاغ عن حساب مزيف باسمي.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0044"
+  },
+  {
+    "id": "train_ar_signalement_0045",
+    "text": "في الجامعة أريد إبلاغ جهة مسؤولة بما حدث رقميًا.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0045"
+  },
+  {
+    "id": "train_ar_signalement_0046",
+    "text": "في العمل أحتاج إلى الإبلاغ عن إساءة عبر حساب مهني من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0046"
+  },
+  {
+    "id": "train_ar_signalement_0047",
+    "text": "على Instagram وجدت حسابًا ينتحل هويتي، وأريد معرفة الطريقة المناسبة للإبلاغ عنه من داخل التطبيق.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0047"
+  },
+  {
+    "id": "train_ar_signalement_0048",
+    "text": "في WhatsApp تصلني رسائل مسيئة من رقم متكرر، وأريد أن أعرف كيف أرسل بلاغًا عنه بدل الحظر فقط.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0048"
+  },
+  {
+    "id": "train_ar_signalement_0049",
+    "text": "على Facebook نُشر محتوى شخصي عني، وأريد استخدام نظام التبليغ لإرسال المنشور إلى المراجعة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0049"
+  },
+  {
+    "id": "train_ar_signalement_0050",
+    "text": "على TikTok ظهر مقطع خاص بي في حساب آخر، وأريد معرفة طريقة التبليغ عن المقطع والحساب.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0050"
+  },
+  {
+    "id": "train_ar_signalement_0051",
+    "text": "في مجموعة الجامعة انتشرت إساءة تخصني، وأريد معرفة الجهة الجامعية التي يمكنني إخطارها رسميًا من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0051"
+  },
+  {
+    "id": "train_ar_signalement_0052",
+    "text": "في بيئة العمل الرقمية حدثت إساءة من حساب مهني، وأريد معرفة المسار المناسب لإبلاغ المسؤولين عنها.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0052"
+  },
+  {
+    "id": "train_ar_signalement_0053",
+    "text": "على Telegram توجد قناة تنشر محتوى يخصني، وأريد معرفة كيف أبلغ عنها أو عن الرسائل نفسها.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0053"
+  },
+  {
+    "id": "train_ar_signalement_0054",
+    "text": "على منصة ألعاب يرسل لاعب تهديدات متكررة، وأريد استخدام نظام التبليغ داخل اللعبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0054"
+  },
+  {
+    "id": "train_ar_signalement_0055",
+    "text": "في البريد الإلكتروني تصلني رسائل احتيالية أو مسيئة، وأريد معرفة كيف أبلغ مزود الخدمة عنها.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0055"
+  },
+  {
+    "id": "train_ar_signalement_0056",
+    "text": "على LinkedIn يستخدم حساب معلوماتي المهنية بطريقة مضللة، وأريد الإبلاغ عن الملف من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0056"
+  },
+  {
+    "id": "train_ar_signalement_0057",
+    "text": "على Instagram نُشرت صورة خاصة ثم أعادت عدة حسابات مشاركتها، وأريد تقديم بلاغات بطريقة منظمة توضح أن المحتوى يخصني وأنني لم أوافق على نشره أو إعادة تداوله لأن هدفي في هذه المرحلة هو بدء مسار التبليغ الرسمي ومتابعته.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0057"
+  },
+  {
+    "id": "train_ar_signalement_0058",
+    "text": "في مجموعة الجامعة بدأ شخص بنشر معلومات وإساءات عني، وأريد أن أعرف كيف أبلغ إدارة المجموعة أو الجهة الجامعية المختصة مع توضيح الحسابات والرسائل المرتبطة بالواقعة مع توضيح الحسابات والروابط المرتبطة بالواقعة بصورة منظمة.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0058"
+  },
+  {
+    "id": "train_ar_signalement_0059",
+    "text": "على منصة عمل مشتركة استخدم حساب زميل لإرسال محتوى مسيء، وأريد معرفة المسار الرسمي داخل المؤسسة لإبلاغ المسؤولين بدل الدخول في مواجهة مباشرة معه حتى تصل المعلومات إلى الجهة التي يمكنها مراجعة المحتوى أو الحساب.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0059"
+  },
+  {
+    "id": "train_ar_signalement_0060",
+    "text": "على Telegram توجد رسائل وصور منشورة في أكثر من قناة مرتبطة بنفس المشكلة، وأريد معرفة طريقة الإبلاغ عن القنوات والمحتوى معًا حتى تتم مراجعة الواقعة بصورة مترابطة مع إمكانية إضافة تفاصيل أخرى إذا استمرت المشكلة بعد إرسال البلاغ.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0060"
+  },
+  {
+    "id": "train_ar_signalement_0061",
+    "text": "أريد إحالة هذا المحتوى إلى المراجعة من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0061"
+  },
+  {
+    "id": "train_ar_signalement_0062",
+    "text": "أحتاج إلى إخطار المنصة رسميًا بما حدث من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0062"
+  },
+  {
+    "id": "train_ar_signalement_0063",
+    "text": "أريد رفع بلاغ بشأن هذا الحساب من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0063"
+  },
+  {
+    "id": "train_ar_signalement_0064",
+    "text": "أبحث عن قناة رسمية لتوصيل هذه الواقعة من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0064"
+  },
+  {
+    "id": "train_ar_signalement_0065",
+    "text": "أريد تسجيل شكوى حول هذا السلوك الرقمي من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0065"
+  },
+  {
+    "id": "train_ar_signalement_0066",
+    "text": "أحتاج إلى إيصال هذه المشكلة إلى جهة مسؤولة من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0066"
+  },
+  {
+    "id": "train_ar_signalement_0067",
+    "text": "هدفي الآن هو استخدام آلية رسمية داخل المنصة لإخبارها بالحساب أو المحتوى الذي يسبب المشكلة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0067"
+  },
+  {
+    "id": "train_ar_signalement_0068",
+    "text": "أريد أن تتحول الواقعة من مجرد مشكلة أتعامل معها وحدي إلى بلاغ يمكن لجهة مختصة مراجعته.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0068"
+  },
+  {
+    "id": "train_ar_signalement_0069",
+    "text": "أبحث عن الطريقة التي تسمح لي بإرسال تفاصيل الواقعة إلى الجهة المسؤولة عن مراجعة الانتهاكات.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0069"
+  },
+  {
+    "id": "train_ar_signalement_0070",
+    "text": "أريد فتح مسار رسمي داخل الخدمة حتى تتم مراجعة الحساب أو المنشور المرتبط بما حدث.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0070"
+  },
+  {
+    "id": "train_ar_signalement_0071",
+    "text": "ما أحتاجه هو معرفة وسيلة التبليغ الصحيحة وليس فقط كيفية حظر الشخص أو حذف الرسائل.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0071"
+  },
+  {
+    "id": "train_ar_signalement_0072",
+    "text": "أريد تسجيل الواقعة لدى المنصة بطريقة يمكن متابعتها بدل الاكتفاء بتجاهل المحتوى من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0072"
+  },
+  {
+    "id": "train_ar_signalement_0073",
+    "text": "أحتاج إلى إرسال إشعار رسمي عن إساءة رقمية حدثت لي حتى تتمكن الجهة المناسبة من فحصها.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0073"
+  },
+  {
+    "id": "train_ar_signalement_0074",
+    "text": "أريد معرفة طريقة تقديم المعلومات المرتبطة بالمشكلة إلى نظام المراجعة أو التبليغ من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0074"
+  },
+  {
+    "id": "train_ar_signalement_0075",
+    "text": "أرغب في إحالة الحساب أو المنشور إلى الجهة التي تتعامل مع المخالفات داخل المنصة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0075"
+  },
+  {
+    "id": "train_ar_signalement_0076",
+    "text": "أريد أن أعرف كيف أبدأ إجراء التبليغ وأين أضع الروابط والحسابات المرتبطة بالواقعة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0076"
+  },
+  {
+    "id": "train_ar_signalement_0077",
+    "text": "أريد الانتقال من التعامل الشخصي مع المشكلة إلى مسار رسمي يمكن من خلاله إرسال تفاصيل الحسابات والمحتوى والروابط إلى جهة مسؤولة عن المراجعة، ثم معرفة إن كان هناك تحديث على البلاغ.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0077"
+  },
+  {
+    "id": "train_ar_signalement_0078",
+    "text": "ما أبحث عنه هو آلية واضحة لتسجيل الواقعة وإرسال ما يرتبط بها من حسابات أو منشورات إلى جهة مختصة، بحيث لا يكون الأمر مجرد حظر أو تجاهل من جانبي لأن هدفي في هذه المرحلة هو بدء مسار التبليغ الرسمي ومتابعته.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0078"
+  },
+  {
+    "id": "train_ar_signalement_0079",
+    "text": "أحتاج إلى فهم دورة التبليغ كاملة: أين يبدأ البلاغ، وما المعلومات التي تُرسل معه، وهل يمكن إضافة تفاصيل جديدة لاحقًا إذا استمرت المشكلة أو ظهرت حسابات أخرى مع توضيح الحسابات والروابط المرتبطة بالواقعة بصورة منظمة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0079"
+  },
+  {
+    "id": "train_ar_signalement_0080",
+    "text": "أرغب في تقديم إشعار رسمي ومنظم عن الواقعة الرقمية حتى تتم مراجعتها من الجهة المناسبة، مع إمكانية تتبع ما إذا تم استلام البلاغ أو اتخاذ إجراء بشأن المحتوى أو الحساب حتى تصل المعلومات إلى الجهة التي يمكنها مراجعة المحتوى أو الحساب.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0080"
+  },
+  {
+    "id": "train_ar_signalement_0081",
+    "text": "احتفظت بالأدلة، والآن أريد معرفة كيف أرسل البلاغ من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "signalement_scenario_0081"
+  },
+  {
+    "id": "train_ar_signalement_0082",
+    "text": "أريد الإبلاغ، وليس فقط معرفة الحكم القانوني من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "signalement_scenario_0082"
+  },
+  {
+    "id": "train_ar_signalement_0083",
+    "text": "أتلقى إساءات متكررة وأريد التبليغ عن الحساب من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "signalement_scenario_0083"
+  },
+  {
+    "id": "train_ar_signalement_0084",
+    "text": "نُشرت بياناتي الشخصية وأريد الإبلاغ عن المنشور من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "signalement_scenario_0084"
+  },
+  {
+    "id": "train_ar_signalement_0085",
+    "text": "أحتاج إلى قناة رسمية أرسل عبرها تفاصيل الواقعة حتى تتمكن جهة مسؤولة من مراجعتها بطريقة منظمة يمكن للجهة المختصة مراجعتها.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "signalement_scenario_0085"
+  },
+  {
+    "id": "train_ar_signalement_0086",
+    "text": "أريد بدء إجراء تبليغ واضح عن الحساب أو المحتوى بدل الاكتفاء بحظره أو تجاهله بطريقة منظمة يمكن للجهة المختصة مراجعتها.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "signalement_scenario_0086"
+  },
+  {
+    "id": "train_ar_signalement_0087",
+    "text": "لدي لقطات شاشة وروابط محفوظة، لكن سؤالي الأساسي الآن هو أين أرسلها ضمن بلاغ رسمي.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "signalement_scenario_0087"
+  },
+  {
+    "id": "train_ar_signalement_0088",
+    "text": "وثقت الرسائل والتواريخ بالفعل، وأريد الانتقال الآن إلى خطوة التبليغ عن الحساب أو المحتوى من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "signalement_scenario_0087"
+  },
+  {
+    "id": "train_ar_signalement_0089",
+    "text": "أعرف أن هناك جانبًا قانونيًا، لكن ما أحتاجه الآن هو معرفة كيفية تقديم البلاغ والجهة التي تستقبله.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "signalement_scenario_0088"
+  },
+  {
+    "id": "train_ar_signalement_0090",
+    "text": "لا أبحث حاليًا عن تفسير للعقوبة؛ أريد أن أعرف أين وكيف أبلغ رسميًا عما حدث.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "signalement_scenario_0088"
+  },
+  {
+    "id": "train_ar_signalement_0091",
+    "text": "أتلقى تعليقات مهينة من نفس الحساب، وأريد استخدام نظام التبليغ بدل الاكتفاء بحظره من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "signalement_scenario_0089"
+  },
+  {
+    "id": "train_ar_signalement_0092",
+    "text": "تستمر المضايقات في المجموعة، وأريد معرفة كيفية إرسال بلاغ عن الحسابات والرسائل المرتبطة بها من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "signalement_scenario_0089"
+  },
+  {
+    "id": "train_ar_signalement_0093",
+    "text": "نشر شخص عنواني ورقم هاتفي، وأريد معرفة الطريقة المناسبة للإبلاغ عن المنشور والحساب من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "signalement_scenario_0090"
+  },
+  {
+    "id": "train_ar_signalement_0094",
+    "text": "ظهرت معلوماتي الخاصة في صفحة عامة، والآن أريد إرسال بلاغ لإخطار المنصة بهذا المحتوى من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "signalement_scenario_0090"
+  },
+  {
+    "id": "train_ar_signalement_0095",
+    "text": "انتشرت صورة خاصة دون موافقتي، وأريد الإبلاغ عن الحسابات التي نشرتها أو أعادت مشاركتها من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "signalement_scenario_0091"
+  },
+  {
+    "id": "train_ar_signalement_0096",
+    "text": "فقدت السيطرة على حسابي بعد دخول غير مصرح به، وأريد معرفة أين يمكنني الإبلاغ عن الاختراق.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "signalement_scenario_0092"
+  },
+  {
+    "id": "train_ar_signalement_0097",
+    "text": "جمعت لقطات الشاشة والروابط وأسماء الحسابات ورتبتها حسب الوقت، لذلك لم يعد سؤالي الأساسي عن حفظ الأدلة؛ أريد الآن معرفة كيف أستخدم هذه المعلومات لتقديم بلاغ منظم إلى الجهة المناسبة ومتابعته لاحقًا.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "signalement_scenario_0093"
+  },
+  {
+    "id": "train_ar_signalement_0098",
+    "text": "قد أحتاج إلى فهم حقوقي القانونية لاحقًا، لكن هدفي الحالي هو اتخاذ خطوة التبليغ نفسها: أريد معرفة أين أرسل تفاصيل الواقعة، وما القناة المناسبة، وكيف أوضح الحسابات والمحتوى المرتبط بها مع إمكانية إضافة تفاصيل أخرى إذا استمرت المشكلة بعد إرسال البلاغ.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "signalement_scenario_0094"
+  },
+  {
+    "id": "train_ar_signalement_0099",
+    "text": "تم نشر صورة خاصة بي ثم أعيد تداولها في أكثر من حساب، لكنني لا أسأل الآن عن طبيعة الانتهاك نفسه؛ أريد معرفة كيف أبلغ المنصة عن النسخ المختلفة والحسابات التي تستمر في نشر المحتوى.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "signalement_scenario_0095"
+  },
+  {
+    "id": "train_ar_signalement_0100",
+    "text": "نُشرت معلومات شخصية عني في عدة منشورات، وأعرف أن المشكلة تتعلق بخصوصيتي، لكن سؤالي الآن هو كيف أقدم بلاغًا يجمع الروابط والحسابات المرتبطة بهذه المنشورات حتى تتم مراجعتها لأن هدفي في هذه المرحلة هو بدء مسار التبليغ الرسمي ومتابعته.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "signalement_scenario_0096"
+  }
+]

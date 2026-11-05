@@ -1,0 +1,1159 @@
+/* ==========================================================
+   EMC HELPLINE — ADMIN STATISTICS
+   Même langage visuel / typographique que Dashboard victime
+   ========================================================== */
+
+
+/* ==========================================================
+   HEADER
+   ========================================================== */
+
+.statistics-heading {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 24px;
+
+  padding:
+    4px 2px
+    8px;
+}
+
+
+.statistics-heading
+h1 {
+  margin:
+    8px 0 0;
+
+  color:
+    var(--guided-text);
+
+  font-size:
+    clamp(
+      34px,
+      4vw,
+      46px
+    );
+
+  line-height:
+    1.08;
+
+  font-weight: 780;
+}
+
+
+.statistics-heading
+p {
+  max-width: 780px;
+
+  margin:
+    11px 0 0;
+
+  color:
+    var(--guided-muted);
+
+  font-size: 16px;
+
+  line-height: 1.65;
+}
+
+
+.statistics-period {
+  min-width: 280px;
+
+  padding:
+    12px;
+
+  border:
+    1px solid
+    var(--guided-border);
+
+  border-radius: 14px;
+
+  background:
+    #ffffff;
+}
+
+
+.statistics-period
+> small {
+  display: block;
+
+  margin-bottom: 9px;
+
+  color:
+    #8c8595;
+
+  font-size: 15px;
+
+  font-weight: 650;
+}
+
+
+.statistics-period
+> div {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      1fr
+    );
+
+  gap: 7px;
+}
+
+
+.statistics-period
+button {
+  min-height: 38px;
+
+  border:
+    1px solid
+    #e4dce9;
+
+  border-radius: 10px;
+
+  background:
+    #faf8fc;
+
+  color:
+    #716879;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  font-weight: 680;
+}
+
+
+.statistics-period
+button.active {
+  border-color:
+    transparent;
+
+  background:
+    linear-gradient(
+      120deg,
+      #7048b8,
+      #d9549a
+    );
+
+  color:
+    #ffffff;
+}
+
+
+/* ==========================================================
+   SUMMARY
+   ========================================================== */
+
+.statistics-summary-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      4,
+      minmax(0, 1fr)
+    );
+
+  gap: 16px;
+
+  margin-top: 16px;
+}
+
+
+.statistics-summary-card {
+  display: grid;
+
+  min-height: 145px;
+
+  grid-template-columns:
+    55px
+    minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 16px;
+
+  padding:
+    20px 22px;
+
+  border:
+    1px solid
+    var(--guided-border);
+
+  border-radius: 18px;
+
+  background:
+    #ffffff;
+
+  box-shadow:
+    0 8px 24px
+    rgba(
+      59,
+      43,
+      80,
+      0.04
+    );
+}
+
+
+.statistics-summary-card
+> span {
+  display: flex;
+
+  width: 55px;
+  height: 55px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+}
+
+
+.statistics-summary-card.tone-purple
+> span {
+  background:
+    var(--guided-purple-soft);
+
+  color:
+    var(--guided-purple);
+}
+
+
+.statistics-summary-card.tone-blue
+> span {
+  background:
+    var(--guided-blue-soft);
+
+  color:
+    var(--guided-blue);
+}
+
+
+.statistics-summary-card.tone-green
+> span {
+  background:
+    var(--guided-green-soft);
+
+  color:
+    var(--guided-green);
+}
+
+
+.statistics-summary-card.tone-orange
+> span {
+  background:
+    #fff5e9;
+
+  color:
+    var(--guided-orange);
+}
+
+
+.statistics-summary-card
+small {
+  display: block;
+
+  color:
+    #8c8595;
+
+  font-size: 16px;
+}
+
+
+.statistics-summary-card
+strong {
+  display: block;
+
+  margin-top: 4px;
+
+  color:
+    var(--guided-text);
+
+  font-size: 28px;
+
+  font-weight: 780;
+}
+
+
+.statistics-summary-card
+p {
+  margin:
+    5px 0 0;
+
+  color:
+    var(--guided-muted);
+
+  font-size: 16px;
+
+  line-height: 1.45;
+}
+
+
+/* ==========================================================
+   SECTION HEADINGS
+   ========================================================== */
+
+.statistics-section-heading {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 18px;
+
+  margin-bottom: 18px;
+}
+
+
+.statistics-section-heading
+h2,
+.statistics-small-panel
+> h2 {
+  margin: 0;
+
+  color:
+    var(--guided-text);
+
+  font-size: 20px;
+
+  font-weight: 750;
+}
+
+
+.statistics-section-heading
+p {
+  margin:
+    6px 0 0;
+
+  color:
+    var(--guided-muted);
+
+  font-size: 16px;
+
+  line-height: 1.5;
+}
+
+
+/* ==========================================================
+   EVOLUTION
+   ========================================================== */
+
+.statistics-change {
+  min-width: 180px;
+
+  padding:
+    10px 13px;
+
+  border-radius: 12px;
+
+  text-align: end;
+}
+
+
+.statistics-change.up {
+  background:
+    #eef9f5;
+
+  color:
+    var(--guided-green);
+}
+
+
+.statistics-change.down {
+  background:
+    #fff0f1;
+
+  color:
+    #cf5d64;
+}
+
+
+.statistics-change.stable {
+  background:
+    #f4effc;
+
+  color:
+    var(--guided-purple);
+}
+
+
+.statistics-change
+strong,
+.statistics-change
+small {
+  display: block;
+}
+
+
+.statistics-change
+strong {
+  font-size: 19px;
+}
+
+
+.statistics-change
+small {
+  margin-top: 3px;
+
+  font-size: 14px;
+}
+
+
+.statistics-bar-chart {
+  display: grid;
+
+  height: 290px;
+
+  grid-template-columns:
+    repeat(
+      14,
+      minmax(0, 1fr)
+    );
+
+  gap: 8px;
+
+  align-items: end;
+}
+
+
+.statistics-bar-column {
+  display: grid;
+
+  height: 100%;
+
+  grid-template-rows:
+    28px
+    minmax(0, 1fr)
+    38px;
+
+  align-items: end;
+
+  text-align: center;
+}
+
+
+.statistics-bar-column
+> strong {
+  color:
+    var(--guided-text);
+
+  font-size: 14px;
+}
+
+
+.statistics-bar-column
+> div {
+  display: flex;
+
+  height: 100%;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  overflow: hidden;
+
+  border-radius: 10px;
+
+  background:
+    linear-gradient(
+      to top,
+      #f8f6fa,
+      #ffffff
+    );
+}
+
+
+.statistics-bar-column
+> div > span {
+  display: block;
+
+  width:
+    min(
+      36px,
+      66%
+    );
+
+  min-height: 8px;
+
+  border-radius:
+    10px
+    10px
+    5px
+    5px;
+
+  background:
+    linear-gradient(
+      to top,
+      #7048b8,
+      #df4f98
+    );
+}
+
+
+.statistics-bar-column
+small {
+  align-self: end;
+
+  color:
+    #8c8595;
+
+  font-size: 13px;
+}
+
+
+/* ==========================================================
+   TWO COLUMN
+   ========================================================== */
+
+.statistics-two-column {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.3fr)
+    minmax(330px, .7fr);
+
+  gap: 16px;
+}
+
+
+/* ==========================================================
+   INTENTS
+   ========================================================== */
+
+.statistics-intent-list {
+  display: grid;
+
+  gap: 16px;
+}
+
+
+.statistics-intent-item {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    54px;
+
+  gap:
+    8px
+    12px;
+
+  align-items: center;
+}
+
+
+.statistics-intent-item
+> div:first-child {
+  display: flex;
+
+  grid-column:
+    1 / -1;
+
+  justify-content: space-between;
+
+  gap: 12px;
+}
+
+
+.statistics-intent-item
+strong {
+  color:
+    var(--guided-text);
+
+  font-size: 16px;
+
+  font-weight: 680;
+}
+
+
+.statistics-intent-item
+> div:first-child
+span,
+.statistics-intent-item
+> small {
+  color:
+    #8c8595;
+
+  font-size: 15px;
+}
+
+
+.statistics-intent-track {
+  height: 10px;
+
+  overflow: hidden;
+
+  border-radius: 999px;
+
+  background:
+    #eeeaf1;
+}
+
+
+.statistics-intent-track
+span {
+  display: block;
+
+  height: 100%;
+
+  border-radius: 999px;
+}
+
+
+.statistics-intent-track
+.tone-0 {
+  background:
+    linear-gradient(
+      90deg,
+      #7048b8,
+      #9b65cc
+    );
+}
+
+
+.statistics-intent-track
+.tone-1 {
+  background:
+    linear-gradient(
+      90deg,
+      #df4f98,
+      #ed7cb2
+    );
+}
+
+
+.statistics-intent-track
+.tone-2 {
+  background:
+    linear-gradient(
+      90deg,
+      #f5a13e,
+      #f7b96e
+    );
+}
+
+
+.statistics-intent-track
+.tone-3 {
+  background:
+    linear-gradient(
+      90deg,
+      #5b8ee8,
+      #82a9ef
+    );
+}
+
+
+/* ==========================================================
+   PROGRESS
+   ========================================================== */
+
+.statistics-progress-section {
+  display: flex;
+
+  align-items: center;
+
+  flex-direction: column;
+}
+
+
+.statistics-progress-section
+.statistics-section-heading {
+  width: 100%;
+}
+
+
+.statistics-progress-meta {
+  display: flex;
+
+  width: 100%;
+
+  align-items: center;
+
+  gap: 11px;
+
+  margin-top: 18px;
+
+  padding:
+    13px;
+
+  border:
+    1px solid
+    var(--guided-border);
+
+  border-radius: 13px;
+
+  background:
+    #fbfafc;
+}
+
+
+.statistics-progress-meta
+> span {
+  display: flex;
+
+  width: 42px;
+  height: 42px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 11px;
+
+  background:
+    var(--guided-purple-soft);
+
+  color:
+    var(--guided-purple);
+}
+
+
+.statistics-progress-meta
+small,
+.statistics-progress-meta
+strong {
+  display: block;
+}
+
+
+.statistics-progress-meta
+small {
+  color:
+    var(--guided-muted);
+
+  font-size: 15px;
+}
+
+
+.statistics-progress-meta
+strong {
+  margin-top: 3px;
+
+  color:
+    var(--guided-text);
+
+  font-size: 20px;
+}
+
+
+/* ==========================================================
+   THREE COLUMN
+   ========================================================== */
+
+.statistics-three-column {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 16px;
+}
+
+
+.statistics-small-panel
+> h2 {
+  margin-bottom: 17px;
+}
+
+
+/* ==========================================================
+   LANGUAGE
+   ========================================================== */
+
+.statistics-language-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 11px;
+}
+
+
+.statistics-language-grid
+article {
+  padding:
+    16px;
+
+  border:
+    1px solid
+    var(--guided-border);
+
+  border-radius: 14px;
+
+  background:
+    #fbfafc;
+}
+
+
+.statistics-language-grid
+span {
+  display: inline-flex;
+
+  min-width: 42px;
+  min-height: 31px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding:
+    0 9px;
+
+  border-radius: 9px;
+
+  background:
+    var(--guided-purple-soft);
+
+  color:
+    var(--guided-purple);
+
+  font-size: 15px;
+
+  font-weight: 750;
+}
+
+
+.statistics-language-grid
+strong {
+  display: block;
+
+  margin-top: 12px;
+
+  color:
+    var(--guided-text);
+
+  font-size: 25px;
+}
+
+
+.statistics-language-grid
+p {
+  margin:
+    4px 0 0;
+
+  color:
+    var(--guided-muted);
+
+  font-size: 15px;
+}
+
+
+/* ==========================================================
+   STATUS + EVIDENCE
+   ========================================================== */
+
+.statistics-status-list,
+.statistics-evidence-list {
+  display: grid;
+
+  gap: 10px;
+}
+
+
+.statistics-status-list
+> div,
+.statistics-evidence-list
+> div {
+  display: grid;
+
+  grid-template-columns:
+    32px
+    minmax(0, 1fr)
+    auto
+    50px;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding:
+    11px;
+
+  border:
+    1px solid
+    var(--guided-border);
+
+  border-radius: 12px;
+
+  background:
+    #fbfafc;
+}
+
+
+.statistics-status-list
+> div > span {
+  width: 12px;
+  height: 12px;
+
+  justify-self: center;
+
+  border-radius: 50%;
+}
+
+
+.statistics-status-list
+> div > span.active {
+  background:
+    var(--guided-green);
+}
+
+
+.statistics-status-list
+> div > span.closed {
+  background:
+    #9a91a2;
+}
+
+
+.statistics-evidence-list
+> div > span {
+  display: flex;
+
+  width: 32px;
+  height: 32px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 9px;
+
+  background:
+    var(--guided-purple-soft);
+
+  color:
+    var(--guided-purple);
+}
+
+
+.statistics-status-list
+strong,
+.statistics-evidence-list
+strong {
+  color:
+    var(--guided-text);
+
+  font-size: 15px;
+
+  font-weight: 650;
+}
+
+
+.statistics-status-list
+em,
+.statistics-evidence-list
+em {
+  color:
+    var(--guided-text);
+
+  font-size: 16px;
+
+  font-style: normal;
+
+  font-weight: 720;
+}
+
+
+.statistics-status-list
+small,
+.statistics-evidence-list
+small {
+  color:
+    #8c8595;
+
+  font-size: 14px;
+
+  text-align: end;
+}
+
+
+/* ==========================================================
+   EMPTY / LOADING
+   ========================================================== */
+
+.statistics-empty {
+  display: flex;
+
+  min-height: 130px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  border:
+    1px dashed
+    #ded7e5;
+
+  border-radius: 14px;
+
+  color:
+    var(--guided-muted);
+
+  font-size: 16px;
+
+  text-align: center;
+}
+
+
+.statistics-loading {
+  display: flex;
+
+  min-height: 360px;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 16px;
+
+  border:
+    1px solid
+    var(--guided-border);
+
+  border-radius: 18px;
+
+  background:
+    #ffffff;
+}
+
+
+.statistics-loading
+h2 {
+  margin: 0;
+
+  color:
+    var(--guided-text);
+
+  font-size: 20px;
+}
+
+
+.statistics-spinner {
+  width: 42px;
+  height: 42px;
+
+  border:
+    4px solid
+    #e9e3ee;
+
+  border-top-color:
+    var(--guided-purple);
+
+  border-radius: 50%;
+
+  animation:
+    statisticsSpin
+    .75s
+    linear
+    infinite;
+}
+
+
+@keyframes statisticsSpin {
+  to {
+    transform:
+      rotate(360deg);
+  }
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+@media (
+  max-width: 1180px
+) {
+  .statistics-summary-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
+
+  .statistics-three-column {
+    grid-template-columns:
+      1fr
+      1fr;
+  }
+}
+
+
+@media (
+  max-width: 920px
+) {
+  .statistics-heading {
+    align-items: stretch;
+
+    flex-direction: column;
+  }
+
+
+  .statistics-period {
+    min-width: 0;
+  }
+
+
+  .statistics-two-column {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .statistics-three-column {
+    grid-template-columns:
+      1fr;
+  }
+}
+
+
+@media (
+  max-width: 680px
+) {
+  .statistics-summary-grid,
+  .statistics-language-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .statistics-bar-chart {
+    gap: 4px;
+  }
+
+
+  .statistics-bar-column
+  small {
+    font-size: 11px;
+  }
+}
+
+
+/* ==========================================================
+   RTL
+   ========================================================== */
+
+[dir="rtl"]
+.statistics-status-list
+small,
+[dir="rtl"]
+.statistics-evidence-list
+small {
+  text-align: start;
+}

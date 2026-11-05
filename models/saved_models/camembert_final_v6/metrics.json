@@ -1,0 +1,24 @@
+{
+  "model_name": "camembert-base",
+  "dataset": "messages_intents_v6_semantic_clean_440.csv",
+  "random_state": 42,
+  "best_epoch": 8,
+  "train": {
+    "accuracy": 0.987012987012987,
+    "precision": 0.9886363636363636,
+    "recall": 0.987012987012987,
+    "f1": 0.986946386946387
+  },
+  "validation": {
+    "accuracy": 0.9090909090909091,
+    "precision": 0.9163059163059163,
+    "recall": 0.9090909090909091,
+    "f1": 0.9039344493889948
+  },
+  "test": {
+    "accuracy": 0.8787878787878788,
+    "precision": 0.894155844155844,
+    "recall": 0.8787878787878788,
+    "f1": 0.8785578058305332
+  }
+}

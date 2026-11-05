@@ -1,0 +1,707 @@
+/* ==========================================================
+   EMC HELPLINE — PROFIL / IDENTITÉ VICTIME
+   Même langage visuel que le Dashboard victime.
+   ========================================================== */
+
+.victim-profile-heading {
+  padding: 4px 2px 8px;
+}
+
+
+.victim-profile-heading h1 {
+  margin: 8px 0 0;
+
+  color:
+    var(--guided-text);
+
+  font-size:
+    clamp(
+      34px,
+      4vw,
+      46px
+    );
+
+  line-height: 1.08;
+
+  font-weight: 780;
+}
+
+
+.victim-profile-heading p {
+  max-width: 830px;
+
+  margin: 11px 0 0;
+
+  color:
+    var(--guided-muted);
+
+  font-size: 16px;
+
+  line-height: 1.65;
+}
+
+
+/* ==========================================================
+   SUMMARY
+   ========================================================== */
+
+.victim-profile-summary-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 16px;
+
+  margin-top: 16px;
+}
+
+
+.victim-profile-summary {
+  display: grid;
+
+  min-height: 118px;
+
+  grid-template-columns:
+    52px
+    minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 14px;
+
+  padding:
+    18px 20px;
+
+  border:
+    1px solid
+    var(--guided-border);
+
+  border-radius: 18px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 8px 24px
+    rgba(
+      59,
+      43,
+      80,
+      0.04
+    );
+}
+
+
+.victim-profile-summary
+> span {
+  display: flex;
+
+  width: 52px;
+  height: 52px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+}
+
+
+.victim-profile-summary
+small {
+  display: block;
+
+  color:
+    #8c8595;
+
+  font-size: 15px;
+}
+
+
+.victim-profile-summary
+strong {
+  display: block;
+
+  margin-top: 5px;
+
+  color:
+    var(--guided-text);
+
+  font-size: 19px;
+
+  font-weight: 760;
+
+  overflow-wrap: anywhere;
+}
+
+
+.victim-profile-summary.tone-purple
+> span {
+  background:
+    var(--guided-purple-soft);
+
+  color:
+    var(--guided-purple);
+}
+
+
+.victim-profile-summary.tone-green
+> span {
+  background:
+    var(--guided-green-soft);
+
+  color:
+    var(--guided-green);
+}
+
+
+.victim-profile-summary.tone-orange
+> span {
+  background:
+    #fff5e9;
+
+  color:
+    var(--guided-orange);
+}
+
+
+.victim-profile-summary.tone-blue
+> span {
+  background:
+    var(--guided-blue-soft);
+
+  color:
+    var(--guided-blue);
+}
+
+
+/* ==========================================================
+   CONTENT
+   ========================================================== */
+
+.victim-profile-grid {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.55fr)
+    minmax(300px, .65fr);
+
+  gap: 16px;
+}
+
+
+.victim-profile-form-card {
+  padding:
+    22px;
+}
+
+
+.victim-profile-section-heading
+h2 {
+  margin: 0;
+
+  color:
+    var(--guided-text);
+
+  font-size: 20px;
+
+  font-weight: 750;
+}
+
+
+.victim-profile-section-heading
+p {
+  margin:
+    6px 0 0;
+
+  color:
+    var(--guided-muted);
+
+  font-size: 15px;
+
+  line-height: 1.6;
+}
+
+
+.victim-profile-form {
+  margin-top: 19px;
+}
+
+
+.victim-profile-fields {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 15px;
+}
+
+
+.victim-profile-fields
+label {
+  display: grid;
+
+  gap: 7px;
+}
+
+
+.victim-profile-fields
+label > span {
+  color:
+    #574e62;
+
+  font-size: 14px;
+
+  font-weight: 680;
+}
+
+
+.victim-profile-fields
+input {
+  width: 100%;
+
+  min-height: 48px;
+
+  box-sizing: border-box;
+
+  padding:
+    0 13px;
+
+  border:
+    1px solid
+    #ddd5e4;
+
+  border-radius: 12px;
+
+  outline: none;
+
+  background:
+    #faf9fc;
+
+  color:
+    var(--guided-text);
+
+  font: inherit;
+
+  font-size: 15px;
+}
+
+
+.victim-profile-fields
+input:focus {
+  border-color:
+    #bba8d5;
+
+  background:
+    #ffffff;
+
+  box-shadow:
+    0 0 0 4px
+    rgba(
+      112,
+      72,
+      184,
+      0.07
+    );
+}
+
+
+.victim-profile-fields
+input:disabled {
+  cursor: not-allowed;
+
+  background:
+    #f1eef3;
+
+  color:
+    #8c8493;
+}
+
+
+.victim-profile-field-wide {
+  grid-column:
+    1 / -1;
+}
+
+
+.victim-profile-required {
+  margin:
+    13px 0 0;
+
+  color:
+    #918899;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+}
+
+
+.victim-profile-actions {
+  display: flex;
+
+  justify-content:
+    flex-end;
+
+  margin-top: 18px;
+}
+
+
+.victim-profile-actions
+button {
+  min-height: 46px;
+
+  padding:
+    0 20px;
+
+  border: 0;
+
+  border-radius: 11px;
+
+  background:
+    linear-gradient(
+      105deg,
+      #f5a13e 0%,
+      #f46c75 35%,
+      #d9549a 68%,
+      #7048b8 100%
+    );
+
+  color: #ffffff;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+  font-weight: 730;
+
+  box-shadow:
+    0 8px 18px
+    rgba(
+      214,
+      78,
+      145,
+      .15
+    );
+}
+
+
+.victim-profile-actions
+button:disabled {
+  cursor: wait;
+
+  opacity: .62;
+}
+
+
+.victim-profile-message {
+  margin-top: 14px;
+
+  padding:
+    10px 12px;
+
+  border-radius: 10px;
+
+  font-size: 14px;
+}
+
+
+.victim-profile-message.success {
+  border:
+    1px solid
+    #d6ebdf;
+
+  background:
+    #eaf7f1;
+
+  color:
+    #357b5e;
+}
+
+
+.victim-profile-message.error {
+  border:
+    1px solid
+    #f0cfd2;
+
+  background:
+    #fff0f1;
+
+  color:
+    #b95059;
+}
+
+
+/* ==========================================================
+   SIDE
+   ========================================================== */
+
+.victim-profile-side {
+  display: grid;
+
+  align-content: start;
+
+  gap: 14px;
+}
+
+
+.victim-profile-security-card {
+  display: flex;
+
+  gap: 12px;
+
+  padding: 18px;
+
+  border:
+    1px solid
+    #dfeee6;
+
+  border-radius: 16px;
+
+  background:
+    #f1f9f5;
+}
+
+
+.victim-profile-security-card
+> span {
+  display: flex;
+
+  width: 44px;
+  height: 44px;
+
+  flex:
+    0 0 44px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background:
+    #ffffff;
+
+  color:
+    var(--guided-green);
+}
+
+
+.victim-profile-security-card
+h2 {
+  margin: 0;
+
+  color:
+    #33785b;
+
+  font-size: 17px;
+}
+
+
+.victim-profile-security-card
+p {
+  margin:
+    6px 0 0;
+
+  color:
+    #668072;
+
+  font-size: 14px;
+
+  line-height: 1.65;
+}
+
+
+.victim-profile-info-card {
+  display: flex;
+
+  gap: 10px;
+
+  padding: 15px;
+
+  border:
+    1px solid
+    #e5dcec;
+
+  border-radius: 14px;
+
+  background:
+    #f8f4fc;
+
+  color:
+    var(--guided-purple);
+}
+
+
+.victim-profile-info-card
+p {
+  margin: 0;
+
+  color:
+    #6d6177;
+
+  font-size: 13px;
+
+  line-height: 1.6;
+}
+
+
+/* ==========================================================
+   LOADING
+   ========================================================== */
+
+.victim-profile-loading {
+  display: flex;
+
+  min-height: 360px;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 16px;
+
+  border:
+    1px solid
+    var(--guided-border);
+
+  border-radius: 18px;
+
+  background: #ffffff;
+}
+
+
+.victim-profile-loading
+h2 {
+  margin: 0;
+
+  color:
+    var(--guided-text);
+
+  font-size: 20px;
+}
+
+
+.victim-profile-spinner {
+  width: 42px;
+  height: 42px;
+
+  border:
+    4px solid
+    #e9e3ee;
+
+  border-top-color:
+    var(--guided-purple);
+
+  border-radius: 50%;
+
+  animation:
+    victimProfileSpin
+    .75s
+    linear
+    infinite;
+}
+
+
+@keyframes victimProfileSpin {
+  to {
+    transform:
+      rotate(360deg);
+  }
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+@media (
+  max-width: 950px
+) {
+  .victim-profile-grid {
+    grid-template-columns:
+      1fr;
+  }
+}
+
+
+@media (
+  max-width: 760px
+) {
+  .victim-profile-summary-grid,
+  .victim-profile-fields {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .victim-profile-field-wide {
+    grid-column:
+      auto;
+  }
+
+
+  .victim-profile-actions
+  button {
+    width: 100%;
+  }
+}
+
+
+/* ==========================================================
+   PROFIL OBLIGATOIRE APRÈS AUTHENTIFICATION
+   ========================================================== */
+
+.victim-profile-required-banner {
+  margin-bottom: 16px;
+  padding: 16px 18px;
+
+  border:
+    1px solid
+    #f0d4bc;
+
+  border-radius: 16px;
+
+  background:
+    #fff8f0;
+
+  box-shadow:
+    0 8px 24px
+    rgba(
+      83,
+      55,
+      38,
+      0.04
+    );
+}
+
+.victim-profile-required-banner
+strong {
+  display: block;
+
+  color:
+    #a55a22;
+
+  font-size: 17px;
+
+  font-weight: 760;
+}
+
+.victim-profile-required-banner
+p {
+  margin:
+    6px 0 0;
+
+  color:
+    #856b58;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}

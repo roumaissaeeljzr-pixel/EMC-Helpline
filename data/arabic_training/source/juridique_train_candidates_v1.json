@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train_ar_juridique_0001",
+    "text": "هل يعاقب القانون على هذا النوع من السلوك الرقمي؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0001"
+  },
+  {
+    "id": "train_ar_juridique_0002",
+    "text": "ما الحقوق القانونية المتاحة لي في هذه الحالة؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0002"
+  },
+  {
+    "id": "train_ar_juridique_0003",
+    "text": "أريد معرفة الإطار القانوني الذي ينطبق على ما حدث.",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0003"
+  },
+  {
+    "id": "train_ar_juridique_0004",
+    "text": "هل يمكن اعتبار هذا الفعل مخالفة أو جريمة قانونيًا؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0004"
+  },
+  {
+    "id": "train_ar_juridique_0005",
+    "text": "ما المسؤولية القانونية للشخص الذي قام بهذا الفعل؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0005"
+  },
+  {
+    "id": "train_ar_juridique_0006",
+    "text": "هل توجد حماية قانونية للضحية في مثل هذه الحالات؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0006"
+  },
+  {
+    "id": "train_ar_juridique_0007",
+    "text": "أريد أن أفهم ما إذا كان نشر معلوماتي الشخصية دون موافقتي يدخل ضمن أفعال يعاقب عليها القانون.",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0007"
+  },
+  {
+    "id": "train_ar_juridique_0008",
+    "text": "هل توجد أحكام قانونية تحمي الشخص عندما يتم استخدام حسابه أو بياناته الرقمية دون إذنه؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0008"
+  },
+  {
+    "id": "train_ar_juridique_0009",
+    "text": "ما الفرق قانونيًا بين مجرد إساءة عبر الإنترنت وفعل يمكن أن تترتب عليه مسؤولية جنائية أو مدنية؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0009"
+  },
+  {
+    "id": "train_ar_juridique_0010",
+    "text": "أريد معرفة الحقوق التي يمكن للضحية الاستناد إليها عندما تتعرض لإساءة رقمية متكررة.",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0010"
+  },
+  {
+    "id": "train_ar_juridique_0011",
+    "text": "هل يمكن أن تكون مشاركة صورة خاصة دون موافقة صاحبها أساسًا للمساءلة القانونية؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0011"
+  },
+  {
+    "id": "train_ar_juridique_0012",
+    "text": "ما نوع المسؤولية التي قد تنشأ عندما يكشف شخص بيانات خاصة عن شخص آخر على الإنترنت؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0012"
+  },
+  {
+    "id": "train_ar_juridique_0013",
+    "text": "هل يعتبر الدخول إلى حساب شخص آخر دون إذنه فعلًا يمكن أن تترتب عليه عقوبة قانونية؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0013"
+  },
+  {
+    "id": "train_ar_juridique_0014",
+    "text": "أريد فهم ما إذا كانت التهديدات المرتبطة بصور خاصة تدخل ضمن أفعال يجرمها القانون.",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0014"
+  },
+  {
+    "id": "train_ar_juridique_0015",
+    "text": "ما الحقوق التي تظل للضحية إذا حُذف المحتوى بعد نشره ولكن بقي أثر لما حدث؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0015"
+  },
+  {
+    "id": "train_ar_juridique_0016",
+    "text": "هل تختلف الحماية القانونية حسب نوع المحتوى أو الطريقة التي تم بها نشره على الإنترنت؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0016"
+  },
+  {
+    "id": "train_ar_juridique_0017",
+    "text": "أحاول فهم الجانب القانوني لما حدث معي على الإنترنت؛ أريد معرفة ما إذا كان السلوك نفسه يدخل ضمن فعل معاقب عليه، وما الحقوق التي يمكن أن أتمسك بها من دون أن أبدأ الآن إجراءات رسمية.",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0017"
+  },
+  {
+    "id": "train_ar_juridique_0018",
+    "text": "تعرضت لسلوك رقمي أضر بي، لكن سؤالي الأساسي في هذه المرحلة ليس أين أبلغ، بل ما القواعد القانونية التي تنطبق على الواقعة وما الذي تعتبره القوانين انتهاكًا في مثل هذه الحالات.",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0018"
+  },
+  {
+    "id": "train_ar_juridique_0019",
+    "text": "أريد معرفة الأساس القانوني الذي يحدد متى يصبح استخدام بيانات شخص أو صوره أو حسابه دون رضاه مسألة قانونية، وما نوع الحقوق التي يمكن أن تكون للضحية في هذه الحالة من دون أن يتحول سؤالي إلى طلب لاتخاذ إجراء رسمي الآن.",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0019"
+  },
+  {
+    "id": "train_ar_juridique_0020",
+    "text": "قبل أن أتخذ أي قرار آخر، أحتاج إلى فهم قانوني واضح للواقعة: هل السلوك الذي تعرضت له يدخل ضمن فعل محظور، وما المسؤولية التي يمكن أن تنشأ عنه، وما الحماية المقررة للضحية؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0020"
+  },
+  {
+    "id": "train_ar_juridique_0021",
+    "text": "أريد أن أعرف أين يقف القانون من هذا التصرف.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0021"
+  },
+  {
+    "id": "train_ar_juridique_0022",
+    "text": "لست متأكدة إن كان ما حدث له وصف قانوني.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0022"
+  },
+  {
+    "id": "train_ar_juridique_0023",
+    "text": "أتساءل إن كانت لي حقوق في هذه الحالة.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0023"
+  },
+  {
+    "id": "train_ar_juridique_0024",
+    "text": "لا أعرف إن كان هذا السلوك مجرد إساءة أم مخالفة.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0024"
+  },
+  {
+    "id": "train_ar_juridique_0025",
+    "text": "أحاول فهم ما الذي يسمح به القانون وما الذي يمنعه هنا.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0025"
+  },
+  {
+    "id": "train_ar_juridique_0026",
+    "text": "أريد معرفة إن كانت هناك مسؤولية على الطرف الآخر.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0026"
+  },
+  {
+    "id": "train_ar_juridique_0027",
+    "text": "قبل أن أفعل أي شيء، أريد فقط أن أعرف كيف ينظر القانون إلى هذه الواقعة الرقمية.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0027"
+  },
+  {
+    "id": "train_ar_juridique_0028",
+    "text": "لست أسأل عن طريقة الإبلاغ الآن؛ ما أحتاجه هو فهم ما إذا كان ما حدث يدخل ضمن فعل محظور قانونيًا.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0028"
+  },
+  {
+    "id": "train_ar_juridique_0029",
+    "text": "أريد أن أعرف إن كان استعمال معلومات شخص آخر بهذه الطريقة يمكن أن يرتب مسؤولية قانونية.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0029"
+  },
+  {
+    "id": "train_ar_juridique_0030",
+    "text": "لا أعرف إن كانت موافقتي مطلوبة قانونيًا قبل أن ينشر شخص هذا النوع من المحتوى عني.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0030"
+  },
+  {
+    "id": "train_ar_juridique_0031",
+    "text": "أتساءل إن كانت هناك قواعد تحمي خصوصيتي عندما يتم تداول بيانات تخصني على الإنترنت.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0031"
+  },
+  {
+    "id": "train_ar_juridique_0032",
+    "text": "أريد فهم متى تتحول المضايقة عبر الإنترنت من سلوك مزعج إلى مسألة لها تبعات قانونية.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0032"
+  },
+  {
+    "id": "train_ar_juridique_0033",
+    "text": "ما يشغلني هو معرفة حقوقي القانونية بعد هذا التصرف، وليس اتخاذ إجراء رسمي في الوقت الحالي.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0033"
+  },
+  {
+    "id": "train_ar_juridique_0034",
+    "text": "أحاول معرفة إن كان القانون يميز بين نشر المحتوى لأول مرة وإعادة مشاركته من طرف أشخاص آخرين.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0034"
+  },
+  {
+    "id": "train_ar_juridique_0035",
+    "text": "لا أعرف ما إذا كان فقدان السيطرة على حسابي يدخل في نطاق حماية قانونية معينة.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0035"
+  },
+  {
+    "id": "train_ar_juridique_0036",
+    "text": "أريد فهم ما إذا كانت التهديدات الرقمية يمكن أن تكون لها نتائج قانونية حتى لو لم يقع تنفيذها.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0036"
+  },
+  {
+    "id": "train_ar_juridique_0037",
+    "text": "أحاول أن أفصل بين الجانب الشخصي والجانب القانوني لما حدث؛ لا أبحث الآن عن خطوات عملية، بل أريد أن أعرف إن كان القانون يعتبر هذا السلوك انتهاكًا وما نوع الحق الذي قد يكون قد تأثر.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0037"
+  },
+  {
+    "id": "train_ar_juridique_0038",
+    "text": "قبل أن أقرر إن كنت سأتحرك رسميًا، أريد أن أفهم القاعدة القانونية نفسها: هل يتطلب هذا النوع من النشر موافقة، وهل يمكن أن تنشأ مسؤولية إذا تم من دون إذن صاحب البيانات؟",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0038"
+  },
+  {
+    "id": "train_ar_juridique_0039",
+    "text": "أشعر أن ما حدث تجاوز مجرد خلاف على الإنترنت، لكنني لا أعرف المصطلح القانوني المناسب ولا ما إذا كانت هناك حماية محددة للخصوصية أو السمعة أو البيانات في مثل هذه الحالة.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0039"
+  },
+  {
+    "id": "train_ar_juridique_0040",
+    "text": "كل ما أحتاج إليه الآن هو تفسير قانوني عام للواقعة، لأنني لا أعرف هل تُعامل هذه الأفعال باعتبارها إساءة فقط أم أنها قد تدخل ضمن سلوك محظور تترتب عليه مسؤولية حتى أفهم موقفي قبل التفكير في أي خطوة عملية أخرى.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0040"
+  },
+  {
+    "id": "train_ar_juridique_0041",
+    "text": "في الجامعة، أريد معرفة حقوقي القانونية بعد إساءة رقمية.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0041"
+  },
+  {
+    "id": "train_ar_juridique_0042",
+    "text": "في العمل، هل نشر بياناتي دون إذني له تبعات قانونية؟",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0042"
+  },
+  {
+    "id": "train_ar_juridique_0043",
+    "text": "على Instagram، هل مشاركة صورة خاصة دون موافقة تُعد مخالفة؟",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0043"
+  },
+  {
+    "id": "train_ar_juridique_0044",
+    "text": "بعد اختراق حسابي، أريد فهم الجانب القانوني لما حدث.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0044"
+  },
+  {
+    "id": "train_ar_juridique_0045",
+    "text": "في مجموعة عائلية، هل كشف معلوماتي الخاصة محمي قانونيًا؟",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0045"
+  },
+  {
+    "id": "train_ar_juridique_0046",
+    "text": "في لعبة إلكترونية، هل التهديدات المتكررة يمكن أن تكون مسألة قانونية؟",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0046"
+  },
+  {
+    "id": "train_ar_juridique_0047",
+    "text": "في مجموعة الجامعة، نشر أحد الطلاب معلومات تخصني، وأريد معرفة ما إذا كان القانون يمنع هذا النوع من الكشف.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0047"
+  },
+  {
+    "id": "train_ar_juridique_0048",
+    "text": "في بيئة العمل الرقمية، استُخدمت معلوماتي الشخصية دون إذني، وأريد فهم الحقوق القانونية التي يمكن أن تنطبق.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0048"
+  },
+  {
+    "id": "train_ar_juridique_0049",
+    "text": "على Instagram نُشرت صورة خاصة بي دون موافقتي، وسؤالي الآن هو ما الوضع القانوني لمثل هذا النشر.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0043"
+  },
+  {
+    "id": "train_ar_juridique_0050",
+    "text": "بعد الدخول إلى حسابي دون إذني وتغيير بياناته، أريد أن أعرف كيف يُنظر قانونيًا إلى هذا النوع من الوصول.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0044"
+  },
+  {
+    "id": "train_ar_juridique_0051",
+    "text": "في مجموعة عائلية تمت مشاركة تفاصيل شخصية عني مع أشخاص آخرين، وأريد معرفة ما إذا كانت لي حماية قانونية.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0045"
+  },
+  {
+    "id": "train_ar_juridique_0052",
+    "text": "في لعبة إلكترونية يوجه لي لاعب تهديدات متكررة، وأريد فهم ما إذا كان هذا السلوك يمكن أن يرتب مسؤولية قانونية.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0046"
+  },
+  {
+    "id": "train_ar_juridique_0053",
+    "text": "على Telegram أُعيد نشر محتوى خاص بي عدة مرات، وأريد معرفة إن كانت إعادة النشر نفسها لها وضع قانوني مستقل.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0049"
+  },
+  {
+    "id": "train_ar_juridique_0054",
+    "text": "في منتدى مهني نُشرت معلومات مرتبطة بعملي وحياتي الخاصة، وأريد فهم حدود الاستخدام القانوني لهذه البيانات.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0050"
+  },
+  {
+    "id": "train_ar_juridique_0055",
+    "text": "على Facebook استخدم شخص صورتي واسمي في سياق لم أوافق عليه، وأريد معرفة ما إذا كانت هناك حقوق قانونية تتعلق بذلك.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0051"
+  },
+  {
+    "id": "train_ar_juridique_0056",
+    "text": "في البريد الإلكتروني وصلتني تهديدات مرتبطة بمعلومات خاصة، وأريد فقط معرفة التكييف القانوني الممكن لهذا السلوك.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0052"
+  },
+  {
+    "id": "train_ar_juridique_0057",
+    "text": "في مجموعة الجامعة بدأت الواقعة بتعليقات مسيئة ثم تطورت إلى نشر معلومات شخصية عني، وأنا لا أسأل الآن عن كيفية إبلاغ الإدارة؛ أريد أن أفهم أي جوانب من هذه الأفعال يمكن أن تكون لها دلالة قانونية.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0053"
+  },
+  {
+    "id": "train_ar_juridique_0058",
+    "text": "في حساب العمل استُخدمت بيانات دخولي ثم نُشرت بعض معلوماتي الداخلية، وقد استعدت الحساب بالفعل، لكنني أريد الآن فهم المسؤولية القانونية التي يمكن أن تنشأ عن الوصول والنشر دون إذني مع التمييز بين الحق القانوني والإجراء الذي يمكن اتخاذه لاحقًا.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0054"
+  },
+  {
+    "id": "train_ar_juridique_0059",
+    "text": "على منصة اجتماعية نُشرت صورة خاصة ثم أعاد عدة أشخاص مشاركتها، وأريد معرفة إن كان القانون يميز بين الناشر الأول ومن أعاد النشر وما الحقوق التي تبقى لي لأن هدفي في هذه المرحلة هو الفهم القانوني فقط.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0055"
+  },
+  {
+    "id": "train_ar_juridique_0060",
+    "text": "في منتدى رقمي جُمعت معلومات عن اسمي ومكان عملي ورقم هاتفي ثم نُشرت للعامة، وأريد تفسيرًا قانونيًا للمسألة قبل التفكير في أي إجراء آخر أو تقديم أي بلاغ من دون أن يتحول سؤالي إلى طلب لاتخاذ إجراء رسمي الآن.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0056"
+  },
+  {
+    "id": "train_ar_juridique_0061",
+    "text": "أحتاج إلى تفسير قانوني لما تعرضت له.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0057"
+  },
+  {
+    "id": "train_ar_juridique_0062",
+    "text": "أريد تحديد حقوقي من الناحية القانونية.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0058"
+  },
+  {
+    "id": "train_ar_juridique_0063",
+    "text": "ما التوصيف القانوني الممكن لهذا السلوك؟",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0059"
+  },
+  {
+    "id": "train_ar_juridique_0064",
+    "text": "أبحث عن فهم قانوني للمسؤولية في هذه الواقعة.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0060"
+  },
+  {
+    "id": "train_ar_juridique_0065",
+    "text": "هل توجد قاعدة قانونية تحكم ما حدث؟",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0061"
+  },
+  {
+    "id": "train_ar_juridique_0066",
+    "text": "أريد معرفة حدود الحماية التي يمنحها القانون هنا.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0062"
+  },
+  {
+    "id": "train_ar_juridique_0067",
+    "text": "أريد أن أفهم كيف يمكن تصنيف هذه الواقعة قانونيًا بعيدًا عن مسألة تقديم البلاغ أو حفظ الأدلة.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0059"
+  },
+  {
+    "id": "train_ar_juridique_0068",
+    "text": "ما أبحث عنه هو معرفة الحقوق والالتزامات القانونية المرتبطة بهذا النوع من السلوك الرقمي.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0063"
+  },
+  {
+    "id": "train_ar_juridique_0069",
+    "text": "أحتاج إلى توضيح ما إذا كان هذا التصرف يدخل ضمن فعل يمكن أن تنشأ عنه مسؤولية قانونية.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0064"
+  },
+  {
+    "id": "train_ar_juridique_0070",
+    "text": "أرغب في معرفة القواعد التي تحمي الخصوصية والبيانات عندما يتم استخدامها أو نشرها دون موافقة.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0065"
+  },
+  {
+    "id": "train_ar_juridique_0071",
+    "text": "أريد تفسير الفرق بين السلوك المؤذي أخلاقيًا والسلوك الذي يعتبره القانون محظورًا أو قابلًا للمساءلة.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0066"
+  },
+  {
+    "id": "train_ar_juridique_0072",
+    "text": "ما يهمني هو فهم المركز القانوني للضحية وما الحقوق التي يمكن أن تكون متاحة لها في مثل هذه الظروف.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0067"
+  },
+  {
+    "id": "train_ar_juridique_0073",
+    "text": "أريد معرفة ما إذا كانت الموافقة أو غيابها عنصرًا مهمًا قانونيًا في تقييم ما حدث.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0068"
+  },
+  {
+    "id": "train_ar_juridique_0074",
+    "text": "أبحث عن تفسير لمسؤولية الشخص الذي نشر أو أعاد نشر محتوى يخص شخصًا آخر دون إذنه.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0069"
+  },
+  {
+    "id": "train_ar_juridique_0075",
+    "text": "أريد فهم ما إذا كان الوصول غير المصرح به إلى حساب رقمي له وصف قانوني مستقل عن الأضرار التي حدثت بعده.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0070"
+  },
+  {
+    "id": "train_ar_juridique_0076",
+    "text": "أحتاج إلى معرفة ما إذا كان القانون يوفر حماية عندما يتم كشف معلومات تحدد هوية شخص أو مكانه دون رضاه.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0071"
+  },
+  {
+    "id": "train_ar_juridique_0077",
+    "text": "أحاول بناء فهم قانوني متكامل للواقعة، يشمل طبيعة الفعل نفسه وحقوق الضحية ومسؤولية الطرف الآخر، من دون أن أخلط ذلك الآن مع خطوات الإبلاغ أو طريقة حفظ الأدلة حتى أفهم موقفي قبل التفكير في أي خطوة عملية أخرى.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0072"
+  },
+  {
+    "id": "train_ar_juridique_0078",
+    "text": "أريد معرفة كيف تُقيَّم هذه الأفعال من منظور قانوني: هل يؤثر نوع المحتوى، ووجود الموافقة أو غيابها، وطريقة النشر، وإعادة المشاركة على المسؤولية التي قد تنشأ عنها؟ مع التمييز بين الحق القانوني والإجراء الذي يمكن اتخاذه لاحقًا.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0073"
+  },
+  {
+    "id": "train_ar_juridique_0079",
+    "text": "ما أحتاجه هو توضيح قانوني للمبادئ التي يمكن أن تنطبق على سلوك رقمي مسّ بالخصوصية أو البيانات أو السمعة، حتى أفهم حقوقي قبل اتخاذ أي قرار عملي آخر لأن هدفي في هذه المرحلة هو الفهم القانوني فقط.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0074"
+  },
+  {
+    "id": "train_ar_juridique_0080",
+    "text": "أرغب في فهم الإطار القانوني العام الذي يحدد متى يصبح السلوك الرقمي اعتداءً على حق محمي، وما النتائج القانونية الممكنة، ومن قد يتحمل المسؤولية عند وجود أكثر من طرف من دون أن يتحول سؤالي إلى طلب لاتخاذ إجراء رسمي الآن.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0075"
+  },
+  {
+    "id": "train_ar_juridique_0081",
+    "text": "قد أبلغ لاحقًا، لكنني أريد أولًا معرفة حقوقي القانونية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "juridique_scenario_0076"
+  },
+  {
+    "id": "train_ar_juridique_0082",
+    "text": "أحتفظ بالأدلة، وسؤالي الأساسي الآن هو ما يقوله القانون في هذه الواقعة الرقمية في هذه الواقعة الرقمية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "juridique_scenario_0077"
+  },
+  {
+    "id": "train_ar_juridique_0083",
+    "text": "أتعرض لإهانات متكررة وأريد معرفة إن كانت معاقبًا عليها قانونيًا في هذه الواقعة الرقمية في هذه الواقعة الرقمية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "juridique_scenario_0078"
+  },
+  {
+    "id": "train_ar_juridique_0084",
+    "text": "نُشرت بياناتي، وأريد فهم الحماية القانونية المتعلقة بذلك في هذه الواقعة الرقمية في هذه الواقعة الرقمية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "juridique_scenario_0079"
+  },
+  {
+    "id": "train_ar_juridique_0085",
+    "text": "نُشرت صورة خاصة بي، وأريد معرفة الوضع القانوني في هذه الواقعة الرقمية في هذه الواقعة الرقمية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "juridique_scenario_0080"
+  },
+  {
+    "id": "train_ar_juridique_0086",
+    "text": "دخل شخص إلى حسابي، وأريد فهم المسؤولية القانونية عن ذلك في هذه الواقعة الرقمية في هذه الواقعة الرقمية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "juridique_scenario_0081"
+  },
+  {
+    "id": "train_ar_juridique_0087",
+    "text": "أفكر في تقديم بلاغ، لكن سؤالي الآن هو ما إذا كان القانون يعتبر هذا السلوك مخالفة وما الحقوق التي أملكها.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "juridique_scenario_0082"
+  },
+  {
+    "id": "train_ar_juridique_0088",
+    "text": "قد أتواصل مع جهة رسمية لاحقًا، لكنني أريد أولًا فهم القاعدة القانونية التي تنطبق على ما حدث.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "juridique_scenario_0082"
+  },
+  {
+    "id": "train_ar_juridique_0089",
+    "text": "احتفظت بلقطات الشاشة والرسائل، والآن أريد معرفة ما إذا كانت الواقعة نفسها تدخل ضمن فعل يعاقب عليه القانون.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "juridique_scenario_0083"
+  },
+  {
+    "id": "train_ar_juridique_0090",
+    "text": "لدي الروابط والتواريخ محفوظة، لكن ما أبحث عنه الآن هو تفسير قانوني لحقوقي ومسؤولية الطرف الآخر.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "juridique_scenario_0083"
+  },
+  {
+    "id": "train_ar_juridique_0091",
+    "text": "أتلقى تعليقات مهينة باستمرار، وسؤالي ليس كيف أوقفها الآن بل هل يمكن أن تكون لها تبعات قانونية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "juridique_scenario_0084"
+  },
+  {
+    "id": "train_ar_juridique_0092",
+    "text": "نشر شخص عنواني ورقم هاتفي، وأريد أن أعرف ما إذا كان كشف هذه البيانات دون إذني محظورًا قانونيًا.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "juridique_scenario_0085"
+  },
+  {
+    "id": "train_ar_juridique_0093",
+    "text": "تم تداول معلومات شخصية عني على الإنترنت، وأريد فهم الحقوق القانونية المرتبطة بخصوصيتي وبياناتي في هذه الواقعة الرقمية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "juridique_scenario_0085"
+  },
+  {
+    "id": "train_ar_juridique_0094",
+    "text": "تمت مشاركة صورة خاصة دون موافقتي، وسؤالي الأساسي هو ما إذا كان هذا النشر يمكن أن يرتب مسؤولية قانونية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "juridique_scenario_0086"
+  },
+  {
+    "id": "train_ar_juridique_0095",
+    "text": "انتشر مقطع خاص بي دون إذني، وأريد فهم الحقوق القانونية التي قد تكون لي تجاه من نشره أو أعاد مشاركته.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "juridique_scenario_0086"
+  },
+  {
+    "id": "train_ar_juridique_0096",
+    "text": "فقدت السيطرة على حسابي بعد دخول غير مصرح به، وأريد معرفة ما إذا كان هذا الفعل له وصف قانوني وعقوبة محتملة.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "juridique_scenario_0087"
+  },
+  {
+    "id": "train_ar_juridique_0097",
+    "text": "قد أقرر لاحقًا تقديم بلاغ رسمي عما حدث، لكنني لا أبحث الآن عن الجهة أو خطوات الإجراء؛ أريد أولًا أن أفهم هل السلوك يدخل ضمن فعل محظور قانونيًا وما الحقوق التي يمكن أن تستند إليها الضحية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "juridique_scenario_0088"
+  },
+  {
+    "id": "train_ar_juridique_0098",
+    "text": "قمت بحفظ الرسائل والروابط ولقطات الشاشة حتى لا تضيع، لكن هدفي في هذه المرحلة لم يعد معرفة كيفية التوثيق؛ أريد تفسيرًا قانونيًا للواقعة يوضح طبيعة الحق المتأثر والمسؤولية التي قد تترتب على الطرف الآخر.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "juridique_scenario_0089"
+  },
+  {
+    "id": "train_ar_juridique_0099",
+    "text": "أتلقى منذ فترة إهانات وتعليقات مسيئة متكررة، لكن سؤالي الأساسي الآن ليس عن كيفية التعامل مع الشخص أو إيقافه؛ أريد أن أعرف متى يصبح هذا السلوك من الناحية القانونية فعلًا يمكن أن تترتب عليه مسؤولية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "juridique_scenario_0090"
+  },
+  {
+    "id": "train_ar_juridique_0100",
+    "text": "نُشرت صورة خاصة بي ثم أعاد آخرون مشاركتها في أماكن مختلفة، وأنا لا أسأل الآن عن طريقة حذفها أو توثيقها؛ أريد معرفة المسؤولية القانونية المحتملة للناشر الأول ولمن أعاد النشر من دون موافقتي.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "juridique_scenario_0091"
+  }
+]

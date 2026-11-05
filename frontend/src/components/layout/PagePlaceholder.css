@@ -1,0 +1,32 @@
+.placeholder-page {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 32px;
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.placeholder-page h2 {
+  margin: 0 0 12px;
+  color: var(--color-primary);
+  font-size: 20px;
+}
+
+.placeholder-description {
+  margin: 0 0 18px;
+  color: var(--color-text-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.placeholder-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--color-bg);
+  color: var(--color-text-soft);
+  font-size: 12px;
+  font-weight: 600;
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train_ar_preuves_0001",
+    "text": "كيف أحفظ الرسائل المسيئة كدليل قبل أن تُحذف؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0001"
+  },
+  {
+    "id": "train_ar_preuves_0002",
+    "text": "أريد الاحتفاظ بلقطات شاشة توثق ما حدث.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0002"
+  },
+  {
+    "id": "train_ar_preuves_0003",
+    "text": "كيف أوثق المحادثة كاملة بطريقة تحافظ على قيمتها كدليل؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0003"
+  },
+  {
+    "id": "train_ar_preuves_0004",
+    "text": "هل يكفي تصوير الشاشة أم يجب حفظ الرسائل الأصلية أيضًا؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0004"
+  },
+  {
+    "id": "train_ar_preuves_0005",
+    "text": "أحتاج إلى طريقة لحفظ الروابط والمنشورات قبل اختفائها.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0005"
+  },
+  {
+    "id": "train_ar_preuves_0006",
+    "text": "كيف أجمع الأدلة الرقمية المتعلقة بهذه الإساءة؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0006"
+  },
+  {
+    "id": "train_ar_preuves_0007",
+    "text": "أريد توثيق الرسائل والتعليقات التي وصلتني مع التاريخ والوقت حتى لا أفقد أي جزء منها لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0007"
+  },
+  {
+    "id": "train_ar_preuves_0008",
+    "text": "كيف يمكنني حفظ نسخة من المحادثة كاملة من دون تعديلها أو حذف أي رسالة منها؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0003"
+  },
+  {
+    "id": "train_ar_preuves_0009",
+    "text": "لدي منشورات مسيئة قد تُحذف قريبًا، وأريد الاحتفاظ بنسخة موثقة منها مع الرابط وتاريخ النشر.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0005"
+  },
+  {
+    "id": "train_ar_preuves_0010",
+    "text": "أحتاج إلى ترتيب لقطات الشاشة والرسائل في ملف واحد حتى أحتفظ بسجل واضح لما حدث.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0008"
+  },
+  {
+    "id": "train_ar_preuves_0011",
+    "text": "كيف أحافظ على الصور والملفات التي أرسلها لي الشخص من دون تغيير خصائصها الأصلية؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0009"
+  },
+  {
+    "id": "train_ar_preuves_0012",
+    "text": "هل من الأفضل حفظ سجل المحادثة كاملًا بدل الاكتفاء بصور منفصلة لبعض الرسائل؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0010"
+  },
+  {
+    "id": "train_ar_preuves_0013",
+    "text": "أريد الاحتفاظ بمعلومات الحساب الذي تواصل معي، مثل الاسم والرابط ووقت كل رسالة.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0011"
+  },
+  {
+    "id": "train_ar_preuves_0014",
+    "text": "كيف أوثق منشورًا عامًا بحيث يبقى لدي دليل حتى لو حذفه صاحبه لاحقًا؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0012"
+  },
+  {
+    "id": "train_ar_preuves_0015",
+    "text": "لدي رسائل صوتية وصور وتعليقات، وأريد معرفة أفضل طريقة لحفظها جميعًا بشكل منظم.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0013"
+  },
+  {
+    "id": "train_ar_preuves_0016",
+    "text": "أريد إنشاء نسخة احتياطية من كل الأدلة الموجودة على هاتفي قبل أن أغير الجهاز.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0014"
+  },
+  {
+    "id": "train_ar_preuves_0017",
+    "text": "تلقيت رسائل مسيئة على مدى عدة أيام، وأريد أن أوثقها بطريقة مرتبة تشمل لقطات الشاشة والتواريخ وروابط الحساب، حتى تبقى لدي نسخة واضحة حتى لو حُذفت المحادثة أو أُغلق الحساب لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0015"
+  },
+  {
+    "id": "train_ar_preuves_0018",
+    "text": "هناك منشورات وتعليقات ورسائل خاصة مرتبطة بنفس الواقعة، وأحتاج إلى حفظها مع الروابط والتواريخ وأسماء الحسابات من دون تعديل المحتوى، حتى أحتفظ بسجل كامل يمكن الرجوع إليه لاحقًا عند الحاجة من دون حذف النسخة الأصلية أو تعديل محتواها.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0016"
+  },
+  {
+    "id": "train_ar_preuves_0019",
+    "text": "أخشى أن يقوم الشخص بحذف الرسائل أو تغيير اسم حسابه، لذلك أريد توثيق كل ما يظهر الآن، بما في ذلك اسم المستخدم والرابط والتاريخ والوقت والرسائل نفسها، بطريقة تحافظ على تسلسل الأحداث.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0017"
+  },
+  {
+    "id": "train_ar_preuves_0020",
+    "text": "لدي أدلة موزعة بين الهاتف والحاسوب والبريد الإلكتروني، وأريد جمعها في مكان آمن مع الاحتفاظ بالنسخ الأصلية وترتيبها زمنيًا، حتى لا أضيع شيئًا أو أخلط بين الملفات عندما أحتاج إليها لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0018"
+  },
+  {
+    "id": "train_ar_preuves_0021",
+    "text": "أخشى أن تختفي الرسائل قبل أن أحتفظ بها.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0019"
+  },
+  {
+    "id": "train_ar_preuves_0022",
+    "text": "بدأت ألتقط صورًا لكل ما يصلني.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0020"
+  },
+  {
+    "id": "train_ar_preuves_0023",
+    "text": "أحتفظ بالروابط لأن المنشورات قد تختفي لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0021"
+  },
+  {
+    "id": "train_ar_preuves_0024",
+    "text": "أنقل المحادثات إلى مكان آخر حتى لا أفقدها.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0022"
+  },
+  {
+    "id": "train_ar_preuves_0025",
+    "text": "أريد أن يبقى لدي سجل مرتب لما حدث.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0023"
+  },
+  {
+    "id": "train_ar_preuves_0026",
+    "text": "لم أحذف شيئًا لأنني قد أحتاج إليه لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0024"
+  },
+  {
+    "id": "train_ar_preuves_0027",
+    "text": "كلما وصلتني رسالة جديدة ألتقط لها صورة وأكتب وقت وصولها حتى لا أنسى ترتيب الأحداث.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0025"
+  },
+  {
+    "id": "train_ar_preuves_0028",
+    "text": "أصبحت أحفظ أسماء الحسابات والروابط قبل أن يغير أصحابها معلوماتهم أو يحذفوا منشوراتهم.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0026"
+  },
+  {
+    "id": "train_ar_preuves_0029",
+    "text": "بدل حذف الرسائل المزعجة، أضعها في مجلد منفصل وأحتفظ بنسخة منها على جهاز آخر.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0027"
+  },
+  {
+    "id": "train_ar_preuves_0030",
+    "text": "أحاول ألا أعدل أي ملف وصلني لأنني أريد أن يبقى كما استلمته في الأصل.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0028"
+  },
+  {
+    "id": "train_ar_preuves_0031",
+    "text": "بدأت أجمع الصور والرسائل والتعليقات في مجلد واحد حتى أتمكن من الرجوع إليها بسهولة.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0008"
+  },
+  {
+    "id": "train_ar_preuves_0032",
+    "text": "أحتفظ بالتواريخ وأسماء الحسابات بجانب كل لقطة شاشة حتى أعرف مصدر كل صورة لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0029"
+  },
+  {
+    "id": "train_ar_preuves_0033",
+    "text": "لا أريد أن أفقد الرسائل القديمة عندما أغيّر هاتفي، لذلك أبحث عن طريقة لنسخها كاملة.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0030"
+  },
+  {
+    "id": "train_ar_preuves_0034",
+    "text": "أرسل لنفسي نسخة من الروابط والرسائل المهمة حتى تبقى محفوظة إذا اختفى المحتوى الأصلي.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0031"
+  },
+  {
+    "id": "train_ar_preuves_0035",
+    "text": "أصبحت أكتب تسلسل ما حدث يومًا بيوم وأرفق كل رسالة أو صورة بوقتها.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0025"
+  },
+  {
+    "id": "train_ar_preuves_0036",
+    "text": "كل الأدلة موزعة بين تطبيقات مختلفة، وأحاول جمعها معًا من دون حذف النسخ الأصلية.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0032"
+  },
+  {
+    "id": "train_ar_preuves_0037",
+    "text": "في البداية كنت أحذف الرسائل المزعجة فور وصولها، لكنني توقفت عن ذلك وأصبحت أحتفظ بكل شيء كما هو، مع تسجيل التاريخ واسم الحساب، لأنني أدركت أن بعض التفاصيل قد تختفي إذا حُذف المحتوى لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0033"
+  },
+  {
+    "id": "train_ar_preuves_0038",
+    "text": "كل مرة أرى منشورًا جديدًا مرتبطًا بما حدث، أحفظ رابطه وألتقط صورة تظهر اسم الحساب والتاريخ، ثم أضع النسخة في مجلد مرتب حسب اليوم حتى أستطيع تتبع التسلسل دون الاعتماد على الذاكرة فقط.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0034"
+  },
+  {
+    "id": "train_ar_preuves_0039",
+    "text": "لدي صور ومقاطع ورسائل صوتية كثيرة، وأصبحت أنقل نسخة منها إلى مساحة آمنة من دون ضغطها أو تعديلها، وأحتفظ أيضًا بالمحادثة الأصلية على الهاتف حتى تبقى الملفات متاحة بصيغتها الأولى مع الاحتفاظ بالمصدر والتاريخ والسياق المرتبط بكل عنصر.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0035"
+  },
+  {
+    "id": "train_ar_preuves_0040",
+    "text": "أحاول الآن بناء سجل كامل للواقعة منذ بدايتها، لذلك أجمع الرسائل القديمة والروابط ولقطات الشاشة وأرتبها زمنيًا، وأكتب بجانب كل عنصر مصدره وتاريخه حتى أعرف لاحقًا أين ظهر وكيف وصل إلي.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0036"
+  },
+  {
+    "id": "train_ar_preuves_0041",
+    "text": "في مجموعة الجامعة أحفظ الرسائل المسيئة قبل حذفها.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0037"
+  },
+  {
+    "id": "train_ar_preuves_0042",
+    "text": "على حساب العمل أوثق كل رسالة غريبة تصلني.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0038"
+  },
+  {
+    "id": "train_ar_preuves_0043",
+    "text": "في لعبة الإنترنت أحتفظ بصور للدردشة المسيئة.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0039"
+  },
+  {
+    "id": "train_ar_preuves_0044",
+    "text": "على Instagram أحفظ رابط المنشور ولقطة للشاشة.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0040"
+  },
+  {
+    "id": "train_ar_preuves_0045",
+    "text": "في WhatsApp أريد تصدير المحادثة كاملة للاحتفاظ بها مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0041"
+  },
+  {
+    "id": "train_ar_preuves_0046",
+    "text": "على Facebook أوثق التعليقات مع تاريخ نشرها مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0042"
+  },
+  {
+    "id": "train_ar_preuves_0047",
+    "text": "في مجموعة الفصل على WhatsApp، أريد حفظ المحادثة كاملة مع الصور والرسائل الصوتية قبل أن يغادر الشخص المجموعة.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0043"
+  },
+  {
+    "id": "train_ar_preuves_0048",
+    "text": "داخل حساب العمل، أحتفظ بتنبيهات تسجيل الدخول ورسائل البريد التي تظهر التغييرات التي حدثت على الحساب.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0044"
+  },
+  {
+    "id": "train_ar_preuves_0049",
+    "text": "في لعبة جماعية، ألتقط صورًا للدردشة وأحفظ اسم اللاعب ووقت كل رسالة حتى لا تضيع التفاصيل.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0039"
+  },
+  {
+    "id": "train_ar_preuves_0050",
+    "text": "على Instagram، أريد توثيق القصص والرسائل الخاصة المرتبطة بالواقعة قبل أن تختفي تلقائيًا مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0045"
+  },
+  {
+    "id": "train_ar_preuves_0051",
+    "text": "في مجموعة عائلية، بدأت أحفظ الرسائل والصور التي توضح ما حدث من دون حذفها من المحادثة الأصلية.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0046"
+  },
+  {
+    "id": "train_ar_preuves_0052",
+    "text": "داخل منتدى جامعي، أحفظ الرابط الكامل لكل تعليق وصورة الشاشة التي تظهر اسم المستخدم والتاريخ.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0047"
+  },
+  {
+    "id": "train_ar_preuves_0053",
+    "text": "على Telegram توجد رسائل وصور قد تُحذف، وأريد الاحتفاظ بنسخة منها في مكان آمن خارج التطبيق.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0048"
+  },
+  {
+    "id": "train_ar_preuves_0054",
+    "text": "في البريد الإلكتروني، أريد حفظ الرسالة الأصلية والمرفقات مع بيانات المرسل والتاريخ بدل الاكتفاء بنسخ النص.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0049"
+  },
+  {
+    "id": "train_ar_preuves_0055",
+    "text": "على TikTok، أحتاج إلى الاحتفاظ بروابط المقاطع والتعليقات ووقت ظهورها قبل أن تتغير أو تختفي.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0050"
+  },
+  {
+    "id": "train_ar_preuves_0056",
+    "text": "في منصة العمل المشتركة، أريد تصدير سجل المحادثة وحفظ الملفات المرفقة كما هي من دون تعديل.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0051"
+  },
+  {
+    "id": "train_ar_preuves_0057",
+    "text": "في مجموعة الجامعة ظهرت خلال أسبوع عدة رسائل وتعليقات مسيئة، لذلك بدأت أحفظ المحادثة كاملة وألتقط صورًا تظهر أسماء الحسابات والتواريخ، ثم أنسخ الملفات إلى مجلد منفصل حتى تبقى لدي نسخة حتى لو حُذفت الرسائل من المجموعة.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0052"
+  },
+  {
+    "id": "train_ar_preuves_0058",
+    "text": "على Instagram وصلتني رسائل خاصة ثم نُشرت قصة مرتبطة بالموضوع، وأريد أن أوثق كل عنصر مع اسم الحساب والرابط والوقت، لأن بعض المحتوى قد يختفي تلقائيًا ولا أريد الاعتماد على الذاكرة أو الصور غير المرتبة.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0053"
+  },
+  {
+    "id": "train_ar_preuves_0059",
+    "text": "داخل حساب العمل حدثت تغييرات أمنية ورسائل غير معتادة، لذلك أريد الاحتفاظ بتنبيهات الدخول ورسائل البريد وسجل الأجهزة في نسخ أصلية، مع ترتيبها حسب الوقت حتى أتمكن من معرفة ما حدث أولًا وما الذي جاء بعده.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0054"
+  },
+  {
+    "id": "train_ar_preuves_0060",
+    "text": "في مجموعة على Telegram توجد رسائل نصية وصور وملفات صوتية مرتبطة بنفس الواقعة، وأريد تصدير ما يمكن تصديره وحفظ النسخ الأصلية والروابط والتواريخ في مكان آمن، مع إبقاء المحادثة نفسها دون حذف حتى لا أفقد السياق.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0055"
+  },
+  {
+    "id": "train_ar_preuves_0061",
+    "text": "أحتاج إلى تثبيت أثر رقمي لما حدث مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0056"
+  },
+  {
+    "id": "train_ar_preuves_0062",
+    "text": "أحتاج إلى الاحتفاظ بسجل رقمي يثبت ما ظهر أمامي قبل أن يتبدل المحتوى أو يختفي من مصدره.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0057"
+  },
+  {
+    "id": "train_ar_preuves_0063",
+    "text": "كيف أحتفظ بنسخة موثقة من المحتوى؟ مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0058"
+  },
+  {
+    "id": "train_ar_preuves_0064",
+    "text": "أحتاج إلى أرشفة ما وصلني بطريقة منظمة مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0059"
+  },
+  {
+    "id": "train_ar_preuves_0065",
+    "text": "أريد الاحتفاظ بالمصادر الأصلية لكل دليل مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0060"
+  },
+  {
+    "id": "train_ar_preuves_0066",
+    "text": "كيف أحافظ على تسلسل الأحداث والرسائل؟ مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0061"
+  },
+  {
+    "id": "train_ar_preuves_0067",
+    "text": "هدفي هو الاحتفاظ بنسخة يمكن الرجوع إليها لاحقًا من كل الرسائل والروابط المرتبطة بالواقعة مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0062"
+  },
+  {
+    "id": "train_ar_preuves_0068",
+    "text": "أريد أن أبقي المحتوى كما ظهر أول مرة مع معلومات المصدر والتاريخ بدل حفظ صور منفصلة بلا سياق.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0063"
+  },
+  {
+    "id": "train_ar_preuves_0069",
+    "text": "أحتاج إلى أرشفة الأدلة الرقمية مع ترتيبها زمنيًا حتى يكون واضحًا كيف تطورت الأحداث مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0064"
+  },
+  {
+    "id": "train_ar_preuves_0070",
+    "text": "أبحث عن طريقة تحافظ على النسخ الأصلية للصور والرسائل من دون ضغطها أو تعديلها مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0065"
+  },
+  {
+    "id": "train_ar_preuves_0071",
+    "text": "أريد توثيق هوية الحسابات والروابط المرتبطة بكل رسالة حتى لا أفقد مصدر المحتوى مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0066"
+  },
+  {
+    "id": "train_ar_preuves_0072",
+    "text": "أحتاج إلى سجل يجمع النصوص والصور والمقاطع مع الوقت والمصدر بدل أن تبقى متفرقة مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0067"
+  },
+  {
+    "id": "train_ar_preuves_0073",
+    "text": "أرغب في إنشاء نسخة احتياطية مستقلة للأدلة حتى لا تختفي إذا فقدت الهاتف أو حُذف الحساب.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0068"
+  },
+  {
+    "id": "train_ar_preuves_0074",
+    "text": "أريد حفظ السياق الكامل للمحادثة وليس فقط الرسائل التي تبدو مهمة في هذه اللحظة مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0069"
+  },
+  {
+    "id": "train_ar_preuves_0075",
+    "text": "كيف يمكنني أرشفة المنشورات المؤقتة بحيث يبقى لدي رابط أو صورة وتاريخ واضح لظهورها؟ مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0070"
+  },
+  {
+    "id": "train_ar_preuves_0076",
+    "text": "أريد الاحتفاظ بكل عنصر في حالته الأصلية مع نسخة إضافية للاستخدام عند الحاجة مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0071"
+  },
+  {
+    "id": "train_ar_preuves_0077",
+    "text": "ما أحتاجه ليس مجرد تصوير بعض الرسائل، بل إنشاء سجل رقمي منظم يحافظ على النصوص والملفات والروابط مع التواريخ وأسماء الحسابات، بحيث يمكن فهم التسلسل الكامل حتى لو تغيّر المحتوى الأصلي أو اختفى لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0072"
+  },
+  {
+    "id": "train_ar_preuves_0078",
+    "text": "أرغب في حفظ الأدلة بطريقة تفصل بين النسخ الأصلية والنسخ التي أستخدمها للعرض أو المشاركة، مع الاحتفاظ بمعلومات المصدر والوقت، حتى لا أغير الملفات الأساسية عن طريق الخطأ أثناء ترتيبها بحيث تبقى لدي نسخة واضحة حتى لو اختفى المحتوى لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0073"
+  },
+  {
+    "id": "train_ar_preuves_0079",
+    "text": "أحاول إنشاء أرشيف كامل لما حدث يشمل المحادثات والمنشورات والصور والملفات الصوتية، مع ربط كل عنصر بتاريخ ومصدر واضح، لأنني أريد أن تبقى الصورة الكاملة للواقعة مفهومة حتى بعد مرور وقت طويل.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0074"
+  },
+  {
+    "id": "train_ar_preuves_0080",
+    "text": "أريد أن تكون لدي نسخة مستقلة وآمنة من كل الأدلة الرقمية، مع ترتيب زمني وبيانات توضح مصدر كل عنصر، بحيث لا يؤدي حذف حساب أو تغيير هاتف أو اختفاء منشور إلى فقدان جزء مهم من السجل.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0075"
+  },
+  {
+    "id": "train_ar_preuves_0081",
+    "text": "أريد أرشفة المحادثة والروابط أولًا، ثم يمكنني لاحقًا استخدام النسخ المحفوظة إذا قررت تقديم بلاغ.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "preuves_scenario_0076"
+  },
+  {
+    "id": "train_ar_preuves_0082",
+    "text": "أوثق التعليقات المسيئة قبل التفكير في تقديم بلاغ مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "preuves_scenario_0076"
+  },
+  {
+    "id": "train_ar_preuves_0083",
+    "text": "أحتفظ بصور للإهانات المتكررة بدل حذفها مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "preuves_scenario_0077"
+  },
+  {
+    "id": "train_ar_preuves_0084",
+    "text": "أوثق المنشور الذي كشف عنواني قبل أن يختفي مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "preuves_scenario_0078"
+  },
+  {
+    "id": "train_ar_preuves_0085",
+    "text": "أحفظ نسخة من الصورة المنشورة دون موافقتي مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "preuves_scenario_0079"
+  },
+  {
+    "id": "train_ar_preuves_0086",
+    "text": "أحتفظ بتنبيهات الدخول قبل محاولة استعادة حسابي مع التاريخ والمصدر بشكل واضح مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "preuves_scenario_0080"
+  },
+  {
+    "id": "train_ar_preuves_0087",
+    "text": "وصلتني رسائل مسيئة متكررة، لكن سؤالي الآن هو كيف أحفظها كاملة قبل أن أقرر أين أبلغ عنها.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "preuves_scenario_0081"
+  },
+  {
+    "id": "train_ar_preuves_0088",
+    "text": "أريد ترتيب لقطات الشاشة والروابط أولًا، ثم قد أفكر لاحقًا في إرسالها ضمن بلاغ رسمي.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "preuves_scenario_0081"
+  },
+  {
+    "id": "train_ar_preuves_0089",
+    "text": "أتعرض لتعليقات مهينة متكررة، وأريد الاحتفاظ بسجل لها مع التواريخ بدل حذفها كل مرة مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "preuves_scenario_0082"
+  },
+  {
+    "id": "train_ar_preuves_0090",
+    "text": "هناك سخرية متكررة في مجموعة رقمية، وأحتاج الآن إلى توثيق الرسائل والحسابات التي تنشرها مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "preuves_scenario_0082"
+  },
+  {
+    "id": "train_ar_preuves_0091",
+    "text": "نُشر عنوان منزلي ورقم هاتفي، وأريد حفظ الرابط ولقطة واضحة للمنشور قبل أن يتم حذفه.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "preuves_scenario_0083"
+  },
+  {
+    "id": "train_ar_preuves_0092",
+    "text": "أصبحت معلوماتي الشخصية متداولة، وأحتاج إلى توثيق الصفحات التي تعرضها مع التاريخ والرابط مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "preuves_scenario_0083"
+  },
+  {
+    "id": "train_ar_preuves_0093",
+    "text": "نُشرت صورة خاصة بي دون موافقتي، وأريد أولًا حفظ الرابط ولقطة الشاشة وتاريخ النشر مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "preuves_scenario_0084"
+  },
+  {
+    "id": "train_ar_preuves_0094",
+    "text": "هناك مقطع خاص منتشر من دون إذني، وسؤالي الأساسي هو كيف أوثق مكان ظهوره والحساب الذي نشره.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "preuves_scenario_0084"
+  },
+  {
+    "id": "train_ar_preuves_0095",
+    "text": "فقدت السيطرة على حسابي، وأريد الاحتفاظ بتنبيهات الأمان وسجل الأجهزة والتغييرات قبل متابعة الاسترجاع مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "preuves_scenario_0085"
+  },
+  {
+    "id": "train_ar_preuves_0096",
+    "text": "تغيّرت كلمة مرور حسابي دون إذني، وأحتاج إلى حفظ رسائل التنبيه ومعلومات الجلسات المجهولة كدليل.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "preuves_scenario_0085"
+  },
+  {
+    "id": "train_ar_preuves_0097",
+    "text": "قد أقدم بلاغًا لاحقًا عن الرسائل التي وصلتني، لكن ما أحتاجه الآن هو معرفة كيف أحفظ المحادثة كاملة مع التواريخ وأسماء الحسابات والروابط، حتى لا أفقد أي جزء إذا حُذف المحتوى قبل أن أتخذ الخطوة التالية.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "preuves_scenario_0086"
+  },
+  {
+    "id": "train_ar_preuves_0098",
+    "text": "أتلقى منذ أسابيع تعليقات مهينة ومتكررة من نفس الأشخاص، لكنني لا أسأل الآن عن كيفية إيقافهم أو مواجهتهم؛ أريد أولًا توثيق التعليقات والحسابات والتواريخ في سجل مرتب يحافظ على السياق الكامل لما حدث.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "preuves_scenario_0087"
+  },
+  {
+    "id": "train_ar_preuves_0099",
+    "text": "تم نشر بيانات شخصية عني تشمل العنوان ورقم الهاتف، لكن سؤالي الأساسي الآن هو كيف أحفظ نسخة موثقة من المنشورات والروابط والتواريخ قبل أن تُحذف، مع إبقاء كل عنصر مرتبطًا بالمصدر الذي ظهر فيه.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "preuves_scenario_0088"
+  },
+  {
+    "id": "train_ar_preuves_0100",
+    "text": "انتشرت صورة خاصة بي دون موافقتي في أكثر من مكان، وأريد أن أوثق كل نسخة تظهر مع الرابط واسم الحساب والتاريخ من دون تعديل الملفات الأصلية، حتى يبقى لدي سجل واضح حتى لو اختفى المحتوى لاحقًا.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "preuves_scenario_0089"
+  }
+]

@@ -1,0 +1,662 @@
+[
+    {
+        "id": 1,
+        "code": "faq_001",
+        "category": "Cyberharcèlement",
+        "intent": "Cyberharcèlement",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Je suis victime de cyberharcèlement, que dois-je faire ?",
+        "answer": "Ce que vous vivez n'est pas acceptable et vous n'êtes pas seul(e) face à cette situation. Voici ce qu'il est recommandé de faire : protégez vos comptes (paramètres privés), conservez des preuves (captures d'écran, liens), bloquez la personne concernée, puis signalez la situation sur evigilance.ma/fr. Parlez-en à une personne de confiance : en parler est une étape importante pour faire cesser le harcèlement.",
+        "keywords": [
+            "cyberharcelement",
+            "harcelement",
+            "victime",
+            "insultes",
+            "moqueries",
+            "menaces",
+            "aide",
+            "que faire",
+            "isolement",
+            "detresse"
+        ],
+        "tags": [
+            "cyberharcèlement",
+            "victime",
+            "harcèlement",
+            "réseaux sociaux"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment conserver les preuves ?",
+            "Voulez-vous connaître la procédure de signalement ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    },
+    {
+        "id": 2,
+        "code": "faq_002",
+        "category": "Cyberharcèlement",
+        "intent": "Cyberharcèlement",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "On m'insulte et on se moque de moi sur les réseaux sociaux depuis plusieurs semaines, comment réagir ?",
+        "answer": "Un harcèlement qui dure dans le temps est particulièrement difficile à vivre, et vous avez raison de chercher de l'aide. Avez-vous pu bloquer la personne et signaler les messages à la plateforme concernée ? En complément, vous pouvez signaler la situation sur evigilance.ma/fr, qui oriente vers un accompagnement juridique et psychologique. Trois canaux existent pour signaler : la plateforme elle-même (ex. Facebook), evigilance.ma/fr, et les autorités (Police via e-Blagh, Gendarmerie Royale).",
+        "keywords": [
+            "harcelement",
+            "insultes",
+            "moqueries",
+            "reseaux sociaux",
+            "facebook",
+            "blocage",
+            "signalement",
+            "preuves",
+            "repetition"
+        ],
+        "tags": [
+            "cyberharcèlement",
+            "victime",
+            "harcèlement",
+            "réseaux sociaux"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment signaler ce contenu ?",
+            "Voulez-vous des conseils pour conserver des preuves ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Analyse du chatbot Beta"
+    },
+    {
+        "id": 3,
+        "code": "faq_003",
+        "category": "Signalement",
+        "intent": "Signalement",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Comment signaler une cyberviolence ou un contenu qui me blesse ?",
+        "answer": "Plusieurs canaux existent selon votre situation : pour un contenu de cyberharcèlement sur les réseaux sociaux, evigilance.ma/fr ; pour un contenu d'exploitation sexuelle d'un enfant, la plateforme IWF (report.iwf.org.uk/ma) ; pour porter plainte en ligne, plaintes.pmp.ma (ou vcfemme.pmp.ma si vous êtes une femme) ; pour signaler à la police, la plateforme e-Blagh. Avant tout signalement, conservez une preuve (capture d'écran, lien) du contenu concerné.",
+        "keywords": [
+            "signaler",
+            "signalement",
+            "cyberviolence",
+            "contenu",
+            "evigilance",
+            "plainte",
+            "preuve",
+            "plateforme officielle",
+            "aide"
+        ],
+        "tags": [
+            "signalement",
+            "victime",
+            "aide"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment conserver une preuve avant de signaler ?",
+            "Voulez-vous connaître la procédure de dépôt de plainte ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Site officiel EVigilance ; Guide juridique sur la cyberviolence"
+    },
+    {
+        "id": 4,
+        "code": "faq_004",
+        "category": "Sextorsion",
+        "intent": "Sextorsion",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "On me fait chanter avec des photos ou vidéos intimes, dois-je payer ?",
+        "answer": "Ce qui vous arrive n'est pas de votre faute et vous ne devez pas culpabiliser. Vous n'êtes pas seul(e) : des solutions existent pour vous protéger et vous accompagner. Non, surtout ne payez pas. Céder au chantage n'empêche pas la diffusion et peut même encourager d'autres demandes. La priorité est de conserver toutes les preuves de l'échange, puis de signaler la situation sur evigilance.ma/fr. Vous pouvez aussi porter plainte auprès de la police (19) ou de la gendarmerie (177). Un accompagnement psychologique est disponible via l'EMC-Helpline si vous en ressentez le besoin.",
+        "keywords": [
+            "chantage",
+            "sextorsion",
+            "photos intimes",
+            "videos intimes",
+            "payer",
+            "menace",
+            "extorsion",
+            "preuves",
+            "signalement"
+        ],
+        "tags": [
+            "sextorsion",
+            "chantage",
+            "photos intimes"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment conserver les preuves du chantage ?",
+            "Voulez-vous connaître la procédure de dépôt de plainte ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Analyse du chatbot Beta"
+    },
+    {
+        "id": 5,
+        "code": "faq_005",
+        "category": "Sextorsion",
+        "intent": "Sextorsion",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "On me menace de diffuser mes photos intimes si je ne fais pas ce qu'on me demande, que faire ?",
+        "answer": "Ce qui vous arrive n'est pas de votre faute et vous ne devez pas culpabiliser. Vous n'êtes pas seul(e) : des solutions existent pour vous protéger et vous accompagner. C'est une situation grave, mais des solutions existent. Ne cédez pas à la menace. Conservez toutes les preuves (messages, captures d'écran), puis signalez la situation sur evigilance.ma/fr. Si vous étiez mineur(e) au moment des faits, la plateforme Take It Down peut demander la suppression du contenu ; si vous êtes adulte, StopNCII peut vous aider. N'hésitez pas à porter plainte : la loi protège contre ce type de chantage.",
+        "keywords": [
+            "menace",
+            "diffusion",
+            "photos intimes",
+            "chantage",
+            "take it down",
+            "stopncii",
+            "mineur",
+            "adulte",
+            "preuves",
+            "plainte"
+        ],
+        "tags": [
+            "sextorsion",
+            "chantage",
+            "photos intimes"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment signaler ce contenu sur evigilance.ma/fr ?",
+            "Voulez-vous connaître vos droits en cas de diffusion d'images intimes ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    },
+    {
+        "id": 6,
+        "code": "faq_006",
+        "category": "Diffusion non consentie d'images",
+        "intent": "Diffusion non consentie d'images",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Quelqu'un diffuse mes photos ou vidéos intimes sans mon accord, que faire ?",
+        "answer": "Ce qui vous arrive est une violation grave de votre vie privée, et ce n'est jamais votre faute. Signalez le contenu sur evigilance.ma/fr. Si les images datent d'avant vos 18 ans, la plateforme Take It Down peut en demander la suppression ; si vous êtes adulte, StopNCII peut vous aider. Si le contenu est diffusé sur un site pornographique, un formulaire dédié de Google existe également. Conservez les preuves avant toute démarche : la loi n°103-13 protège spécifiquement contre ce type d'atteinte, et vous avez le droit de porter plainte.",
+        "keywords": [
+            "diffusion",
+            "photos intimes",
+            "videos intimes",
+            "consentement",
+            "revenge porn",
+            "take it down",
+            "stopncii",
+            "vie privee",
+            "plainte"
+        ],
+        "tags": [
+            "diffusion d'images",
+            "vie privée",
+            "consentement"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment porter plainte pour ce type d'atteinte ?",
+            "Voulez-vous connaître vos droits si quelqu'un diffuse des photos de vous ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    },
+    {
+        "id": 7,
+        "code": "faq_007",
+        "category": "Usurpation d'identité",
+        "intent": "Usurpation d'identité",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Quelqu'un a créé un faux compte à mon nom ou usurpe mon identité, que faire ?",
+        "answer": "Conservez d'abord une preuve du faux profil ou du contenu concerné (capture d'écran, lien). Signalez ensuite ce contenu sur evigilance.ma/fr, en précisant sur quel réseau social cela se produit. Vous pouvez également envisager une plainte : la loi marocaine (n°103-13) punit la diffusion de faux contenus portant atteinte à la vie privée.",
+        "keywords": [
+            "usurpation identite",
+            "faux compte",
+            "faux profil",
+            "reseau social",
+            "signalement",
+            "plainte",
+            "vie privee"
+        ],
+        "tags": [
+            "usurpation d'identité",
+            "faux compte",
+            "réseaux sociaux"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment conserver une preuve du faux profil ?",
+            "Voulez-vous connaître la procédure de dépôt de plainte ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    },
+    {
+        "id": 8,
+        "code": "faq_008",
+        "category": "Piratage de compte",
+        "intent": "Piratage de compte",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Mon compte Facebook (ou un autre réseau social) a été piraté, comment le récupérer ?",
+        "answer": "C'est une situation stressante, mais il existe des démarches concrètes. Utilisez les outils de récupération de la plateforme (recherchez « compte piraté » ou « accès impossible » dans le centre d'aide). Signalez également la situation sur evigilance.ma/fr et, si besoin, auprès d'e-Blagh (DGSN). Une fois l'accès récupéré, changez votre mot de passe en utilisant une combinaison de minuscules, majuscules, chiffres et signes.",
+        "keywords": [
+            "piratage",
+            "compte pirate",
+            "facebook",
+            "mot de passe",
+            "recuperation compte",
+            "acces impossible",
+            "e-blagh"
+        ],
+        "tags": [
+            "piratage",
+            "compte",
+            "sécurité"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment signaler ce piratage sur evigilance.ma/fr ?",
+            "Voulez-vous des conseils pour sécuriser votre compte après récupération ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Analyse du chatbot Beta"
+    },
+    {
+        "id": 9,
+        "code": "faq_009",
+        "category": "Protection des preuves",
+        "intent": "Conservation des preuves",
+        "priority": 3,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Comment conserver les preuves d'une cyberviolence sans les perdre ?",
+        "answer": "Faites des captures d'écran des messages, publications ou conversations concernés, et enregistrez les liens correspondants. Sauvegardez tout autre élément permettant de prouver l'existence de la cyberviolence, avant de bloquer ou de faire supprimer le contenu. Ces preuves ne doivent être partagées qu'avec des entités légitimes (police, gendarmerie, EMC-Helpline) : elles seront utiles pour tout signalement ou dépôt de plainte.",
+        "keywords": [
+            "preuves",
+            "captures d'ecran",
+            "liens",
+            "conserver",
+            "sauvegarder",
+            "signalement",
+            "plainte",
+            "documentation"
+        ],
+        "tags": [
+            "preuves",
+            "documentation",
+            "signalement"
+        ],
+        "follow_up": [
+            "Voulez-vous savoir comment signaler une cyberviolence une fois les preuves conservées ?",
+            "Souhaitez-vous connaître la procédure de dépôt de plainte ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    },
+    {
+        "id": 10,
+        "code": "faq_010",
+        "category": "Dépôt de plainte",
+        "intent": "Informations juridiques",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Comment porter plainte pour une cyberviolence ?",
+        "answer": "Vous pouvez déposer une plainte auprès du parquet (sur place ou en ligne via plaintes.pmp.ma), auprès de la police (sur place ou via la plateforme e-Blagh, e-blagh.ma), ou auprès de la Gendarmerie Royale si les faits se sont produits en milieu rural. Si vous êtes une femme victime de violence, la plateforme vcfemme.pmp.ma est spécifiquement dédiée à votre situation. Pensez à conserver vos preuves avant de déposer plainte.",
+        "keywords": [
+            "porter plainte",
+            "plainte",
+            "parquet",
+            "police",
+            "gendarmerie",
+            "plaintes.pmp.ma",
+            "vcfemme",
+            "e-blagh",
+            "preuves"
+        ],
+        "tags": [
+            "plainte",
+            "justice",
+            "victime"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment conserver vos preuves avant de porter plainte ?",
+            "Voulez-vous des informations sur vos droits juridiques ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Guide juridique sur la cyberviolence"
+    },
+    {
+        "id": 11,
+        "code": "faq_011",
+        "category": "Informations juridiques",
+        "intent": "Informations juridiques",
+        "priority": 3,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Le cyberharcèlement est-il puni par la loi au Maroc ?",
+        "answer": "Oui. Toutes les formes de cyberviolence et de cyberharcèlement sont interdites par la loi marocaine, qui prévoit plusieurs textes de protection, notamment la loi n°103-13 relative à la lutte contre les violences faites aux femmes, applicable également dans l'espace numérique. Un professionnel du droit ou les autorités compétentes pourront vous conseiller sur votre situation précise.",
+        "keywords": [
+            "loi",
+            "cyberharcelement",
+            "puni",
+            "maroc",
+            "loi 103-13",
+            "protection juridique",
+            "droits"
+        ],
+        "tags": [
+            "droit",
+            "loi",
+            "protection juridique"
+        ],
+        "follow_up": [
+            "Voulez-vous savoir comment porter plainte pour cyberharcèlement ?",
+            "Souhaitez-vous connaître la procédure de signalement ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    },
+    {
+        "id": 12,
+        "code": "faq_012",
+        "category": "Informations juridiques",
+        "intent": "Informations juridiques",
+        "priority": 3,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Quels sont mes droits si quelqu'un diffuse des photos de moi sans mon accord ?",
+        "answer": "La loi n°103-13 punit la diffusion, par des moyens informatiques, d'un montage ou d'une photographie d'une personne sans son consentement. Vous avez le droit de porter plainte et de demander la suppression du contenu (via evigilance.ma/fr, Take It Down ou StopNCII selon votre âge au moment des faits). Pour un avis sur votre situation précise, il est recommandé de contacter le Ministère Public ou un avocat.",
+        "keywords": [
+            "droits",
+            "diffusion photos",
+            "consentement",
+            "loi 103-13",
+            "plainte",
+            "avocat",
+            "ministere public"
+        ],
+        "tags": [
+            "droit",
+            "loi",
+            "protection juridique"
+        ],
+        "follow_up": [
+            "Voulez-vous savoir comment signaler ce contenu sur evigilance.ma/fr ?",
+            "Souhaitez-vous connaître la procédure de dépôt de plainte ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    },
+    {
+        "id": 13,
+        "code": "faq_013",
+        "category": "Orientation de la victime",
+        "intent": "Accompagnement de la victime",
+        "priority": 1,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Je suis mineur(e), qui peut m'aider en cas de cyberviolence ?",
+        "answer": "Si vous êtes mineur(e) et en danger, contactez le numéro vert de l'Observatoire National des Droits de l'Enfant (ONDE) au 2511, disponible de 9h à 16h, ou signalez votre situation à tout moment sur la plateforme 2511.ma, accessible 24h/24 et 7j/7. Vous pouvez également contacter l'EMC-Helpline via cyberconfiance.ma. Ces services sont gratuits et confidentiels. N'hésitez pas également à en parler à un adulte de confiance (parent, enseignant, éducateur) : vous n'êtes pas seul(e).",
+        "keywords": [
+            "mineur",
+            "enfant",
+            "onde",
+            "2511",
+            "2511.ma",
+            "aide",
+            "urgence",
+            "adulte de confiance",
+            "protection enfance"
+        ],
+        "tags": [
+            "mineur",
+            "protection enfance",
+            "aide"
+        ],
+        "follow_up": [
+            "Souhaitez-vous en parler à un adulte de confiance dès maintenant ?",
+            "Voulez-vous savoir comment signaler la situation ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Site officiel 2511.ma (ONDE)"
+    },
+    {
+        "id": 14,
+        "code": "faq_014",
+        "category": "Orientation de la victime",
+        "intent": "Situation d'urgence",
+        "priority": 1,
+        "emergency": true,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Je me sens en danger, que dois-je faire immédiatement ?",
+        "answer": "Si vous ressentez un malaise psychologique important ou si vous êtes en danger, contactez immédiatement la Police (19), la Gendarmerie Royale (177), ou l'Observatoire National des Droits de l'Enfant (ONDE) au 2511 si vous êtes mineur(e) (service téléphonique disponible de 9h à 16h ; plateforme 2511.ma accessible 24h/24 et 7j/7). Votre sécurité est la priorité absolue : il est essentiel de parler à un humain dès maintenant plutôt que d'attendre.",
+        "keywords": [
+            "danger",
+            "urgence",
+            "detresse",
+            "malaise",
+            "police 19",
+            "gendarmerie 177",
+            "onde 2511",
+            "securite",
+            "idees suicidaires"
+        ],
+        "tags": [
+            "urgence",
+            "danger",
+            "sécurité"
+        ],
+        "follow_up": [
+            "Souhaitez-vous parler à une personne de confiance dès maintenant ?",
+            "Voulez-vous connaître les coordonnées de l'ONDE si vous êtes mineur(e) ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Site officiel 2511.ma (ONDE)"
+    },
+    {
+        "id": 15,
+        "code": "faq_015",
+        "category": "Orientation de la victime",
+        "intent": "Situation d'urgence",
+        "priority": 1,
+        "emergency": true,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "J'ai des idées suicidaires à cause du cyberharcèlement. Que dois-je faire ?",
+        "answer": "Je suis vraiment désolé(e) d'apprendre que vous traversez une période aussi difficile. Vous n'êtes pas seul(e), et ce que vous ressentez est très sérieux. Si vous pensez être en danger immédiat ou que vous risquez de passer à l'acte, contactez sans attendre les services d'urgence. Si cela est possible, parlez immédiatement à une personne de confiance (un proche, un membre de votre famille, un enseignant ou un professionnel de santé). Si vous êtes mineur(e), le numéro vert 2511 de l'ONDE est disponible de 9h à 16h et la plateforme 2511.ma permet un signalement à tout moment, 24h/24 et 7j/7.",
+        "keywords": [
+            "cyberharcelement",
+            "detresse psychologique",
+            "idees suicidaires",
+            "crise",
+            "urgence",
+            "anxiete",
+            "depression",
+            "souffrance",
+            "soutien psychologique",
+            "aide immediate"
+        ],
+        "tags": [
+            "détresse psychologique",
+            "urgence",
+            "santé mentale"
+        ],
+        "follow_up": [
+            "Souhaitez-vous parler immédiatement à une personne de confiance ?",
+            "Voulez-vous connaître les coordonnées de l'ONDE si vous êtes mineur(e) ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Site officiel 2511.ma (ONDE)"
+    },
+    {
+        "id": 16,
+        "code": "faq_016",
+        "category": "Accompagnement",
+        "intent": "Accompagnement de la victime",
+        "priority": 3,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Les cyberviolences peuvent-elles avoir un impact sur la santé mentale ?",
+        "answer": "Oui, la cyberviolence et le cyberharcèlement ont des conséquences réelles sur la santé mentale : stress, anxiété, dépression, honte, perte d'estime de soi, isolement social, troubles physiques, et dans les cas les plus graves des idées suicidaires. Ce que vous ressentez est légitime et mérite d'être pris au sérieux ; n'hésitez pas à en parler à un professionnel ou à contacter l'EMC-Helpline pour un accompagnement psychologique. Si vous ressentez un malaise psychologique important, contactez immédiatement la Police (19) ou la Gendarmerie Royale (177). Si vous êtes mineur(e), vous pouvez également contacter le numéro vert 2511 de l'ONDE (disponible de 9h à 16h) ou utiliser la plateforme 2511.ma, accessible 24h/24 et 7j/7.",
+        "keywords": [
+            "cyberviolences",
+            "impact",
+            "sante mentale",
+            "consequences psychologiques",
+            "anxiete",
+            "depression",
+            "idees suicidaires",
+            "stress",
+            "honte",
+            "mal-etre",
+            "isolement"
+        ],
+        "tags": [
+            "santé mentale",
+            "accompagnement",
+            "soutien psychologique"
+        ],
+        "follow_up": [
+            "Souhaitez-vous en parler à quelqu'un dès maintenant ?",
+            "Voulez-vous des informations sur l'accompagnement psychologique disponible ?"
+        ],
+        "source": "Base documentaire EMC Helpline ; Site officiel 2511.ma (ONDE)"
+    },
+    {
+        "id": 17,
+        "code": "faq_017",
+        "category": "Accompagnement",
+        "intent": "Accompagnement de la victime",
+        "priority": 3,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Je n'ose parler à personne de ce qui m'arrive, que puis-je faire ?",
+        "answer": "Il est important de ne pas rester seul(e) face à une cyberviolence. Parler à une personne de confiance (proche, adulte, ami) est une étape essentielle pour faire cesser la situation et vous sentir soutenu(e). Si vous préférez un accompagnement confidentiel, l'EMC-Helpline propose un soutien psychologique gratuit, sans obligation de dévoiler votre identité.",
+        "keywords": [
+            "isolement",
+            "parler",
+            "confiance",
+            "silence",
+            "soutien psychologique",
+            "confidentiel",
+            "emc-helpline",
+            "aide"
+        ],
+        "tags": [
+            "accompagnement",
+            "soutien psychologique",
+            "isolement"
+        ],
+        "follow_up": [
+            "Souhaitez-vous connaître les modalités de l'accompagnement psychologique de l'EMC-Helpline ?",
+            "Voulez-vous savoir comment signaler votre situation en parallèle ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    },
+    {
+        "id": 18,
+        "code": "faq_018",
+        "category": "Signalement",
+        "intent": "Signalement",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "Je suis une femme victime de cyberviolence, où puis-je porter plainte en ligne ?",
+        "answer": "Vous pouvez déposer plainte auprès du Ministère Public en ligne via plaintes.pmp.ma, ou, spécifiquement en tant que femme victime de violence, via vcfemme.pmp.ma. Des cellules de prise en charge des femmes victimes de violence existent également au sein des tribunaux, offrant accueil, écoute et accompagnement. Toutes les victimes, y compris les femmes migrantes, bénéficient des mêmes droits, quel que soit leur statut juridique.",
+        "keywords": [
+            "femme",
+            "victime",
+            "plainte en ligne",
+            "vcfemme",
+            "plaintes.pmp.ma",
+            "cellules prise en charge",
+            "tribunaux",
+            "droits"
+        ],
+        "tags": [
+            "plainte",
+            "femme",
+            "signalement"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment conserver vos preuves avant de porter plainte ?",
+            "Voulez-vous connaître les cellules de prise en charge des femmes victimes de violence ?"
+        ],
+        "source": "Guide juridique sur la cyberviolence"
+    },
+    {
+        "id": 19,
+        "code": "faq_019",
+        "category": "Protection des preuves",
+        "intent": "Divulgation de données personnelles (Doxing)",
+        "priority": 2,
+        "emergency": false,
+        "validated": true,
+        "language": "fr",
+        "version": "2.0",
+        "last_update": "2026-08-03",
+        "question": "On menace de publier mes informations personnelles (adresse, téléphone) sans mon accord, que faire ?",
+        "answer": "Conservez immédiatement une preuve de cette menace (capture d'écran, lien). Signalez la situation sans délai sur evigilance.ma/fr : ce type de contenu est traité en priorité. Évitez de publier ou de communiquer d'autres informations personnelles pendant l'incident. Vous pouvez aussi porter plainte : l'article 61 de la loi n°09-08 protège vos données personnelles et sanctionne leur communication à des tiers non autorisés.",
+        "keywords": [
+            "donnees personnelles",
+            "doxing",
+            "adresse",
+            "telephone",
+            "menace",
+            "signalement urgent",
+            "loi 09-08",
+            "plainte"
+        ],
+        "tags": [
+            "données personnelles",
+            "doxing",
+            "vie privée"
+        ],
+        "follow_up": [
+            "Souhaitez-vous savoir comment conserver la preuve de cette menace ?",
+            "Voulez-vous connaître vos droits concernant la protection de vos données personnelles ?"
+        ],
+        "source": "Base documentaire EMC Helpline"
+    }
+]

@@ -1,0 +1,882 @@
+[
+  {
+    "id": "ar_cyberharcelement_01",
+    "text": "أتلقى رسائل مهينة ومتكررة من نفس الشخص عبر إنستغرام منذ أسابيع.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_cyberharcelement_02",
+    "text": "منذ أسابيع يرسل لي شخص تعليقات مهينة كل يوم على حساباتي.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_cyberharcelement_03",
+    "text": "شخص يهينني باستمرار على فيسبوك.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_cyberharcelement_04",
+    "text": "منذ أكثر من شهر، يقوم أحد الأشخاص بمراسلتي يوميًا برسائل مسيئة ويعلق بشكل متكرر بكلمات جارحة تحت كل منشور أنشره، رغم أنني طلبت منه التوقف عدة مرات.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_cyberharcelement_05",
+    "text": "يتعرض حسابي لموجة من التعليقات الجارحة والمتكررة من نفس الحساب منذ فترة.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_cyberharcelement_06",
+    "text": "زملائي في المدرسة ينشرون تعليقات جارحة عني بشكل متكرر في مجموعة واتساب.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_cyberharcelement_07",
+    "text": "الوضع بدأ يؤثر على نفسيتي بسبب الرسائل المهينة المتكررة، لكنني لست في خطر مباشر الآن.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Situation d'urgence",
+    "correct": false,
+    "intent_source": "emergency_keyword"
+  },
+  {
+    "id": "ar_cyberharcelement_08",
+    "text": "يقوم شخص مجهول بإرسال رسائل تحقير لي بشكل يومي منذ بداية الشهر.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_cyberharcelement_09",
+    "text": "كل مرة أنشر فيها شيئًا، يعلّق نفس الشخص بكلمات مهينة، وهذا يتكرر منذ مدة طويلة.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_cyberharcelement_10",
+    "text": "أُهان باستمرار في التعليقات على تيك توك.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_sextorsion_01",
+    "text": "شخص يهددني بنشر صوري الحميمية إذا لم أدفع له مبلغًا من المال.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_sextorsion_02",
+    "text": "يقول لي إنه سينشر لقطات خاصة بي للجميع إن لم أستجب لطلباته.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_sextorsion_03",
+    "text": "يبتزني بصور حميمية لي.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_sextorsion_04",
+    "text": "بعد أن أرسلت له صورًا شخصية في إطار الثقة، بدأ يهددني بنشرها على منصات التواصل الاجتماعي ما لم أرسل له مبلغًا ماليًا كل شهر.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_sextorsion_05",
+    "text": "يستخدم صورًا خاصة بي كوسيلة ضغط للحصول على المال، ويهدد بنشرها للعموم.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_sextorsion_06",
+    "text": "بعد الانفصال عن صديقي السابق، بدأ يهددني بنشر مقاطع فيديو خاصة إن لم أعد للعلاقة.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_sextorsion_07",
+    "text": "شخص يمتلك صورًا حساسة لي ويهدد بنشرها إذا رفضت طلباته الآن.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_sextorsion_08",
+    "text": "تلقيت رسالة تهدد بكشف صور خاصة بي للعائلة ما لم أدفع مبلغًا معينًا.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Informations juridiques",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_sextorsion_09",
+    "text": "يضغط عليّ باستمرار مستخدمًا صورًا شخصية قال إنه سينشرها إذا لم ألتزم بما يطلبه.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": false,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_sextorsion_10",
+    "text": "يهددني بفضحي بصور خاصة مقابل المال.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_piratage_01",
+    "text": "تم اختراق حسابي على إنستغرام ولم أعد أستطيع الدخول إليه.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_piratage_02",
+    "text": "لم أعد أستطيع الدخول إلى حسابي وظهرت منشورات لم أنشرها.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_piratage_03",
+    "text": "حسابي مخترق منذ الصباح.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_piratage_04",
+    "text": "منذ يومين، لاحظت أنني لم أعد قادرًا على تسجيل الدخول إلى حسابي رغم إدخال كلمة المرور الصحيحة، وظهرت منشورات غريبة لم أقم بنشرها بنفسي على الإطلاق.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_piratage_05",
+    "text": "شخص ما استولى على حسابي وغيّر كلمة المرور دون علمي.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_piratage_06",
+    "text": "تلقيت إشعارًا بتسجيل دخول من جهاز لا أعرفه، وبعدها فقدت السيطرة على حسابي بالكامل.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_piratage_07",
+    "text": "لم أعد أملك صلاحية الوصول إلى بريدي الإلكتروني وحسابي مرتبط به وتغيرت كل الإعدادات.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_piratage_08",
+    "text": "تم اختراق حساب واتساب الخاص بي واستخدامه للتواصل مع جهات اتصالي.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_piratage_09",
+    "text": "كلمة مرور حسابي لم تعد تعمل وتغيرت جميع معلوماتي الشخصية فيه دون علمي.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_piratage_10",
+    "text": "فقدت السيطرة الكاملة على حسابي على فيسبوك.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_usurpation_01",
+    "text": "أنشأ شخص حسابًا مزيفًا باسمي وصورتي على إنستغرام.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_usurpation_02",
+    "text": "أنشأ شخص حسابًا باسمي ويستخدم صورتي للتحدث مع الآخرين.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_usurpation_03",
+    "text": "هناك حساب وهمي يحمل اسمي وصورتي.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_usurpation_04",
+    "text": "اكتشفت وجود حساب على فيسبوك يستخدم اسمي الكامل وصورتي الشخصية، ويقوم بالتواصل مع أصدقائي منتحلاً شخصيتي دون أن أكون قد أنشأت هذا الحساب.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_usurpation_05",
+    "text": "شخص يتظاهر بأنه أنا على مواقع التواصل ويستخدم معلوماتي الشخصية للتواصل مع الناس.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_usurpation_06",
+    "text": "أصدقائي أخبروني أن هناك من يتحدث معهم باسمي على تطبيق آخر، رغم أنني لم أنشئ أي حساب هناك.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_usurpation_07",
+    "text": "لاحظت أن هناك حسابًا جديدًا يحمل بياناتي الشخصية وصوري، رغم أن حسابي الأصلي ما زال يعمل بشكل طبيعي بيدي.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Piratage de compte",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_usurpation_08",
+    "text": "شخص يستخدم اسمي وصورتي لخداع الآخرين على تطبيق تيليغرام.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_usurpation_09",
+    "text": "تلقيت رسائل من أصدقاء يسألونني عن محادثات لم أقم بها أبدًا، واتضح أن هناك من يتحدث نيابة عني.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_usurpation_10",
+    "text": "يوجد حساب مزيف يتظاهر بأنه أنا.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_doxing_01",
+    "text": "نشر شخص عنواني ورقم هاتفي على الإنترنت دون موافقتي.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_doxing_02",
+    "text": "أصبح بإمكان أي شخص معرفة مكان سكني بعد أن نُشرت معلوماتي الخاصة على الإنترنت.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Situation d'urgence",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_doxing_03",
+    "text": "تم نشر بياناتي الشخصية بدون إذني.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Informations juridiques",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_doxing_04",
+    "text": "اكتشفت أن أحد الأشخاص قام بنشر عنوان منزلي ورقم هاتفي الشخصي وحتى مكان عملي على منتدى عام، مما جعلني أشعر بالخوف من تعرضي للمضايقة في الواقع.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_doxing_05",
+    "text": "معلوماتي الخاصة، بما في ذلك مكان سكني، أصبحت متاحة للعموم دون علمي.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Informations juridiques",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_doxing_06",
+    "text": "بعد خلاف بسيط، قام أحد المعارف بنشر رقم هاتفي على مجموعة عامة للانتقام مني.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_doxing_07",
+    "text": "شخص كشف عنواني الشخصي للعلن، وأخشى أن يستغل ذلك أحدهم للوصول إليّ.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_doxing_08",
+    "text": "تم الكشف عن بريدي الإلكتروني ورقم بطاقتي الشخصية على الإنترنت.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_doxing_09",
+    "text": "بدأ أشخاص غرباء يعرفون تفاصيل دقيقة عن حياتي الخاصة بعد أن انتشرت معلوماتي على أحد المواقع.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Piratage de compte",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_doxing_10",
+    "text": "نُشرت معلوماتي الشخصية دون موافقتي.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Informations juridiques",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_01",
+    "text": "كيف يمكنني الاحتفاظ بالأدلة على التحرش الذي أتعرض له؟",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_preuves_02",
+    "text": "أريد توثيق الرسائل المسيئة قبل أن يقوم بحذفها.",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_03",
+    "text": "كيف أحفظ لقطات الشاشة كدليل؟",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_04",
+    "text": "أتعرض لرسائل مزعجة منذ فترة، وأريد أن أعرف الطريقة الصحيحة لتوثيق هذه الرسائل والاحتفاظ بها كدليل قبل أن يقوم الشخص بحذف حسابه أو الرسائل نفسها.",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_05",
+    "text": "ما هي أفضل طريقة لتجميع الإثباتات الرقمية قبل أن تختفي؟",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_06",
+    "text": "أخشى أن يحذف الشخص كل الرسائل التي أرسلها لي، فكيف أضمن توثيقها؟",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_07",
+    "text": "قبل أن أقوم بأي خطوة أخرى، أريد أن أعرف كيف أوثق هذه المحادثات بشكل يمكن استخدامه لاحقًا.",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_08",
+    "text": "هل يجب أن آخذ لقطة شاشة لكل رسالة تهديد أتلقاها؟",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_09",
+    "text": "أخاف أن أفقد الدليل الوحيد الذي أملكه على ما يحدث لي، كيف أحميه؟",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Informations juridiques",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_preuves_10",
+    "text": "أريد حفظ المحادثة كدليل قبل حذفها.",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_juridique_01",
+    "text": "ما هي حقوقي القانونية إذا نشر شخص صوري دون موافقتي؟",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_juridique_02",
+    "text": "هل يعاقب القانون المغربي على نشر الصور الخاصة دون إذن؟",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_juridique_03",
+    "text": "ما هو الإطار القانوني للتحرش الإلكتروني؟",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_juridique_04",
+    "text": "أريد أن أفهم بشكل دقيق ما تنص عليه القوانين المغربية بخصوص نشر الصور الشخصية دون موافقة صاحبها، وما هي العقوبات المترتبة على ذلك من الناحية القانونية.",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_juridique_05",
+    "text": "من الناحية القانونية، هل يمكنني رفع شكوى ضد من يهددني عبر الإنترنت؟",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_juridique_06",
+    "text": "قبل أن أقرر ماذا أفعل، أريد معرفة ما الذي يقوله القانون في مثل هذه الحالات.",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_juridique_07",
+    "text": "هل هناك قانون واضح يجرّم انتحال الهوية الرقمية في المغرب؟",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": false,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_juridique_08",
+    "text": "ما هي العقوبة القانونية على الابتزاز الإلكتروني؟",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_juridique_09",
+    "text": "أريد أن أعرف مسبقًا ما الذي يحميني قانونيًا قبل أن أتقدم بأي شكوى.",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_juridique_10",
+    "text": "هل التحرش الإلكتروني جريمة يعاقب عليها القانون؟",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_diffusion_01",
+    "text": "قام شخص بنشر صوري الخاصة دون موافقتي على الإنترنت.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_diffusion_02",
+    "text": "صوري الحميمية أصبحت منتشرة على مجموعات واتساب دون علمي.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_diffusion_03",
+    "text": "نُشرت صوري الخاصة بدون إذني.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_diffusion_04",
+    "text": "اكتشفت أن صديقي السابق قام بنشر صور ومقاطع فيديو خاصة بي على مجموعة عامة على تيليغرام دون أن يطلب إذني، وقد شاهدها عدد كبير من الأشخاص بالفعل.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_diffusion_05",
+    "text": "تم تسريب صور شخصية لي إلى الجمهور دون موافقتي المسبقة.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_diffusion_06",
+    "text": "بعد انتهاء علاقتنا، قام بنشر صور كنا قد التقطناها معًا في إطار خاص.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_diffusion_07",
+    "text": "الصور التي كانت خاصة أصبحت الآن منتشرة على الملأ بعد أن نشرها شخص أثق به سابقًا.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_diffusion_08",
+    "text": "شخص نشر مقطع فيديو حميمي لي على مواقع التواصل الاجتماعي.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_diffusion_09",
+    "text": "فوجئت بأن صورًا كنت أظنها خاصة أصبحت متداولة بين معارفي.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_diffusion_10",
+    "text": "نشر صورتي الخاصة للعموم دون رضاي.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_signalement_01",
+    "text": "كيف يمكنني الإبلاغ عن حساب مزيف يستخدم اسمي؟",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": false,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_signalement_02",
+    "text": "أين يمكنني الإبلاغ عن شخص يزعجني عبر الإنترنت؟",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_signalement_03",
+    "text": "كيف أبلغ عن هذا الحساب؟",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_signalement_04",
+    "text": "أتعرض لمضايقات متكررة من شخص على فيسبوك، ولا أعرف الجهة المناسبة التي يمكنني التوجه إليها لتقديم بلاغ رسمي بخصوص هذه المضايقات.",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_signalement_05",
+    "text": "ما هي الخطوات التي يجب اتباعها لتقديم بلاغ رسمي عن شخص يهددني؟",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_signalement_06",
+    "text": "صديقتي نصحتني بتقديم بلاغ، لكنني لا أعرف كيف تسير هذه العملية بالضبط.",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_signalement_07",
+    "text": "أريد معرفة الجهة الرسمية التي يجب التواصل معها للإبلاغ عن محتوى مسيء يستهدفني.",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_signalement_08",
+    "text": "هل يمكنني الإبلاغ عن منشور مسيء مباشرة من التطبيق؟",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_signalement_09",
+    "text": "أحتاج إلى معرفة الإجراء الصحيح للإبلاغ عن حساب يهددني.",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Piratage de compte",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_signalement_10",
+    "text": "كيف أقدم بلاغًا عن شخص يبتزني؟",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_urgence_01",
+    "text": "أفكر في إيذاء نفسي بسبب ما أتعرض له.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "intent_source": "emergency_keyword"
+  },
+  {
+    "id": "ar_urgence_02",
+    "text": "لم أعد أستطيع التحمل، أشعر أنني في خطر حقيقي الآن.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_urgence_03",
+    "text": "أنا في خطر الآن.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_urgence_04",
+    "text": "الشخص الذي يهددني قال إنه يعرف مكان سكني وسيأتي الليلة، وأنا خائفة جدًا ولا أعرف ماذا أفعل في هذه اللحظة بالذات.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_urgence_05",
+    "text": "أشعر أن حياتي مهددة بشكل مباشر الآن ولا أعرف من أتصل به.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_urgence_06",
+    "text": "بعد التهديدات المتكررة، أرسل لي رسالة يقول فيها إنه سيؤذيني جسديًا اليوم.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_urgence_07",
+    "text": "الرسائل تحولت إلى تهديدات مباشرة بالأذى الجسدي، وأخشى أن يحدث شيء الآن.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_urgence_08",
+    "text": "أحتاج مساعدة عاجلة، أنا في خطر هذه اللحظة.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_urgence_09",
+    "text": "الوضع خرج عن السيطرة وأصبحت أخاف على سلامتي الجسدية الآن.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Informations juridiques",
+    "correct": false,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_urgence_10",
+    "text": "ساعدوني، أنا في خطر حقيقي.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_accompagnement_01",
+    "text": "لا أعرف ماذا أفعل، أحتاج إلى التحدث مع شخص ما.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_accompagnement_02",
+    "text": "أشعر بالضياع منذ ما حدث لي ولا أعرف من أين أبدأ.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_accompagnement_03",
+    "text": "أحتاج إلى مرافقة نفسية.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_keyword_hint"
+  },
+  {
+    "id": "ar_accompagnement_04",
+    "text": "منذ أن بدأت أتلقى هذه الرسائل، أصبحت غير قادرة على التركيز في حياتي اليومية، وأشعر بالوحدة الشديدة ولا أعرف كيف أتعامل مع كل هذا بمفردي.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_accompagnement_05",
+    "text": "أريد أن أتحدث مع شخص يفهم وضعي ويرشدني حول ما يجب فعله.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_accompagnement_06",
+    "text": "عائلتي لا تعرف بما يحدث، وأشعر أنني بحاجة لدعم من جهة مختصة.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_accompagnement_07",
+    "text": "الوضع متعب نفسيًا منذ فترة طويلة، وأشعر أنني بحاجة إلى مرافقة مستمرة وليس فقط حلاً سريعًا.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_accompagnement_08",
+    "text": "أحتاج إلى الدعم النفسي بعد كل ما مررت به.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_accompagnement_09",
+    "text": "لا أعرف كيف أتعامل مع الوضع، هل يمكن لأحد أن يساعدني في فهم ما يجب فعلي؟",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  },
+  {
+    "id": "ar_accompagnement_10",
+    "text": "أشعر أنني بحاجة لمن يوجهني.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "intent_source": "arabic_majority_vote"
+  }
+]

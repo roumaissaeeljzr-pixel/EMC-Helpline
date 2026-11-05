@@ -1,0 +1,42 @@
+[
+  {
+    "index": 37,
+    "id": "ar_usurpation_07",
+    "text": "لاحظت أن هناك حسابًا جديدًا يحمل بياناتي الشخصية وصوري، رغم أن حسابي الأصلي ما زال يعمل بشكل طبيعي بيدي.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Piratage de compte",
+    "confidence": 0.886314332485199,
+    "correct": false,
+    "difficulty": "ambiguous-but-resolvable"
+  },
+  {
+    "index": 59,
+    "id": "ar_preuves_09",
+    "text": "أخاف أن أفقد الدليل الوحيد الذي أملكه على ما يحدث لي، كيف أحميه؟",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Accompagnement de la victime",
+    "confidence": 0.8973058462142944,
+    "correct": false,
+    "difficulty": "indirect"
+  },
+  {
+    "index": 76,
+    "id": "ar_diffusion_06",
+    "text": "بعد انتهاء علاقتنا، قام بنشر صور كنا قد التقطناها معًا في إطار خاص.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Sextorsion",
+    "confidence": 0.7235867977142334,
+    "correct": false,
+    "difficulty": "contextual"
+  },
+  {
+    "index": 91,
+    "id": "ar_urgence_01",
+    "text": "أفكر في إيذاء نفسي بسبب ما أتعرض له.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Accompagnement de la victime",
+    "confidence": 0.8014837503433228,
+    "correct": false,
+    "difficulty": "direct"
+  }
+]

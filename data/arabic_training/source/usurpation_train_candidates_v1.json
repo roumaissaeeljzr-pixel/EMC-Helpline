@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train_ar_usurpation_0001",
+    "text": "أنشأ شخص حسابًا مزيفًا باسمي وصورتي.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0001"
+  },
+  {
+    "id": "train_ar_usurpation_0002",
+    "text": "هناك من يتظاهر بأنه أنا على الإنترنت.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0002"
+  },
+  {
+    "id": "train_ar_usurpation_0003",
+    "text": "شخص يستخدم اسمي للتواصل مع الآخرين وكأنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0003"
+  },
+  {
+    "id": "train_ar_usurpation_0004",
+    "text": "تم إنشاء صفحة تحمل هويتي من دون إذني.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0004"
+  },
+  {
+    "id": "train_ar_usurpation_0005",
+    "text": "أحدهم يرسل رسائل للناس من حساب مزيف باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0005"
+  },
+  {
+    "id": "train_ar_usurpation_0006",
+    "text": "شخص يستخدم صورتي واسمي لتمثيل نفسه على أنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0006"
+  },
+  {
+    "id": "train_ar_usurpation_0007",
+    "text": "وجدت حسابًا جديدًا يحمل اسمي وصورتي وينشر منشورات توحي للناس بأنه حسابي الحقيقي.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0007"
+  },
+  {
+    "id": "train_ar_usurpation_0008",
+    "text": "شخص يقلد هويتي الرقمية ويتواصل مع أصدقائي مستخدمًا اسمي وصورتي من حساب ليس حسابي.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0008"
+  },
+  {
+    "id": "train_ar_usurpation_0009",
+    "text": "اكتشفت صفحة مزيفة تعرض معلوماتي الشخصية وتتصرف أمام الآخرين وكأن صاحبها هو أنا.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0009"
+  },
+  {
+    "id": "train_ar_usurpation_0010",
+    "text": "هناك شخص يستخدم اسمي الحقيقي وصورتي لطلب أشياء من معارفي وكأنه يتحدث نيابة عني.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0010"
+  },
+  {
+    "id": "train_ar_usurpation_0011",
+    "text": "تم إنشاء حساب يشبه حسابي الأصلي في الاسم والصورة ويستخدمه شخص آخر للتحدث باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0011"
+  },
+  {
+    "id": "train_ar_usurpation_0012",
+    "text": "شخص يرسل رسائل إلى زملائي من حساب مزيف ويخبرهم أنه أنا رغم أنني لا أعرفه.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0012"
+  },
+  {
+    "id": "train_ar_usurpation_0013",
+    "text": "أحدهم يستخدم صوري ومعلوماتي ليبدو أمام الناس كأنه صاحب هويتي الحقيقية.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0013"
+  },
+  {
+    "id": "train_ar_usurpation_0014",
+    "text": "وجدت حسابًا ينتحل اسمي ويضع نفس صورتي الشخصية ويعلق على منشورات الآخرين كما لو كنت أنا.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0014"
+  },
+  {
+    "id": "train_ar_usurpation_0015",
+    "text": "شخص أنشأ بريدًا يحمل اسمي ويراسل به أشخاصًا من محيطي وكأنه صادر مني.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0015"
+  },
+  {
+    "id": "train_ar_usurpation_0016",
+    "text": "يستخدم شخص مجهول اسمي وصورتي في حساب جديد ليكوّن علاقات ويتحدث مع الناس على أنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0016"
+  },
+  {
+    "id": "train_ar_usurpation_0017",
+    "text": "اكتشفت أن شخصًا أنشأ حسابًا مزيفًا ينسخ اسمي وصورتي وبعض تفاصيل صفحتي، ثم بدأ يراسل معارفي ويقدم نفسه لهم على أنه أنا، رغم أن حسابي الأصلي ما زال تحت سيطرتي مع أنني لم أمنحه أي إذن لاستخدام هويتي أو التحدث باسمي أمام الآخرين.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0017"
+  },
+  {
+    "id": "train_ar_usurpation_0018",
+    "text": "هناك صفحة ليست لي تستخدم اسمي الحقيقي وصوري ومعلومات من سيرتي، وتنشر محتوى وترد على الناس بطريقة تجعلهم يعتقدون أنني صاحب الصفحة بالفعل وقد أدى ذلك إلى ارتباك لدى أشخاص يعرفونني ويظنون أنهم يتعاملون معي فعلًا.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0018"
+  },
+  {
+    "id": "train_ar_usurpation_0019",
+    "text": "شخص مجهول أنشأ حسابًا يشبه حسابي بدرجة كبيرة، ثم بدأ يطلب من أصدقائي معلومات أو مساعدات باسمي، وبعضهم صدقه لأنه استخدم صورتي وتفاصيل يعرفونها عني بينما يظل حسابي الحقيقي منفصلًا عن هذا الملف ولا أتحكم في الحساب المزيف.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0019"
+  },
+  {
+    "id": "train_ar_usurpation_0020",
+    "text": "لم أفقد الوصول إلى حسابي الحقيقي، لكن شخصًا آخر أنشأ هوية رقمية موازية باسمي وصورتي، وأصبح يتواصل مع أشخاص أعرفهم ويمثل نفسه أمامهم على أنه أنا وهو ما يجعل الآخرين ينسبون إلي رسائل وتصرفات لم أقم بها بنفسي.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0020"
+  },
+  {
+    "id": "train_ar_usurpation_0021",
+    "text": "أصدقائي يتلقون رسائل باسمي من حساب لا أعرفه.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0021"
+  },
+  {
+    "id": "train_ar_usurpation_0022",
+    "text": "هناك صفحة تستخدم صورتي وتجيب الناس كأنها تخصني.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0022"
+  },
+  {
+    "id": "train_ar_usurpation_0023",
+    "text": "أشخاص يسألونني عن رسائل لم أرسلها.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0023"
+  },
+  {
+    "id": "train_ar_usurpation_0024",
+    "text": "ظهر حساب يشبه حسابي لكنه ليس ملكي.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0024"
+  },
+  {
+    "id": "train_ar_usurpation_0025",
+    "text": "بعض معارفي يظنون أن حسابًا غريبًا يعود لي.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0025"
+  },
+  {
+    "id": "train_ar_usurpation_0026",
+    "text": "يتم استخدام اسمي في محادثات لم أشارك فيها.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0026"
+  },
+  {
+    "id": "train_ar_usurpation_0027",
+    "text": "بدأ أصدقائي يخبرونني أنني أرسلت لهم طلبات غريبة، لكن الرسائل جاءت من حساب آخر يحمل اسمي.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0027"
+  },
+  {
+    "id": "train_ar_usurpation_0028",
+    "text": "وجدت صورة حسابي الشخصي مستخدمة في صفحة جديدة، وصاحبها يرد على التعليقات بلسان المتكلم.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0028"
+  },
+  {
+    "id": "train_ar_usurpation_0029",
+    "text": "أشخاص من محيطي تواصلوا معي للتأكد من حساب يرسل لهم رسائل باسمي ويطلب منهم معلومات.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0029"
+  },
+  {
+    "id": "train_ar_usurpation_0030",
+    "text": "ظهر بريد إلكتروني باسم قريب جدًا من اسمي ويستخدم صورتي في توقيع الرسائل المرسلة للآخرين.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0030"
+  },
+  {
+    "id": "train_ar_usurpation_0031",
+    "text": "بدأت تصلني أسئلة عن منشورات لم أكتبها، ثم اكتشفت صفحة تستخدم اسمي وصورتي.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0031"
+  },
+  {
+    "id": "train_ar_usurpation_0032",
+    "text": "هناك حساب جديد يضيف أصدقائي واحدًا تلو الآخر ويقدم نفسه لهم على أنه حسابي البديل.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0032"
+  },
+  {
+    "id": "train_ar_usurpation_0033",
+    "text": "شخص يستخدم صورة وجزءًا من سيرتي الذاتية في ملف رقمي لا أملكه.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0033"
+  },
+  {
+    "id": "train_ar_usurpation_0034",
+    "text": "معارفي أصبحوا يرسلون إلي ليتحققوا من طلبات وصلت إليهم من جهة تستخدم اسمي.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0034"
+  },
+  {
+    "id": "train_ar_usurpation_0035",
+    "text": "رأيت تعليقات مكتوبة باسمي تحت منشورات لم أشارك فيها، وتبين أنها صادرة من حساب آخر.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0035"
+  },
+  {
+    "id": "train_ar_usurpation_0036",
+    "text": "أصبح هناك التباس بين حسابي الحقيقي وصفحة أخرى تحمل الاسم والصورة نفسيهما تقريبًا.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0036"
+  },
+  {
+    "id": "train_ar_usurpation_0037",
+    "text": "في البداية ظننت أن أصدقائي يخلطون بين الحسابات، لكن عدة أشخاص أرسلوا لي صورًا لرسائل من صفحة تحمل اسمي وصورتي، وصاحبها يتحدث عن نفسه وكأنه أنا مع أنني لم أمنحه أي إذن لاستخدام هويتي أو التحدث باسمي أمام الآخرين.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0037"
+  },
+  {
+    "id": "train_ar_usurpation_0038",
+    "text": "بدأت المشكلة عندما تلقيت أسئلة عن طلبات لم أرسلها، ثم اكتشفت حسابًا يشبه حسابي ويستخدم تفاصيل من حياتي حتى يبدو مقنعًا لمن يعرفني وقد أدى ذلك إلى ارتباك لدى أشخاص يعرفونني ويظنون أنهم يتعاملون معي فعلًا.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0038"
+  },
+  {
+    "id": "train_ar_usurpation_0039",
+    "text": "بعض الأشخاص الذين لا أعرفهم تحدثوا معي عن محادثات سابقة يفترض أنهم أجروها معي، وبعد التحقق تبين أنهم كانوا يتواصلون مع حساب يستخدم اسمي وصورتي بينما يظل حسابي الحقيقي منفصلًا عن هذا الملف ولا أتحكم في الحساب المزيف.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0039"
+  },
+  {
+    "id": "train_ar_usurpation_0040",
+    "text": "لاحظت أن شخصًا يعيد استخدام صوري ومعلوماتي في ملف رقمي جديد، ثم يكوّن علاقات مع الآخرين باسمي، ما جعل بعض الناس يعتقدون أن هذا الملف يمثلني فعلًا وهو ما يجعل الآخرين ينسبون إلي رسائل وتصرفات لم أقم بها بنفسي.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0040"
+  },
+  {
+    "id": "train_ar_usurpation_0041",
+    "text": "على Instagram ظهر حساب مزيف يحمل اسمي وصورتي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0041"
+  },
+  {
+    "id": "train_ar_usurpation_0042",
+    "text": "في الجامعة، يستخدم شخص اسمي في حساب لا أملكه.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0042"
+  },
+  {
+    "id": "train_ar_usurpation_0043",
+    "text": "على Facebook توجد صفحة تتحدث باسمي دون إذني.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0043"
+  },
+  {
+    "id": "train_ar_usurpation_0044",
+    "text": "في العمل، يراسل شخص الزملاء من بريد ينتحل هويتي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0044"
+  },
+  {
+    "id": "train_ar_usurpation_0045",
+    "text": "على TikTok ينشر حساب مزيف مقاطع باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0045"
+  },
+  {
+    "id": "train_ar_usurpation_0046",
+    "text": "في لعبة إلكترونية يستخدم لاعب اسمي وصورتي كأنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0046"
+  },
+  {
+    "id": "train_ar_usurpation_0047",
+    "text": "على Instagram وجدت حسابًا يستخدم نفس اسمي وصورتي ويضيف أصدقائي ثم يرسل لهم رسائل باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0041"
+  },
+  {
+    "id": "train_ar_usurpation_0048",
+    "text": "في الجامعة، أنشأ شخص ملفًا باسم يشبه اسمي ويطلب من الطلبة معلومات وكأنه يمثلني أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0042"
+  },
+  {
+    "id": "train_ar_usurpation_0049",
+    "text": "على Facebook ظهرت صفحة تستخدم صورتي ومعلوماتي وترد على معارفي وكأنها صفحتي الرسمية أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0043"
+  },
+  {
+    "id": "train_ar_usurpation_0050",
+    "text": "في العمل، وصلت رسائل لزملائي من بريد يشبه بريدي ويحمل اسمي الكامل لكنه ليس عنواني الحقيقي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0044"
+  },
+  {
+    "id": "train_ar_usurpation_0051",
+    "text": "على TikTok هناك حساب يستخدم صورتي واسمي وينشر تعليقات توحي بأنه أنا أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0045"
+  },
+  {
+    "id": "train_ar_usurpation_0052",
+    "text": "في لعبة إلكترونية، يستخدم لاعب اسمي وصورتي ويتحدث مع أشخاص يعرفونني وكأنه صاحب هويتي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0046"
+  },
+  {
+    "id": "train_ar_usurpation_0053",
+    "text": "في مجموعة عائلية، أضاف شخص حسابًا جديدًا باسمي وبدأ يطلب من الأقارب التواصل معه أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0047"
+  },
+  {
+    "id": "train_ar_usurpation_0054",
+    "text": "على LinkedIn ظهر ملف مهني يستخدم صورتي وخبراتي لكنه ليس حسابي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0048"
+  },
+  {
+    "id": "train_ar_usurpation_0055",
+    "text": "في منصة بيع، أنشأ شخص حسابًا باسمي وصورتي ويتواصل مع المشترين كما لو كنت البائع.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0049"
+  },
+  {
+    "id": "train_ar_usurpation_0056",
+    "text": "في تطبيق مراسلة، ظهر رقم مجهول يضع صورتي واسمي ويراسل معارفي على أنه أنا أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0050"
+  },
+  {
+    "id": "train_ar_usurpation_0057",
+    "text": "على Instagram أنشأ شخص حسابًا ينسخ اسمي وصورتي وبعض منشوراتي، ثم بدأ يتابع أصدقائي ويرسل لهم رسائل خاصة، لذلك أصبح بعضهم غير قادر على التمييز بين الحساب المزيف وحسابي الحقيقي مع أنني لم أمنحه أي إذن لاستخدام هويتي أو التحدث باسمي أمام الآخرين.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0051"
+  },
+  {
+    "id": "train_ar_usurpation_0058",
+    "text": "في بيئة العمل، استخدم شخص اسمي الكامل وصورتي وتوقيعًا مشابهًا لتوقيعي في بريد إلكتروني مزيف، ثم أرسل تعليمات لزملائي وكأن الرسائل صادرة مني فعلًا وقد أدى ذلك إلى ارتباك لدى أشخاص يعرفونني ويظنون أنهم يتعاملون معي فعلًا.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0052"
+  },
+  {
+    "id": "train_ar_usurpation_0059",
+    "text": "على LinkedIn ظهر ملف ينتحل هويتي المهنية ويستخدم صورتي ومساري الدراسي والوظيفي، ثم بدأ يتواصل مع شركات وأشخاص من شبكتي كما لو كنت أنا صاحب الملف بينما يظل حسابي الحقيقي منفصلًا عن هذا الملف ولا أتحكم في الحساب المزيف.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0053"
+  },
+  {
+    "id": "train_ar_usurpation_0060",
+    "text": "في مجموعة عائلية، بدأ حساب جديد يحمل اسمي وصورتي يرسل رسائل للأقارب ويطلب منهم معلومات شخصية، وبعضهم صدقه لأن الصفحة تستخدم تفاصيل حقيقية يعرفونها عني وهو ما يجعل الآخرين ينسبون إلي رسائل وتصرفات لم أقم بها بنفسي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0054"
+  },
+  {
+    "id": "train_ar_usurpation_0061",
+    "text": "شخص يتقمص هويتي الرقمية أمام الآخرين أمام أشخاص من محيطي أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0055"
+  },
+  {
+    "id": "train_ar_usurpation_0062",
+    "text": "يتم تمثيلي على الإنترنت من طرف شخص آخر أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0056"
+  },
+  {
+    "id": "train_ar_usurpation_0063",
+    "text": "هناك من ينسب لنفسه هويتي وصورتي أمام أشخاص من محيطي أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0057"
+  },
+  {
+    "id": "train_ar_usurpation_0064",
+    "text": "أحدهم يظهر للناس على أنه أنا أمام أشخاص من محيطي أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0058"
+  },
+  {
+    "id": "train_ar_usurpation_0065",
+    "text": "هويتي تُستخدم في حساب لا أتحكم فيه أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0059"
+  },
+  {
+    "id": "train_ar_usurpation_0066",
+    "text": "شخص آخر يتواصل باسمي من ملف مزيف أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0060"
+  },
+  {
+    "id": "train_ar_usurpation_0067",
+    "text": "المشكلة أن شخصًا آخر بنى حضورًا رقميًا باسمي ويحاول إقناع الناس بأنه يمثلني أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0061"
+  },
+  {
+    "id": "train_ar_usurpation_0068",
+    "text": "تم نسخ عناصر من هويتي الرقمية واستخدامها لإنشاء ملف يتصرف صاحبه كما لو كان أنا.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0062"
+  },
+  {
+    "id": "train_ar_usurpation_0069",
+    "text": "هناك شخص يستخدم هويتي الظاهرة للناس ليجري محادثات وينشر محتوى ينسبه إلي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0063"
+  },
+  {
+    "id": "train_ar_usurpation_0070",
+    "text": "أصبح اسمي وصورتي وسيلة يستخدمها شخص آخر للتعامل مع الآخرين على أنه صاحب هويتي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0064"
+  },
+  {
+    "id": "train_ar_usurpation_0071",
+    "text": "لم يُخترق حسابي الأصلي، لكن تم إنشاء تمثيل مزيف لي على الإنترنت يستخدم معلوماتي الحقيقية.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0065"
+  },
+  {
+    "id": "train_ar_usurpation_0072",
+    "text": "شخص أنشأ نسخة رقمية من هويتي ويستخدمها ليبدو أمام معارفي كأنه أنا أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0066"
+  },
+  {
+    "id": "train_ar_usurpation_0073",
+    "text": "يتم استخدام هويتي دون إذني لإقناع الآخرين بأن الرسائل والمنشورات صادرة مني أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0067"
+  },
+  {
+    "id": "train_ar_usurpation_0074",
+    "text": "هناك حساب غير تابع لي يقدم نفسه للناس بوصفه حسابي الحقيقي ويستخدم صورتي واسمي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0068"
+  },
+  {
+    "id": "train_ar_usurpation_0075",
+    "text": "أواجه حالة يتصرف فيها شخص آخر باسمي الرقمي رغم أنني لم أمنحه أي إذن لتمثيلي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0069"
+  },
+  {
+    "id": "train_ar_usurpation_0076",
+    "text": "تم إنشاء شخصية رقمية تستند إلى بياناتي وصوري وتُستخدم للتواصل مع الآخرين وكأنها تعود لي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0070"
+  },
+  {
+    "id": "train_ar_usurpation_0077",
+    "text": "لا يتعلق الأمر فقط باستخدام صورة لي، بل إن شخصًا جمع اسمي وصورتي وبعض معلوماتي وأنشأ بها حسابًا يتواصل مع الناس ويتصرف أمامهم وكأنه أنا صاحب الهوية الحقيقية مع أنني لم أمنحه أي إذن لاستخدام هويتي أو التحدث باسمي أمام الآخرين.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0071"
+  },
+  {
+    "id": "train_ar_usurpation_0078",
+    "text": "أواجه استخدامًا غير مصرح به لهويتي الرقمية، حيث أنشأ شخص آخر ملفًا يحمل اسمي وصورتي ويصدر عنه كلام وتصرفات ينسبها الناس إلي رغم أنني لم أقم بها وقد أدى ذلك إلى ارتباك لدى أشخاص يعرفونني ويظنون أنهم يتعاملون معي فعلًا.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0072"
+  },
+  {
+    "id": "train_ar_usurpation_0079",
+    "text": "هناك شخص يبني ثقة مع معارفي من خلال حساب مزيف يستخدم تفاصيل حقيقية عني، ثم يتحدث باسمي ويقدم نفسه كأنه صاحب حسابي أو ممثلي الرسمي بينما يظل حسابي الحقيقي منفصلًا عن هذا الملف ولا أتحكم في الحساب المزيف.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0073"
+  },
+  {
+    "id": "train_ar_usurpation_0080",
+    "text": "هويتي الحقيقية أصبحت تُستعمل كواجهة لحساب لا أملكه، وصاحب الحساب يقلد طريقة ظهوري ويستخدم بياناتي وصوري للتواصل مع الناس وإقناعهم بأنهم يتعاملون معي شخصيًا وهو ما يجعل الآخرين ينسبون إلي رسائل وتصرفات لم أقم بها بنفسي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0074"
+  },
+  {
+    "id": "train_ar_usurpation_0081",
+    "text": "حسابي الحقيقي سليم، لكن شخصًا أنشأ حسابًا مزيفًا باسمي أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0075"
+  },
+  {
+    "id": "train_ar_usurpation_0082",
+    "text": "لم يدخل أحد إلى حسابي؛ المشكلة حساب آخر ينتحل هويتي أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0075"
+  },
+  {
+    "id": "train_ar_usurpation_0083",
+    "text": "استخدم شخص بياناتي لإنشاء حساب يتظاهر بأنه أنا أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "usurpation_scenario_0076"
+  },
+  {
+    "id": "train_ar_usurpation_0084",
+    "text": "أريد الإبلاغ عن حساب مزيف ينتحل شخصيتي أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "usurpation_scenario_0077"
+  },
+  {
+    "id": "train_ar_usurpation_0085",
+    "text": "شخص بنى ملفًا رقميًا باسمي ويستخدمه لإقناع الآخرين بأنه يمثلني رغم أنني لم أسمح له بالتحدث أو التصرف باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "usurpation_scenario_0078"
+  },
+  {
+    "id": "train_ar_usurpation_0086",
+    "text": "أحفظ صور الحساب المزيف قبل أن يختفي أمام أشخاص من محيطي أمام أشخاص من محيطي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "usurpation_scenario_0079"
+  },
+  {
+    "id": "train_ar_usurpation_0087",
+    "text": "حسابي الأصلي ما زال تحت سيطرتي، لكن شخصًا أنشأ نسخة مزيفة منه ويستخدمها للتواصل مع أصدقائي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0080"
+  },
+  {
+    "id": "train_ar_usurpation_0088",
+    "text": "لم تتغير كلمة مرور حسابي ولم أفقد الوصول إليه، وإنما ظهر حساب جديد يستخدم اسمي وصورتي وكأنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0080"
+  },
+  {
+    "id": "train_ar_usurpation_0089",
+    "text": "هناك حساب ينتحل هويتي، لكنه ليس حسابي الحقيقي ولم يحصل صاحبه على صلاحية الدخول إلى حسابي الأصلي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0080"
+  },
+  {
+    "id": "train_ar_usurpation_0090",
+    "text": "نشر شخص بعض بياناتي داخل الحساب المزيف، لكن المشكلة الأساسية أنه يستخدمها ليقنع الناس بأنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "usurpation_scenario_0081"
+  },
+  {
+    "id": "train_ar_usurpation_0091",
+    "text": "ظهرت معلومات شخصية عني في صفحة مزيفة، إلا أن صاحبها يستخدم هذه المعلومات لتقمص هويتي والتحدث باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "usurpation_scenario_0081"
+  },
+  {
+    "id": "train_ar_usurpation_0092",
+    "text": "أفكر في تقديم بلاغ عن الحساب، لكن المشكلة الأساسية أنه ينتحل اسمي وصورتي ويتواصل مع الآخرين باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "usurpation_scenario_0082"
+  },
+  {
+    "id": "train_ar_usurpation_0093",
+    "text": "قد أبلغ المنصة لاحقًا، لكنني أريد أولًا التأكد من أن المشكلة هي وجود حساب مزيف يتظاهر بأنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "usurpation_scenario_0082"
+  },
+  {
+    "id": "train_ar_usurpation_0094",
+    "text": "شخص يستخدم اسمي وصورتي في حساب مزيف، وأريد أن أعرف أيضًا ما المسؤولية القانونية عن انتحال هويتي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "usurpation_scenario_0083"
+  },
+  {
+    "id": "train_ar_usurpation_0095",
+    "text": "أريد فهم الجانب القانوني لاحقًا، لكن المشكلة الأساسية الآن أن شخصًا يتواصل مع معارفي من حساب ينتحل شخصيتي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "usurpation_scenario_0083"
+  },
+  {
+    "id": "train_ar_usurpation_0096",
+    "text": "ألتقط صورًا للحساب المزيف والرسائل التي يرسلها، لأنني أريد الاحتفاظ بما يثبت أنه يتظاهر بأنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "usurpation_scenario_0084"
+  },
+  {
+    "id": "train_ar_usurpation_0097",
+    "text": "لم أفقد الوصول إلى حسابي الحقيقي ولم تتغير بيانات الأمان فيه، لكن شخصًا آخر أنشأ حسابًا يشبهه جدًا ويستخدم اسمي وصورتي ويراسل أصدقائي، لذلك المشكلة الأساسية هي انتحال هويتي لا اختراق حسابي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0085"
+  },
+  {
+    "id": "train_ar_usurpation_0098",
+    "text": "استخدم صاحب الحساب المزيف بعض المعلومات الشخصية المنشورة عني، مثل مكان الدراسة والصورة والاسم الكامل، لكن الهدف الأساسي من استخدامها هو بناء ملف يبدو حقيقيًا والتواصل مع الآخرين على أنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "usurpation_scenario_0086"
+  },
+  {
+    "id": "train_ar_usurpation_0099",
+    "text": "بدأت أحفظ روابط الحساب المزيف ولقطات الشاشة للرسائل التي يرسلها باسمي، لكن سؤالي الأساسي ليس عن طريقة حفظ الأدلة؛ المشكلة أن شخصًا آخر يستخدم هويتي الرقمية ويمثل نفسه أمام الناس على أنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "usurpation_scenario_0087"
+  },
+  {
+    "id": "train_ar_usurpation_0100",
+    "text": "الحساب الحقيقي الخاص بي ما زال يعمل، لكن هناك صفحة أخرى تحمل اسمي وصورتي وتستخدم تفاصيل حقيقية عني لإقناع الناس بأنها صفحتي الرسمية، وبعض أصدقائي تواصلوا معها بالفعل معتقدين أنهم يتحدثون معي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0085"
+  }
+]

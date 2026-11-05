@@ -1,0 +1,1549 @@
+{
+  "status": "PASS",
+  "type": "diagnostic_fr_independent_v1",
+  "model_dir": "C:\\create_project.bat\\EMC_Helpline\\06_Development\\models\\saved_models\\camembert_final_v6",
+  "total": 55,
+  "correct": 53,
+  "errors": 2,
+  "accuracy": 0.9636363636363636,
+  "macro_precision": 0.9696969696969698,
+  "macro_recall": 0.9636363636363636,
+  "macro_f1": 0.9607438016528925,
+  "mean_confidence_all": 0.32090741883624685,
+  "mean_confidence_correct": 0.32258437714486754,
+  "mean_confidence_errors": 0.27646802365779877,
+  "mean_top1_top2_margin": 0.1987885370850563,
+  "per_intent": {
+    "Cyberharcèlement": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.36846572160720825,
+      "mean_margin": 0.2880650281906128,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Sextorsion": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.3082775831222534,
+      "mean_margin": 0.16295683085918428,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Piratage de compte": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.3165945768356323,
+      "mean_margin": 0.22466973662376405,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Divulgation de données personnelles (Doxing)": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.3236237525939941,
+      "mean_margin": 0.20832028836011887,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    },
+    "Conservation des preuves": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.29172016978263854,
+      "mean_margin": 0.18424787521362304,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Informations juridiques": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.3172655701637268,
+      "mean_margin": 0.20647359043359756,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Usurpation d'identité": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.31973946690559385,
+      "mean_margin": 0.21006148010492326,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Diffusion non consentie d'images": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.2969817519187927,
+      "mean_margin": 0.118525430560112,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Signalement": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.35580214858055115,
+      "mean_margin": 0.2603525176644325,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Situation d'urgence": {
+      "correct": 3,
+      "total": 5,
+      "mean_confidence": 0.2798089861869812,
+      "mean_margin": 0.11945833712816238,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.75
+    },
+    "Accompagnement de la victime": {
+      "correct": 5,
+      "total": 5,
+      "mean_confidence": 0.3517018795013428,
+      "mean_margin": 0.20354279279708862,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    }
+  },
+  "predictions": [
+    {
+      "id": "fr_diag_001",
+      "text": "Je reçois tous les jours des messages insultants sur les réseaux sociaux.",
+      "expected": "Cyberharcèlement",
+      "predicted": "Cyberharcèlement",
+      "correct": true,
+      "confidence": 0.3692154586315155,
+      "top1_top2_margin": 0.28827185928821564,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Cyberharcèlement",
+          "probability": 0.3692154586315155
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.08094359934329987
+        },
+        {
+          "rank": 3,
+          "label": "Accompagnement de la victime",
+          "probability": 0.07914189994335175
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_002",
+      "text": "Une personne m'envoie sans arrêt des messages humiliants et agressifs.",
+      "expected": "Cyberharcèlement",
+      "predicted": "Cyberharcèlement",
+      "correct": true,
+      "confidence": 0.36737555265426636,
+      "top1_top2_margin": 0.2851811423897743,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Cyberharcèlement",
+          "probability": 0.36737555265426636
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.08219441026449203
+        },
+        {
+          "rank": 3,
+          "label": "Accompagnement de la victime",
+          "probability": 0.07686851173639297
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_003",
+      "text": "On se moque de moi publiquement dans un groupe et cela continue depuis plusieurs jours.",
+      "expected": "Cyberharcèlement",
+      "predicted": "Cyberharcèlement",
+      "correct": true,
+      "confidence": 0.369369775056839,
+      "top1_top2_margin": 0.29007742553949356,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Cyberharcèlement",
+          "probability": 0.369369775056839
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.07929234951734543
+        },
+        {
+          "rank": 3,
+          "label": "Usurpation d'identité",
+          "probability": 0.07724758982658386
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_004",
+      "text": "Quelqu'un me harcèle avec des commentaires blessants sous chacune de mes publications.",
+      "expected": "Cyberharcèlement",
+      "predicted": "Cyberharcèlement",
+      "correct": true,
+      "confidence": 0.36771121621131897,
+      "top1_top2_margin": 0.28991062194108963,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Cyberharcèlement",
+          "probability": 0.36771121621131897
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.07780059427022934
+        },
+        {
+          "rank": 3,
+          "label": "Accompagnement de la victime",
+          "probability": 0.07384756207466125
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_005",
+      "text": "Je suis visé par des insultes répétées sur Internet et je ne sais plus comment réagir.",
+      "expected": "Cyberharcèlement",
+      "predicted": "Cyberharcèlement",
+      "correct": true,
+      "confidence": 0.36865660548210144,
+      "top1_top2_margin": 0.2868840917944908,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Cyberharcèlement",
+          "probability": 0.36865660548210144
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.08177251368761063
+        },
+        {
+          "rank": 3,
+          "label": "Accompagnement de la victime",
+          "probability": 0.07862792164087296
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_006",
+      "text": "Une personne menace de publier mes photos intimes si je ne lui donne pas d'argent.",
+      "expected": "Sextorsion",
+      "predicted": "Sextorsion",
+      "correct": true,
+      "confidence": 0.3208754360675812,
+      "top1_top2_margin": 0.18270890414714813,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Sextorsion",
+          "probability": 0.3208754360675812
+        },
+        {
+          "rank": 2,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.13816653192043304
+        },
+        {
+          "rank": 3,
+          "label": "Situation d'urgence",
+          "probability": 0.06955543160438538
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_007",
+      "text": "Il exige que je lui envoie d'autres photos privées sinon il diffusera celles qu'il possède.",
+      "expected": "Sextorsion",
+      "predicted": "Sextorsion",
+      "correct": true,
+      "confidence": 0.2975015938282013,
+      "top1_top2_margin": 0.09724080562591553,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Sextorsion",
+          "probability": 0.2975015938282013
+        },
+        {
+          "rank": 2,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.20026078820228577
+        },
+        {
+          "rank": 3,
+          "label": "Situation d'urgence",
+          "probability": 0.0631151795387268
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_008",
+      "text": "On me fait du chantage avec une vidéo intime et on me demande de payer.",
+      "expected": "Sextorsion",
+      "predicted": "Sextorsion",
+      "correct": true,
+      "confidence": 0.30192381143569946,
+      "top1_top2_margin": 0.18351717293262482,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Sextorsion",
+          "probability": 0.30192381143569946
+        },
+        {
+          "rank": 2,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.11840663850307465
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.08675725758075714
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_009",
+      "text": "Quelqu'un menace de montrer mes images privées à ma famille si je refuse de lui obéir.",
+      "expected": "Sextorsion",
+      "predicted": "Sextorsion",
+      "correct": true,
+      "confidence": 0.32282885909080505,
+      "top1_top2_margin": 0.18424928188323975,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Sextorsion",
+          "probability": 0.32282885909080505
+        },
+        {
+          "rank": 2,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.1385795772075653
+        },
+        {
+          "rank": 3,
+          "label": "Situation d'urgence",
+          "probability": 0.07013741880655289
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_010",
+      "text": "Je suis menacé de diffusion de contenu intime si je ne réponds pas aux demandes de cette personne.",
+      "expected": "Sextorsion",
+      "predicted": "Sextorsion",
+      "correct": true,
+      "confidence": 0.2982582151889801,
+      "top1_top2_margin": 0.1670679897069931,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Sextorsion",
+          "probability": 0.2982582151889801
+        },
+        {
+          "rank": 2,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.131190225481987
+        },
+        {
+          "rank": 3,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.0837935358285904
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_011",
+      "text": "Mon compte a été piraté et mon mot de passe a été changé sans mon autorisation.",
+      "expected": "Piratage de compte",
+      "predicted": "Piratage de compte",
+      "correct": true,
+      "confidence": 0.32132604718208313,
+      "top1_top2_margin": 0.23757630586624146,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Piratage de compte",
+          "probability": 0.32132604718208313
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.08374974131584167
+        },
+        {
+          "rank": 3,
+          "label": "Signalement",
+          "probability": 0.08138726651668549
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_012",
+      "text": "Je ne peux plus accéder à mon compte car quelqu'un a modifié mes identifiants.",
+      "expected": "Piratage de compte",
+      "predicted": "Piratage de compte",
+      "correct": true,
+      "confidence": 0.31897875666618347,
+      "top1_top2_margin": 0.2231549173593521,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Piratage de compte",
+          "probability": 0.31897875666618347
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.09582383930683136
+        },
+        {
+          "rank": 3,
+          "label": "Signalement",
+          "probability": 0.08218657225370407
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_013",
+      "text": "Une connexion inconnue a pris le contrôle de mon compte et a changé l'adresse de récupération.",
+      "expected": "Piratage de compte",
+      "predicted": "Piratage de compte",
+      "correct": true,
+      "confidence": 0.31820693612098694,
+      "top1_top2_margin": 0.23295603692531586,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Piratage de compte",
+          "probability": 0.31820693612098694
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.08525089919567108
+        },
+        {
+          "rank": 3,
+          "label": "Signalement",
+          "probability": 0.08341123908758163
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_014",
+      "text": "Quelqu'un s'est connecté à mon vrai compte et envoie maintenant des messages à ma place.",
+      "expected": "Piratage de compte",
+      "predicted": "Piratage de compte",
+      "correct": true,
+      "confidence": 0.3060727119445801,
+      "top1_top2_margin": 0.19490528851747513,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Piratage de compte",
+          "probability": 0.3060727119445801
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.11116742342710495
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.0892546996474266
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_015",
+      "text": "Mon compte est compromis, je vois des appareils inconnus et je n'arrive plus à sécuriser l'accès.",
+      "expected": "Piratage de compte",
+      "predicted": "Piratage de compte",
+      "correct": true,
+      "confidence": 0.318388432264328,
+      "top1_top2_margin": 0.23475613445043564,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Piratage de compte",
+          "probability": 0.318388432264328
+        },
+        {
+          "rank": 2,
+          "label": "Signalement",
+          "probability": 0.08363229781389236
+        },
+        {
+          "rank": 3,
+          "label": "Usurpation d'identité",
+          "probability": 0.07810121774673462
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_016",
+      "text": "Quelqu'un a publié mon adresse personnelle et mon numéro de téléphone sans mon accord.",
+      "expected": "Divulgation de données personnelles (Doxing)",
+      "predicted": "Divulgation de données personnelles (Doxing)",
+      "correct": true,
+      "confidence": 0.32621535658836365,
+      "top1_top2_margin": 0.20994925498962402,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.32621535658836365
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.11626610159873962
+        },
+        {
+          "rank": 3,
+          "label": "Conservation des preuves",
+          "probability": 0.07038944214582443
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_017",
+      "text": "Mes coordonnées privées ont été diffusées publiquement sur un forum.",
+      "expected": "Divulgation de données personnelles (Doxing)",
+      "predicted": "Divulgation de données personnelles (Doxing)",
+      "correct": true,
+      "confidence": 0.3225977122783661,
+      "top1_top2_margin": 0.19655029475688934,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.3225977122783661
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.12604741752147675
+        },
+        {
+          "rank": 3,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.06802479922771454
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_018",
+      "text": "Une personne a partagé mon adresse et mon lieu de travail sur les réseaux sociaux.",
+      "expected": "Divulgation de données personnelles (Doxing)",
+      "predicted": "Divulgation de données personnelles (Doxing)",
+      "correct": true,
+      "confidence": 0.3246382772922516,
+      "top1_top2_margin": 0.21447061002254486,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.3246382772922516
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.11016766726970673
+        },
+        {
+          "rank": 3,
+          "label": "Conservation des preuves",
+          "probability": 0.07663451135158539
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_019",
+      "text": "Des informations permettant de me localiser ont été publiées sans ma permission.",
+      "expected": "Divulgation de données personnelles (Doxing)",
+      "predicted": "Divulgation de données personnelles (Doxing)",
+      "correct": true,
+      "confidence": 0.3246071934700012,
+      "top1_top2_margin": 0.22025123238563538,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.3246071934700012
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.10435596108436584
+        },
+        {
+          "rank": 3,
+          "label": "Conservation des preuves",
+          "probability": 0.07503911107778549
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_020",
+      "text": "Mon numéro, mon adresse et d'autres données personnelles circulent maintenant publiquement.",
+      "expected": "Divulgation de données personnelles (Doxing)",
+      "predicted": "Divulgation de données personnelles (Doxing)",
+      "correct": true,
+      "confidence": 0.32006022334098816,
+      "top1_top2_margin": 0.20038004964590073,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.32006022334098816
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.11968017369508743
+        },
+        {
+          "rank": 3,
+          "label": "Conservation des preuves",
+          "probability": 0.07408559322357178
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_021",
+      "text": "Comment conserver correctement les messages et captures d'écran comme preuves ?",
+      "expected": "Conservation des preuves",
+      "predicted": "Conservation des preuves",
+      "correct": true,
+      "confidence": 0.307584673166275,
+      "top1_top2_margin": 0.19668617844581604,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Conservation des preuves",
+          "probability": 0.307584673166275
+        },
+        {
+          "rank": 2,
+          "label": "Informations juridiques",
+          "probability": 0.11089849472045898
+        },
+        {
+          "rank": 3,
+          "label": "Signalement",
+          "probability": 0.09925388544797897
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_022",
+      "text": "Je veux sauvegarder les preuves avant de bloquer la personne.",
+      "expected": "Conservation des preuves",
+      "predicted": "Conservation des preuves",
+      "correct": true,
+      "confidence": 0.28962546586990356,
+      "top1_top2_margin": 0.1868191957473755,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Conservation des preuves",
+          "probability": 0.28962546586990356
+        },
+        {
+          "rank": 2,
+          "label": "Informations juridiques",
+          "probability": 0.10280627012252808
+        },
+        {
+          "rank": 3,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.09113262593746185
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_023",
+      "text": "Comment éviter de perdre les messages qui prouvent ce que je subis ?",
+      "expected": "Conservation des preuves",
+      "predicted": "Conservation des preuves",
+      "correct": true,
+      "confidence": 0.28131812810897827,
+      "top1_top2_margin": 0.17509641498327255,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Conservation des preuves",
+          "probability": 0.28131812810897827
+        },
+        {
+          "rank": 2,
+          "label": "Signalement",
+          "probability": 0.10622171312570572
+        },
+        {
+          "rank": 3,
+          "label": "Informations juridiques",
+          "probability": 0.09668457508087158
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_024",
+      "text": "Dois-je garder les liens, captures et dates des publications pour constituer des preuves ?",
+      "expected": "Conservation des preuves",
+      "predicted": "Conservation des preuves",
+      "correct": true,
+      "confidence": 0.3061482012271881,
+      "top1_top2_margin": 0.1911492943763733,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Conservation des preuves",
+          "probability": 0.3061482012271881
+        },
+        {
+          "rank": 2,
+          "label": "Informations juridiques",
+          "probability": 0.11499890685081482
+        },
+        {
+          "rank": 3,
+          "label": "Signalement",
+          "probability": 0.09946518391370773
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_025",
+      "text": "Je souhaite documenter tout ce qui s'est passé afin de garder une trace fiable.",
+      "expected": "Conservation des preuves",
+      "predicted": "Conservation des preuves",
+      "correct": true,
+      "confidence": 0.2739243805408478,
+      "top1_top2_margin": 0.17148829251527786,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Conservation des preuves",
+          "probability": 0.2739243805408478
+        },
+        {
+          "rank": 2,
+          "label": "Informations juridiques",
+          "probability": 0.10243608802556992
+        },
+        {
+          "rank": 3,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.09428120404481888
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_026",
+      "text": "Que dit la loi concernant le harcèlement en ligne ?",
+      "expected": "Informations juridiques",
+      "predicted": "Informations juridiques",
+      "correct": true,
+      "confidence": 0.33338186144828796,
+      "top1_top2_margin": 0.221183143556118,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Informations juridiques",
+          "probability": 0.33338186144828796
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.11219871789216995
+        },
+        {
+          "rank": 3,
+          "label": "Signalement",
+          "probability": 0.07240209728479385
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_027",
+      "text": "Quels sont mes droits si quelqu'un diffuse mes données personnelles sans accord ?",
+      "expected": "Informations juridiques",
+      "predicted": "Informations juridiques",
+      "correct": true,
+      "confidence": 0.31525641679763794,
+      "top1_top2_margin": 0.18989479541778564,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Informations juridiques",
+          "probability": 0.31525641679763794
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.1253616213798523
+        },
+        {
+          "rank": 3,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.09139956533908844
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_028",
+      "text": "Est-ce que publier une photo privée sans consentement est puni par la loi ?",
+      "expected": "Informations juridiques",
+      "predicted": "Informations juridiques",
+      "correct": true,
+      "confidence": 0.32770147919654846,
+      "top1_top2_margin": 0.21156278252601624,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Informations juridiques",
+          "probability": 0.32770147919654846
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.11613869667053223
+        },
+        {
+          "rank": 3,
+          "label": "Signalement",
+          "probability": 0.07392539083957672
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_029",
+      "text": "Je voudrais connaître les sanctions prévues pour ce type de cyberviolence.",
+      "expected": "Informations juridiques",
+      "predicted": "Informations juridiques",
+      "correct": true,
+      "confidence": 0.31953635811805725,
+      "top1_top2_margin": 0.21248432248830795,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Informations juridiques",
+          "probability": 0.31953635811805725
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.1070520356297493
+        },
+        {
+          "rank": 3,
+          "label": "Accompagnement de la victime",
+          "probability": 0.07931714504957199
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_030",
+      "text": "Quels recours juridiques existent dans une situation comme la mienne ?",
+      "expected": "Informations juridiques",
+      "predicted": "Informations juridiques",
+      "correct": true,
+      "confidence": 0.2904517352581024,
+      "top1_top2_margin": 0.19724290817975998,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Informations juridiques",
+          "probability": 0.2904517352581024
+        },
+        {
+          "rank": 2,
+          "label": "Accompagnement de la victime",
+          "probability": 0.09320882707834244
+        },
+        {
+          "rank": 3,
+          "label": "Conservation des preuves",
+          "probability": 0.08639302104711533
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_031",
+      "text": "Quelqu'un a créé un faux compte avec mon nom et ma photo.",
+      "expected": "Usurpation d'identité",
+      "predicted": "Usurpation d'identité",
+      "correct": true,
+      "confidence": 0.32722413539886475,
+      "top1_top2_margin": 0.22503557801246643,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Usurpation d'identité",
+          "probability": 0.32722413539886475
+        },
+        {
+          "rank": 2,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.10218855738639832
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.0926840752363205
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_032",
+      "text": "Une personne se fait passer pour moi sur Instagram alors que mon vrai compte fonctionne encore.",
+      "expected": "Usurpation d'identité",
+      "predicted": "Usurpation d'identité",
+      "correct": true,
+      "confidence": 0.3242025375366211,
+      "top1_top2_margin": 0.21017558127641678,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Usurpation d'identité",
+          "probability": 0.3242025375366211
+        },
+        {
+          "rank": 2,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.11402695626020432
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.09005971997976303
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_033",
+      "text": "Un profil utilise mon identité pour écrire à d'autres personnes à ma place.",
+      "expected": "Usurpation d'identité",
+      "predicted": "Usurpation d'identité",
+      "correct": true,
+      "confidence": 0.3244432806968689,
+      "top1_top2_margin": 0.2207653895020485,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Usurpation d'identité",
+          "probability": 0.3244432806968689
+        },
+        {
+          "rank": 2,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.1036778911948204
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.0920834168791771
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_034",
+      "text": "J'ai découvert un compte qui copie mes photos et prétend être moi.",
+      "expected": "Usurpation d'identité",
+      "predicted": "Usurpation d'identité",
+      "correct": true,
+      "confidence": 0.3012445867061615,
+      "top1_top2_margin": 0.19717830419540405,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Usurpation d'identité",
+          "probability": 0.3012445867061615
+        },
+        {
+          "rank": 2,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.10406628251075745
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.08927357196807861
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_035",
+      "text": "Quelqu'un utilise mon nom et mes informations personnelles pour se présenter comme moi.",
+      "expected": "Usurpation d'identité",
+      "predicted": "Usurpation d'identité",
+      "correct": true,
+      "confidence": 0.3215827941894531,
+      "top1_top2_margin": 0.1971525475382805,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Usurpation d'identité",
+          "probability": 0.3215827941894531
+        },
+        {
+          "rank": 2,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.12443024665117264
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.08806578069925308
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_036",
+      "text": "Une photo intime de moi a déjà été publiée sans mon consentement.",
+      "expected": "Diffusion non consentie d'images",
+      "predicted": "Diffusion non consentie d'images",
+      "correct": true,
+      "confidence": 0.3099166750907898,
+      "top1_top2_margin": 0.1594170480966568,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.3099166750907898
+        },
+        {
+          "rank": 2,
+          "label": "Sextorsion",
+          "probability": 0.150499626994133
+        },
+        {
+          "rank": 3,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.06663425266742706
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_037",
+      "text": "Mon ex a diffusé des images privées que nous avions prises ensemble.",
+      "expected": "Diffusion non consentie d'images",
+      "predicted": "Diffusion non consentie d'images",
+      "correct": true,
+      "confidence": 0.29651540517807007,
+      "top1_top2_margin": 0.11063700914382935,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.29651540517807007
+        },
+        {
+          "rank": 2,
+          "label": "Sextorsion",
+          "probability": 0.18587839603424072
+        },
+        {
+          "rank": 3,
+          "label": "Informations juridiques",
+          "probability": 0.06226836144924164
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_038",
+      "text": "Une vidéo personnelle a été partagée dans un groupe sans mon autorisation.",
+      "expected": "Diffusion non consentie d'images",
+      "predicted": "Diffusion non consentie d'images",
+      "correct": true,
+      "confidence": 0.3067969083786011,
+      "top1_top2_margin": 0.14783748984336853,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.3067969083786011
+        },
+        {
+          "rank": 2,
+          "label": "Sextorsion",
+          "probability": 0.15895941853523254
+        },
+        {
+          "rank": 3,
+          "label": "Conservation des preuves",
+          "probability": 0.06402575224637985
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_039",
+      "text": "Des photos sensibles de moi circulent maintenant sur Internet sans mon accord.",
+      "expected": "Diffusion non consentie d'images",
+      "predicted": "Diffusion non consentie d'images",
+      "correct": true,
+      "confidence": 0.30314773321151733,
+      "top1_top2_margin": 0.12237909436225891,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.30314773321151733
+        },
+        {
+          "rank": 2,
+          "label": "Sextorsion",
+          "probability": 0.18076863884925842
+        },
+        {
+          "rank": 3,
+          "label": "Informations juridiques",
+          "probability": 0.06312669813632965
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_040",
+      "text": "Quelqu'un a transmis mes images privées à d'autres personnes sans me demander.",
+      "expected": "Diffusion non consentie d'images",
+      "predicted": "Diffusion non consentie d'images",
+      "correct": true,
+      "confidence": 0.26853203773498535,
+      "top1_top2_margin": 0.05235651135444641,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Diffusion non consentie d'images",
+          "probability": 0.26853203773498535
+        },
+        {
+          "rank": 2,
+          "label": "Sextorsion",
+          "probability": 0.21617552638053894
+        },
+        {
+          "rank": 3,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.07816553860902786
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_041",
+      "text": "Comment signaler ce compte sur la plateforme ?",
+      "expected": "Signalement",
+      "predicted": "Signalement",
+      "correct": true,
+      "confidence": 0.35317105054855347,
+      "top1_top2_margin": 0.258101224899292,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Signalement",
+          "probability": 0.35317105054855347
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.09506982564926147
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.09081786125898361
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_042",
+      "text": "Où puis-je signaler officiellement ce contenu abusif ?",
+      "expected": "Signalement",
+      "predicted": "Signalement",
+      "correct": true,
+      "confidence": 0.3574749529361725,
+      "top1_top2_margin": 0.26201873272657394,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Signalement",
+          "probability": 0.3574749529361725
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.09545622020959854
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.08231648802757263
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_043",
+      "text": "Je veux faire un signalement contre ce profil, comment procéder ?",
+      "expected": "Signalement",
+      "predicted": "Signalement",
+      "correct": true,
+      "confidence": 0.3542952835559845,
+      "top1_top2_margin": 0.26394183188676834,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Signalement",
+          "probability": 0.3542952835559845
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.09035345166921616
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.08471507579088211
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_044",
+      "text": "Quelle est la procédure pour signaler ces messages à la plateforme ?",
+      "expected": "Signalement",
+      "predicted": "Signalement",
+      "correct": true,
+      "confidence": 0.35786905884742737,
+      "top1_top2_margin": 0.2573397308588028,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Signalement",
+          "probability": 0.35786905884742737
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.10052932798862457
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.07980986684560776
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_045",
+      "text": "Je voudrais savoir à qui signaler ce comportement en ligne.",
+      "expected": "Signalement",
+      "predicted": "Signalement",
+      "correct": true,
+      "confidence": 0.3562003970146179,
+      "top1_top2_margin": 0.26036106795072556,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Signalement",
+          "probability": 0.3562003970146179
+        },
+        {
+          "rank": 2,
+          "label": "Conservation des preuves",
+          "probability": 0.09583932906389236
+        },
+        {
+          "rank": 3,
+          "label": "Piratage de compte",
+          "probability": 0.07940494269132614
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_046",
+      "text": "La personne qui me menace dit qu'elle arrive chez moi maintenant.",
+      "expected": "Situation d'urgence",
+      "predicted": "Situation d'urgence",
+      "correct": true,
+      "confidence": 0.2814009487628937,
+      "top1_top2_margin": 0.12746791541576385,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Situation d'urgence",
+          "probability": 0.2814009487628937
+        },
+        {
+          "rank": 2,
+          "label": "Accompagnement de la victime",
+          "probability": 0.15393303334712982
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.08305924385786057
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_047",
+      "text": "Quelqu'un connaît mon adresse et dit qu'il est devant ma maison.",
+      "expected": "Situation d'urgence",
+      "predicted": "Divulgation de données personnelles (Doxing)",
+      "correct": false,
+      "confidence": 0.24490180611610413,
+      "top1_top2_margin": 0.12881062179803848,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Divulgation de données personnelles (Doxing)",
+          "probability": 0.24490180611610413
+        },
+        {
+          "rank": 2,
+          "label": "Usurpation d'identité",
+          "probability": 0.11609118431806564
+        },
+        {
+          "rank": 3,
+          "label": "Situation d'urgence",
+          "probability": 0.10116983950138092
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_048",
+      "text": "Je pense que je suis en danger immédiat à cause de cette personne.",
+      "expected": "Situation d'urgence",
+      "predicted": "Situation d'urgence",
+      "correct": true,
+      "confidence": 0.2906186580657959,
+      "top1_top2_margin": 0.13238155841827393,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Situation d'urgence",
+          "probability": 0.2906186580657959
+        },
+        {
+          "rank": 2,
+          "label": "Accompagnement de la victime",
+          "probability": 0.15823709964752197
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.07673805207014084
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_049",
+      "text": "Les menaces sont devenues physiques et la personne dit qu'elle va venir me faire du mal aujourd'hui.",
+      "expected": "Situation d'urgence",
+      "predicted": "Situation d'urgence",
+      "correct": true,
+      "confidence": 0.2740892767906189,
+      "top1_top2_margin": 0.10849961638450623,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Situation d'urgence",
+          "probability": 0.2740892767906189
+        },
+        {
+          "rank": 2,
+          "label": "Accompagnement de la victime",
+          "probability": 0.16558966040611267
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.09253167361021042
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_050",
+      "text": "Après ce qui m'arrive en ligne, je pense à me faire du mal maintenant.",
+      "expected": "Situation d'urgence",
+      "predicted": "Accompagnement de la victime",
+      "correct": false,
+      "confidence": 0.3080342411994934,
+      "top1_top2_margin": 0.10013197362422943,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Accompagnement de la victime",
+          "probability": 0.3080342411994934
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.20790226757526398
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.07836006581783295
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_051",
+      "text": "J'ai besoin de quelqu'un pour m'écouter et m'aider à traverser cette situation.",
+      "expected": "Accompagnement de la victime",
+      "predicted": "Accompagnement de la victime",
+      "correct": true,
+      "confidence": 0.3536687195301056,
+      "top1_top2_margin": 0.21095551550388336,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Accompagnement de la victime",
+          "probability": 0.3536687195301056
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.14271320402622223
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.07864537090063095
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_052",
+      "text": "Je me sens perdue après ce qui s'est passé et j'ai besoin de soutien.",
+      "expected": "Accompagnement de la victime",
+      "predicted": "Accompagnement de la victime",
+      "correct": true,
+      "confidence": 0.34949782490730286,
+      "top1_top2_margin": 0.1887950748205185,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Accompagnement de la victime",
+          "probability": 0.34949782490730286
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.16070275008678436
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.07634326070547104
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_053",
+      "text": "J'aimerais être accompagnée étape par étape sans avoir à gérer tout cela seule.",
+      "expected": "Accompagnement de la victime",
+      "predicted": "Accompagnement de la victime",
+      "correct": true,
+      "confidence": 0.3494698405265808,
+      "top1_top2_margin": 0.21429483592510223,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Accompagnement de la victime",
+          "probability": 0.3494698405265808
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.13517500460147858
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.08131593465805054
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_054",
+      "text": "Cette expérience m'a beaucoup affectée et j'ai besoin d'aide pour retrouver confiance.",
+      "expected": "Accompagnement de la victime",
+      "predicted": "Accompagnement de la victime",
+      "correct": true,
+      "confidence": 0.35065075755119324,
+      "top1_top2_margin": 0.1922391802072525,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Accompagnement de la victime",
+          "probability": 0.35065075755119324
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.15841157734394073
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.07817976176738739
+        }
+      ]
+    },
+    {
+      "id": "fr_diag_055",
+      "text": "Je veux parler à quelqu'un qui puisse me soutenir et m'aider à organiser les prochaines étapes.",
+      "expected": "Accompagnement de la victime",
+      "predicted": "Accompagnement de la victime",
+      "correct": true,
+      "confidence": 0.35522225499153137,
+      "top1_top2_margin": 0.21142935752868652,
+      "top3": [
+        {
+          "rank": 1,
+          "label": "Accompagnement de la victime",
+          "probability": 0.35522225499153137
+        },
+        {
+          "rank": 2,
+          "label": "Situation d'urgence",
+          "probability": 0.14379289746284485
+        },
+        {
+          "rank": 3,
+          "label": "Cyberharcèlement",
+          "probability": 0.07666825503110886
+        }
+      ]
+    }
+  ]
+}

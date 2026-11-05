@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train_ar_doxing_0001",
+    "text": "نشر شخص عنوان منزلي ورقم هاتفي علنًا دون إذني.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0001"
+  },
+  {
+    "id": "train_ar_doxing_0002",
+    "text": "شارك أحدهم بياناتي الشخصية في مجموعة عامة من دون موافقتي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0002"
+  },
+  {
+    "id": "train_ar_doxing_0003",
+    "text": "تم نشر مكان عملي ورقم هاتفي على الإنترنت بقصد كشف هويتي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0003"
+  },
+  {
+    "id": "train_ar_doxing_0004",
+    "text": "وجدت عنوان سكني منشورًا في تعليق عام مع اسمي الكامل.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0004"
+  },
+  {
+    "id": "train_ar_doxing_0005",
+    "text": "شخص نشر معلومات خاصة عني كي يتمكن الآخرون من الوصول إلي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0005"
+  },
+  {
+    "id": "train_ar_doxing_0006",
+    "text": "تم تداول رقم هاتفي الشخصي بين أشخاص لا أعرفهم دون موافقتي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0006"
+  },
+  {
+    "id": "train_ar_doxing_0007",
+    "text": "نشر أحدهم اسم الشارع الذي أسكن فيه مع صور لمدخل المبنى.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0007"
+  },
+  {
+    "id": "train_ar_doxing_0008",
+    "text": "وجدت بيانات عائلتي ومكان عملي منشورة في صفحة عامة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0008"
+  },
+  {
+    "id": "train_ar_doxing_0009",
+    "text": "شارك شخص معلومات تحدد موقعي المعتاد وأوقات وجودي هناك.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0009"
+  },
+  {
+    "id": "train_ar_doxing_0010",
+    "text": "أُعلن بريدي الشخصي ورقم هاتفي ومدينة إقامتي في منشور واحد.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0010"
+  },
+  {
+    "id": "train_ar_doxing_0011",
+    "text": "قام شخص بجمع تفاصيل من حساباتي المختلفة ثم نشرها معًا في منشور عام كي يعرف الناس من أكون وأين يمكن العثور علي. وقد بدأ بعض الغرباء بالفعل بمراسلة أفراد من عائلتي اعتمادًا على هذه التفاصيل المنشورة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0011"
+  },
+  {
+    "id": "train_ar_doxing_0012",
+    "text": "تم نشر اسمي الكامل وعنوان منزلي ومكان عملي في منتدى مفتوح، ولم أوافق مطلقًا على مشاركة هذه البيانات بهذه الطريقة. ثم انتقلت المعلومات إلى صفحات أخرى وأصبح من الصعب معرفة عدد الأشخاص الذين وصلوا إليها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0012"
+  },
+  {
+    "id": "train_ar_doxing_0013",
+    "text": "وجدت منشورًا يحتوي على رقم هاتفي الخاص وصورة لبطاقتي المهنية ومعلومات عن الحي الذي أعيش فيه، وكل ذلك نشر دون إذني. وبعد نشرها بدأت أتلقى اتصالات من أشخاص يشيرون إلى تفاصيل لم أشاركها معهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0013"
+  },
+  {
+    "id": "train_ar_doxing_0014",
+    "text": "شخص مجهول نشر تفاصيل دقيقة عن مواعيدي اليومية والأماكن التي أزورها عادة، فأصبح أشخاص غرباء يعرفون أين يمكن أن يجدوني. وأصبح هذا ينعكس على حياتي اليومية لأن بعض الغرباء صاروا يذكرون الأماكن نفسها عند التواصل معي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0014"
+  },
+  {
+    "id": "train_ar_doxing_0015",
+    "text": "قام أحدهم بنشر عنوان منزلي وربطه بصور من حسابي الشخصي، ثم شجع الآخرين على مشاركة المنشور كي تنتشر معلوماتي أكثر. وبعد إعادة مشاركة المنشور في أكثر من مكان وصلت البيانات إلى أشخاص لا تربطني بهم أي علاقة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0015"
+  },
+  {
+    "id": "train_ar_doxing_0016",
+    "text": "اكتشفت أن شخصًا نقل معلومات شخصية من ملفاتي القديمة، مثل رقم الهاتف ومكان العمل، ونشرها في قناة عامة مع اسمي وصورتي. ثم بدأت هذه المعلومات تظهر في نقاشات أخرى لا علاقة لها بالحساب الذي أُخذت منه.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0016"
+  },
+  {
+    "id": "train_ar_doxing_0017",
+    "text": "بعد خلاف عبر الإنترنت، جمع الطرف الآخر اسمي الكامل وعنوان السكن ورقم الهاتف ثم نشرها دفعة واحدة أمام عدد كبير من الأشخاص. وبعد ذلك انتقلت البيانات إلى مجموعات أخرى وبدأ أشخاص غرباء يستخدمونها للتواصل معي مباشرة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0017"
+  },
+  {
+    "id": "train_ar_doxing_0018",
+    "text": "وجدت بيانات تتعلق بأسرتي ومكان دراستي ورقم هاتفي موزعة في عدة منشورات عامة، ويبدو أن شخصًا تعمد تجميعها لكشف تفاصيل حياتي. ومع مرور الوقت اكتشفت أن كل منشور جديد يضيف جزءًا آخر من المعلومات التي تكشف تفاصيل حياتي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0018"
+  },
+  {
+    "id": "train_ar_doxing_0019",
+    "text": "نشر شخص تفاصيل عن الحي الذي أعيش فيه والطريق الذي أسلكه عادة إلى العمل، ثم أضاف رقم هاتفي الشخصي حتى يتمكن الآخرون من التواصل معي مباشرة. وهو ما جعل أشخاصًا خارج محيطي يعرفون تفاصيل لم يسبق أن شاركتها معهم أو مع الجمهور.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0019"
+  },
+  {
+    "id": "train_ar_doxing_0020",
+    "text": "لم تعد المشكلة مجرد تعليق مسيء؛ شخص ما نشر معلومات تكشف هويتي ومكان إقامتي ووسائل الاتصال بي أمام جمهور واسع دون أي إذن مني. وبعد انتشار المنشور بدأت تصلني رسائل تشير بوضوح إلى أن تلك البيانات استُخدمت للوصول إلي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0020"
+  },
+  {
+    "id": "train_ar_doxing_0021",
+    "text": "أصبح غرباء يعرفون رقم هاتفي رغم أنني لم أشاركه معهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0021"
+  },
+  {
+    "id": "train_ar_doxing_0022",
+    "text": "بدأ أشخاص لا أعرفهم يذكرون الحي الذي أسكن فيه.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0022"
+  },
+  {
+    "id": "train_ar_doxing_0023",
+    "text": "وصلتني رسائل من أشخاص يقولون إنهم وجدوا بياناتي في منشور عام.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0023"
+  },
+  {
+    "id": "train_ar_doxing_0024",
+    "text": "صار آخرون يعرفون مكان عملي مع أنني لم أعلنه في أي مكان مفتوح.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0024"
+  },
+  {
+    "id": "train_ar_doxing_0025",
+    "text": "تفاصيل عن حياتي الخاصة أصبحت متداولة بين أشخاص لا أعرفهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0025"
+  },
+  {
+    "id": "train_ar_doxing_0026",
+    "text": "بدأ غرباء يسألونني عن عنوان لم أخبرهم به من قبل.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0026"
+  },
+  {
+    "id": "train_ar_doxing_0027",
+    "text": "أشخاص مجهولون أصبحوا يعرفون أوقات وجودي في أماكن معينة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0027"
+  },
+  {
+    "id": "train_ar_doxing_0028",
+    "text": "تم التواصل مع أفراد من عائلتي بعد انتشار معلومات لم أنشرها أنا.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0028"
+  },
+  {
+    "id": "train_ar_doxing_0029",
+    "text": "تلقيت اتصالات كثيرة بعد ظهور رقمي في مكان عام على الإنترنت.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0029"
+  },
+  {
+    "id": "train_ar_doxing_0030",
+    "text": "اكتشفت أن اسمي الحقيقي مرتبط الآن بعنوان سكني في نتائج منشورة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0030"
+  },
+  {
+    "id": "train_ar_doxing_0031",
+    "text": "منذ أيام تصلني اتصالات من أرقام مجهولة، ثم أخبرني أحد المتصلين أنه وجد رقم هاتفي مع اسمي في منشور متداول.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0031"
+  },
+  {
+    "id": "train_ar_doxing_0032",
+    "text": "أصبح بعض الأشخاص يذكرون تفاصيل دقيقة عن مكان عملي ووقت خروجي منه، مع أن هذه المعلومات لم تكن متاحة في حساباتي العامة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0032"
+  },
+  {
+    "id": "train_ar_doxing_0033",
+    "text": "بدأت ألاحظ أن غرباء يعرفون معلومات عن أسرتي ومكان سكني، وبعد البحث وجدت أن هذه التفاصيل نُقلت إلى مساحة عامة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0033"
+  },
+  {
+    "id": "train_ar_doxing_0034",
+    "text": "وصلت رسائل إلى أفراد من عائلتي من أشخاص لا يعرفونهم، ثم تبين أن أرقامهم نُشرت ضمن معلومات مرتبطة باسمي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0034"
+  },
+  {
+    "id": "train_ar_doxing_0035",
+    "text": "وجد صديق لي صفحة تتضمن اسمي وصورتي وتفاصيل عن المنطقة التي أعيش فيها، وهي معلومات لم أضعها بنفسي في ذلك المكان.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0035"
+  },
+  {
+    "id": "train_ar_doxing_0036",
+    "text": "بدأت أتلقى زيارات رقمية ورسائل من أشخاص يذكرون أماكن أذهب إليها بانتظام، ما جعلني أكتشف أن جدول تحركاتي أصبح متاحًا للعامة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0036"
+  },
+  {
+    "id": "train_ar_doxing_0037",
+    "text": "في البداية ظننت أن تواصل الغرباء معي مصادفة، لكن أحدهم أرسل لي رابطًا يتضمن اسمي ورقمي ومكان عملي ضمن قائمة منشورة للجميع. ومع كل رسالة جديدة كنت أكتشف أن مزيدًا من الأشخاص وصلوا إلى البيانات المنشورة وأعادوا تداولها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0037"
+  },
+  {
+    "id": "train_ar_doxing_0038",
+    "text": "أصبح أشخاص من خارج محيطي يعرفون تفاصيل شخصية دقيقة عني، وبعد التحقق تبين أن هناك من جمعها من مصادر مختلفة ووضعها في منشور واحد. ثم لاحظت أن المعلومات نفسها بدأت تظهر في حسابات وصفحات أخرى خارج المكان الذي نُشرت فيه أول مرة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0038"
+  },
+  {
+    "id": "train_ar_doxing_0039",
+    "text": "منذ أسبوعين بدأت تصل رسائل إلى هاتفي الشخصي من غرباء يشيرون إلى عنوان سكني ومكان عملي، ثم عثرت على منشور عام يجمع هذه المعلومات مع اسمي الكامل. ومع مرور الأيام صار بعض الغرباء يذكرون تفاصيل إضافية لم أكن أعلم أنها أصبحت متاحة للعامة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0039"
+  },
+  {
+    "id": "train_ar_doxing_0040",
+    "text": "لاحظت أن أشخاصًا لا أعرفهم صاروا يتحدثون عن عائلتي وطريقي اليومي ومكان دراستي، وعندما بحثت عن السبب وجدت تفاصيل كثيرة عني منشورة في صفحة مفتوحة. وبعد تتبع الروابط تبين أن المنشور الأصلي أُعيدت مشاركته مرات عديدة ووصل إلى جمهور أوسع بكثير.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0040"
+  },
+  {
+    "id": "train_ar_doxing_0041",
+    "text": "في مجموعة الجامعة نُشر رقم هاتفي ومكان سكني دون إذني.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0041"
+  },
+  {
+    "id": "train_ar_doxing_0042",
+    "text": "داخل منتدى الحي شارك شخص عنوان منزلي مع اسمي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0042"
+  },
+  {
+    "id": "train_ar_doxing_0043",
+    "text": "في مجموعة العمل نُشرت بيانات الاتصال الخاصة بي أمام الجميع.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0043"
+  },
+  {
+    "id": "train_ar_doxing_0044",
+    "text": "على صفحة عامة للطلاب ظهر اسمي مع رقم هاتفي الشخصي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0044"
+  },
+  {
+    "id": "train_ar_doxing_0045",
+    "text": "بعد خلاف في لعبة عبر الإنترنت، نشر أحد اللاعبين اسمي الحقيقي ومدينة إقامتي في دردشة عامة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0045"
+  },
+  {
+    "id": "train_ar_doxing_0046",
+    "text": "في مجموعة أولياء الأمور، شارك شخص رقم هاتفي وعنوان عملي رغم أنني لم أوافق على ذلك.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0046"
+  },
+  {
+    "id": "train_ar_doxing_0047",
+    "text": "داخل منتدى مهني، نشر عضو بيانات بطاقتي المهنية مع بريد شخصي لم أكن أستخدمه علنًا.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0047"
+  },
+  {
+    "id": "train_ar_doxing_0048",
+    "text": "على صفحة مرتبطة بالحي، ظهرت صورة لمدخل منزلي مع اسم الشارع واسمي الكامل.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0048"
+  },
+  {
+    "id": "train_ar_doxing_0049",
+    "text": "في قناة دراسية على Telegram، نشر أحدهم رقم هاتفي ومعلومات عن مكان دراستي ثم طلب من الآخرين إعادة مشاركتها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0049"
+  },
+  {
+    "id": "train_ar_doxing_0050",
+    "text": "بعد نقاش حاد في مجتمع رقمي، جمع شخص بياناتي من عدة حسابات ونشرها في رسالة واحدة أمام بقية الأعضاء.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0050"
+  },
+  {
+    "id": "train_ar_doxing_0051",
+    "text": "في فريق العمل عن بعد، فوجئت بزميل يضع عنواني الشخصي ورقم هاتفي في قناة مشتركة لا يحتاج أعضاء الفريق إلى الاطلاع عليها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0051"
+  },
+  {
+    "id": "train_ar_doxing_0052",
+    "text": "داخل مجموعة رياضية محلية، بدأ شخص يذكر تفاصيل عن الحي الذي أسكن فيه وأوقات حضوري للتدريب ثم نشر رقم هاتفي أيضًا.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0052"
+  },
+  {
+    "id": "train_ar_doxing_0053",
+    "text": "في منتدى خاص بالهوايات، ظهرت معلومات عن أسرتي ومكان عملي مرتبطة باسمي الحقيقي رغم أن حسابي هناك كان محدود المعلومات.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0053"
+  },
+  {
+    "id": "train_ar_doxing_0054",
+    "text": "أثناء حملة نقاش على منصة اجتماعية، نشر أحد المشاركين عنوان منزلي ومكان عملي كي يتمكن الآخرون من التعرف إلي خارج المنصة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0054"
+  },
+  {
+    "id": "train_ar_doxing_0055",
+    "text": "في مجموعة المدرسة القديمة، شارك شخص بيانات اتصال حديثة تخصني وعنوانًا لم أنشره لأعضاء المجموعة من قبل.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0055"
+  },
+  {
+    "id": "train_ar_doxing_0056",
+    "text": "داخل مجتمع ألعاب كنت أستخدم فيه اسمًا مستعارًا، كشف أحدهم اسمي الحقيقي ورقم هاتفي ومكان إقامتي أمام اللاعبين الآخرين.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0056"
+  },
+  {
+    "id": "train_ar_doxing_0057",
+    "text": "بعد مشكلة في مجموعة سكنية، قام أحد الأعضاء بنشر رقم شقتي واسم الشارع ورقم هاتفي في منشور يراه جميع سكان الحي. ثم وجدت أن بعض البيانات نُقلت إلى صفحات أخرى وبدأ غرباء يتواصلون معي اعتمادًا عليها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0057"
+  },
+  {
+    "id": "train_ar_doxing_0058",
+    "text": "في مجتمع مهني على الإنترنت، جمع شخص اسم الشركة التي أعمل فيها وموقعي الوظيفي ورقم هاتفي الشخصي ثم نشرها مع تعليق يدعو الناس إلى التواصل معي مباشرة. ومع انتشار الرسالة بدأ أشخاص من خارج المجتمع الرقمي يتواصلون معي مستخدمين تلك المعلومات الشخصية.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0058"
+  },
+  {
+    "id": "train_ar_doxing_0059",
+    "text": "خلال نقاش جامعي حاد، نشر أحد الطلاب اسمي الكامل ومكان إقامتي ورقم هاتفي في المجموعة العامة، ثم انتقلت المعلومات إلى مجموعات أخرى لم أشارك فيها أصلًا. وبعد ساعات لاحظت أن البيانات خرجت من المجموعة الأصلية وانتقلت إلى مساحات لم أكن عضوًا فيها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0059"
+  },
+  {
+    "id": "train_ar_doxing_0060",
+    "text": "على صفحة عامة مرتبطة بمدينة إقامتي، وجدت منشورًا يربط صورتي بعنوان المنزل ومكان العمل ومواعيد وجودي المعتادة، وقد بدأ غرباء يتواصلون معي اعتمادًا على تلك التفاصيل. ثم بدأ أشخاص غرباء يذكرون هذه التفاصيل عند مراسلتي، ما أكد لي أن المنشور انتشر خارج الصفحة الأصلية.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0060"
+  },
+  {
+    "id": "train_ar_doxing_0061",
+    "text": "تم كشف معلومات تحدد هويتي ومكاني أمام أشخاص لم أسمح لهم بذلك.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0061"
+  },
+  {
+    "id": "train_ar_doxing_0062",
+    "text": "تحولت بياناتي الخاصة إلى معلومات متاحة للعامة دون موافقتي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0062"
+  },
+  {
+    "id": "train_ar_doxing_0063",
+    "text": "جُمعت تفاصيل شخصية عني ثم عُرضت علنًا بطريقة تكشف من أكون.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0063"
+  },
+  {
+    "id": "train_ar_doxing_0064",
+    "text": "أصبحت وسائل الاتصال بي منشورة للناس من دون إذني.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0064"
+  },
+  {
+    "id": "train_ar_doxing_0065",
+    "text": "تم ربط اسمي الحقيقي بمعلومات سكني في مساحة عامة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0065"
+  },
+  {
+    "id": "train_ar_doxing_0066",
+    "text": "نُقلت تفاصيل من حياتي الخاصة إلى جمهور لم أختر مشاركتها معه أمام أشخاص غرباء لا أعرفهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0066"
+  },
+  {
+    "id": "train_ar_doxing_0067",
+    "text": "ما حدث هو كشف متعمد لمعلومات شخصية يمكن استخدامها للوصول إلي خارج الإنترنت، مثل مكان السكن ووسائل الاتصال.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0067"
+  },
+  {
+    "id": "train_ar_doxing_0068",
+    "text": "شخص جمع أجزاء متفرقة من بياناتي ثم ربطها معًا حتى أصبحت هويتي ومكاني واضحين أمام جمهور واسع.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0068"
+  },
+  {
+    "id": "train_ar_doxing_0069",
+    "text": "لم تُسرق أموالي أو حسابي، لكن معلوماتي الشخصية نفسها أصبحت منشورة بطريقة تجعل الوصول إلي في الواقع أسهل.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0069"
+  },
+  {
+    "id": "train_ar_doxing_0070",
+    "text": "تم تحويل تفاصيل كنت أعتبرها خاصة إلى ملف علني يضم اسمي ومكان إقامتي وبيانات الاتصال بي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0070"
+  },
+  {
+    "id": "train_ar_doxing_0071",
+    "text": "المشكلة أن معلومات تسمح بتحديد موقعي والتواصل معي أصبحت متاحة لأشخاص غرباء دون اختياري أمام أشخاص غرباء لا أعرفهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0071"
+  },
+  {
+    "id": "train_ar_doxing_0072",
+    "text": "نشر شخص بيانات تربط هويتي الرقمية بحياتي الواقعية، بما في ذلك مكان العمل والحي الذي أعيش فيه.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0072"
+  },
+  {
+    "id": "train_ar_doxing_0073",
+    "text": "أصبحت تفاصيل متعددة عني مجمعة في مكان واحد بصورة تسمح لأي شخص بمعرفة اسمي الحقيقي وطريقة الوصول إلي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0073"
+  },
+  {
+    "id": "train_ar_doxing_0074",
+    "text": "ما نُشر لا يقتصر على معلومة عامة واحدة، بل مجموعة بيانات شخصية تكشف هويتي وعلاقاتي وأماكن وجودي المعتادة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0074"
+  },
+  {
+    "id": "train_ar_doxing_0075",
+    "text": "تمت مشاركة معلومات كانت موزعة بين مصادر مختلفة ثم جُمعت في سياق واحد جعل التعرف إلي وتحديد مكاني أمرًا سهلًا.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0075"
+  },
+  {
+    "id": "train_ar_doxing_0076",
+    "text": "أواجه كشفًا غير مصرح به لبيانات شخصية حساسة نسبيًا، إذ أصبح عنواني ورقمي ومكان عملي متداولًا خارج الدوائر التي شاركتها معها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0076"
+  },
+  {
+    "id": "train_ar_doxing_0077",
+    "text": "في البداية لم أدرك حجم المشكلة، لكنني وجدت لاحقًا أن معلومات من حسابات مختلفة جُمعت وربطت باسمي الحقيقي ثم نُشرت في مساحة مفتوحة يمكن لأي شخص الوصول إليها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0077"
+  },
+  {
+    "id": "train_ar_doxing_0078",
+    "text": "ما حدث نقل معلومات شخصية من سياقات خاصة أو محدودة إلى مساحة عامة، وربط بينها بطريقة تكشف هويتي ومكان إقامتي ووسائل الاتصال بي بشكل واضح.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0078"
+  },
+  {
+    "id": "train_ar_doxing_0079",
+    "text": "لم يكن المقصود مجرد الحديث عني؛ جرى نشر بيانات عملية تسمح للغرباء بالعثور علي أو التواصل معي، مثل العنوان ورقم الهاتف ومكان العمل ومواعيد الحضور. وأصبح من السهل على أي شخص يقرأ المنشور الربط بين هويتي الرقمية ومكاني الواقعي ووسائل الاتصال بي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0079"
+  },
+  {
+    "id": "train_ar_doxing_0080",
+    "text": "أصبح ملف كامل تقريبًا عن حياتي الواقعية متاحًا على الإنترنت بعد أن جمع شخص تفاصيل عن اسمي وأسرتي وسكني وعلمي أو عملي ووسائل التواصل الخاصة بي ونشرها معًا. وقد جمع المنشور بين هذه التفاصيل في صورة واحدة تجعل التعرف إلي والوصول إلى محيطي الواقعي ممكنًا بسهولة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0080"
+  },
+  {
+    "id": "train_ar_doxing_0081",
+    "text": "نشر شخص اسمي الحقيقي وعنواني ورقم هاتفي، لكنه لم ينشئ حسابًا مزيفًا باسمي ولم يتظاهر بأنه أنا.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "doxing_scenario_0081"
+  },
+  {
+    "id": "train_ar_doxing_0082",
+    "text": "تم كشف بيانات هويتي ومكان سكني للعامة، بينما لا توجد مشكلة في شخص يستخدم حسابًا باسم مزيف لتمثيلي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "doxing_scenario_0081"
+  },
+  {
+    "id": "train_ar_doxing_0083",
+    "text": "وجدت معلوماتي الشخصية منشورة مع صورتي، والمشكلة الأساسية هي كشف البيانات لا قيام شخص بالتواصل مع الآخرين على أنه أنا.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "doxing_scenario_0082"
+  },
+  {
+    "id": "train_ar_doxing_0084",
+    "text": "استخدم شخص اسمي في المنشور، لكنه لم ينتحل شخصيتي؛ ما فعله هو نشر عنواني ووسائل الاتصال الخاصة بي دون موافقتي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "doxing_scenario_0082"
+  },
+  {
+    "id": "train_ar_doxing_0085",
+    "text": "ظهرت تفاصيل تحدد هويتي ومكاني علنًا، مع أن حساباتي الأصلية ما زالت تحت سيطرتي ولا يوجد حساب آخر يمثلني.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "doxing_scenario_0083"
+  },
+  {
+    "id": "train_ar_doxing_0086",
+    "text": "المشكلة ليست أن شخصًا يتصرف باسمي، بل أن بياناتي الواقعية جُمعت ونُشرت بحيث أصبح الغرباء يعرفون أين أعيش وكيف يتواصلون معي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "doxing_scenario_0083"
+  },
+  {
+    "id": "train_ar_doxing_0087",
+    "text": "بعد دخول غير مصرح به إلى حساب قديم، نُشر عنواني ورقم هاتفي للعامة، لكن الضرر الذي أواجهه الآن هو انتشار بياناتي الشخصية.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "doxing_scenario_0084"
+  },
+  {
+    "id": "train_ar_doxing_0088",
+    "text": "ربما حصل الشخص على المعلومات من حساب مخترق، إلا أن المشكلة الرئيسية أصبحت نشر اسمي وعنواني وبيانات الاتصال أمام الآخرين.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "doxing_scenario_0084"
+  },
+  {
+    "id": "train_ar_doxing_0089",
+    "text": "تم الوصول إلى حسابي سابقًا، ثم استُخدمت المعلومات الموجودة فيه لنشر مكان سكني وأرقام الاتصال بي في مساحة عامة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "doxing_scenario_0085"
+  },
+  {
+    "id": "train_ar_doxing_0090",
+    "text": "حتى بعد استعادة حسابي، بقيت بيانات شخصية أُخذت منه منشورة للعامة، ولذلك أصبحت المشكلة الأساسية هي كشف تلك البيانات وانتشارها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "doxing_scenario_0085"
+  },
+  {
+    "id": "train_ar_doxing_0091",
+    "text": "نشر شخص عنواني ورقم هاتفي أمام الجميع، وبدأت أفكر في الإبلاغ عن المنشور أمام أشخاص غرباء لا أعرفهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "doxing_scenario_0086"
+  },
+  {
+    "id": "train_ar_doxing_0092",
+    "text": "بياناتي الشخصية ما زالت متاحة في صفحة عامة، وقد أفكر في تقديم بلاغ لإزالتها أمام أشخاص غرباء لا أعرفهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "doxing_scenario_0086"
+  },
+  {
+    "id": "train_ar_doxing_0093",
+    "text": "بعد أن انتشرت معلومات عن منزلي ومكان عملي، بدأت أفكر في اتخاذ خطوة رسمية، لكن المشكلة الأساسية هي أن البيانات ما زالت منشورة ومتداولة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "doxing_scenario_0087"
+  },
+  {
+    "id": "train_ar_doxing_0094",
+    "text": "وجدت منشورًا يجمع اسمي وعنواني ورقم هاتفي، وربما أبلغ عنه لاحقًا، إلا أن قلقي الرئيسي الآن هو استمرار وصول الغرباء إلى هذه المعلومات.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "doxing_scenario_0087"
+  },
+  {
+    "id": "train_ar_doxing_0095",
+    "text": "وجدت عنواني ورقم هاتفي منشورين دون إذني، واحتفظت بلقطة شاشة للمنشور قبل أن يتغير أمام أشخاص غرباء لا أعرفهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "doxing_scenario_0088"
+  },
+  {
+    "id": "train_ar_doxing_0096",
+    "text": "أصبحت معلوماتي الشخصية متداولة علنًا، لذلك بدأت أوثق الصفحات التي تظهر فيها هذه البيانات أمام أشخاص غرباء لا أعرفهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "doxing_scenario_0088"
+  },
+  {
+    "id": "train_ar_doxing_0097",
+    "text": "بعد نشر تفاصيل عن منزلي ومكان عملي، حفظت الروابط ولقطات الشاشة كإجراء احتياطي، لكن المشكلة الأساسية ما زالت انتشار بياناتي بين الغرباء.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "doxing_scenario_0089"
+  },
+  {
+    "id": "train_ar_doxing_0098",
+    "text": "نشر شخص عنواني ورقم هاتفي دون موافقتي، وأتساءل أيضًا إن كان القانون يعاقب على كشف هذه البيانات.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "doxing_scenario_0090"
+  },
+  {
+    "id": "train_ar_doxing_0099",
+    "text": "وجدت معلومات عن منزلي وعائلتي منشورة للعامة، وبدأت أفكر في الجانب القانوني لهذا الكشف غير المصرح به.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "doxing_scenario_0090"
+  },
+  {
+    "id": "train_ar_doxing_0100",
+    "text": "بعد أن جُمعت بياناتي الشخصية ونُشرت في مكان مفتوح، أصبحت أتساءل عن الحماية القانونية الممكنة، لكن مشكلتي الأساسية هي أن المعلومات ما زالت متاحة للناس.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "doxing_scenario_0091"
+  }
+]

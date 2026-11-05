@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "train_ar_diffusion_images_0021",
+    "text": "بدأ أشخاص يرسلون لي صورة خاصة لم أشاركها معهم.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0021"
+  },
+  {
+    "id": "train_ar_accompagnement_0068",
+    "text": "أحتاج إلى من يساعدني على الانتقال من الشعور بالفوضى إلى خطوات واضحة يمكنني التعامل معها.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0062"
+  },
+  {
+    "id": "train_ar_accompagnement_0045",
+    "text": "في المدرسة أشعر بالخجل بعد الواقعة وأحتاج إلى مساعدة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0045"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0001",
+    "text": "يواصل نفس الشخص إهانتي بألفاظ مسيئة كل يوم تقريبًا.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0001"
+  },
+  {
+    "id": "train_ar_juridique_0033",
+    "text": "ما يشغلني هو معرفة حقوقي القانونية بعد هذا التصرف، وليس اتخاذ إجراء رسمي في الوقت الحالي.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0033"
+  },
+  {
+    "id": "train_ar_piratage_0010",
+    "text": "تم تفعيل بريد إلكتروني غريب كوسيلة استرداد لحسابي.",
+    "label": "Piratage de compte",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0004"
+  },
+  {
+    "id": "train_ar_preuves_0031",
+    "text": "بدأت أجمع الصور والرسائل والتعليقات في مجلد واحد حتى أتمكن من الرجوع إليها بسهولة.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0008"
+  },
+  {
+    "id": "train_ar_usurpation_0003",
+    "text": "شخص يستخدم اسمي للتواصل مع الآخرين وكأنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0003"
+  },
+  {
+    "id": "train_ar_urgence_0068",
+    "text": "أتعامل الآن مع خطر محتمل في الواقع بعد أن أصبحت التهديدات مرتبطة بموقعي الحالي في هذه اللحظة بشكل مباشر.",
+    "label": "Situation d'urgence",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0068"
+  },
+  {
+    "id": "train_ar_doxing_0076",
+    "text": "أواجه كشفًا غير مصرح به لبيانات شخصية حساسة نسبيًا، إذ أصبح عنواني ورقمي ومكان عملي متداولًا خارج الدوائر التي شاركتها معها.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0076"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0064",
+    "text": "أصبح تحقيري سلوكًا معتادًا يمارسه بانتظام.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0035"
+  },
+  {
+    "id": "train_ar_signalement_0032",
+    "text": "المحتوى ما زال منشورًا وأفكر في استخدام أدوات المنصة للإبلاغ عنه بدل تجاهله.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0032"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0002",
+    "text": "أتعرض لسخرية متكررة من نفس الشخص منذ أسابيع.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0001"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0057",
+    "text": "منذ انضمامي إلى مجموعة العمل التطوعي قبل بضعة أشهر، بدأ بعض الأعضاء يتناوبون على توجيه انتقادات مهينة لي في كل اجتماع افتراضي، وتطور الأمر تدريجيًا حتى أصبح شبه ثابت في كل نقاش جماعي نشارك فيه بغض النظر عن الموضوع المطروح.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0023"
+  },
+  {
+    "id": "train_ar_preuves_0090",
+    "text": "هناك سخرية متكررة في مجموعة رقمية، وأحتاج الآن إلى توثيق الرسائل والحسابات التي تنشرها مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "preuves_scenario_0082"
+  },
+  {
+    "id": "train_ar_doxing_0054",
+    "text": "أثناء حملة نقاش على منصة اجتماعية، نشر أحد المشاركين عنوان منزلي ومكان عملي كي يتمكن الآخرون من التعرف إلي خارج المنصة.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0054"
+  },
+  {
+    "id": "train_ar_juridique_0003",
+    "text": "أريد معرفة الإطار القانوني الذي ينطبق على ما حدث.",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0003"
+  },
+  {
+    "id": "train_ar_diffusion_images_0065",
+    "text": "تمت مشاركة مقطع شخصي لي خارج السياق الذي وافقت عليه أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0059"
+  },
+  {
+    "id": "train_ar_usurpation_0022",
+    "text": "هناك صفحة تستخدم صورتي وتجيب الناس كأنها تخصني.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0022"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0038",
+    "text": "في البداية لم ألاحظ الأمر بوضوح، لكن مع الوقت أدركت أنني أصبحت الهدف المفضل للسخرية في كل مرة أظهر فيها في أي نقاش، لدرجة أنني بدأت أتجنب المشاركة كليًا تجنبًا لتكرار الموقف نفسه مرارًا وتكرارًا.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0019"
+  },
+  {
+    "id": "train_ar_accompagnement_0094",
+    "text": "وثقت كل ما حدث، ومع ذلك ما زلت أشعر بالارتباك وأحتاج إلى مرافقة خلال الخطوات التالية.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "accompagnement_scenario_0084"
+  },
+  {
+    "id": "train_ar_doxing_0028",
+    "text": "تم التواصل مع أفراد من عائلتي بعد انتشار معلومات لم أنشرها أنا.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0028"
+  },
+  {
+    "id": "train_ar_usurpation_0005",
+    "text": "أحدهم يرسل رسائل للناس من حساب مزيف باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0005"
+  },
+  {
+    "id": "train_ar_diffusion_images_0025",
+    "text": "أشخاص لا أعرفهم يتحدثون عن مقطع خاص بي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0025"
+  },
+  {
+    "id": "train_ar_piratage_0022",
+    "text": "أصدقائي يرون نشاطًا من حسابي في أوقات أكون فيها غير متصل.",
+    "label": "Piratage de compte",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0015"
+  },
+  {
+    "id": "train_ar_urgence_0044",
+    "text": "على Instagram أرسل تهديدًا مباشرًا مع موقعي في هذه اللحظة بشكل مباشر في هذه اللحظة بشكل مباشر.",
+    "label": "Situation d'urgence",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0044"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0098",
+    "text": "منذ أسابيع أتلقى إهانات متكررة عبر الرسائل، وأتساءل أحيانًا إن كان هذا السلوك يخالف القانون.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "cyber_scenario_0053"
+  },
+  {
+    "id": "train_ar_usurpation_0089",
+    "text": "هناك حساب ينتحل هويتي، لكنه ليس حسابي الحقيقي ولم يحصل صاحبه على صلاحية الدخول إلى حسابي الأصلي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0080"
+  },
+  {
+    "id": "train_ar_preuves_0072",
+    "text": "أحتاج إلى سجل يجمع النصوص والصور والمقاطع مع الوقت والمصدر بدل أن تبقى متفرقة مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0067"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0037",
+    "text": "أصبحت أُقصى تدريجيًا من النقاشات بسبب تكرار السخرية الموجهة لي هناك، وهذا جعلني أبتعد شيئًا فشيئًا عن المشاركة كليًا.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0019"
+  },
+  {
+    "id": "train_ar_urgence_0071",
+    "text": "أخشى على سلامتي الآن لأن التهديد يتضمن وقتًا ومكانًا محددين وليس كلامًا عامًا فقط في هذه اللحظة بشكل مباشر.",
+    "label": "Situation d'urgence",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0071"
+  },
+  {
+    "id": "train_ar_diffusion_images_0089",
+    "text": "وصلتني تهديدات بالنشر ثم اكتشفت لاحقًا أن الصورة أُرسلت فعلًا إلى عدد من معارفي أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0080"
+  },
+  {
+    "id": "train_ar_preuves_0049",
+    "text": "في لعبة جماعية، ألتقط صورًا للدردشة وأحفظ اسم اللاعب ووقت كل رسالة حتى لا تضيع التفاصيل.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0039"
+  },
+  {
+    "id": "train_ar_piratage_0060",
+    "text": "بعد أن أدخلت بياناتي في موقع ظننته صفحة تسجيل الدخول الرسمية، بدأت المنصة ترسل لي تنبيهات من أجهزة متعددة، ثم تغيّر البريد ورقم الهاتف وفقدت الحساب بالكامل، وبعد ذلك ظهر نشاط جديد باسمي ورسائل أُرسلت إلى جهات اتصال لم أتواصل معها من قبل.",
+    "label": "Piratage de compte",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0035"
+  },
+  {
+    "id": "train_ar_signalement_0061",
+    "text": "أريد إحالة هذا المحتوى إلى المراجعة من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0061"
+  },
+  {
+    "id": "train_ar_doxing_0001",
+    "text": "نشر شخص عنوان منزلي ورقم هاتفي علنًا دون إذني.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0001"
+  },
+  {
+    "id": "train_ar_piratage_0085",
+    "text": "ما يحدث ليس مجرد استخدام لاسمي أو صورتي، لأن شخصًا آخر أصبح يتحكم فعليًا في الحساب الذي أنشأته أنا منذ سنوات.",
+    "label": "Piratage de compte",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "piratage_scenario_0056"
+  },
+  {
+    "id": "train_ar_accompagnement_0005",
+    "text": "أحتاج إلى مرافقة خطوة بخطوة بعد هذه الإساءة.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0005"
+  },
+  {
+    "id": "train_ar_sextorsion_0045",
+    "text": "تعرفت إلى شخص في لعبة عبر الإنترنت، وبعد أسابيع انتقل حديثنا إلى الرسائل الخاصة وأرسلت له صورًا حميمة لأنني وثقت به، لكنه بدأ لاحقًا يطلب مني شراء بطاقات رقمية له، ويقول في كل مرة إن الصور ستصل إلى لاعبين يعرفونني إذا لم أنفذ طلبه.",
+    "label": "Sextorsion",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0028"
+  },
+  {
+    "id": "train_ar_piratage_0031",
+    "text": "أشاهد منشورات جديدة على حسابي لم أكتبها، وبعضها نُشر أثناء نومي.",
+    "label": "Piratage de compte",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0015"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0032",
+    "text": "أصبحت أُعرض للسخرية أمام مجموعة كاملة من الأشخاص كلما تحدثت في أي نقاش عام، وهذا يحدث بانتظام منذ عدة أسابيع الآن.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0019"
+  },
+  {
+    "id": "train_ar_urgence_0100",
+    "text": "أعرف أنني سأحتاج إلى تقديم بلاغ رسمي وتوضيح الحسابات والرسائل لاحقًا، لكن الأولوية في هذه اللحظة هي سلامتي لأن الشخص الذي يهددني قال إنه قريب ويعرف مكاني الحالي ولهذا أتعامل مع الموقف باعتباره خطرًا حاضرًا يحتاج إلى استجابة سريعة.",
+    "label": "Situation d'urgence",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "urgence_scenario_0096"
+  },
+  {
+    "id": "train_ar_preuves_0080",
+    "text": "أريد أن تكون لدي نسخة مستقلة وآمنة من كل الأدلة الرقمية، مع ترتيب زمني وبيانات توضح مصدر كل عنصر، بحيث لا يؤدي حذف حساب أو تغيير هاتف أو اختفاء منشور إلى فقدان جزء مهم من السجل.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0075"
+  },
+  {
+    "id": "train_ar_diffusion_images_0048",
+    "text": "في مجموعة WhatsApp انتشرت صورة كنت قد أرسلتها لشخص واحد فقط ولم أوافق على مشاركتها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0042"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0042",
+    "text": "في مساحة العمل الرقمية، يتعمد بعض الزملاء استبعادي من النقاش ثم يسخرون مني كلما حاولت المشاركة.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0023"
+  },
+  {
+    "id": "train_ar_signalement_0029",
+    "text": "أفكر في تقديم شكوى عن الحساب، لكنني لا أعرف هل أبدأ من الصفحة نفسها أم من مركز المساعدة.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0029"
+  },
+  {
+    "id": "train_ar_diffusion_images_0003",
+    "text": "أرسل شخص صورتي الخاصة إلى آخرين دون رضاي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0003"
+  },
+  {
+    "id": "train_ar_sextorsion_0042",
+    "text": "سجّل مكالمة خاصة ويهدد بمشاركتها إن رفضت طلباته.",
+    "label": "Sextorsion",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0025"
+  },
+  {
+    "id": "train_ar_urgence_0004",
+    "text": "هو يعرف مكاني ويقول إنه قادم الآن.",
+    "label": "Situation d'urgence",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0004"
+  },
+  {
+    "id": "train_ar_sextorsion_0002",
+    "text": "قال إنه سيرسل صوري الخاصة إلى عائلتي إن رفضت تنفيذ طلباته.",
+    "label": "Sextorsion",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0002"
+  },
+  {
+    "id": "train_ar_juridique_0067",
+    "text": "أريد أن أفهم كيف يمكن تصنيف هذه الواقعة قانونيًا بعيدًا عن مسألة تقديم البلاغ أو حفظ الأدلة.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0059"
+  },
+  {
+    "id": "train_ar_urgence_0030",
+    "text": "قال إنه لن يكتفي بالرسائل هذه المرة، ثم ذكر موقعًا قريبًا من منزلي.",
+    "label": "Situation d'urgence",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0030"
+  },
+  {
+    "id": "train_ar_piratage_0070",
+    "text": "الحساب نفسه لم يختف، لكن مفاتيح الوصول إليه تغيّرت وأصبحت بيد شخص آخر لا أعرفه.",
+    "label": "Piratage de compte",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0045"
+  },
+  {
+    "id": "train_ar_usurpation_0059",
+    "text": "على LinkedIn ظهر ملف ينتحل هويتي المهنية ويستخدم صورتي ومساري الدراسي والوظيفي، ثم بدأ يتواصل مع شركات وأشخاص من شبكتي كما لو كنت أنا صاحب الملف بينما يظل حسابي الحقيقي منفصلًا عن هذا الملف ولا أتحكم في الحساب المزيف.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0053"
+  },
+  {
+    "id": "train_ar_urgence_0036",
+    "text": "لا أعرف إن كان سيصل فعلًا، لكن تهديده الحالي وتفاصيل مكاني تجعل الخطر يبدو جديًا.",
+    "label": "Situation d'urgence",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0036"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0072",
+    "text": "يتكرر إحراجي أمام الآخرين بطريقة تبدو مدروسة ومقصودة تمامًا من جانبه، وهذا يحدث في كل مرة تقريبًا دون أي استثناء يُذكر.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0041"
+  },
+  {
+    "id": "train_ar_preuves_0097",
+    "text": "قد أقدم بلاغًا لاحقًا عن الرسائل التي وصلتني، لكن ما أحتاجه الآن هو معرفة كيف أحفظ المحادثة كاملة مع التواريخ وأسماء الحسابات والروابط، حتى لا أفقد أي جزء إذا حُذف المحتوى قبل أن أتخذ الخطوة التالية.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "preuves_scenario_0086"
+  },
+  {
+    "id": "train_ar_usurpation_0025",
+    "text": "بعض معارفي يظنون أن حسابًا غريبًا يعود لي.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0025"
+  },
+  {
+    "id": "train_ar_juridique_0044",
+    "text": "بعد اختراق حسابي، أريد فهم الجانب القانوني لما حدث.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0044"
+  },
+  {
+    "id": "train_ar_juridique_0089",
+    "text": "احتفظت بلقطات الشاشة والرسائل، والآن أريد معرفة ما إذا كانت الواقعة نفسها تدخل ضمن فعل يعاقب عليه القانون.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "juridique_scenario_0083"
+  },
+  {
+    "id": "train_ar_juridique_0030",
+    "text": "لا أعرف إن كانت موافقتي مطلوبة قانونيًا قبل أن ينشر شخص هذا النوع من المحتوى عني.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0030"
+  },
+  {
+    "id": "train_ar_urgence_0093",
+    "text": "قد أقدم بلاغًا عن الحساب، لكن الأولوية الآن أن الشخص يهدد بالوصول إلي خلال دقائق.",
+    "label": "Situation d'urgence",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "urgence_scenario_0090"
+  },
+  {
+    "id": "train_ar_sextorsion_0072",
+    "text": "يشعرني بأن التحكم في مصير صوري الخاصة بيده وحده، ويستغل ذلك ليفرض علي أمورًا لم أوافق عليها.",
+    "label": "Sextorsion",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0055"
+  },
+  {
+    "id": "train_ar_doxing_0006",
+    "text": "تم تداول رقم هاتفي الشخصي بين أشخاص لا أعرفهم دون موافقتي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0006"
+  },
+  {
+    "id": "train_ar_usurpation_0077",
+    "text": "لا يتعلق الأمر فقط باستخدام صورة لي، بل إن شخصًا جمع اسمي وصورتي وبعض معلوماتي وأنشأ بها حسابًا يتواصل مع الناس ويتصرف أمامهم وكأنه أنا صاحب الهوية الحقيقية مع أنني لم أمنحه أي إذن لاستخدام هويتي أو التحدث باسمي أمام الآخرين.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0071"
+  },
+  {
+    "id": "train_ar_usurpation_0078",
+    "text": "أواجه استخدامًا غير مصرح به لهويتي الرقمية، حيث أنشأ شخص آخر ملفًا يحمل اسمي وصورتي ويصدر عنه كلام وتصرفات ينسبها الناس إلي رغم أنني لم أقم بها وقد أدى ذلك إلى ارتباك لدى أشخاص يعرفونني ويظنون أنهم يتعاملون معي فعلًا.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0072"
+  },
+  {
+    "id": "train_ar_urgence_0060",
+    "text": "أثناء عودتي من الجامعة بدأت تصلني رسائل تصف الطريق الذي أسلكه والسيارة القريبة مني، ثم قال الشخص إنه يتبعني، لذلك أشعر أن هناك خطرًا مباشرًا في هذه اللحظة لذلك أصبحت سلامتي الحالية هي الأولوية قبل أي خطوة رقمية أخرى.",
+    "label": "Situation d'urgence",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0060"
+  },
+  {
+    "id": "train_ar_juridique_0063",
+    "text": "ما التوصيف القانوني الممكن لهذا السلوك؟",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0059"
+  },
+  {
+    "id": "train_ar_piratage_0007",
+    "text": "لا أستطيع الدخول إلى حسابي لأن بيانات الاسترداد تغيرت فجأة.",
+    "label": "Piratage de compte",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0004"
+  },
+  {
+    "id": "train_ar_sextorsion_0081",
+    "text": "الصور الحميمة لم تُنشر حتى الآن، لكنه يهدد بنشرها إذا لم أدفع له.",
+    "label": "Sextorsion",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "sextorsion_scenario_0064"
+  },
+  {
+    "id": "train_ar_accompagnement_0001",
+    "text": "أحتاج إلى من يساندني بعد ما حدث.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0001"
+  },
+  {
+    "id": "train_ar_juridique_0084",
+    "text": "نُشرت بياناتي، وأريد فهم الحماية القانونية المتعلقة بذلك في هذه الواقعة الرقمية في هذه الواقعة الرقمية.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "juridique_scenario_0079"
+  },
+  {
+    "id": "train_ar_diffusion_images_0072",
+    "text": "هناك محتوى بصري يخصني يُعاد نشره ونسخه خارج أي نطاق وافقت عليه أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0066"
+  },
+  {
+    "id": "train_ar_sextorsion_0028",
+    "text": "يطلب مني أشياء لا أريدها، وكلما ترددت يلمح إلى أن المقطع الذي عنده قد لا يبقى سريًا.",
+    "label": "Sextorsion",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0019"
+  },
+  {
+    "id": "train_ar_juridique_0050",
+    "text": "بعد الدخول إلى حسابي دون إذني وتغيير بياناته، أريد أن أعرف كيف يُنظر قانونيًا إلى هذا النوع من الوصول.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0044"
+  },
+  {
+    "id": "train_ar_usurpation_0039",
+    "text": "بعض الأشخاص الذين لا أعرفهم تحدثوا معي عن محادثات سابقة يفترض أنهم أجروها معي، وبعد التحقق تبين أنهم كانوا يتواصلون مع حساب يستخدم اسمي وصورتي بينما يظل حسابي الحقيقي منفصلًا عن هذا الملف ولا أتحكم في الحساب المزيف.",
+    "label": "Usurpation d'identité",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0039"
+  },
+  {
+    "id": "train_ar_signalement_0043",
+    "text": "على Facebook أريد التبليغ عن منشور مسيء.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0043"
+  },
+  {
+    "id": "train_ar_piratage_0086",
+    "text": "حتى لو كان يكتب باسمي، فإن المشكلة الأساسية أن وصولي إلى الحساب الحقيقي سُحب مني بعد تغيير كلمة المرور ووسائل الاسترداد.",
+    "label": "Piratage de compte",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "piratage_scenario_0056"
+  },
+  {
+    "id": "train_ar_doxing_0100",
+    "text": "بعد أن جُمعت بياناتي الشخصية ونُشرت في مكان مفتوح، أصبحت أتساءل عن الحماية القانونية الممكنة، لكن مشكلتي الأساسية هي أن المعلومات ما زالت متاحة للناس.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "doxing_scenario_0091"
+  },
+  {
+    "id": "train_ar_juridique_0002",
+    "text": "ما الحقوق القانونية المتاحة لي في هذه الحالة؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0002"
+  },
+  {
+    "id": "train_ar_accompagnement_0002",
+    "text": "أريد التحدث مع شخص يساعدني على تجاوز هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0002"
+  },
+  {
+    "id": "train_ar_sextorsion_0001",
+    "text": "يهددني بنشر صور حميمة تخصني إذا لم أرسل له المال الذي يطلبه.",
+    "label": "Sextorsion",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0001"
+  },
+  {
+    "id": "train_ar_sextorsion_0066",
+    "text": "يضعني أمام خيارين باستمرار: أن أوافق على طلبه أو أخاطر بأن يرى الآخرون صورًا حميمة تخصني.",
+    "label": "Sextorsion",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0049"
+  },
+  {
+    "id": "train_ar_urgence_0002",
+    "text": "الشخص يهدد بالوصول إلي الآن وأنا خائفة.",
+    "label": "Situation d'urgence",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0002"
+  },
+  {
+    "id": "train_ar_urgence_0094",
+    "text": "أريد التبليغ رسميًا، لكنني لا أشعر بالأمان لأن من يهددني موجود بالقرب مني في هذه اللحظة بشكل مباشر.",
+    "label": "Situation d'urgence",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "urgence_scenario_0090"
+  },
+  {
+    "id": "train_ar_accompagnement_0093",
+    "text": "احتفظت بالرسائل والروابط، لكنني الآن أحتاج إلى دعم يساعدني على العودة إلى حياتي الطبيعية بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "accompagnement_scenario_0084"
+  },
+  {
+    "id": "train_ar_preuves_0089",
+    "text": "أتعرض لتعليقات مهينة متكررة، وأريد الاحتفاظ بسجل لها مع التواريخ بدل حذفها كل مرة مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "preuves_scenario_0082"
+  },
+  {
+    "id": "train_ar_doxing_0044",
+    "text": "على صفحة عامة للطلاب ظهر اسمي مع رقم هاتفي الشخصي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0044"
+  },
+  {
+    "id": "train_ar_usurpation_0088",
+    "text": "لم تتغير كلمة مرور حسابي ولم أفقد الوصول إليه، وإنما ظهر حساب جديد يستخدم اسمي وصورتي وكأنه أنا.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0080"
+  },
+  {
+    "id": "train_ar_signalement_0013",
+    "text": "أحتاج إلى معرفة طريقة إرسال بلاغ يتضمن رابط الحساب والرسائل المرتبطة بالواقعة.",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0013"
+  },
+  {
+    "id": "train_ar_accompagnement_0021",
+    "text": "أشعر أنني وحدي بعد هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0021"
+  },
+  {
+    "id": "train_ar_preuves_0003",
+    "text": "كيف أوثق المحادثة كاملة بطريقة تحافظ على قيمتها كدليل؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0003"
+  },
+  {
+    "id": "train_ar_preuves_0043",
+    "text": "في لعبة الإنترنت أحتفظ بصور للدردشة المسيئة.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0039"
+  },
+  {
+    "id": "train_ar_preuves_0042",
+    "text": "على حساب العمل أوثق كل رسالة غريبة تصلني.",
+    "label": "Conservation des preuves",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0038"
+  },
+  {
+    "id": "train_ar_piratage_0049",
+    "text": "كنت أستخدم حساب الألعاب بشكل طبيعي، لكن بعد محاولة تسجيل دخول غريبة تغير البريد المرتبط به واختفت إمكانية الاسترجاع.",
+    "label": "Piratage de compte",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0034"
+  },
+  {
+    "id": "train_ar_preuves_0035",
+    "text": "أصبحت أكتب تسلسل ما حدث يومًا بيوم وأرفق كل رسالة أو صورة بوقتها.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0025"
+  },
+  {
+    "id": "train_ar_doxing_0086",
+    "text": "المشكلة ليست أن شخصًا يتصرف باسمي، بل أن بياناتي الواقعية جُمعت ونُشرت بحيث أصبح الغرباء يعرفون أين أعيش وكيف يتواصلون معي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "doxing_scenario_0083"
+  },
+  {
+    "id": "train_ar_diffusion_images_0002",
+    "text": "تم تداول صوري الحميمة من دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0002"
+  },
+  {
+    "id": "train_ar_urgence_0065",
+    "text": "هناك احتمال قريب لحدوث أذى مباشر في هذه اللحظة بشكل مباشر في هذه اللحظة بشكل مباشر.",
+    "label": "Situation d'urgence",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0065"
+  },
+  {
+    "id": "train_ar_sextorsion_0073",
+    "text": "الضغط يتكرر بالشكل نفسه: يذكرني بالمقطع الخاص، يحدد ما يريد، ثم يلمح إلى أن الرفض ستكون له عواقب علنية.",
+    "label": "Sextorsion",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0056"
+  },
+  {
+    "id": "train_ar_doxing_0021",
+    "text": "أصبح غرباء يعرفون رقم هاتفي رغم أنني لم أشاركه معهم.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0021"
+  },
+  {
+    "id": "train_ar_accompagnement_0072",
+    "text": "أحتاج إلى دعم يساعدني على استعادة الروتين والثقة بعد أن أثرت التجربة في حياتي اليومية.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0066"
+  },
+  {
+    "id": "train_ar_sextorsion_0094",
+    "text": "الضغط النفسي شديد لأن الشخص يلوح بنشر مقطع حميمي إذا لم أنفذ طلباته، ومع ذلك فالوضع حتى الآن يقتصر على الابتزاز الرقمي ولا يوجد تهديد فوري لسلامتي الجسدية.",
+    "label": "Sextorsion",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "sextorsion_scenario_0071"
+  },
+  {
+    "id": "train_ar_juridique_0034",
+    "text": "أحاول معرفة إن كان القانون يميز بين نشر المحتوى لأول مرة وإعادة مشاركته من طرف أشخاص آخرين.",
+    "label": "Informations juridiques",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0034"
+  },
+  {
+    "id": "train_ar_piratage_0050",
+    "text": "بعد رسالة تصيد بدت كأنها من المنصة، أدخلت بياناتي في صفحة مزيفة، وبعد أقل من ساعة فقدت الوصول إلى الحساب الحقيقي.",
+    "label": "Piratage de compte",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0035"
+  },
+  {
+    "id": "train_ar_accompagnement_0051",
+    "text": "في المدرسة أخشى أن يعرف الآخرون بما حدث، وأحتاج إلى مساندة تحترم خصوصيتي بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0045"
+  },
+  {
+    "id": "train_ar_diffusion_images_0029",
+    "text": "بدأت ألاحظ أن أشخاصًا من خارج محيطي شاهدوا مقطعًا شخصيًا لم أضعه في أي مكان عام.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0029"
+  },
+  {
+    "id": "train_ar_signalement_0041",
+    "text": "على Instagram أريد الإبلاغ عن حساب يضايقني.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0041"
+  },
+  {
+    "id": "train_ar_sextorsion_0035",
+    "text": "لم ينشر الصور حتى الآن، لكنه يجعل استمرار سريتها مرتبطًا دائمًا بما إذا كنت سأوافق على طلباته أم لا.",
+    "label": "Sextorsion",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0019"
+  },
+  {
+    "id": "train_ar_signalement_0035",
+    "text": "أحاول الوصول إلى نموذج يسمح لي بإبلاغ المنصة عن استخدام هويتي دون إذني.",
+    "label": "Signalement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0035"
+  },
+  {
+    "id": "train_ar_piratage_0095",
+    "text": "منذ أن فقدت السيطرة على الحساب، بدأت أجمع لقطات للتنبيهات وسجل الأجهزة كإجراء احتياطي، لكن مشكلتي الأساسية هي استعادة الحساب المخترق.",
+    "label": "Piratage de compte",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "piratage_scenario_0061"
+  },
+  {
+    "id": "train_ar_juridique_0061",
+    "text": "أحتاج إلى تفسير قانوني لما تعرضت له.",
+    "label": "Informations juridiques",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0057"
+  },
+  {
+    "id": "train_ar_usurpation_0041",
+    "text": "على Instagram ظهر حساب مزيف يحمل اسمي وصورتي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0041"
+  },
+  {
+    "id": "train_ar_piratage_0006",
+    "text": "تم تغيير رقم الهاتف المرتبط بحسابي دون موافقتي.",
+    "label": "Piratage de compte",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0004"
+  },
+  {
+    "id": "train_ar_urgence_0051",
+    "text": "في المدرسة، شخص هددني عبر الرسائل ثم أخبرني زملاء أنه ينتظر بالقرب من المخرج في هذه اللحظة بشكل مباشر.",
+    "label": "Situation d'urgence",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0051"
+  },
+  {
+    "id": "train_ar_juridique_0058",
+    "text": "في حساب العمل استُخدمت بيانات دخولي ثم نُشرت بعض معلوماتي الداخلية، وقد استعدت الحساب بالفعل، لكنني أريد الآن فهم المسؤولية القانونية التي يمكن أن تنشأ عن الوصول والنشر دون إذني مع التمييز بين الحق القانوني والإجراء الذي يمكن اتخاذه لاحقًا.",
+    "label": "Informations juridiques",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0054"
+  },
+  {
+    "id": "train_ar_sextorsion_0003",
+    "text": "يطلب مني مبالغ مالية مقابل أن يحتفظ بالمقطع الحميمي لنفسه ولا ينشره.",
+    "label": "Sextorsion",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0001"
+  },
+  {
+    "id": "train_ar_signalement_0082",
+    "text": "أريد الإبلاغ، وليس فقط معرفة الحكم القانوني من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "signalement_scenario_0082"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0062",
+    "text": "يمارس ضدي نمطًا واضحًا من التحقير المتكرر.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0035"
+  },
+  {
+    "id": "train_ar_signalement_0064",
+    "text": "أبحث عن قناة رسمية لتوصيل هذه الواقعة من خلال القناة الرسمية المناسبة من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0064"
+  },
+  {
+    "id": "train_ar_signalement_0001",
+    "text": "أريد الإبلاغ عن هذا الحساب، كيف أفعل ذلك؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0001"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0100",
+    "text": "مع استمرار هذه الإهانات المتكررة من نفس الشخص لأسابيع، بدأت أتساءل، دون أن أتخذ أي قرار بعد، عمّا إذا كان هذا النوع من السلوك يدخل ضمن ما يعاقب عليه القانون في حالات مشابهة لحالتي.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "cyber_scenario_0053"
+  },
+  {
+    "id": "train_ar_juridique_0090",
+    "text": "لدي الروابط والتواريخ محفوظة، لكن ما أبحث عنه الآن هو تفسير قانوني لحقوقي ومسؤولية الطرف الآخر.",
+    "label": "Informations juridiques",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "juridique_scenario_0083"
+  },
+  {
+    "id": "train_ar_urgence_0021",
+    "text": "لا أشعر أنني بأمان في هذه اللحظة.",
+    "label": "Situation d'urgence",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0021"
+  },
+  {
+    "id": "train_ar_preuves_0008",
+    "text": "كيف يمكنني حفظ نسخة من المحادثة كاملة من دون تعديلها أو حذف أي رسالة منها؟",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0003"
+  },
+  {
+    "id": "train_ar_signalement_0047",
+    "text": "على Instagram وجدت حسابًا ينتحل هويتي، وأريد معرفة الطريقة المناسبة للإبلاغ عنه من داخل التطبيق.",
+    "label": "Signalement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0047"
+  },
+  {
+    "id": "train_ar_diffusion_images_0042",
+    "text": "في WhatsApp انتشرت صورة حساسة تخصني بين عدة مجموعات.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0042"
+  },
+  {
+    "id": "train_ar_preuves_0027",
+    "text": "كلما وصلتني رسالة جديدة ألتقط لها صورة وأكتب وقت وصولها حتى لا أنسى ترتيب الأحداث.",
+    "label": "Conservation des preuves",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0025"
+  },
+  {
+    "id": "train_ar_juridique_0016",
+    "text": "هل تختلف الحماية القانونية حسب نوع المحتوى أو الطريقة التي تم بها نشره على الإنترنت؟",
+    "label": "Informations juridiques",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "juridique_scenario_0016"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0048",
+    "text": "لاحظت أن أعضاء المنتدى الجامعي يتجاهلون مساهماتي عمدًا ويسخرون منها كلما شاركت رأيًا، وهذا السلوك مستمر منذ عدة أسابيع تقريبًا.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0028"
+  },
+  {
+    "id": "train_ar_doxing_0004",
+    "text": "وجدت عنوان سكني منشورًا في تعليق عام مع اسمي الكامل.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0004"
+  },
+  {
+    "id": "train_ar_usurpation_0087",
+    "text": "حسابي الأصلي ما زال تحت سيطرتي، لكن شخصًا أنشأ نسخة مزيفة منه ويستخدمها للتواصل مع أصدقائي.",
+    "label": "Usurpation d'identité",
+    "style": "boundary",
+    "boundary_with": "Piratage de compte",
+    "scenario_group": "usurpation_scenario_0080"
+  },
+  {
+    "id": "train_ar_preuves_0010",
+    "text": "أحتاج إلى ترتيب لقطات الشاشة والرسائل في ملف واحد حتى أحتفظ بسجل واضح لما حدث.",
+    "label": "Conservation des preuves",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0008"
+  },
+  {
+    "id": "train_ar_usurpation_0008",
+    "text": "شخص يقلد هويتي الرقمية ويتواصل مع أصدقائي مستخدمًا اسمي وصورتي من حساب ليس حسابي.",
+    "label": "Usurpation d'identité",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0008"
+  },
+  {
+    "id": "train_ar_accompagnement_0024",
+    "text": "أصبحت أخاف من استخدام الإنترنت بعد الواقعة.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0024"
+  },
+  {
+    "id": "train_ar_signalement_0009",
+    "text": "أريد تقديم بلاغ عن صورة خاصة نُشرت دون موافقتي، فما الخطوات التي أبدأ بها؟",
+    "label": "Signalement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0009"
+  },
+  {
+    "id": "train_ar_urgence_0001",
+    "text": "أنا في خطر الآن وأحتاج إلى مساعدة عاجلة.",
+    "label": "Situation d'urgence",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "urgence_scenario_0001"
+  },
+  {
+    "id": "train_ar_doxing_0063",
+    "text": "جُمعت تفاصيل شخصية عني ثم عُرضت علنًا بطريقة تكشف من أكون.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0063"
+  },
+  {
+    "id": "train_ar_accompagnement_0035",
+    "text": "أشعر بالارتباك بين عدة خطوات ممكنة، وأحتاج إلى توجيه يساعدني على ترتيب الأولويات.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0035"
+  },
+  {
+    "id": "train_ar_preuves_0074",
+    "text": "أريد حفظ السياق الكامل للمحادثة وليس فقط الرسائل التي تبدو مهمة في هذه اللحظة مع التاريخ والمصدر بشكل واضح.",
+    "label": "Conservation des preuves",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "preuves_scenario_0069"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0099",
+    "text": "الإهانات المتكررة التي أتلقاها جعلتني أفكر فيما إذا كان لهذا السلوك أي تبعات قانونية محتملة في حالتي.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "cyber_scenario_0053"
+  },
+  {
+    "id": "train_ar_doxing_0023",
+    "text": "وصلتني رسائل من أشخاص يقولون إنهم وجدوا بياناتي في منشور عام.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0023"
+  },
+  {
+    "id": "train_ar_piratage_0027",
+    "text": "ظهرت صورة واسم مستخدم جديدان على حسابي دون أن أغيّرهما.",
+    "label": "Piratage de compte",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0020"
+  },
+  {
+    "id": "train_ar_signalement_0069",
+    "text": "أبحث عن الطريقة التي تسمح لي بإرسال تفاصيل الواقعة إلى الجهة المسؤولة عن مراجعة الانتهاكات.",
+    "label": "Signalement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "signalement_scenario_0069"
+  },
+  {
+    "id": "train_ar_diffusion_images_0001",
+    "text": "نشر شخص صورة خاصة بي دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0001"
+  },
+  {
+    "id": "train_ar_sextorsion_0083",
+    "text": "أرسل لي صورة مصغرة من المحتوى ليؤكد أنه يملكه، لكنه لم ينشره بعد ويشترط المال حتى يبقى غير منشور.",
+    "label": "Sextorsion",
+    "style": "boundary",
+    "boundary_with": "Diffusion non consentie d'images",
+    "scenario_group": "sextorsion_scenario_0064"
+  },
+  {
+    "id": "train_ar_signalement_0092",
+    "text": "تستمر المضايقات في المجموعة، وأريد معرفة كيفية إرسال بلاغ عن الحسابات والرسائل المرتبطة بها من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "signalement_scenario_0089"
+  },
+  {
+    "id": "train_ar_diffusion_images_0088",
+    "text": "لم تعد المشكلة طلب مال مقابل عدم النشر؛ الصورة أصبحت متداولة فعليًا بين أشخاص آخرين.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0080"
+  },
+  {
+    "id": "train_ar_accompagnement_0054",
+    "text": "في محيط العائلة لا أعرف كيف أشرح ما حدث، وأحتاج إلى مساعدة لأختار من أتحدث معه.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0048"
+  },
+  {
+    "id": "train_ar_doxing_0085",
+    "text": "ظهرت تفاصيل تحدد هويتي ومكاني علنًا، مع أن حساباتي الأصلية ما زالت تحت سيطرتي ولا يوجد حساب آخر يمثلني.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "boundary",
+    "boundary_with": "Usurpation d'identité",
+    "scenario_group": "doxing_scenario_0083"
+  },
+  {
+    "id": "train_ar_diffusion_images_0087",
+    "text": "كان يهدد سابقًا بإرسال الصورة إذا لم أستجب له، لكنه نفذ التهديد الآن ونشرها بالفعل.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0080"
+  },
+  {
+    "id": "train_ar_accompagnement_0083",
+    "text": "أعرف حقوقي تقريبًا، لكنني أحتاج إلى دعم نفسي وعملي بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "accompagnement_scenario_0077"
+  },
+  {
+    "id": "train_ar_piratage_0066",
+    "text": "أصبحت وسائل استرجاع الحساب مرتبطة بشخص لا أعرفه.",
+    "label": "Piratage de compte",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0045"
+  },
+  {
+    "id": "train_ar_accompagnement_0063",
+    "text": "أبحث عن دعم إنساني بعد هذه التجربة الرقمية بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0057"
+  },
+  {
+    "id": "train_ar_signalement_0091",
+    "text": "أتلقى تعليقات مهينة من نفس الحساب، وأريد استخدام نظام التبليغ بدل الاكتفاء بحظره من خلال القناة الرسمية المناسبة.",
+    "label": "Signalement",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "signalement_scenario_0089"
+  },
+  {
+    "id": "train_ar_usurpation_0075",
+    "text": "أواجه حالة يتصرف فيها شخص آخر باسمي الرقمي رغم أنني لم أمنحه أي إذن لتمثيلي.",
+    "label": "Usurpation d'identité",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0069"
+  },
+  {
+    "id": "train_ar_sextorsion_0029",
+    "text": "لم يقل صراحة إنه سينشر شيئًا، لكنه يكرر أن صوري ستظل آمنة طالما أفعل ما يطلبه.",
+    "label": "Sextorsion",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0019"
+  },
+  {
+    "id": "train_ar_doxing_0053",
+    "text": "في منتدى خاص بالهوايات، ظهرت معلومات عن أسرتي ومكان عملي مرتبطة باسمي الحقيقي رغم أن حسابي هناك كان محدود المعلومات.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0053"
+  },
+  {
+    "id": "train_ar_sextorsion_0043",
+    "text": "شريكي السابق يضغط علي بصور حميمة كي أعود إليه.",
+    "label": "Sextorsion",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "sextorsion_scenario_0026"
+  },
+  {
+    "id": "train_ar_doxing_0062",
+    "text": "تحولت بياناتي الخاصة إلى معلومات متاحة للعامة دون موافقتي.",
+    "label": "Divulgation de données personnelles (Doxing)",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "doxing_scenario_0062"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0009",
+    "text": "شخص يهاجمني بألفاظ مسيئة في كل مرة أشارك فيها رأيي علنًا على الإنترنت، ويبدو أن الأمر يتكرر عمدًا في كل مناسبة.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0006"
+  },
+  {
+    "id": "train_ar_usurpation_0047",
+    "text": "على Instagram وجدت حسابًا يستخدم نفس اسمي وصورتي ويضيف أصدقائي ثم يرسل لهم رسائل باسمي.",
+    "label": "Usurpation d'identité",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "usurpation_scenario_0041"
+  },
+  {
+    "id": "train_ar_diffusion_images_0077",
+    "text": "المشكلة ليست مجرد وجود صورة لي على الإنترنت، بل أن صورة خاصة كانت ضمن سياق محدود جرى نسخها وإرسالها إلى عدة أشخاص ثم نشرها في أماكن أخرى من دون موافقتي وقد استمر تداول المحتوى بين أشخاص آخرين رغم أنني لم أوافق على ذلك.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0071"
+  },
+  {
+    "id": "train_ar_piratage_0079",
+    "text": "لا يتعلق الأمر بحساب مزيف ينتحل اسمي؛ حسابي الأصلي نفسه أصبح في يد شخص آخر يغيّر بياناته ويستخدمه دون إذني، وقد فقدت إمكانية الوصول إليه بينما يواصل إرسال الرسائل من داخله ويعدّل الملف الشخصي وكأنه المالك الحقيقي للحساب.",
+    "label": "Piratage de compte",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "piratage_scenario_0053"
+  },
+  {
+    "id": "train_ar_diffusion_images_0059",
+    "text": "على Telegram خرج مقطع خاص من محادثة محدودة ثم ظهر في قناة عامة، وبعد ذلك أعادت قنوات أخرى نشره، وكل هذا حدث من دون موافقتي على عرض المقطع أو تداوله وهو ما أدى إلى انتشار المحتوى خارج السياق الخاص الذي كان موجودًا فيه.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0053"
+  }
+]

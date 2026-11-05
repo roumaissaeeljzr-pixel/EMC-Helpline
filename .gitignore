@@ -1,0 +1,43 @@
+# Secrets
+.env
+.env.local
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database locale
+*.db
+*.sqlite
+*.sqlite3
+
+# Modèles IA volumineux
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.h5
+*.keras
+
+# Cache HuggingFace
+.cache/

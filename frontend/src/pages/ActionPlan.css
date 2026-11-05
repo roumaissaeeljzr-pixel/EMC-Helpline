@@ -1,0 +1,315 @@
+/* =========================
+   ACTION PLAN PAGE
+========================= */
+
+.action-plan-page {
+  min-height: 100%;
+  display: flex;
+}
+
+.action-plan-container {
+  width: min(820px, 100%);
+  margin: 0 auto;
+}
+
+.action-plan-card {
+  background: white;
+  border: 1px solid #e6e1ec;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(20, 35, 60, 0.06);
+  padding: 28px 30px;
+}
+
+.action-plan-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 22px;
+}
+
+.action-plan-title {
+  margin: 0 0 8px;
+  color: #7048b8;
+  font-size: 20px;
+}
+
+.action-plan-intro {
+  margin: 0;
+  color: #766f83;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.action-plan-progress {
+  min-width: 92px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #f5f1f9;
+  text-align: center;
+}
+
+.action-plan-progress strong {
+  display: block;
+  color: #7048b8;
+  font-size: 18px;
+}
+
+.action-plan-progress span {
+  color: #8b8294;
+  font-size: 11.5px;
+}
+
+.action-plan-intent {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #eee8f1;
+  border-radius: 12px;
+  background: #faf9fc;
+  font-size: 13.5px;
+}
+
+.action-plan-intent span {
+  color: #8b8294;
+}
+
+.action-plan-intent strong {
+  color: #241d46;
+  text-align: end;
+}
+
+/* =========================
+   ACTIONS
+========================= */
+
+.action-plan-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.action-plan-item {
+  position: relative;
+  border: 1px solid #e6e1ec;
+  border-radius: 14px;
+  padding: 16px;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+
+.action-plan-item:hover {
+  border-color: #c8d3df;
+}
+
+.action-plan-item-completed {
+  background: #f7faf8;
+}
+
+.action-plan-item-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.action-plan-item-main input {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  accent-color: #7048b8;
+  flex-shrink: 0;
+}
+
+.action-plan-item-main > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.action-plan-item-heading {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 6px;
+}
+
+.action-plan-step {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  background: #7048b8;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.action-plan-item h3 {
+  margin: 0;
+  color: #241d46;
+  font-size: 14.5px;
+}
+
+.action-plan-item p {
+  margin: 0;
+  color: #766f83;
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.action-plan-item-completed h3,
+.action-plan-item-completed p {
+  opacity: 0.7;
+}
+
+.action-plan-source {
+  margin-top: 9px;
+  color: #8b8294;
+  font-size: 11.5px;
+  overflow-wrap: anywhere;
+}
+
+.action-plan-source strong {
+  color: #596579;
+  font-weight: 600;
+}
+
+.action-plan-status {
+  display: inline-block;
+  margin-top: 11px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #f5f1f9;
+  color: #596579;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.action-plan-item-completed .action-plan-status {
+  background: #edf7ef;
+  color: #39744a;
+}
+
+.action-plan-note {
+  margin: 18px 0 0;
+  color: #9a919f;
+  font-size: 11.5px;
+  text-align: center;
+}
+
+/* =========================
+   EMPTY
+========================= */
+
+.action-plan-empty {
+  padding: 28px 18px;
+  text-align: center;
+}
+
+.action-plan-empty h3 {
+  margin: 0 0 8px;
+  color: #241d46;
+  font-size: 16px;
+}
+
+.action-plan-empty p {
+  margin: 0 auto 18px;
+  max-width: 520px;
+  color: #8b8294;
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.action-plan-primary-button {
+  min-height: 44px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 12px;
+  background: #7048b8;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.action-plan-primary-button:hover {
+  background: #4c278c;
+}
+
+.action-plan-primary-button:focus-visible {
+  outline: 2px solid #496f99;
+  outline-offset: 2px;
+}
+
+/* =========================
+   RTL
+========================= */
+
+.action-plan-list[dir="rtl"] {
+  text-align: right;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+  .action-plan-card {
+    padding: 20px 18px;
+    border-radius: 14px;
+  }
+
+  .action-plan-header {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .action-plan-progress {
+    min-width: 0;
+    align-self: stretch;
+  }
+
+  .action-plan-intent {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .action-plan-intent strong {
+    text-align: start;
+  }
+
+  .action-plan-item {
+    padding: 14px;
+  }
+}
+
+
+/* EMC Helpline — harmonisation Dashboard / Resources */
+:where(.chat-page,.assessment-page,.action-plan-page,.case-page,.evidence-page,.history-page) {
+  --emc-purple:#7048b8;
+  --emc-purple-dark:#4c278c;
+  --emc-purple-soft:#f2ecfb;
+  --emc-pink:#d9549a;
+  --emc-orange:#ed963b;
+  --emc-green:#42ad7d;
+  --emc-text:#241d46;
+  --emc-muted:#766f83;
+  --emc-border:#e6e1ec;
+}
+
+
+.action-plan-card{border-color:var(--emc-border);border-radius:22px;box-shadow:0 10px 30px rgba(55,39,75,.05);background:radial-gradient(circle at 96% 0%,rgba(112,72,184,.06),transparent 24%),#fff}
+.action-plan-title{color:var(--emc-text);font-size:23px}
+.action-plan-progress{background:#f5f1f9;border:1px solid #e6deed;border-radius:14px}
+.action-plan-progress strong{color:var(--emc-purple)}
+.action-plan-item{border-color:#e8e2ec;border-radius:15px;box-shadow:0 4px 14px rgba(55,39,75,.025)}
+.action-plan-step{background:linear-gradient(145deg,#7048b8,#d9549a)}
+.action-plan-item-main input{accent-color:#7048b8}
+.action-plan-item-completed{background:#f4fbf7;border-color:#d8eadf}
+.action-plan-primary-button{background:linear-gradient(105deg,#7048b8,#d9549a);box-shadow:0 7px 17px rgba(201,75,145,.15)}
+.action-plan-primary-button:hover{background:linear-gradient(105deg,#633da5,#ca468d)}

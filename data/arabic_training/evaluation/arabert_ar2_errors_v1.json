@@ -1,0 +1,32 @@
+[
+  {
+    "index": 2,
+    "id": "ar2_cyberharcelement_02",
+    "text": "لم يعد بإمكاني فتح تطبيق واتساب دون أن أجد رسائل جارحة بانتظاري.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Piratage de compte",
+    "confidence": 0.7715150713920593,
+    "correct": false,
+    "difficulty": "indirect"
+  },
+  {
+    "index": 17,
+    "id": "ar2_usurpation_02",
+    "text": "بدأ الناس يراسلونني ليسألوني عن أشياء قلتها في محادثات لم أشارك فيها أبدًا.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "confidence": 0.34974348545074463,
+    "correct": false,
+    "difficulty": "indirect"
+  },
+  {
+    "index": 40,
+    "id": "ar2_diffusion_05",
+    "text": "الصور التي كانت بيننا نُشرت بالفعل على الملأ، ولم يعد هناك أي تهديد، فقط أريد معرفة ماذا أفعل الآن.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Accompagnement de la victime",
+    "confidence": 0.6322064995765686,
+    "correct": false,
+    "difficulty": "difficult"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train_ar_cyberharcelement_0001",
+    "text": "يواصل نفس الشخص إهانتي بألفاظ مسيئة كل يوم تقريبًا.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0001"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0002",
+    "text": "أتعرض لسخرية متكررة من نفس الشخص منذ أسابيع.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0001"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0003",
+    "text": "يهاجمني بكلمات مهينة في كل تعليق يكتبه.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0002"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0004",
+    "text": "شخص واحد يهينني علنًا بشكل متكرر منذ مدة.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0003"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0005",
+    "text": "تكررت إهاناته لي دون أي سبب واضح.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0003"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0006",
+    "text": "يستمر في السخرية مني كلما نشرت شيئًا.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0002"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0007",
+    "text": "منذ حوالي ثلاثة أسابيع، يواصل هذا الشخص إرسال رسائل مهينة لي بشكل شبه يومي، دون أن يتوقف رغم تجاهلي المتكرر له.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0004"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0008",
+    "text": "أتعرض لتعليقات ساخرة ومهينة بشكل متكرر أسفل كل منشور أنشره على حسابي، وقد أصبح ذلك أمرًا شبه ثابت منذ أسابيع.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0005"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0009",
+    "text": "شخص يهاجمني بألفاظ مسيئة في كل مرة أشارك فيها رأيي علنًا على الإنترنت، ويبدو أن الأمر يتكرر عمدًا في كل مناسبة.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0006"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0010",
+    "text": "منذ فترة طويلة، يقوم أحدهم بإذلالي علنًا عبر التعليقات في كل مناسبة تقريبًا، دون أن يتغير هذا السلوك رغم مرور الوقت.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0005"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0011",
+    "text": "يرسل لي رسائل ساخرة ومهينة بشكل متكرر، ويبدو أنه يستمتع بإحراجي أمام الآخرين، وهذا يحدث الآن بشكل شبه يومي.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0004"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0012",
+    "text": "أتلقى يوميًا رسائل تحقير من نفس الشخص منذ أن انضممت إلى هذا المنتدى قبل شهر تقريبًا، دون أن يتوقف هذا السلوك حتى الآن.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0007"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0013",
+    "text": "يستمر أحد الأعضاء في السخرية مني وإهانتي علنًا في كل نقاش أشارك فيه تقريبًا، وأصبح الأمر متوقعًا في كل مرة أفتح فيها المنتدى.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0007"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0014",
+    "text": "تكررت محاولاته لإحراجي وإهانتي عبر التعليقات العامة أكثر من مرة خلال هذا الأسبوع وحده، وهو ما يجعلني أشعر أن الأمر متعمد تمامًا.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0008"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0015",
+    "text": "يهينني بشكل متكرر أمام زملائي داخل مجموعة العمل الرقمية منذ عدة أسابيع متتالية، رغم أنني حاولت تجاهل تعليقاته أكثر من مرة.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0009"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0016",
+    "text": "أصبحت أتوقع رسالة مهينة منه كل صباح تقريبًا دون أي استثناء يُذكر، وقد استمر هذا الأمر منذ ما يقارب الشهر الآن.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0010"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0017",
+    "text": "بدأ الأمر منذ حوالي شهرين حين علّق أحدهم بسخرية على أحد منشوراتي، ثم تحول ذلك سريعًا إلى نمط متكرر من الإهانات اليومية التي لم تتوقف حتى الآن رغم تجاهلي المتكرر له ومحاولاتي المتعددة لعدم الرد على تعليقاته.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0011"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0018",
+    "text": "منذ أن بدأت أستخدم هذا الحساب بانتظام قبل بضعة أشهر، لاحظت أن الشخص نفسه يعلّق بشكل مهين على كل ما أنشره تقريبًا، وقد تكرر ذلك عشرات المرات خلال الأسابيع الماضية دون أي مبرر واضح يفسر إصراره على الاستمرار.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0008"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0019",
+    "text": "في البداية ظننت أن الأمر مجرد تعليق عابر لا يستحق الاهتمام، لكن مع تكرار الإهانات من نفس الشخص أسبوعًا بعد أسبوع، أدركت أن ما يحدث هو نمط ثابت من الاستهداف المتعمد الذي لا يبدو أنه سيتوقف قريبًا مهما فعلت لتجاهله.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0011"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0020",
+    "text": "يرسل لي هذا الشخص رسائل مهينة منذ ما يقارب الشهر، وفي كل مرة أحاول تجاهله يعود بتعليق أكثر حدة من السابق، وأصبح الأمر متكررًا لدرجة أنني بدأت أتوقعه في كل مرة أفتح فيها التطبيق صباحًا أو مساءً.",
+    "label": "Cyberharcèlement",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0010"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0021",
+    "text": "أصبحت الهدف الدائم لسخرية نفس الشخص مؤخرًا.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0012"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0022",
+    "text": "يُسخر مني علنًا كلما نشرت شيئًا جديدًا.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0013"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0023",
+    "text": "توقفت عن المشاركة بسبب استهدافي المتكرر هناك.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0014"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0024",
+    "text": "أصبح الآخرون يضحكون عليّ أمام الجميع كلما شاركت في نقاش داخل المجموعة.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0012"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0025",
+    "text": "أُستهدف بانتظام بعد كل منشور أكتبه هناك.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0013"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0026",
+    "text": "بت أتجنب النشر خوفًا من السخرية المعتادة.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0014"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0027",
+    "text": "منذ فترة، أصبحت الشخص الذي يُسخر منه علنًا في كل مرة يظهر فيها اسمي على الشاشة، وهذا بدأ يتكرر بشكل شبه يومي.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0015"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0028",
+    "text": "لاحظت أنني أصبحت هدفًا ثابتًا للسخرية العلنية في كل مرة أشارك فيها بأي رأي، وأصبح الأمر متوقعًا مهما كان موضوع النقاش.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0015"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0029",
+    "text": "توقفت تمامًا عن المشاركة في المجموعة بسبب تكرار استهدافي فيها أسبوعًا بعد أسبوع، رغم أنني كنت أشارك فيها بانتظام من قبل.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0016"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0030",
+    "text": "أصبح ظهور اسمي في أي منشور كافيًا ليجذب موجة من التعليقات الساخرة الموجهة لي تحديدًا، وهذا يحدث الآن في كل مرة تقريبًا.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0017"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0031",
+    "text": "لم أعد أشارك بحرية لأن كل تعليق أكتبه يقابله رد يهدف إلى إضحاك الآخرين علي، وقد أصبح هذا نمطًا واضحًا منذ فترة.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0018"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0032",
+    "text": "أصبحت أُعرض للسخرية أمام مجموعة كاملة من الأشخاص كلما تحدثت في أي نقاش عام، وهذا يحدث بانتظام منذ عدة أسابيع الآن.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0019"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0033",
+    "text": "بدأت أتجنب فتح التطبيق لأن ظهوري فيه يعني تلقائيًا موجة جديدة من التعليقات الساخرة، وأصبح هذا التوقع جزءًا من روتيني اليومي.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0020"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0034",
+    "text": "أصبح اسمي مرتبطًا بنكتة متكررة يرددها نفس الأشخاص كلما نشرت أي شيء، وهذا يتكرر منذ ما يقارب الشهرين دون أي تغيير.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0018"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0035",
+    "text": "توقفت عن التعبير عن رأيي بعدما أصبحت هدفًا ثابتًا للتعليقات الساخرة المتكررة، رغم أنني كنت أشارك بحرية أكبر في السابق.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0016"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0036",
+    "text": "لاحظت أن نفس الأشخاص يتحينون كل منشور لي لتوجيه سخريتهم نحوي علنًا، وأصبح هذا السلوك متوقعًا في كل مرة أنشر فيها شيئًا.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0017"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0037",
+    "text": "أصبحت أُقصى تدريجيًا من النقاشات بسبب تكرار السخرية الموجهة لي هناك، وهذا جعلني أبتعد شيئًا فشيئًا عن المشاركة كليًا.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0019"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0038",
+    "text": "في البداية لم ألاحظ الأمر بوضوح، لكن مع الوقت أدركت أنني أصبحت الهدف المفضل للسخرية في كل مرة أظهر فيها في أي نقاش، لدرجة أنني بدأت أتجنب المشاركة كليًا تجنبًا لتكرار الموقف نفسه مرارًا وتكرارًا.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0019"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0039",
+    "text": "منذ أن انضممت إلى هذه المساحة الرقمية قبل بضعة أشهر، لاحظت أن كل تعليق أكتبه يقابل برد ساخر من نفس الأشخاص، حتى أصبحت أخشى المشاركة لأن النتيجة أصبحت متوقعة تمامًا في كل مرة أحاول فيها التفاعل بشكل طبيعي.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0018"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0040",
+    "text": "بدأ الأمر بتعليقات عابرة لم أعرها اهتمامًا في البداية، لكن مع تكرارها أسبوعًا بعد أسبوع أدركت أنني أصبحت هدفًا ثابتًا لسخرية جماعية تظهر في كل مرة أشارك فيها بأي محتوى، مما دفعني إلى التوقف عن النشر تمامًا منذ فترة.",
+    "label": "Cyberharcèlement",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0021"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0041",
+    "text": "زملائي في الفصل يسخرون مني في مجموعة الواتساب باستمرار.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0022"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0042",
+    "text": "في مساحة العمل الرقمية، يتعمد بعض الزملاء استبعادي من النقاش ثم يسخرون مني كلما حاولت المشاركة.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0023"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0043",
+    "text": "لاعبون آخرون يستهدفونني بإهانات متكررة أثناء كل مباراة.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0024"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0044",
+    "text": "أخبرتني زميلة أن مجموعة من الطلاب تتداول عني تعليقات ساخرة باستمرار داخل المجموعة الدراسية.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0025"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0045",
+    "text": "في مجموعة الفصل على واتساب، يتناوب عدة زملاء على السخرية من إجاباتي كلما شاركت شيئًا، وهذا أصبح شبه يومي منذ بداية الفصل.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0026"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0046",
+    "text": "أخبرني صديق أن اسمي أصبح موضع نكات متكررة داخل قناة العمل المشتركة على Telegram، وأن هذا يحدث بانتظام منذ عدة أسابيع.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0027"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0047",
+    "text": "خلال الجولات الجماعية في إحدى الألعاب، يتفق أكثر من لاعب على إهانتي بشكل متكرر، وقد أصبح هذا الأمر متوقعًا في بداية كل جولة.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0024"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0048",
+    "text": "لاحظت أن أعضاء المنتدى الجامعي يتجاهلون مساهماتي عمدًا ويسخرون منها كلما شاركت رأيًا، وهذا السلوك مستمر منذ عدة أسابيع تقريبًا.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0028"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0049",
+    "text": "بدأت شائعات ساخرة عني تنتشر داخل مجموعة الحي على فيسبوك دون أي سبب حقيقي، وأصبح الأمر يتكرر في كل نقاش عام يخص المجموعة.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0029"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0050",
+    "text": "في اجتماعات الفريق الافتراضية الأخيرة، وجّه لي أكثر من زميل تعليقات جارحة أمام الجميع، وهذا يحدث الآن بشكل شبه ثابت في كل اجتماع.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0030"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0051",
+    "text": "أصبحت مادة للسخرية المتكررة داخل مجموعة الدراسة على Discord كلما طرحت سؤالًا، وهذا جعلني أتردد كثيرًا قبل المشاركة في أي نقاش.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0026"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0052",
+    "text": "يتناوب مشاهدون مختلفون على إهانتي في كل بث مباشر أقدمه لمجتمع الألعاب، وأصبح هذا السلوك متوقعًا في كل مرة أبدأ فيها البث.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0031"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0053",
+    "text": "داخل مجتمع المبرمجين الذي أنتمي إليه، تتكرر السخرية من أفكاري من نفس مجموعة الأشخاص، وهذا يحدث في كل مرة أشارك فيها اقتراحًا جديدًا.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0032"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0054",
+    "text": "أُخبرت أن هناك من ينشر تعليقات مهينة عني في مجموعة الزمالة كلما غبت عنها، وهذا الأمر مستمر منذ فترة دون أن أدرك ذلك.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0027"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0055",
+    "text": "خلال نقاشات النادي الأدبي الرقمي، يواصل أكثر من عضو التقليل من كتاباتي بطريقة جارحة، وأصبح هذا السلوك متكررًا في كل جلسة نقاش.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0032"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0056",
+    "text": "في غرفة الدردشة الخاصة بالمشروع، تحول اسمي إلى موضوع تعليقات ساخرة متكررة بين الزملاء، وهذا بدأ يؤثر على راحتي أثناء العمل.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0030"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0057",
+    "text": "منذ انضمامي إلى مجموعة العمل التطوعي قبل بضعة أشهر، بدأ بعض الأعضاء يتناوبون على توجيه انتقادات مهينة لي في كل اجتماع افتراضي، وتطور الأمر تدريجيًا حتى أصبح شبه ثابت في كل نقاش جماعي نشارك فيه بغض النظر عن الموضوع المطروح.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0023"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0058",
+    "text": "في بداية انضمامي إلى النادي الرياضي الرقمي، شعرت بالترحيب، لكن مع مرور الوقت بدأ بعض الأعضاء يتفقون ضمنيًا على السخرية من كل تعليق أكتبه، حتى أصبح الأمر نمطًا متكررًا يتكرر في كل مرة أظهر فيها هناك بشكل شبه منتظم.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0033"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0059",
+    "text": "أخبرتني زميلة أن هناك مجموعة صغيرة داخل الفصل الدراسي تتبادل تعليقات ساخرة عني بانتظام عبر واتساب، وأن الأمر لم يعد يقتصر على مرة واحدة بل أصبح شبه يومي منذ عدة أسابيع، دون أن أكون على علم بذلك في البداية.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0025"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0060",
+    "text": "خلال مشاركتي المتكررة في مجتمع الألعاب عبر الإنترنت، لاحظت أن نفس المجموعة من اللاعبين تتعمد استهدافي بتعليقات مهينة في بداية كل جولة، وأصبح الأمر متوقعًا لدرجة أنني بدأت أتردد كثيرًا في الانضمام مجددًا إلى أي جولة جديدة.",
+    "label": "Cyberharcèlement",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0031"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0061",
+    "text": "أصبحت هدفًا متكررًا لإذلال ممنهج من طرف واحد.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0034"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0062",
+    "text": "يمارس ضدي نمطًا واضحًا من التحقير المتكرر.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0035"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0063",
+    "text": "لاحظت نمطًا ثابتًا من الاستهداف المتعمد ضدي.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0036"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0064",
+    "text": "أصبح تحقيري سلوكًا معتادًا يمارسه بانتظام.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0035"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0065",
+    "text": "أعيش حالة متكررة من الاستهزاء غير المبرر.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0036"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0066",
+    "text": "استمرار إهانته لي جعلني هدفًا دائمًا له.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0034"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0067",
+    "text": "أجد نفسي مستهدفًا بشكل متكرر من طرف واحد يصر على التقليل من قيمتي علنًا أمام الجميع، دون أي مبرر حقيقي يفسر إصراره.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0037"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0068",
+    "text": "ما يحدث لي هو نمط متكرر من الإذلال الرقمي الذي لم يتوقف منذ عدة أسابيع متتالية، رغم كل محاولاتي لتجاهل الأمر برمته.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0038"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0069",
+    "text": "أصبحت عرضة لسلوك ممنهج من التحقير يمارسه نفس الشخص كلما سنحت له الفرصة، وهذا يحدث الآن بشكل شبه منتظم منذ فترة.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0037"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0070",
+    "text": "يبدو أن هدفه الأساسي هو النيل مني علنًا كلما ظهرت فرصة مناسبة على الإنترنت، وهذا الأمر يتكرر منذ ما يقارب الشهر تقريبًا.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0039"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0071",
+    "text": "أعاني من تكرار مستمر لمواقف الإذلال الموجهة لي تحديدًا من الطرف نفسه، وقد أصبح هذا جزءًا شبه ثابت من تفاعلاتي على الإنترنت.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0040"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0072",
+    "text": "يتكرر إحراجي أمام الآخرين بطريقة تبدو مدروسة ومقصودة تمامًا من جانبه، وهذا يحدث في كل مرة تقريبًا دون أي استثناء يُذكر.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0041"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0073",
+    "text": "ما يفعله ليس حادثة معزولة، بل نمط متكرر من الاستفزاز والتحقير المباشر الذي يستمر منذ فترة طويلة نسبيًا دون أي بادرة للتوقف.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0040"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0074",
+    "text": "أشعر أنني أصبحت هدفًا ثابتًا لسخريته المتكررة دون أي مبرر منطقي يفسر هذا السلوك المستمر منذ عدة أسابيع حتى الآن.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0042"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0075",
+    "text": "يواظب على إظهاري بمظهر سيئ أمام الآخرين كلما أتيحت له الفرصة لذلك، وهذا السلوك أصبح متوقعًا منه في كل تفاعل تقريبًا.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0039"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0076",
+    "text": "أصبح تحقيري جزءًا متكررًا من تفاعله معي منذ فترة ليست بالقصيرة، رغم أنني حاولت أكثر من مرة تجاهل الأمر بالكامل.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0043"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0077",
+    "text": "لاحظت نمطًا واضحًا من الاستهداف المتكرر يمارسه ضدي دون أي توقف يُذكر، وهذا جعلني أشعر أنني أصبحت هدفًا دائمًا له.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0044"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0078",
+    "text": "بدأ الأمر بتعليق واحد لم أعره اهتمامًا، لكنه تحول تدريجيًا إلى نمط متكرر من التحقير الممنهج الذي يمارسه ضدي نفس الشخص في كل مناسبة تقريبًا، حتى أصبحت أتوقعه في كل تفاعل بيننا مهما كان السياق أو الموضوع المطروح.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0038"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0079",
+    "text": "منذ أن بدأ هذا السلوك قبل بضعة أسابيع، لاحظت أنه ليس مجرد ردود فعل عابرة، بل أسلوب متكرر ومقصود يهدف إلى إضعافي وإحراجي أمام من يشاهدون تفاعلاتي، وقد استمر هذا النمط دون أي تغيير يُذكر حتى وقتنا الحالي.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0043"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0080",
+    "text": "أصبح واضحًا لي مع مرور الوقت أن ما أتعرض له ليس مجرد خلاف عابر، بل نمط ثابت من الاستهزاء المتعمد الذي يتكرر أسبوعًا بعد أسبوع دون أي محاولة حقيقية منه للتوقف، رغم كل الإشارات التي أعطيتها له لإنهاء الأمر.",
+    "label": "Cyberharcèlement",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "cyber_scenario_0044"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0081",
+    "text": "الإهانات المتكررة بدأت تستنزفني نفسيًا بشكل واضح.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Accompagnement de la victime",
+    "scenario_group": "cyber_scenario_0045"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0082",
+    "text": "أصبحت مرهقة نفسيًا بسبب تكرار هذه الإهانات.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Accompagnement de la victime",
+    "scenario_group": "cyber_scenario_0045"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0083",
+    "text": "لم أعد أشعر بنفس الحماس تجاه أي شيء بعدما أصبحت هدفًا متكررًا للسخرية المهينة منذ عدة أسابيع.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Accompagnement de la victime",
+    "scenario_group": "cyber_scenario_0046"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0084",
+    "text": "تراكم الإهانات المتكررة من نفس الشخص جعلني أفقد تركيزي في أمور كثيرة أخرى، وهذا يزعجني بشكل متزايد.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Accompagnement de la victime",
+    "scenario_group": "cyber_scenario_0046"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0085",
+    "text": "في البداية حاولت تجاهل الأمر، لكن مع تكرار الإهانات أسبوعًا بعد أسبوع، بدأت ألاحظ أنني أصبحت أكثر توترًا وأقل رغبة في التفاعل مع أي شخص، حتى خارج الإنترنت وفي حياتي اليومية بشكل عام.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Accompagnement de la victime",
+    "scenario_group": "cyber_scenario_0047"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0086",
+    "text": "لم أتوقع أن تعليقات متفرقة تتحول مع الوقت إلى عبء نفسي حقيقي، فقد أصبحت أفكر في الأمر حتى عندما لا أكون متصلة بالإنترنت، وهذا بدأ يؤثر على نومي ومزاجي بشكل عام خلال الأسابيع الأخيرة.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Accompagnement de la victime",
+    "scenario_group": "cyber_scenario_0047"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0087",
+    "text": "بدأت أفكر جديًا في اتخاذ خطوة رسمية بخصوص هذه الإهانات المتكررة.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "cyber_scenario_0048"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0088",
+    "text": "منذ أسابيع يلاحقني هذا الشخص بتعليقات ساخرة تحت منشوراتي، وبدأت أفكر في اتخاذ إجراء رسمي بحقه.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "cyber_scenario_0048"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0089",
+    "text": "بعد أسابيع من تحمل هذه الإهانات المتكررة من نفس الشخص، بت أفكر أن الوقت حان لفعل شيء حيال ذلك بشكل أكثر جدية.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "cyber_scenario_0049"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0090",
+    "text": "لم أكن أتخيل أن الأمر سيستمر كل هذه المدة، فمنذ أن بدأت هذه الإهانات المتكررة، حاولت تجاهلها في البداية، لكنها الآن وصلت إلى نقطة أشعر فيها أنه ربما حان وقت التصرف بجدية أكبر تجاه هذا الشخص وسلوكه المتكرر.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "cyber_scenario_0049"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0091",
+    "text": "إهاناته المتكررة تزعجني رغم عدم وجود أي خطر مباشر.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "cyber_scenario_0050"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0092",
+    "text": "أتلقى تعليقات مهينة متكررة عبر الإنترنت، والوضع يزعجني نفسيًا لكن لا يوجد خطر مباشر حاليًا.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "cyber_scenario_0050"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0093",
+    "text": "أشعر بانزعاج شديد من الإهانات المتكررة، لكن لا يوجد حتى الآن أي تهديد فعلي بالأذى من هذا الشخص.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "cyber_scenario_0051"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0094",
+    "text": "رغم أن هذا الشخص يواصل إهانتي بألفاظ قاسية بشكل شبه يومي، إلا أن الأمر يقتصر حتى الآن على الكلام المسيء فقط، دون أي إشارة إلى تهديد مباشر أو خطر جسدي وشيك من جانبه.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "cyber_scenario_0051"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0095",
+    "text": "بدأت أحفظ لقطات شاشة لكل رسالة مهينة يرسلها.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "cyber_scenario_0052"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0096",
+    "text": "منذ بداية هذه الإهانات المتكررة، أصبحت أوثق كل تعليق يكتبه لي تحسبًا لأي تطور لاحق قد يحدث.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "cyber_scenario_0052"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0097",
+    "text": "بعدما أدركت أن الإهانات لن تتوقف قريبًا، قررت أن أبدأ بتوثيق كل رسالة وتعليق يصلني من هذا الشخص، فقط احتياطًا في حال احتجت إلى الرجوع إليها لاحقًا لأي سبب كان.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "cyber_scenario_0052"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0098",
+    "text": "منذ أسابيع أتلقى إهانات متكررة عبر الرسائل، وأتساءل أحيانًا إن كان هذا السلوك يخالف القانون.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "cyber_scenario_0053"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0099",
+    "text": "الإهانات المتكررة التي أتلقاها جعلتني أفكر فيما إذا كان لهذا السلوك أي تبعات قانونية محتملة في حالتي.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "cyber_scenario_0053"
+  },
+  {
+    "id": "train_ar_cyberharcelement_0100",
+    "text": "مع استمرار هذه الإهانات المتكررة من نفس الشخص لأسابيع، بدأت أتساءل، دون أن أتخذ أي قرار بعد، عمّا إذا كان هذا النوع من السلوك يدخل ضمن ما يعاقب عليه القانون في حالات مشابهة لحالتي.",
+    "label": "Cyberharcèlement",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "cyber_scenario_0053"
+  }
+]

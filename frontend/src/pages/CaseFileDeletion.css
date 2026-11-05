@@ -1,0 +1,128 @@
+/* ============================================================
+   EMC Helpline - Gestion contrôlée de suppression du dossier
+   Fichier additionnel chargé après CaseFile.css
+============================================================ */
+
+.case-deletion-zone {
+  margin-top: 24px;
+  padding: 18px;
+  border: 1px solid rgba(185, 66, 84, 0.18);
+  border-radius: 16px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 248, 249, 0.98),
+      rgba(252, 248, 255, 0.98)
+    );
+}
+
+.case-deletion-copy {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.case-deletion-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  background: rgba(190, 58, 76, 0.1);
+  color: #aa3044;
+  font-weight: 900;
+}
+
+.case-deletion-copy h3 {
+  margin: 0;
+  color: #34284b;
+  font-size: 15px;
+}
+
+.case-deletion-copy p {
+  margin: 6px 0 0;
+  color: #736b7b;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.case-deletion-button {
+  margin-top: 16px;
+  min-height: 42px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 0;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease,
+    opacity 150ms ease;
+}
+
+.case-deletion-button:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.case-deletion-button.is-danger {
+  background: #b93e53;
+  color: #ffffff;
+  box-shadow: 0 7px 18px rgba(185, 62, 83, 0.16);
+}
+
+.case-deletion-button.is-request {
+  background: #7048b8;
+  color: #ffffff;
+  box-shadow: 0 7px 18px rgba(112, 72, 184, 0.16);
+}
+
+.case-deletion-button.is-pending {
+  background: #eeeaf4;
+  color: #706979;
+  cursor: default;
+}
+
+.case-deletion-button:disabled {
+  opacity: 0.72;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.case-deletion-message {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 11px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.case-deletion-message.success {
+  background: #eef9f5;
+  color: #28725b;
+  border: 1px solid #d2ede3;
+}
+
+.case-deletion-message.error {
+  background: #fff2f3;
+  color: #a53749;
+  border: 1px solid #f1d5da;
+}
+
+[dir="rtl"] .case-deletion-copy {
+  text-align: right;
+}
+
+@media (max-width: 720px) {
+  .case-deletion-zone {
+    padding: 15px;
+  }
+
+  .case-deletion-button {
+    width: 100%;
+  }
+}

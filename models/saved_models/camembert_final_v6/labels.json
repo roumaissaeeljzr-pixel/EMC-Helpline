@@ -1,0 +1,28 @@
+{
+  "id2label": {
+    "0": "Accompagnement de la victime",
+    "1": "Conservation des preuves",
+    "2": "Cyberharcèlement",
+    "3": "Diffusion non consentie d'images",
+    "4": "Divulgation de données personnelles (Doxing)",
+    "5": "Informations juridiques",
+    "6": "Piratage de compte",
+    "7": "Sextorsion",
+    "8": "Signalement",
+    "9": "Situation d'urgence",
+    "10": "Usurpation d'identité"
+  },
+  "label2id": {
+    "Accompagnement de la victime": 0,
+    "Conservation des preuves": 1,
+    "Cyberharcèlement": 2,
+    "Diffusion non consentie d'images": 3,
+    "Divulgation de données personnelles (Doxing)": 4,
+    "Informations juridiques": 5,
+    "Piratage de compte": 6,
+    "Sextorsion": 7,
+    "Signalement": 8,
+    "Situation d'urgence": 9,
+    "Usurpation d'identité": 10
+  }
+}

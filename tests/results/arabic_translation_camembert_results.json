@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "ar_cyberharcelement_01",
+    "arabic_text": "أتلقى رسائل مهينة ومتكررة من نفس الشخص عبر إنستغرام منذ أسابيع.",
+    "translated_text": "J'ai reçu des lettres humiliantes et répétées de la même personne par Instagram il y a quelques semaines.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.35433316230773926,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_02",
+    "arabic_text": "منذ أسابيع يرسل لي شخص تعليقات مهينة كل يوم على حساباتي.",
+    "translated_text": "Il y a des semaines, quelqu'un m'envoie tous les jours des commentaires humiliants sur mes comptes.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.3687867224216461,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_03",
+    "arabic_text": "شخص يهينني باستمرار على فيسبوك.",
+    "translated_text": "Quelqu'un m'insulte constamment sur Facebook.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.3674826920032501,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_04",
+    "arabic_text": "منذ أكثر من شهر، يقوم أحد الأشخاص بمراسلتي يوميًا برسائل مسيئة ويعلق بشكل متكرر بكلمات جارحة تحت كل منشور أنشره، رغم أنني طلبت منه التوقف عدة مرات.",
+    "translated_text": "Il y a plus d'un mois, quelqu'un m'a écrit chaque jour des lettres injurieuses et a souvent fait des commentaires blessants sous chaque publication que j'ai publiée, bien que je lui ai demandé d'arrêter plusieurs fois.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.3547207713127136,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_05",
+    "arabic_text": "يتعرض حسابي لموجة من التعليقات الجارحة والمتكررة من نفس الحساب منذ فترة.",
+    "translated_text": "Mon compte fait l &apos; objet d &apos; une vague d &apos; observations blessantes et répétées à partir du même compte depuis un certain temps.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.2731795012950897,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_06",
+    "arabic_text": "زملائي في المدرسة ينشرون تعليقات جارحة عني بشكل متكرر في مجموعة واتساب.",
+    "translated_text": "Mes collègues de l &apos; école publient fréquemment des commentaires blessants sur moi dans le groupe Watsab.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.3572506308555603,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_07",
+    "arabic_text": "الوضع بدأ يؤثر على نفسيتي بسبب الرسائل المهينة المتكررة، لكنني لست في خطر مباشر الآن.",
+    "translated_text": "La situation a commencé à m'affecter à cause des messages insultants répétés, mais je ne suis pas en danger immédiat maintenant.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Situation d'urgence",
+    "correct": false,
+    "confidence": 0.2671024203300476,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_08",
+    "arabic_text": "يقوم شخص مجهول بإرسال رسائل تحقير لي بشكل يومي منذ بداية الشهر.",
+    "translated_text": "Un inconnu m'envoie des lettres d'humiliation tous les jours depuis le début du mois.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.3476963937282562,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_09",
+    "arabic_text": "كل مرة أنشر فيها شيئًا، يعلّق نفس الشخص بكلمات مهينة، وهذا يتكرر منذ مدة طويلة.",
+    "translated_text": "Chaque fois que je publie quelque chose, la même personne s'accroche à des mots humiliants, ce qui se répète depuis longtemps.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.3608700633049011,
+    "error": null
+  },
+  {
+    "id": "ar_cyberharcelement_10",
+    "arabic_text": "أُهان باستمرار في التعليقات على تيك توك.",
+    "translated_text": "Je suis constamment insulté par les commentaires sur Tic-Tok.",
+    "expected_intent": "Cyberharcèlement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": true,
+    "confidence": 0.3666971027851105,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_01",
+    "arabic_text": "شخص يهددني بنشر صوري الحميمية إذا لم أدفع له مبلغًا من المال.",
+    "translated_text": "Quelqu'un qui me menace de publier mes photos intimes si je ne lui paie pas.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.31305480003356934,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_02",
+    "arabic_text": "يقول لي إنه سينشر لقطات خاصة بي للجميع إن لم أستجب لطلباته.",
+    "translated_text": "Il me dit qu'il publiera mes propres vidéos si je ne réponds pas à ses demandes.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.3051573634147644,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_03",
+    "arabic_text": "يبتزني بصور حميمية لي.",
+    "translated_text": "Il me fait chanter avec des photos intimes de moi.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.31228697299957275,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_04",
+    "arabic_text": "بعد أن أرسلت له صورًا شخصية في إطار الثقة، بدأ يهددني بنشرها على منصات التواصل الاجتماعي ما لم أرسل له مبلغًا ماليًا كل شهر.",
+    "translated_text": "Après lui avoir envoyé des photos de confiance, il a commencé à me menacer de les poster sur les réseaux sociaux à moins de lui envoyer de l'argent tous les mois.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.27420324087142944,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_05",
+    "arabic_text": "يستخدم صورًا خاصة بي كوسيلة ضغط للحصول على المال، ويهدد بنشرها للعموم.",
+    "translated_text": "Il utilise mes propres photos comme moyen de pression pour obtenir de l'argent, et il menace de les rendre publiques.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.3157001733779907,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_06",
+    "arabic_text": "بعد الانفصال عن صديقي السابق، بدأ يهددني بنشر مقاطع فيديو خاصة إن لم أعد للعلاقة.",
+    "translated_text": "Après avoir rompu avec mon ex, il a commencé à me menacer de publier des vidéos privées si je ne reviens pas.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.23722386360168457,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_07",
+    "arabic_text": "شخص يمتلك صورًا حساسة لي ويهدد بنشرها إذا رفضت طلباته الآن.",
+    "translated_text": "Quelqu'un qui a des photos sensibles de moi et qui menace de les publier si je refuse ses demandes maintenant.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.312747061252594,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_08",
+    "arabic_text": "تلقيت رسالة تهدد بكشف صور خاصة بي للعائلة ما لم أدفع مبلغًا معينًا.",
+    "translated_text": "J'ai reçu une lettre menaçant de révéler mes photos de famille si je ne payais pas une certaine somme.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.31359249353408813,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_09",
+    "arabic_text": "يضغط عليّ باستمرار مستخدمًا صورًا شخصية قال إنه سينشرها إذا لم ألتزم بما يطلبه.",
+    "translated_text": "Il me met toujours la pression en utilisant des photos personnelles qu'il a dit qu'il publierait si je n'obéissais pas à ce qu'il veut.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.29345589876174927,
+    "error": null
+  },
+  {
+    "id": "ar_sextorsion_10",
+    "arabic_text": "يهددني بفضحي بصور خاصة مقابل المال.",
+    "translated_text": "Il me menace avec des photos privées pour de l'argent.",
+    "expected_intent": "Sextorsion",
+    "predicted_intent": "Sextorsion",
+    "correct": true,
+    "confidence": 0.2960081398487091,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_01",
+    "arabic_text": "تم اختراق حسابي على إنستغرام ولم أعد أستطيع الدخول إليه.",
+    "translated_text": "Mon compte a été piraté sur Instagram et je ne peux plus y accéder.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3212459087371826,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_02",
+    "arabic_text": "لم أعد أستطيع الدخول إلى حسابي وظهرت منشورات لم أنشرها.",
+    "translated_text": "Je n'ai plus accès à mon compte et des tracts sont apparus que je n'ai pas publiés.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3108069896697998,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_03",
+    "arabic_text": "حسابي مخترق منذ الصباح.",
+    "translated_text": "Mon compte est piraté depuis ce matin.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3172371983528137,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_04",
+    "arabic_text": "منذ يومين، لاحظت أنني لم أعد قادرًا على تسجيل الدخول إلى حسابي رغم إدخال كلمة المرور الصحيحة، وظهرت منشورات غريبة لم أقم بنشرها بنفسي على الإطلاق.",
+    "translated_text": "Il y a deux jours, j'ai remarqué que je n'étais plus en mesure d'enregistrer l'accès à mon compte malgré l'introduction du mot de passe, et des publications étranges que je n'ai jamais publiées moi-même.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3134494423866272,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_05",
+    "arabic_text": "شخص ما استولى على حسابي وغيّر كلمة المرور دون علمي.",
+    "translated_text": "Quelqu'un a pris mon compte et a changé le mot de passe sans que je le sache.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.32093602418899536,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_06",
+    "arabic_text": "تلقيت إشعارًا بتسجيل دخول من جهاز لا أعرفه، وبعدها فقدت السيطرة على حسابي بالكامل.",
+    "translated_text": "J'ai reçu un avis d'accès d'un appareil que je ne connais pas, et j'ai perdu le contrôle de mon compte.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3096874952316284,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_07",
+    "arabic_text": "لم أعد أملك صلاحية الوصول إلى بريدي الإلكتروني وحسابي مرتبط به وتغيرت كل الإعدادات.",
+    "translated_text": "Je n'ai plus accès à mes e-mails et mon compte a changé de configuration.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3196902275085449,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_08",
+    "arabic_text": "تم اختراق حساب واتساب الخاص بي واستخدامه للتواصل مع جهات اتصالي.",
+    "translated_text": "Mon compte Watsab a été piraté et utilisé pour communiquer avec mes contacts.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3214065432548523,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_09",
+    "arabic_text": "كلمة مرور حسابي لم تعد تعمل وتغيرت جميع معلوماتي الشخصية فيه دون علمي.",
+    "translated_text": "Mon mot de passe ne fonctionne plus, et mes données personnelles ont changé sans que je sache.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3181997239589691,
+    "error": null
+  },
+  {
+    "id": "ar_piratage_10",
+    "arabic_text": "فقدت السيطرة الكاملة على حسابي على فيسبوك.",
+    "translated_text": "J'ai perdu tout contrôle sur mon compte Facebook.",
+    "expected_intent": "Piratage de compte",
+    "predicted_intent": "Piratage de compte",
+    "correct": true,
+    "confidence": 0.3189872205257416,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_01",
+    "arabic_text": "أنشأ شخص حسابًا مزيفًا باسمي وصورتي على إنستغرام.",
+    "translated_text": "Quelqu'un a créé un faux compte en mon nom et ma photo d'Instagram.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "confidence": 0.3272058963775635,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_02",
+    "arabic_text": "أنشأ شخص حسابًا باسمي ويستخدم صورتي للتحدث مع الآخرين.",
+    "translated_text": "Quelqu'un a créé un compte en mon nom et utilise ma photo pour parler aux autres.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "confidence": 0.3271034359931946,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_03",
+    "arabic_text": "هناك حساب وهمي يحمل اسمي وصورتي.",
+    "translated_text": "Il y a un faux compte avec mon nom et ma photo.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "confidence": 0.3263704776763916,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_04",
+    "arabic_text": "اكتشفت وجود حساب على فيسبوك يستخدم اسمي الكامل وصورتي الشخصية، ويقوم بالتواصل مع أصدقائي منتحلاً شخصيتي دون أن أكون قد أنشأت هذا الحساب.",
+    "translated_text": "J'ai découvert qu'un compte Facebook utilise mon nom complet et ma photo personnelle, et qu'il communique avec mes amis sans que j'aie créé ce compte.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "confidence": 0.2687996029853821,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_05",
+    "arabic_text": "شخص يتظاهر بأنه أنا على مواقع التواصل ويستخدم معلوماتي الشخصية للتواصل مع الناس.",
+    "translated_text": "Quelqu'un qui prétend être moi sur les réseaux et utilise mes informations personnelles pour communiquer avec les gens.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "confidence": 0.27277693152427673,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_06",
+    "arabic_text": "أصدقائي أخبروني أن هناك من يتحدث معهم باسمي على تطبيق آخر، رغم أنني لم أنشئ أي حساب هناك.",
+    "translated_text": "Mes amis m'ont dit que quelqu'un leur parlait en mon nom sur une autre application, même si je n'ai pas créé de compte là-bas.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "confidence": 0.28722018003463745,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_07",
+    "arabic_text": "لاحظت أن هناك حسابًا جديدًا يحمل بياناتي الشخصية وصوري، رغم أن حسابي الأصلي ما زال يعمل بشكل طبيعي بيدي.",
+    "translated_text": "J'ai remarqué qu'il y avait un nouveau compte avec mes données personnelles et mes photos, bien que mon compte initial fonctionne toujours normalement entre mes mains.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Piratage de compte",
+    "correct": false,
+    "confidence": 0.2813640832901001,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_08",
+    "arabic_text": "شخص يستخدم اسمي وصورتي لخداع الآخرين على تطبيق تيليغرام.",
+    "translated_text": "Quelqu'un qui utilise mon nom et ma photo pour tromper les autres sur l'application de Telgram.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "confidence": 0.31263983249664307,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_09",
+    "arabic_text": "تلقيت رسائل من أصدقاء يسألونني عن محادثات لم أقم بها أبدًا، واتضح أن هناك من يتحدث نيابة عني.",
+    "translated_text": "J'ai reçu des lettres d'amis qui m'ont posé des questions sur des conversations que je n'ai jamais eues, et il s'avère que quelqu'un parle pour moi.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "confidence": 0.2677075266838074,
+    "error": null
+  },
+  {
+    "id": "ar_usurpation_10",
+    "arabic_text": "يوجد حساب مزيف يتظاهر بأنه أنا.",
+    "translated_text": "Il y a un faux compte qui prétend être moi.",
+    "expected_intent": "Usurpation d'identité",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": true,
+    "confidence": 0.3236221671104431,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_01",
+    "arabic_text": "نشر شخص عنواني ورقم هاتفي على الإنترنت دون موافقتي.",
+    "translated_text": "Quelqu'un a posté mon adresse et mon numéro de téléphone sur Internet sans mon accord.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.3270190358161926,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_02",
+    "arabic_text": "أصبح بإمكان أي شخص معرفة مكان سكني بعد أن نُشرت معلوماتي الخاصة على الإنترنت.",
+    "translated_text": "Tout le monde peut savoir où j'habite après que j'ai posté mes propres informations en ligne.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.30872976779937744,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_03",
+    "arabic_text": "تم نشر بياناتي الشخصية بدون إذني.",
+    "translated_text": "Mes données personnelles ont été publiées sans ma permission.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.3177442252635956,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_04",
+    "arabic_text": "اكتشفت أن أحد الأشخاص قام بنشر عنوان منزلي ورقم هاتفي الشخصي وحتى مكان عملي على منتدى عام، مما جعلني أشعر بالخوف من تعرضي للمضايقة في الواقع.",
+    "translated_text": "J'ai découvert que quelqu'un a publié mon adresse, mon numéro de téléphone personnel et même mon lieu de travail dans un forum public, ce qui m'a fait craindre d'être en fait harcelé.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.27022773027420044,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_05",
+    "arabic_text": "معلوماتي الخاصة، بما في ذلك مكان سكني، أصبحت متاحة للعموم دون علمي.",
+    "translated_text": "Mes propres informations, y compris un lieu de résidence, ont été mises à la disposition du public sans que je sache.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.32362279295921326,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_06",
+    "arabic_text": "بعد خلاف بسيط، قام أحد المعارف بنشر رقم هاتفي على مجموعة عامة للانتقام مني.",
+    "translated_text": "Après une petite dispute, une connaissance a posté mon numéro de téléphone sur un groupe public pour me venger.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Usurpation d'identité",
+    "correct": false,
+    "confidence": 0.17057499289512634,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_07",
+    "arabic_text": "شخص كشف عنواني الشخصي للعلن، وأخشى أن يستغل ذلك أحدهم للوصول إليّ.",
+    "translated_text": "Quelqu'un a révélé mon adresse personnelle au public, et j'ai peur que quelqu'un utilise ça pour m'atteindre.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.29017096757888794,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_08",
+    "arabic_text": "تم الكشف عن بريدي الإلكتروني ورقم بطاقتي الشخصية على الإنترنت.",
+    "translated_text": "Mon e-mail et mon numéro de carte d'identité ont été révélés sur Internet.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.3137257397174835,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_09",
+    "arabic_text": "بدأ أشخاص غرباء يعرفون تفاصيل دقيقة عن حياتي الخاصة بعد أن انتشرت معلوماتي على أحد المواقع.",
+    "translated_text": "Des inconnus ont commencé à avoir des détails précis sur ma vie privée après que mes informations aient été diffusées sur un site.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.3199208080768585,
+    "error": null
+  },
+  {
+    "id": "ar_doxing_10",
+    "arabic_text": "نُشرت معلوماتي الشخصية دون موافقتي.",
+    "translated_text": "Mes informations personnelles ont été publiées sans mon accord.",
+    "expected_intent": "Divulgation de données personnelles (Doxing)",
+    "predicted_intent": "Divulgation de données personnelles (Doxing)",
+    "correct": true,
+    "confidence": 0.3178307116031647,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_01",
+    "arabic_text": "كيف يمكنني الاحتفاظ بالأدلة على التحرش الذي أتعرض له؟",
+    "translated_text": "Comment puis-je garder les preuves du harcèlement dont je suis l'objet ?",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "confidence": 0.2994737923145294,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_02",
+    "arabic_text": "أريد توثيق الرسائل المسيئة قبل أن يقوم بحذفها.",
+    "translated_text": "J'ai besoin de documenter les messages offensants avant qu'ils ne soient supprimés.",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "confidence": 0.28868919610977173,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_03",
+    "arabic_text": "كيف أحفظ لقطات الشاشة كدليل؟",
+    "translated_text": "Comment je garde les images de l'écran comme preuve ?",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "confidence": 0.29338058829307556,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_04",
+    "arabic_text": "أتعرض لرسائل مزعجة منذ فترة، وأريد أن أعرف الطريقة الصحيحة لتوثيق هذه الرسائل والاحتفاظ بها كدليل قبل أن يقوم الشخص بحذف حسابه أو الرسائل نفسها.",
+    "translated_text": "J'ai eu des messages dérangeants il y a un moment, et je veux savoir comment documenter ces messages et les conserver comme preuve avant qu'une personne ne retire son compte ou ses messages eux-mêmes.",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "confidence": 0.23143398761749268,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_05",
+    "arabic_text": "ما هي أفضل طريقة لتجميع الإثباتات الرقمية قبل أن تختفي؟",
+    "translated_text": "Quel est le meilleur moyen de rassembler des preuves numériques avant qu'elles ne disparaissent ?",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "confidence": 0.3007768988609314,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_06",
+    "arabic_text": "أخشى أن يحذف الشخص كل الرسائل التي أرسلها لي، فكيف أضمن توثيقها؟",
+    "translated_text": "J'ai peur qu'une personne efface tous les messages qu'elle m'a envoyés. Comment puis-je m'assurer qu'ils soient documentés ?",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "confidence": 0.1918788105249405,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_07",
+    "arabic_text": "قبل أن أقوم بأي خطوة أخرى، أريد أن أعرف كيف أوثق هذه المحادثات بشكل يمكن استخدامه لاحقًا.",
+    "translated_text": "Avant de faire quelque chose d'autre, je veux savoir comment approfondir ces conversations de façon à pouvoir être utilisées plus tard.",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "confidence": 0.21357287466526031,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_08",
+    "arabic_text": "هل يجب أن آخذ لقطة شاشة لكل رسالة تهديد أتلقاها؟",
+    "translated_text": "Dois-je prendre un écran pour chaque lettre de menace que j'ai reçue ?",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "confidence": 0.2875477969646454,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_09",
+    "arabic_text": "أخاف أن أفقد الدليل الوحيد الذي أملكه على ما يحدث لي، كيف أحميه؟",
+    "translated_text": "J'ai peur de perdre la seule preuve que j'ai de ce qui m'arrive. Comment le protéger ?",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "confidence": 0.24622026085853577,
+    "error": null
+  },
+  {
+    "id": "ar_preuves_10",
+    "arabic_text": "أريد حفظ المحادثة كدليل قبل حذفها.",
+    "translated_text": "Je veux garder la conversation comme preuve avant de la supprimer.",
+    "expected_intent": "Conservation des preuves",
+    "predicted_intent": "Conservation des preuves",
+    "correct": true,
+    "confidence": 0.2446197122335434,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_01",
+    "arabic_text": "ما هي حقوقي القانونية إذا نشر شخص صوري دون موافقتي؟",
+    "translated_text": "Quels sont mes droits si quelqu'un publie ma photo sans mon consentement ?",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.30698448419570923,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_02",
+    "arabic_text": "هل يعاقب القانون المغربي على نشر الصور الخاصة دون إذن؟",
+    "translated_text": "La loi marocaine punit-elle la publication d &apos; images privées sans autorisation?",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.3301832675933838,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_03",
+    "arabic_text": "ما هو الإطار القانوني للتحرش الإلكتروني؟",
+    "translated_text": "Quel est le cadre juridique du harcèlement électronique?",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.32831814885139465,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_04",
+    "arabic_text": "أريد أن أفهم بشكل دقيق ما تنص عليه القوانين المغربية بخصوص نشر الصور الشخصية دون موافقة صاحبها، وما هي العقوبات المترتبة على ذلك من الناحية القانونية.",
+    "translated_text": "Je tiens à bien comprendre ce que les lois marocaines prévoient en ce qui concerne la publication d &apos; images personnelles sans l &apos; accord de leur auteur, et quelles sont les sanctions qui en découlent d &apos; un point de vue juridique.",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.3215831220149994,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_05",
+    "arabic_text": "من الناحية القانونية، هل يمكنني رفع شكوى ضد من يهددني عبر الإنترنت؟",
+    "translated_text": "D'un point de vue juridique, puis-je porter plainte contre quelqu'un qui me menace sur Internet ?",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.32992392778396606,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_06",
+    "arabic_text": "قبل أن أقرر ماذا أفعل، أريد معرفة ما الذي يقوله القانون في مثل هذه الحالات.",
+    "translated_text": "Avant de décider quoi faire, je veux savoir ce que la loi dit dans de tels cas.",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.26330316066741943,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_07",
+    "arabic_text": "هل هناك قانون واضح يجرّم انتحال الهوية الرقمية في المغرب؟",
+    "translated_text": "Existe-t-il une loi claire érigeant en infraction l &apos; usurpation d &apos; identité numérique au Maroc?",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.32740989327430725,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_08",
+    "arabic_text": "ما هي العقوبة القانونية على الابتزاز الإلكتروني؟",
+    "translated_text": "Quelle est la sanction légale pour extorsion en ligne ?",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.32742664217948914,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_09",
+    "arabic_text": "أريد أن أعرف مسبقًا ما الذي يحميني قانونيًا قبل أن أتقدم بأي شكوى.",
+    "translated_text": "Je veux savoir ce qui me protège légalement avant de porter plainte.",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.3220531642436981,
+    "error": null
+  },
+  {
+    "id": "ar_juridique_10",
+    "arabic_text": "هل التحرش الإلكتروني جريمة يعاقب عليها القانون؟",
+    "translated_text": "Le harcèlement électronique est-il un délit punissable par la loi?",
+    "expected_intent": "Informations juridiques",
+    "predicted_intent": "Informations juridiques",
+    "correct": true,
+    "confidence": 0.3310723900794983,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_01",
+    "arabic_text": "قام شخص بنشر صوري الخاصة دون موافقتي على الإنترنت.",
+    "translated_text": "Quelqu'un a posté mes propres photos sans mon accord sur Internet.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "confidence": 0.3066354990005493,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_02",
+    "arabic_text": "صوري الحميمية أصبحت منتشرة على مجموعات واتساب دون علمي.",
+    "translated_text": "Mes photos d'intimité se répandent sur des groupes de Watsab sans que je sache.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Sextorsion",
+    "correct": false,
+    "confidence": 0.250020295381546,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_03",
+    "arabic_text": "نُشرت صوري الخاصة بدون إذني.",
+    "translated_text": "Mes photos ont été publiées sans ma permission.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "confidence": 0.3064206838607788,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_04",
+    "arabic_text": "اكتشفت أن صديقي السابق قام بنشر صور ومقاطع فيديو خاصة بي على مجموعة عامة على تيليغرام دون أن يطلب إذني، وقد شاهدها عدد كبير من الأشخاص بالفعل.",
+    "translated_text": "J'ai découvert que mon ex-petit ami avait posté des photos et des vidéos de moi sur un groupe public sur Tellgram sans demander ma permission, et beaucoup de gens l'ont déjà vu.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "confidence": 0.26789572834968567,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_05",
+    "arabic_text": "تم تسريب صور شخصية لي إلى الجمهور دون موافقتي المسبقة.",
+    "translated_text": "Des photos de moi ont été divulguées au public sans mon consentement préalable.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "confidence": 0.30512866377830505,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_06",
+    "arabic_text": "بعد انتهاء علاقتنا، قام بنشر صور كنا قد التقطناها معًا في إطار خاص.",
+    "translated_text": "Après la fin de notre relation, il a publié des photos que nous avions prises ensemble dans un cadre privé.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "confidence": 0.2832559645175934,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_07",
+    "arabic_text": "الصور التي كانت خاصة أصبحت الآن منتشرة على الملأ بعد أن نشرها شخص أثق به سابقًا.",
+    "translated_text": "Les photos privées sont maintenant rendues publiques après que quelqu'un en qui j'avais confiance ait déjà été publié.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "confidence": 0.29534775018692017,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_08",
+    "arabic_text": "شخص نشر مقطع فيديو حميمي لي على مواقع التواصل الاجتماعي.",
+    "translated_text": "Quelqu'un a posté une vidéo intime sur les réseaux sociaux.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "confidence": 0.27980488538742065,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_09",
+    "arabic_text": "فوجئت بأن صورًا كنت أظنها خاصة أصبحت متداولة بين معارفي.",
+    "translated_text": "J'ai été surpris que des photos que je pensais être privées soient devenues des échanges entre mes contacts.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Sextorsion",
+    "correct": false,
+    "confidence": 0.2651635706424713,
+    "error": null
+  },
+  {
+    "id": "ar_diffusion_10",
+    "arabic_text": "نشر صورتي الخاصة للعموم دون رضاي.",
+    "translated_text": "Diffusez ma propre photo du public sans mon consentement.",
+    "expected_intent": "Diffusion non consentie d'images",
+    "predicted_intent": "Diffusion non consentie d'images",
+    "correct": true,
+    "confidence": 0.3067024052143097,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_01",
+    "arabic_text": "كيف يمكنني الإبلاغ عن حساب مزيف يستخدم اسمي؟",
+    "translated_text": "Comment pourrais-je signaler un faux compte qui utilise mon nom ?",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "confidence": 0.32533028721809387,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_02",
+    "arabic_text": "أين يمكنني الإبلاغ عن شخص يزعجني عبر الإنترنت؟",
+    "translated_text": "Où puis-je signaler quelqu'un qui m'embête sur internet ?",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "confidence": 0.35482490062713623,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_03",
+    "arabic_text": "كيف أبلغ عن هذا الحساب؟",
+    "translated_text": "Comment a-t-il signalé ce compte ?",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "confidence": 0.3411903977394104,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_04",
+    "arabic_text": "أتعرض لمضايقات متكررة من شخص على فيسبوك، ولا أعرف الجهة المناسبة التي يمكنني التوجه إليها لتقديم بلاغ رسمي بخصوص هذه المضايقات.",
+    "translated_text": "Je suis souvent harcelé par quelqu'un sur Facebook, et je ne sais pas où me tourner pour faire un rapport officiel sur ce harcèlement.",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Cyberharcèlement",
+    "correct": false,
+    "confidence": 0.34405672550201416,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_05",
+    "arabic_text": "ما هي الخطوات التي يجب اتباعها لتقديم بلاغ رسمي عن شخص يهددني؟",
+    "translated_text": "Quelles sont les mesures à prendre pour faire un rapport officiel sur une personne qui me menace ?",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Conservation des preuves",
+    "correct": false,
+    "confidence": 0.2760787606239319,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_06",
+    "arabic_text": "صديقتي نصحتني بتقديم بلاغ، لكنني لا أعرف كيف تسير هذه العملية بالضبط.",
+    "translated_text": "Ma copine m'a conseillé de faire un rapport, mais je ne sais pas exactement comment ça marche.",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": false,
+    "confidence": 0.2668093740940094,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_07",
+    "arabic_text": "أريد معرفة الجهة الرسمية التي يجب التواصل معها للإبلاغ عن محتوى مسيء يستهدفني.",
+    "translated_text": "Je veux savoir avec qui il faut contacter pour signaler un contenu abusif.",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "confidence": 0.3561159670352936,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_08",
+    "arabic_text": "هل يمكنني الإبلاغ عن منشور مسيء مباشرة من التطبيق؟",
+    "translated_text": "Est-ce que je peux signaler une publication qui a été mal diffusée directement par l'application ?",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "confidence": 0.3568391501903534,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_09",
+    "arabic_text": "أحتاج إلى معرفة الإجراء الصحيح للإبلاغ عن حساب يهددني.",
+    "translated_text": "J'ai besoin de savoir quelle est la procédure à suivre pour signaler un compte qui me menace.",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "confidence": 0.3482639491558075,
+    "error": null
+  },
+  {
+    "id": "ar_signalement_10",
+    "arabic_text": "كيف أقدم بلاغًا عن شخص يبتزني؟",
+    "translated_text": "Comment puis-je signaler quelqu'un qui m'a fait chanter ?",
+    "expected_intent": "Signalement",
+    "predicted_intent": "Signalement",
+    "correct": true,
+    "confidence": 0.3529767692089081,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_01",
+    "arabic_text": "أفكر في إيذاء نفسي بسبب ما أتعرض له.",
+    "translated_text": "Je pense à me blesser à cause de ce que j'ai subi.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.25368186831474304,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_02",
+    "arabic_text": "لم أعد أستطيع التحمل، أشعر أنني في خطر حقيقي الآن.",
+    "translated_text": "Je n'en peux plus. Je me sens en danger.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.2602204978466034,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_03",
+    "arabic_text": "أنا في خطر الآن.",
+    "translated_text": "Je suis en danger.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.28628432750701904,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_04",
+    "arabic_text": "الشخص الذي يهددني قال إنه يعرف مكان سكني وسيأتي الليلة، وأنا خائفة جدًا ولا أعرف ماذا أفعل في هذه اللحظة بالذات.",
+    "translated_text": "Le gars qui m'a menacé m'a dit qu'il savait où j'habitais et qu'il viendrait ce soir, et j'ai trop peur et je ne sais pas quoi faire en ce moment.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.27205905318260193,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_05",
+    "arabic_text": "أشعر أن حياتي مهددة بشكل مباشر الآن ولا أعرف من أتصل به.",
+    "translated_text": "J'ai l'impression que ma vie est en danger maintenant, et je ne sais pas qui appeler.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.2558496296405792,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_06",
+    "arabic_text": "بعد التهديدات المتكررة، أرسل لي رسالة يقول فيها إنه سيؤذيني جسديًا اليوم.",
+    "translated_text": "Après les menaces répétées, il m'a envoyé un message disant qu'il me ferait du mal aujourd'hui.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.25684502720832825,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_07",
+    "arabic_text": "الرسائل تحولت إلى تهديدات مباشرة بالأذى الجسدي، وأخشى أن يحدث شيء الآن.",
+    "translated_text": "Les messages sont devenus des menaces directes de blessures physiques, et j'ai peur qu'il ne se passe quelque chose maintenant.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.27581170201301575,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_08",
+    "arabic_text": "أحتاج مساعدة عاجلة، أنا في خطر هذه اللحظة.",
+    "translated_text": "J'ai besoin d'aide d'urgence. Je suis en danger.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.2542530596256256,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_09",
+    "arabic_text": "الوضع خرج عن السيطرة وأصبحت أخاف على سلامتي الجسدية الآن.",
+    "translated_text": "La situation est devenue incontrôlable, et j'ai peur pour mon intégrité physique maintenant.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.27961939573287964,
+    "error": null
+  },
+  {
+    "id": "ar_urgence_10",
+    "arabic_text": "ساعدوني، أنا في خطر حقيقي.",
+    "translated_text": "Aidez-moi, je suis en danger.",
+    "expected_intent": "Situation d'urgence",
+    "predicted_intent": "Situation d'urgence",
+    "correct": true,
+    "confidence": 0.25636526942253113,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_01",
+    "arabic_text": "لا أعرف ماذا أفعل، أحتاج إلى التحدث مع شخص ما.",
+    "translated_text": "Je ne sais pas quoi faire. Je dois parler à quelqu'un.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.25380629301071167,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_02",
+    "arabic_text": "أشعر بالضياع منذ ما حدث لي ولا أعرف من أين أبدأ.",
+    "translated_text": "Je me sens perdu depuis ce qui m'est arrivé et je ne sais pas par où commencer.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.3412279486656189,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_03",
+    "arabic_text": "أحتاج إلى مرافقة نفسية.",
+    "translated_text": "J'ai besoin d'aide psychologique.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.3122636079788208,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_04",
+    "arabic_text": "منذ أن بدأت أتلقى هذه الرسائل، أصبحت غير قادرة على التركيز في حياتي اليومية، وأشعر بالوحدة الشديدة ولا أعرف كيف أتعامل مع كل هذا بمفردي.",
+    "translated_text": "Depuis que j'ai commencé à recevoir ces messages, je suis incapable de me concentrer dans ma vie quotidienne, et je me sens très seule et je ne sais pas comment gérer tout ça seul.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.3383511006832123,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_05",
+    "arabic_text": "أريد أن أتحدث مع شخص يفهم وضعي ويرشدني حول ما يجب فعله.",
+    "translated_text": "Je veux parler à quelqu'un qui comprend ma situation et qui me guide sur ce qu'il faut faire.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.35492491722106934,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_06",
+    "arabic_text": "عائلتي لا تعرف بما يحدث، وأشعر أنني بحاجة لدعم من جهة مختصة.",
+    "translated_text": "Ma famille ne sait pas ce qui se passe, et j'ai l'impression d'avoir besoin d'un soutien de la part d'une autorité compétente.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.30498993396759033,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_07",
+    "arabic_text": "الوضع متعب نفسيًا منذ فترة طويلة، وأشعر أنني بحاجة إلى مرافقة مستمرة وليس فقط حلاً سريعًا.",
+    "translated_text": "Ça fait longtemps que je suis fatigué, et je sens que j'ai besoin d'une escorte continue et pas seulement d'une solution rapide.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Situation d'urgence",
+    "correct": false,
+    "confidence": 0.256415456533432,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_08",
+    "arabic_text": "أحتاج إلى الدعم النفسي بعد كل ما مررت به.",
+    "translated_text": "J'ai besoin de soutien psychologique après tout ce que j'ai traversé.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.3352397680282593,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_09",
+    "arabic_text": "لا أعرف كيف أتعامل مع الوضع، هل يمكن لأحد أن يساعدني في فهم ما يجب فعلي؟",
+    "translated_text": "Je ne sais pas comment gérer ça. Quelqu'un peut m'aider à comprendre ce que je dois faire ?",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.3482852578163147,
+    "error": null
+  },
+  {
+    "id": "ar_accompagnement_10",
+    "arabic_text": "أشعر أنني بحاجة لمن يوجهني.",
+    "translated_text": "J'ai l'impression d'avoir besoin de quelqu'un pour me guider.",
+    "expected_intent": "Accompagnement de la victime",
+    "predicted_intent": "Accompagnement de la victime",
+    "correct": true,
+    "confidence": 0.33853238821029663,
+    "error": null
+  }
+]

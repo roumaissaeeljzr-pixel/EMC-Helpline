@@ -1,0 +1,414 @@
+/* =========================
+   ASSESSMENT PAGE / CONTAINER
+========================= */
+
+.assessment-page {
+  height: 100%;
+  display: flex;
+}
+
+.assessment-container {
+  width: min(700px, 100%);
+  margin: 0 auto;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.assessment-card {
+  background: white;
+  border: 1px solid #e6e1ec;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(20, 35, 60, 0.06);
+
+  padding: 28px 30px;
+}
+
+.assessment-step-indicator {
+  font-size: 12px;
+  font-weight: 600;
+  color: #8b8294;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.assessment-title {
+  font-size: 19px;
+  color: #7048b8;
+  margin: 0 0 8px;
+}
+
+.assessment-intro {
+  font-size: 14px;
+  color: #766f83;
+  margin: 0 0 20px;
+  line-height: 1.55;
+}
+
+.assessment-note {
+  font-size: 12.5px;
+  color: #8b8294;
+  line-height: 1.55;
+  margin: 12px 0 0;
+}
+
+/* =========================
+   FIELDS
+========================= */
+
+.assessment-field {
+  margin-bottom: 22px;
+}
+
+.assessment-field-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #241d46;
+  margin-bottom: 8px;
+}
+
+.assessment-textarea,
+.assessment-input {
+  width: 100%;
+  box-sizing: border-box;
+
+  border: 1px solid #ded7e5;
+  border-radius: 12px;
+
+  padding: 12px 14px;
+
+  font-family: inherit;
+  font-size: 14px;
+
+  outline: none;
+  resize: vertical;
+}
+
+.assessment-textarea:focus,
+.assessment-input:focus {
+  border-color: #496f99;
+  box-shadow: 0 0 0 3px rgba(73, 111, 153, 0.1);
+}
+
+.assessment-textarea[dir="rtl"],
+.assessment-summary-description[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+.assessment-textarea[dir="ltr"],
+.assessment-summary-description[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+
+/* Optimisation légère de la lecture arabe,
+   sans imposer une police particulière. */
+.assessment-card[dir="rtl"] .assessment-intro,
+.assessment-card[dir="rtl"] .assessment-note,
+.assessment-card[dir="rtl"] .assessment-summary-description,
+.assessment-card[dir="rtl"] .assessment-emergency-note,
+.assessment-card[dir="rtl"] .assessment-clarification-note {
+  line-height: 1.75;
+}
+
+.assessment-summary-description {
+  overflow-wrap: anywhere;
+}
+
+/* =========================
+   CHOICE GROUP (Oui / Non / Je ne sais pas)
+========================= */
+
+.assessment-choice-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.assessment-choice {
+  min-height: 40px;
+  padding: 0 16px;
+
+  border: 1px solid #ded7e5;
+  border-radius: 10px;
+  background: white;
+  color: #241d46;
+
+  font-size: 13.5px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.assessment-choice:hover {
+  background: #f5f1f9;
+}
+
+.assessment-choice:focus-visible {
+  outline: 2px solid #496f99;
+  outline-offset: 2px;
+}
+
+.assessment-choice-selected {
+  background: #7048b8;
+  border-color: #7048b8;
+  color: white;
+}
+
+/* =========================
+   ACTIONS
+========================= */
+
+.assessment-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.assessment-actions-split {
+  justify-content: space-between;
+}
+
+.assessment-button-primary,
+.assessment-button-secondary {
+  min-height: 44px;
+  padding: 0 22px;
+
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.assessment-button-primary {
+  border: none;
+  background: #7048b8;
+  color: white;
+}
+
+.assessment-button-primary:hover:not(:disabled) {
+  background: #4c278c;
+}
+
+.assessment-button-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.assessment-button-secondary {
+  border: 1px solid #ded7e5;
+  background: white;
+  color: #241d46;
+}
+
+.assessment-button-secondary:hover {
+  background: #f5f1f9;
+}
+
+.assessment-button-primary:focus-visible,
+.assessment-button-secondary:focus-visible {
+  outline: 2px solid #496f99;
+  outline-offset: 2px;
+}
+
+/* =========================
+   RESULT / SUMMARY
+========================= */
+
+.assessment-summary-block {
+  margin-bottom: 22px;
+}
+
+.assessment-summary-description {
+  margin: 0;
+  padding: 12px 14px;
+
+  background: #f5f1f9;
+  border-radius: 12px;
+
+  font-size: 14px;
+  line-height: 1.6;
+  color: #241d46;
+
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.assessment-summary-list {
+  margin: 0;
+  border: 1px solid #eee8f1;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.assessment-summary-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+
+  padding: 11px 14px;
+  border-bottom: 1px solid #eee8f1;
+
+  font-size: 13.5px;
+}
+
+.assessment-summary-row:last-child {
+  border-bottom: none;
+}
+
+.assessment-summary-row dt {
+  color: #8b8294;
+}
+
+.assessment-summary-row dd {
+  margin: 0;
+  color: #241d46;
+  font-weight: 600;
+
+  /* Alignement logique :
+     FR -> fin de ligne = droite
+     AR -> fin de ligne = gauche */
+  text-align: end;
+}
+
+.assessment-disclaimer-note {
+  margin: 0 0 4px;
+  padding: 12px 14px;
+
+  background: #fff8ea;
+  border: 1px solid #f0e2b8;
+  border-radius: 12px;
+
+  font-size: 13px;
+  color: #7a5c00;
+  line-height: 1.55;
+}
+
+/* =========================
+   ÉTAT D'ERREUR RÉSEAU (Assessment API)
+========================= */
+
+.assessment-error-note {
+  margin: 12px 0 0;
+  padding: 12px 14px;
+
+  background: #fdecec;
+  border: 1px solid #f3b4b4;
+  border-radius: 12px;
+
+  font-size: 13px;
+  color: #8a1f1f;
+  line-height: 1.55;
+}
+
+/* =========================
+   ALERTE URGENCE (emergency_override)
+========================= */
+
+.assessment-emergency-note {
+  margin: 0 0 20px;
+  padding: 14px 16px;
+
+  background: #fdecec;
+  border: 1px solid #f3b4b4;
+  border-radius: 12px;
+
+  font-size: 13.5px;
+  color: #7a1f1f;
+  line-height: 1.6;
+}
+
+.assessment-emergency-note strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+/* =========================
+   CLARIFICATION NÉCESSAIRE (clarification_required)
+========================= */
+
+.assessment-clarification-note {
+  margin: 4px 0 20px;
+  padding: 14px 16px;
+
+  background: #eef4fb;
+  border: 1px solid #bcd3ec;
+  border-radius: 12px;
+
+  font-size: 13.5px;
+  color: #1c4a75;
+  line-height: 1.6;
+}
+
+.assessment-clarification-note strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 650px) {
+  .assessment-card {
+    padding: 20px 18px;
+    border-radius: 14px;
+  }
+
+  .assessment-actions {
+    width: 100%;
+  }
+
+  .assessment-button-primary,
+  .assessment-button-secondary {
+    max-width: 100%;
+  }
+
+  .assessment-summary-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .assessment-summary-row dd {
+    /* En mode empilé :
+       FR -> début = gauche
+       AR -> début = droite */
+    text-align: start;
+  }
+}
+
+
+/* EMC Helpline — harmonisation Dashboard / Resources */
+:where(.chat-page,.assessment-page,.action-plan-page,.case-page,.evidence-page,.history-page) {
+  --emc-purple:#7048b8;
+  --emc-purple-dark:#4c278c;
+  --emc-purple-soft:#f2ecfb;
+  --emc-pink:#d9549a;
+  --emc-orange:#ed963b;
+  --emc-green:#42ad7d;
+  --emc-text:#241d46;
+  --emc-muted:#766f83;
+  --emc-border:#e6e1ec;
+}
+
+
+.assessment-card{border-color:var(--emc-border);border-radius:22px;box-shadow:0 10px 30px rgba(55,39,75,.05);background:radial-gradient(circle at 96% 0%,rgba(112,72,184,.06),transparent 24%),#fff}
+.assessment-step-indicator{color:var(--emc-purple)}
+.assessment-title{color:var(--emc-text);font-size:22px}
+.assessment-textarea,.assessment-input{background:#faf9fc;border-color:#ded7e5}
+.assessment-textarea:focus,.assessment-input:focus{border-color:#bba8d5;box-shadow:0 0 0 4px rgba(112,72,184,.07)}
+.assessment-choice{border-radius:999px}
+.assessment-choice-selected{background:linear-gradient(105deg,#f0a044,#d9549a 52%,#7048b8);border-color:transparent}
+.assessment-button-primary{background:linear-gradient(105deg,#7048b8,#d9549a);box-shadow:0 7px 17px rgba(201,75,145,.15)}
+.assessment-button-primary:hover:not(:disabled){background:linear-gradient(105deg,#633da5,#ca468d)}
+.assessment-summary-description{background:#f8f5fb;border:1px solid #e9e0f1}

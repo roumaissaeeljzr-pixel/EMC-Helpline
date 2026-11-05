@@ -1,0 +1,30 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+rapidfuzz
+scikit-learn
+numpy
+pandas
+pytest
+httpx
+
+# --- Phase B1 : PostgreSQL + migrations ---
+sqlalchemy>=2.0
+psycopg[binary]
+alembic
+
+# --- Phase B2/C (auth) ---
+pwdlib[argon2]
+PyJWT
+email-validator
+
+python-multipart>=0.0.32
+# python-multipart sera ajouté en Phase K (upload de preuves), pas
+# nécessaire avant.
+
+reportlab>=4.0
+pypdf>=5.0
+Pillow>=10.0
+arabic-reshaper>=3.0
+python-bidi>=0.4

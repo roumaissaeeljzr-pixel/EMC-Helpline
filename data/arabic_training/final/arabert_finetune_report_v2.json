@@ -1,0 +1,826 @@
+{
+  "status": "PASS",
+  "benchmarks_used": false,
+  "benchmarks_note": "AR-1 et AR-2 ne sont ni lus ni utilisés par ce script.",
+  "protocol": {
+    "model_name": "aubmindlab/bert-base-arabertv02",
+    "max_length": 96,
+    "num_labels": 11,
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "max_epochs": 6,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "early_stopping_patience": 2,
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "selection_metric": "eval_macro_f1",
+    "selection_source": "internal_validation_only",
+    "train_examples": 935,
+    "validation_examples": 165
+  },
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.13.0+cu132",
+    "transformers": "5.14.1",
+    "sklearn": "1.9.0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "gpu_memory_gb": 7.96
+  },
+  "runs": [
+    {
+      "seed": 42,
+      "best_model_dir": "models\\arabert_intent_runs_v1\\seed_42\\best_model",
+      "best_checkpoint": "models\\arabert_intent_runs_v1\\seed_42\\checkpoint-177",
+      "best_metric_from_trainer": 0.9574473079756729,
+      "epochs_completed": 5.0,
+      "global_step": 295,
+      "train_metrics": {
+        "train_runtime": 32.1042,
+        "train_samples_per_second": 174.744,
+        "train_steps_per_second": 11.027,
+        "total_flos": 230651921332800.0,
+        "train_loss": 0.8082978579957606,
+        "epoch": 5.0
+      },
+      "validation_metrics": {
+        "eval_loss": 0.2666758894920349,
+        "eval_accuracy": 0.9575757575757575,
+        "eval_macro_precision": 0.9599187577128755,
+        "eval_macro_recall": 0.9575757575757575,
+        "eval_macro_f1": 0.9574473079756729,
+        "eval_runtime": 0.1993,
+        "eval_samples_per_second": 827.738,
+        "eval_steps_per_second": 55.183,
+        "epoch": 5.0
+      },
+      "confusion_matrix": [
+        [
+          14,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ]
+      ],
+      "classification_report": {
+        "Cyberharcèlement": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Sextorsion": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "Piratage de compte": {
+          "precision": 0.9230769230769231,
+          "recall": 0.8,
+          "f1-score": 0.8571428571428571,
+          "support": 15.0
+        },
+        "Divulgation de données personnelles (Doxing)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Conservation des preuves": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Informations juridiques": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "Usurpation d'identité": {
+          "precision": 0.8235294117647058,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.875,
+          "support": 15.0
+        },
+        "Diffusion non consentie d'images": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Signalement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Situation d'urgence": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Accompagnement de la victime": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "accuracy": 0.9575757575757575,
+        "macro avg": {
+          "precision": 0.9599187577128755,
+          "recall": 0.9575757575757575,
+          "f1-score": 0.9574473079756729,
+          "support": 165.0
+        },
+        "weighted avg": {
+          "precision": 0.9599187577128753,
+          "recall": 0.9575757575757575,
+          "f1-score": 0.9574473079756727,
+          "support": 165.0
+        }
+      }
+    },
+    {
+      "seed": 123,
+      "best_model_dir": "models\\arabert_intent_runs_v1\\seed_123\\best_model",
+      "best_checkpoint": "models\\arabert_intent_runs_v1\\seed_123\\checkpoint-236",
+      "best_metric_from_trainer": 0.9578802084085732,
+      "epochs_completed": 6.0,
+      "global_step": 354,
+      "train_metrics": {
+        "train_runtime": 37.1985,
+        "train_samples_per_second": 150.813,
+        "train_steps_per_second": 9.517,
+        "total_flos": 276782305599360.0,
+        "train_loss": 0.640040117805287,
+        "epoch": 6.0
+      },
+      "validation_metrics": {
+        "eval_loss": 0.15911874175071716,
+        "eval_accuracy": 0.9575757575757575,
+        "eval_macro_precision": 0.9608511586452764,
+        "eval_macro_recall": 0.9575757575757575,
+        "eval_macro_f1": 0.9578802084085732,
+        "eval_runtime": 0.2121,
+        "eval_samples_per_second": 778.089,
+        "eval_steps_per_second": 51.873,
+        "epoch": 6.0
+      },
+      "confusion_matrix": [
+        [
+          14,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ]
+      ],
+      "classification_report": {
+        "Cyberharcèlement": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Sextorsion": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "Piratage de compte": {
+          "precision": 0.8235294117647058,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.875,
+          "support": 15.0
+        },
+        "Divulgation de données personnelles (Doxing)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Conservation des preuves": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Informations juridiques": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "Usurpation d'identité": {
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.9285714285714286,
+          "support": 15.0
+        },
+        "Diffusion non consentie d'images": {
+          "precision": 0.9333333333333333,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9333333333333333,
+          "support": 15.0
+        },
+        "Signalement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Situation d'urgence": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Accompagnement de la victime": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "accuracy": 0.9575757575757575,
+        "macro avg": {
+          "precision": 0.9608511586452764,
+          "recall": 0.9575757575757575,
+          "f1-score": 0.9578802084085732,
+          "support": 165.0
+        },
+        "weighted avg": {
+          "precision": 0.9608511586452763,
+          "recall": 0.9575757575757575,
+          "f1-score": 0.9578802084085734,
+          "support": 165.0
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "best_model_dir": "models\\arabert_intent_runs_v1\\seed_2026\\best_model",
+      "best_checkpoint": "models\\arabert_intent_runs_v1\\seed_2026\\checkpoint-354",
+      "best_metric_from_trainer": 0.9634324844153945,
+      "epochs_completed": 6.0,
+      "global_step": 354,
+      "train_metrics": {
+        "train_runtime": 36.5931,
+        "train_samples_per_second": 153.308,
+        "train_steps_per_second": 9.674,
+        "total_flos": 276782305599360.0,
+        "train_loss": 0.6933950892949509,
+        "epoch": 6.0
+      },
+      "validation_metrics": {
+        "eval_loss": 0.14746955037117004,
+        "eval_accuracy": 0.9636363636363636,
+        "eval_macro_precision": 0.9678030303030304,
+        "eval_macro_recall": 0.9636363636363637,
+        "eval_macro_f1": 0.9634324844153945,
+        "eval_runtime": 0.1871,
+        "eval_samples_per_second": 881.728,
+        "eval_steps_per_second": 58.782,
+        "epoch": 6.0
+      },
+      "confusion_matrix": [
+        [
+          14,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ]
+      ],
+      "classification_report": {
+        "Cyberharcèlement": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Sextorsion": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "Piratage de compte": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 15.0
+        },
+        "Divulgation de données personnelles (Doxing)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Conservation des preuves": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Informations juridiques": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "Usurpation d'identité": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 15.0
+        },
+        "Diffusion non consentie d'images": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Signalement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Situation d'urgence": {
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9655172413793104,
+          "support": 15.0
+        },
+        "Accompagnement de la victime": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "accuracy": 0.9636363636363636,
+        "macro avg": {
+          "precision": 0.9678030303030304,
+          "recall": 0.9636363636363637,
+          "f1-score": 0.9634324844153945,
+          "support": 165.0
+        },
+        "weighted avg": {
+          "precision": 0.9678030303030303,
+          "recall": 0.9636363636363636,
+          "f1-score": 0.9634324844153945,
+          "support": 165.0
+        }
+      }
+    }
+  ],
+  "ranking_by_internal_validation": [
+    {
+      "rank": 1,
+      "seed": 2026,
+      "macro_f1": 0.9634324844153945,
+      "accuracy": 0.9636363636363636,
+      "loss": 0.14746955037117004
+    },
+    {
+      "rank": 2,
+      "seed": 123,
+      "macro_f1": 0.9578802084085732,
+      "accuracy": 0.9575757575757575,
+      "loss": 0.15911874175071716
+    },
+    {
+      "rank": 3,
+      "seed": 42,
+      "macro_f1": 0.9574473079756729,
+      "accuracy": 0.9575757575757575,
+      "loss": 0.2666758894920349
+    }
+  ],
+  "selected": {
+    "seed": 2026,
+    "macro_f1": 0.9634324844153945,
+    "accuracy": 0.9636363636363636,
+    "loss": 0.14746955037117004,
+    "final_model_dir": "models\\arabert_intent_v1"
+  }
+}

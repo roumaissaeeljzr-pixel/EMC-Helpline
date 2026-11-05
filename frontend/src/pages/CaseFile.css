@@ -1,0 +1,359 @@
+.case-page {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+}
+
+.case-page-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.case-page-heading h1 {
+  margin: 0;
+  color: #7048b8;
+  font-size: 26px;
+}
+
+.case-page-heading p {
+  max-width: 720px;
+  margin: 8px 0 0;
+  color: #766f83;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.case-count-badge {
+  min-width: 36px;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: #e8f0fa;
+  color: #7048b8;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.case-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.34fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.case-layout-single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.case-list-card,
+.case-detail-card,
+.case-state-card {
+  background: #ffffff;
+  border: 1px solid #e6e1ec;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(28, 58, 92, 0.05);
+}
+
+.case-list-card {
+  padding: 20px;
+}
+
+.case-list-card h2 {
+  margin: 0 0 14px;
+  color: #7048b8;
+  font-size: 16px;
+}
+
+.case-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.case-list-item {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #e0e6ef;
+  border-radius: 12px;
+  background: #ffffff;
+  text-align: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.case-list-item:hover {
+  border-color: #9bb5d2;
+  background: #faf9fc;
+}
+
+.case-list-item-active {
+  border-color: #6f95bf;
+  background: #f2ecfb;
+}
+
+.case-list-item-title {
+  color: #7048b8;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.case-list-item-meta {
+  color: #8b8294;
+  font-size: 11.5px;
+}
+
+.case-detail-card {
+  padding: 24px;
+}
+
+.case-detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee8f1;
+}
+
+.case-detail-eyebrow {
+  display: block;
+  margin-bottom: 6px;
+  color: #8290a1;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.case-detail-header h2 {
+  margin: 0;
+  color: #7048b8;
+  font-size: 21px;
+}
+
+.case-status-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.case-status-active {
+  background: #eaf7ef;
+  color: #277446;
+}
+
+.case-status-closed {
+  background: #f1f3f5;
+  color: #637083;
+}
+
+.case-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.case-summary-item {
+  min-height: 86px;
+  padding: 14px;
+  border-radius: 12px;
+  background: #f8f7fc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.case-summary-item span,
+.case-description-block > span,
+.case-dates span {
+  color: #8b8294;
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.case-summary-item strong {
+  color: #241d46;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.case-description-block {
+  margin-top: 20px;
+  padding: 18px;
+  border: 1px solid #e6ebf1;
+  border-radius: 12px;
+}
+
+.case-description-block p {
+  margin: 9px 0 0;
+  color: #40536a;
+  font-size: 13.5px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.case-dates {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.case-dates > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.case-dates strong {
+  color: #40536a;
+  font-size: 12.5px;
+}
+
+.case-state-card {
+  min-height: 230px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.case-state-card h2 {
+  margin: 14px 0 6px;
+  color: #7048b8;
+  font-size: 18px;
+}
+
+.case-state-card p {
+  max-width: 560px;
+  margin: 0;
+  color: #8b8294;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.case-state-error {
+  border-color: #efc9c9;
+}
+
+.case-state-error strong {
+  color: #8d3030;
+  margin-bottom: 8px;
+}
+
+.case-empty-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #edf3fa;
+  color: #7048b8;
+  font-size: 22px;
+}
+
+.case-loader {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 14px;
+  border: 3px solid #dce5ef;
+  border-top-color: #7048b8;
+  border-radius: 50%;
+  animation: case-spin 0.8s linear infinite;
+}
+
+.case-primary-button {
+  margin-top: 16px;
+  min-height: 40px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 10px;
+  background: #7048b8;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.case-primary-button:hover {
+  background: #4c278c;
+}
+
+@keyframes case-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.case-page[dir="rtl"] .case-detail-eyebrow {
+  letter-spacing: normal;
+}
+
+@media (max-width: 900px) {
+  .case-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .case-summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .case-page-heading,
+  .case-detail-header {
+    flex-direction: column;
+  }
+
+  .case-detail-card,
+  .case-list-card,
+  .case-state-card {
+    padding: 18px;
+  }
+
+  .case-dates {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* EMC Helpline — harmonisation Dashboard / Resources */
+:where(.chat-page,.assessment-page,.action-plan-page,.case-page,.evidence-page,.history-page) {
+  --emc-purple:#7048b8;
+  --emc-purple-dark:#4c278c;
+  --emc-purple-soft:#f2ecfb;
+  --emc-pink:#d9549a;
+  --emc-orange:#ed963b;
+  --emc-green:#42ad7d;
+  --emc-text:#241d46;
+  --emc-muted:#766f83;
+  --emc-border:#e6e1ec;
+}
+
+
+.case-page-heading{padding:24px 27px;border:1px solid var(--emc-border);border-radius:20px;background:radial-gradient(circle at 95% 0%,rgba(112,72,184,.07),transparent 30%),#fff;box-shadow:0 8px 24px rgba(55,39,75,.04)}
+.case-page-heading h1,.case-list-card h2,.case-detail-header h2,.case-state-card h2{color:var(--emc-text)}
+.case-list-card,.case-detail-card,.case-state-card{border-color:var(--emc-border);border-radius:18px;box-shadow:0 8px 24px rgba(55,39,75,.04)}
+.case-count-badge,.case-empty-icon{background:var(--emc-purple-soft);color:var(--emc-purple)}
+.case-list-item:hover{border-color:#cbbadc;background:#faf7fc}
+.case-list-item-active{border-color:#b89ed0;background:#f3edf8;box-shadow:inset 3px 0 0 var(--emc-purple)}
+.case-page[dir="rtl"] .case-list-item-active{box-shadow:inset -3px 0 0 var(--emc-purple)}
+.case-summary-item{background:#faf9fc;border:1px solid #eee8f1}
+.case-loader{border-top-color:var(--emc-purple)}
+.case-primary-button{background:linear-gradient(105deg,#7048b8,#d9549a);box-shadow:0 7px 17px rgba(201,75,145,.15)}
+.case-primary-button:hover{background:linear-gradient(105deg,#633da5,#ca468d)}

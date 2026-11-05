@@ -1,0 +1,804 @@
+{
+  "status": "PASS",
+  "evaluation": "AR-2_FINAL_HOLDOUT",
+  "model_dir": "models\\arabert_intent_v1",
+  "model_frozen": true,
+  "max_length": 96,
+  "training_or_tuning_performed": false,
+  "total": 55,
+  "correct": 52,
+  "errors": 3,
+  "accuracy": 0.9454545454545454,
+  "macro_precision": 0.9515151515151515,
+  "macro_recall": 0.9454545454545454,
+  "macro_f1": 0.9450872359963269,
+  "per_intent": {
+    "Cyberharcèlement": {
+      "correct": 4,
+      "total": 5,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8888888888888888
+    },
+    "Sextorsion": {
+      "correct": 5,
+      "total": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Piratage de compte": {
+      "correct": 5,
+      "total": 5,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    },
+    "Divulgation de données personnelles (Doxing)": {
+      "correct": 5,
+      "total": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Conservation des preuves": {
+      "correct": 5,
+      "total": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Informations juridiques": {
+      "correct": 5,
+      "total": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Usurpation d'identité": {
+      "correct": 4,
+      "total": 5,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8888888888888888
+    },
+    "Diffusion non consentie d'images": {
+      "correct": 4,
+      "total": 5,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8
+    },
+    "Signalement": {
+      "correct": 5,
+      "total": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Situation d'urgence": {
+      "correct": 5,
+      "total": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Accompagnement de la victime": {
+      "correct": 5,
+      "total": 5,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    }
+  },
+  "confusion_matrix_labels": [
+    "Cyberharcèlement",
+    "Sextorsion",
+    "Piratage de compte",
+    "Divulgation de données personnelles (Doxing)",
+    "Conservation des preuves",
+    "Informations juridiques",
+    "Usurpation d'identité",
+    "Diffusion non consentie d'images",
+    "Signalement",
+    "Situation d'urgence",
+    "Accompagnement de la victime"
+  ],
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "predictions": [
+    {
+      "index": 1,
+      "id": "ar2_cyberharcelement_01",
+      "text": "يرسل لي أحد الزملاء رسائل ساخرة ومهينة كل يوم تقريبًا منذ بداية الفصل الدراسي.",
+      "expected_intent": "Cyberharcèlement",
+      "predicted_intent": "Cyberharcèlement",
+      "confidence": 0.9834733605384827,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 2,
+      "id": "ar2_cyberharcelement_02",
+      "text": "لم يعد بإمكاني فتح تطبيق واتساب دون أن أجد رسائل جارحة بانتظاري.",
+      "expected_intent": "Cyberharcèlement",
+      "predicted_intent": "Piratage de compte",
+      "confidence": 0.7715150713920593,
+      "correct": false,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 3,
+      "id": "ar2_cyberharcelement_03",
+      "text": "في مجموعة العمل على تيليغرام، يقوم أحد الزملاء بالسخرية مني علنًا كلما شاركت رأيي.",
+      "expected_intent": "Cyberharcèlement",
+      "predicted_intent": "Cyberharcèlement",
+      "confidence": 0.9818729758262634,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 4,
+      "id": "ar2_cyberharcelement_04",
+      "text": "أصبحت أتجنب فتح هاتفي لأن نفس الشخص يواصل إهانتي بشكل شبه يومي.",
+      "expected_intent": "Cyberharcèlement",
+      "predicted_intent": "Cyberharcèlement",
+      "confidence": 0.9749276638031006,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 5,
+      "id": "ar2_cyberharcelement_05",
+      "text": "الإهانات المتكررة أصبحت تؤثر على رغبتي في الذهاب إلى العمل، وأشعر أنني عالق في هذا الوضع منذ أسابيع.",
+      "expected_intent": "Cyberharcèlement",
+      "predicted_intent": "Cyberharcèlement",
+      "confidence": 0.9751903414726257,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 6,
+      "id": "ar2_sextorsion_01",
+      "text": "طلب مني مبلغًا ماليًا كبيرًا مقابل عدم نشر مقطع فيديو خاص التقطه أثناء مكالمة فيديو.",
+      "expected_intent": "Sextorsion",
+      "predicted_intent": "Sextorsion",
+      "confidence": 0.9458657503128052,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 7,
+      "id": "ar2_sextorsion_02",
+      "text": "يواصل التلميح بأنه يحتفظ بصور حميمة لي ويقول إنها ستصل إلى عائلتي إن لم أنفذ ما يطلبه.",
+      "expected_intent": "Sextorsion",
+      "predicted_intent": "Sextorsion",
+      "confidence": 0.9831404089927673,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 8,
+      "id": "ar2_sextorsion_03",
+      "text": "بعد أن تعرفت عليه على تطبيق تيك توك، طلب مني صورًا خاصة والآن يستخدمها للضغط علي.",
+      "expected_intent": "Sextorsion",
+      "predicted_intent": "Sextorsion",
+      "confidence": 0.9829728603363037,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 9,
+      "id": "ar2_sextorsion_04",
+      "text": "أصبح يشترط حصوله على مبلغ مالي شهري مقابل عدم كشف محتوى خاص يملكه عني.",
+      "expected_intent": "Sextorsion",
+      "predicted_intent": "Sextorsion",
+      "confidence": 0.9778672456741333,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 10,
+      "id": "ar2_sextorsion_05",
+      "text": "يقول إنه سينشر مقطعًا حميميًا خاصًا بي غدًا إن لم أرسل له ما يطلبه اليوم.",
+      "expected_intent": "Sextorsion",
+      "predicted_intent": "Sextorsion",
+      "confidence": 0.9760584831237793,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 11,
+      "id": "ar2_piratage_01",
+      "text": "وصلتني إشعارات بتغييرات لم أقم بها، وبعد دقائق خرجت من الحساب ولم تعد بيانات الدخول تعمل.",
+      "expected_intent": "Piratage de compte",
+      "predicted_intent": "Piratage de compte",
+      "confidence": 0.9856439828872681,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 12,
+      "id": "ar2_piratage_02",
+      "text": "البريد الإلكتروني المرتبط بحسابي تغير فجأة، ولم يعد رمز التحقق يصلني على هاتفي.",
+      "expected_intent": "Piratage de compte",
+      "predicted_intent": "Piratage de compte",
+      "confidence": 0.981313943862915,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 13,
+      "id": "ar2_piratage_03",
+      "text": "كنت أستخدم حسابي بشكل طبيعي على فيسبوك، وفجأة طُلب مني تسجيل الدخول من جديد ولم تنجح كلمة المرور المعتادة.",
+      "expected_intent": "Piratage de compte",
+      "predicted_intent": "Piratage de compte",
+      "confidence": 0.9835196137428284,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 14,
+      "id": "ar2_piratage_04",
+      "text": "لم أعد الشخص الذي يتحكم في حسابي، فقد تغيرت جميع الإعدادات دون أي تدخل مني.",
+      "expected_intent": "Piratage de compte",
+      "predicted_intent": "Piratage de compte",
+      "confidence": 0.9846381545066833,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 15,
+      "id": "ar2_piratage_05",
+      "text": "أصدقائي يتلقون رسائل غريبة من حسابي الحقيقي، بينما أنا نفسي لم أعد أستطيع الوصول إليه إطلاقًا.",
+      "expected_intent": "Piratage de compte",
+      "predicted_intent": "Piratage de compte",
+      "confidence": 0.9788345098495483,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 16,
+      "id": "ar2_usurpation_01",
+      "text": "يستخدم أحدهم صورة ملفي الشخصي واسمي الكامل لإنشاء حساب جديد على تطبيق تيليغرام.",
+      "expected_intent": "Usurpation d'identité",
+      "predicted_intent": "Usurpation d'identité",
+      "confidence": 0.6954724788665771,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 17,
+      "id": "ar2_usurpation_02",
+      "text": "بدأ الناس يراسلونني ليسألوني عن أشياء قلتها في محادثات لم أشارك فيها أبدًا.",
+      "expected_intent": "Usurpation d'identité",
+      "predicted_intent": "Diffusion non consentie d'images",
+      "confidence": 0.34974348545074463,
+      "correct": false,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 18,
+      "id": "ar2_usurpation_03",
+      "text": "زميلة عمل أخبرتني أن شخصًا يتواصل معها باسمي ويطلب منها معلومات شخصية.",
+      "expected_intent": "Usurpation d'identité",
+      "predicted_intent": "Usurpation d'identité",
+      "confidence": 0.7489030361175537,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 19,
+      "id": "ar2_usurpation_04",
+      "text": "هناك من يقدم نفسه للآخرين بهويتي دون أن يكون له أي علاقة حقيقية بي.",
+      "expected_intent": "Usurpation d'identité",
+      "predicted_intent": "Usurpation d'identité",
+      "confidence": 0.9770547151565552,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 20,
+      "id": "ar2_usurpation_05",
+      "text": "حسابي الأصلي يعمل بشكل طبيعي تمامًا، لكن هناك حسابًا آخر يحمل نفس اسمي وصورتي ويتفاعل مع معارفي.",
+      "expected_intent": "Usurpation d'identité",
+      "predicted_intent": "Usurpation d'identité",
+      "confidence": 0.9607492089271545,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 21,
+      "id": "ar2_doxing_01",
+      "text": "شارك أحدهم مكان عملي وجدول تحركاتي اليومي في منشور عام.",
+      "expected_intent": "Divulgation de données personnelles (Doxing)",
+      "predicted_intent": "Divulgation de données personnelles (Doxing)",
+      "confidence": 0.9599833488464355,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 22,
+      "id": "ar2_doxing_02",
+      "text": "بعد أن تداول أحدهم تفاصيل عن مواعيدي وتحركاتي، بدأ أشخاص لا أعرفهم يعرفون أين أكون في أوقات محددة.",
+      "expected_intent": "Divulgation de données personnelles (Doxing)",
+      "predicted_intent": "Divulgation de données personnelles (Doxing)",
+      "confidence": 0.9430038928985596,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 23,
+      "id": "ar2_doxing_03",
+      "text": "بعد نقاش حاد على فيسبوك، نشر أحد المشاركين رقم هاتفي في التعليقات ليراه الجميع.",
+      "expected_intent": "Divulgation de données personnelles (Doxing)",
+      "predicted_intent": "Divulgation de données personnelles (Doxing)",
+      "confidence": 0.9707030653953552,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 24,
+      "id": "ar2_doxing_04",
+      "text": "معلومات كنت أعتبرها خاصة تمامًا، كالعنوان ومكان الدراسة، أصبحت متداولة بين أشخاص لا أعرفهم.",
+      "expected_intent": "Divulgation de données personnelles (Doxing)",
+      "predicted_intent": "Divulgation de données personnelles (Doxing)",
+      "confidence": 0.9813467264175415,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 25,
+      "id": "ar2_doxing_05",
+      "text": "تم نشر رقم بطاقتي التعريفية وصورة منها على منتدى عام دون علمي.",
+      "expected_intent": "Divulgation de données personnelles (Doxing)",
+      "predicted_intent": "Divulgation de données personnelles (Doxing)",
+      "confidence": 0.9451605677604675,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 26,
+      "id": "ar2_preuves_01",
+      "text": "هل يجب أن أحتفظ بنسخة من كل رسالة قبل أن يقوم بحذف حسابه؟",
+      "expected_intent": "Conservation des preuves",
+      "predicted_intent": "Conservation des preuves",
+      "confidence": 0.9540236592292786,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 27,
+      "id": "ar2_preuves_02",
+      "text": "أخشى أن تختفي كل الأدلة إذا لم أتصرف بسرعة، كيف أنظم توثيقها؟",
+      "expected_intent": "Conservation des preuves",
+      "predicted_intent": "Conservation des preuves",
+      "confidence": 0.8588055372238159,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 28,
+      "id": "ar2_preuves_03",
+      "text": "أرسل لي المحامي طلبًا للحصول على نسخة موثقة من المحادثات، فكيف أجهزها بالشكل الصحيح؟",
+      "expected_intent": "Conservation des preuves",
+      "predicted_intent": "Conservation des preuves",
+      "confidence": 0.7369384169578552,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 29,
+      "id": "ar2_preuves_04",
+      "text": "أريد طريقة منظمة لأرشفة كل ما يخص هذه القضية قبل أن أفقد الوصول إليه.",
+      "expected_intent": "Conservation des preuves",
+      "predicted_intent": "Conservation des preuves",
+      "confidence": 0.9665259122848511,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 30,
+      "id": "ar2_preuves_05",
+      "text": "بغض النظر عمّا سأفعله لاحقًا، أولويتي الآن هي حفظ نسخة آمنة من كل ما تلقيته.",
+      "expected_intent": "Conservation des preuves",
+      "predicted_intent": "Conservation des preuves",
+      "confidence": 0.9799647331237793,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 31,
+      "id": "ar2_juridique_01",
+      "text": "هل يعتبر انتحال الهوية على الإنترنت جريمة يعاقب عليها القانون المغربي؟",
+      "expected_intent": "Informations juridiques",
+      "predicted_intent": "Informations juridiques",
+      "confidence": 0.9713885188102722,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 32,
+      "id": "ar2_juridique_02",
+      "text": "أريد أن أفهم موقعي القانوني قبل أن أتخذ أي قرار بخصوص هذه المضايقات.",
+      "expected_intent": "Informations juridiques",
+      "predicted_intent": "Informations juridiques",
+      "confidence": 0.9694562554359436,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 33,
+      "id": "ar2_juridique_03",
+      "text": "صديقي اقترح أن أستشير محاميًا، لكن أولاً أريد أن أعرف ما الذي ينص عليه القانون في حالتي.",
+      "expected_intent": "Informations juridiques",
+      "predicted_intent": "Informations juridiques",
+      "confidence": 0.9778152108192444,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 34,
+      "id": "ar2_juridique_04",
+      "text": "ما هي المسؤولية القانونية لشخص ينشر محتوى شخصيًا لغيره دون إذن؟",
+      "expected_intent": "Informations juridiques",
+      "predicted_intent": "Informations juridiques",
+      "confidence": 0.9754347205162048,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 35,
+      "id": "ar2_juridique_05",
+      "text": "هل هناك نص قانوني واضح يحدد العقوبة على ابتزاز شخص عبر الإنترنت؟",
+      "expected_intent": "Informations juridiques",
+      "predicted_intent": "Informations juridiques",
+      "confidence": 0.9642624855041504,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 36,
+      "id": "ar2_diffusion_01",
+      "text": "شخص شارك صورة خاصة بي في مجموعة واتساب تضم عشرات الأشخاص.",
+      "expected_intent": "Diffusion non consentie d'images",
+      "predicted_intent": "Diffusion non consentie d'images",
+      "confidence": 0.9759357571601868,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 37,
+      "id": "ar2_diffusion_02",
+      "text": "اكتشفت أن مقطعًا كان من المفترض أن يبقى بيننا فقط أصبح متداولًا على نطاق واسع.",
+      "expected_intent": "Diffusion non consentie d'images",
+      "predicted_intent": "Diffusion non consentie d'images",
+      "confidence": 0.960810661315918,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 38,
+      "id": "ar2_diffusion_03",
+      "text": "بعد أن انتهت علاقتنا، فوجئت بأن صورًا كنا قد التقطناها معًا أصبحت منشورة على حسابه العام.",
+      "expected_intent": "Diffusion non consentie d'images",
+      "predicted_intent": "Diffusion non consentie d'images",
+      "confidence": 0.7739683389663696,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 39,
+      "id": "ar2_diffusion_04",
+      "text": "صور ومقاطع كانت خاصة تمامًا أصبحت الآن في متناول أشخاص لم أوافق أبدًا على أن يروها.",
+      "expected_intent": "Diffusion non consentie d'images",
+      "predicted_intent": "Diffusion non consentie d'images",
+      "confidence": 0.8877825140953064,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 40,
+      "id": "ar2_diffusion_05",
+      "text": "الصور التي كانت بيننا نُشرت بالفعل على الملأ، ولم يعد هناك أي تهديد، فقط أريد معرفة ماذا أفعل الآن.",
+      "expected_intent": "Diffusion non consentie d'images",
+      "predicted_intent": "Accompagnement de la victime",
+      "confidence": 0.6322064995765686,
+      "correct": false,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 41,
+      "id": "ar2_signalement_01",
+      "text": "ما هي المنصة الرسمية التي يجب أن أتوجه إليها للإبلاغ عن حساب يهددني؟",
+      "expected_intent": "Signalement",
+      "predicted_intent": "Signalement",
+      "confidence": 0.9849306344985962,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 42,
+      "id": "ar2_signalement_02",
+      "text": "أين أجد نموذج الشكوى الخاص بالمحتوى المسيء على تطبيق إنستغرام؟",
+      "expected_intent": "Signalement",
+      "predicted_intent": "Signalement",
+      "confidence": 0.9827355146408081,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 43,
+      "id": "ar2_signalement_03",
+      "text": "حاولت الإبلاغ عن المنشور من داخل التطبيق لكنه لم ينجح، فما البديل؟",
+      "expected_intent": "Signalement",
+      "predicted_intent": "Signalement",
+      "confidence": 0.9690987467765808,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 44,
+      "id": "ar2_signalement_04",
+      "text": "أحتاج إلى معرفة الجهة المختصة التي تستقبل بلاغات هذا النوع من المضايقات.",
+      "expected_intent": "Signalement",
+      "predicted_intent": "Signalement",
+      "confidence": 0.9843035340309143,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 45,
+      "id": "ar2_signalement_05",
+      "text": "بعد أن جمعت كل الأدلة، إلى من يجب أن أرسلها الآن لتقديم بلاغ رسمي؟",
+      "expected_intent": "Signalement",
+      "predicted_intent": "Signalement",
+      "confidence": 0.9825953245162964,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 46,
+      "id": "ar2_urgence_01",
+      "text": "هو الآن أمام منزلي ويهددني مباشرة، لا أعرف ماذا أفعل.",
+      "expected_intent": "Situation d'urgence",
+      "predicted_intent": "Situation d'urgence",
+      "confidence": 0.9676184058189392,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 47,
+      "id": "ar2_urgence_02",
+      "text": "قال إنه سيؤذيني إن خرجت من المنزل، وأنا خائفة جدًا في هذه اللحظة.",
+      "expected_intent": "Situation d'urgence",
+      "predicted_intent": "Situation d'urgence",
+      "confidence": 0.9724727272987366,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 48,
+      "id": "ar2_urgence_03",
+      "text": "بعد سلسلة من التهديدات، أرسل لي رسالة يقول فيها إنه في الطريق إلي الآن.",
+      "expected_intent": "Situation d'urgence",
+      "predicted_intent": "Situation d'urgence",
+      "confidence": 0.9655858278274536,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 49,
+      "id": "ar2_urgence_04",
+      "text": "أدركت للتو أنني وحيدة تمامًا في مواجهة خطر قد يقع خلال دقائق، ولا أعرف من يمكنه التدخل الآن.",
+      "expected_intent": "Situation d'urgence",
+      "predicted_intent": "Situation d'urgence",
+      "confidence": 0.8319277763366699,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 50,
+      "id": "ar2_urgence_05",
+      "text": "الوضع كان مجرد تهديدات كلامية من قبل، لكنه الآن يقف عند الباب ويطلب مني أن أفتح له فورًا.",
+      "expected_intent": "Situation d'urgence",
+      "predicted_intent": "Situation d'urgence",
+      "confidence": 0.8765557408332825,
+      "correct": true,
+      "difficulty": "difficult"
+    },
+    {
+      "index": 51,
+      "id": "ar2_accompagnement_01",
+      "text": "لا أعرف من أتحدث معه بخصوص كل ما أمر به هذه الأيام.",
+      "expected_intent": "Accompagnement de la victime",
+      "predicted_intent": "Accompagnement de la victime",
+      "confidence": 0.7766034603118896,
+      "correct": true,
+      "difficulty": "direct"
+    },
+    {
+      "index": 52,
+      "id": "ar2_accompagnement_02",
+      "text": "أشعر أنني بحاجة إلى شخص يستمع لي ويساعدني على تنظيم أفكاري حول الموضوع.",
+      "expected_intent": "Accompagnement de la victime",
+      "predicted_intent": "Accompagnement de la victime",
+      "confidence": 0.9871495366096497,
+      "correct": true,
+      "difficulty": "indirect"
+    },
+    {
+      "index": 53,
+      "id": "ar2_accompagnement_03",
+      "text": "بعد أن أخبرت أمي بجزء بسيط مما يحدث، شعرت أنني بحاجة لدعم أكبر من مجرد التحدث في المنزل.",
+      "expected_intent": "Accompagnement de la victime",
+      "predicted_intent": "Accompagnement de la victime",
+      "confidence": 0.957819402217865,
+      "correct": true,
+      "difficulty": "contextual"
+    },
+    {
+      "index": 54,
+      "id": "ar2_accompagnement_04",
+      "text": "أبحث عن مرافقة تساعدني على فهم خطواتي القادمة دون أن أشعر أنني وحدي في هذا.",
+      "expected_intent": "Accompagnement de la victime",
+      "predicted_intent": "Accompagnement de la victime",
+      "confidence": 0.9851945042610168,
+      "correct": true,
+      "difficulty": "paraphrase"
+    },
+    {
+      "index": 55,
+      "id": "ar2_accompagnement_05",
+      "text": "الوضع متعب نفسيًا منذ مدة، لكن لا يوجد خطر مباشر الآن، فقط أحتاج من يرافقني في التفكير بالخطوات التالية.",
+      "expected_intent": "Accompagnement de la victime",
+      "predicted_intent": "Accompagnement de la victime",
+      "confidence": 0.9432967901229858,
+      "correct": true,
+      "difficulty": "difficult"
+    }
+  ]
+}

@@ -1,0 +1,1025 @@
+{
+  "status": "PASS",
+  "model_name": "aubmindlab/bert-base-arabertv02",
+  "preprocessing": {
+    "class": "arabert.preprocess.ArabertPreprocessor",
+    "apply_farasa_segmentation": false,
+    "note": "bert-base-arabertv02 est la variante v0.2 sans pré-segmentation Farasa."
+  },
+  "tokenizer": {
+    "class": "BertTokenizer",
+    "use_fast": true,
+    "add_special_tokens": true,
+    "truncation_during_analysis": false,
+    "padding_during_analysis": false,
+    "model_max_length": 512
+  },
+  "benchmarks_used": false,
+  "benchmarks_note": "AR-1 et AR-2 ne sont ni lus ni utilisés.",
+  "train": {
+    "path": "data\\arabic_training\\final\\arabic_train_v1.json",
+    "summary": {
+      "count": 935,
+      "min": 9,
+      "median": 23.0,
+      "p90": 47.0,
+      "p95": 49.0,
+      "p99": 53.66,
+      "max": 60,
+      "mean": 26.27,
+      "coverage": {
+        "le_64": 935,
+        "le_96": 935,
+        "le_128": 935,
+        "gt_64": 0,
+        "gt_96": 0,
+        "gt_128": 0
+      },
+      "coverage_percent": {
+        "le_64": 100.0,
+        "le_96": 100.0,
+        "le_128": 100.0
+      }
+    },
+    "by_label": {
+      "Cyberharcèlement": {
+        "count": 85,
+        "min": 10,
+        "median": 27.0,
+        "p90": 46.0,
+        "p95": 47.0,
+        "p99": 49.16,
+        "max": 50,
+        "mean": 27.14,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Sextorsion": {
+        "count": 85,
+        "min": 13,
+        "median": 26.0,
+        "p90": 52.0,
+        "p95": 53.8,
+        "p99": 56.64,
+        "max": 60,
+        "mean": 28.73,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Piratage de compte": {
+        "count": 85,
+        "min": 11,
+        "median": 24.0,
+        "p90": 48.6,
+        "p95": 49.0,
+        "p99": 51.0,
+        "max": 51,
+        "mean": 27.13,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Divulgation de données personnelles (Doxing)": {
+        "count": 85,
+        "min": 12,
+        "median": 25.0,
+        "p90": 48.6,
+        "p95": 49.8,
+        "p99": 54.48,
+        "max": 57,
+        "mean": 27.99,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Conservation des preuves": {
+        "count": 85,
+        "min": 10,
+        "median": 23.0,
+        "p90": 43.0,
+        "p95": 47.0,
+        "p99": 49.32,
+        "max": 51,
+        "mean": 25.45,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Informations juridiques": {
+        "count": 85,
+        "min": 9,
+        "median": 21.0,
+        "p90": 42.0,
+        "p95": 45.0,
+        "p99": 46.0,
+        "max": 46,
+        "mean": 24.32,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Usurpation d'identité": {
+        "count": 85,
+        "min": 10,
+        "median": 23.0,
+        "p90": 48.0,
+        "p95": 49.8,
+        "p99": 58.32,
+        "max": 60,
+        "mean": 25.59,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Diffusion non consentie d'images": {
+        "count": 85,
+        "min": 11,
+        "median": 22.0,
+        "p90": 45.2,
+        "p95": 47.0,
+        "p99": 49.48,
+        "max": 52,
+        "mean": 25.08,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Signalement": {
+        "count": 85,
+        "min": 9,
+        "median": 21.0,
+        "p90": 45.0,
+        "p95": 46.8,
+        "p99": 48.16,
+        "max": 49,
+        "mean": 24.75,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Situation d'urgence": {
+        "count": 85,
+        "min": 9,
+        "median": 22.0,
+        "p90": 45.6,
+        "p95": 48.0,
+        "p99": 52.16,
+        "max": 53,
+        "mean": 25.29,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Accompagnement de la victime": {
+        "count": 85,
+        "min": 12,
+        "median": 24.0,
+        "p90": 48.0,
+        "p95": 51.6,
+        "p99": 53.32,
+        "max": 55,
+        "mean": 27.49,
+        "coverage": {
+          "le_64": 85,
+          "le_96": 85,
+          "le_128": 85,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      }
+    },
+    "by_style": {
+      "boundary": {
+        "count": 187,
+        "min": 12,
+        "median": 25.0,
+        "p90": 43.0,
+        "p95": 47.7,
+        "p99": 55.14,
+        "max": 60,
+        "mean": 28.16,
+        "coverage": {
+          "le_64": 187,
+          "le_96": 187,
+          "le_128": 187,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "contextual": {
+        "count": 187,
+        "min": 11,
+        "median": 26.0,
+        "p90": 48.4,
+        "p95": 51.0,
+        "p99": 55.28,
+        "max": 60,
+        "mean": 28.07,
+        "coverage": {
+          "le_64": 187,
+          "le_96": 187,
+          "le_128": 187,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "direct": {
+        "count": 187,
+        "min": 9,
+        "median": 19.0,
+        "p90": 47.0,
+        "p95": 48.7,
+        "p99": 52.14,
+        "max": 58,
+        "mean": 24.94,
+        "coverage": {
+          "le_64": 187,
+          "le_96": 187,
+          "le_128": 187,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "indirect": {
+        "count": 187,
+        "min": 9,
+        "median": 19.0,
+        "p90": 47.0,
+        "p95": 49.0,
+        "p99": 52.0,
+        "max": 52,
+        "mean": 23.75,
+        "coverage": {
+          "le_64": 187,
+          "le_96": 187,
+          "le_128": 187,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "paraphrase": {
+        "count": 187,
+        "min": 9,
+        "median": 23.0,
+        "p90": 46.0,
+        "p95": 49.0,
+        "p99": 53.14,
+        "max": 56,
+        "mean": 26.42,
+        "coverage": {
+          "le_64": 187,
+          "le_96": 187,
+          "le_128": 187,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      }
+    }
+  },
+  "validation": {
+    "path": "data\\arabic_training\\final\\arabic_validation_v1.json",
+    "summary": {
+      "count": 165,
+      "min": 9,
+      "median": 20.0,
+      "p90": 39.4,
+      "p95": 48.8,
+      "p99": 53.0,
+      "max": 60,
+      "mean": 22.36,
+      "coverage": {
+        "le_64": 165,
+        "le_96": 165,
+        "le_128": 165,
+        "gt_64": 0,
+        "gt_96": 0,
+        "gt_128": 0
+      },
+      "coverage_percent": {
+        "le_64": 100.0,
+        "le_96": 100.0,
+        "le_128": 100.0
+      }
+    },
+    "by_label": {
+      "Cyberharcèlement": {
+        "count": 15,
+        "min": 11,
+        "median": 24.0,
+        "p90": 43.2,
+        "p95": 44.9,
+        "p99": 46.58,
+        "max": 47,
+        "mean": 25.2,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Sextorsion": {
+        "count": 15,
+        "min": 13,
+        "median": 23.0,
+        "p90": 33.4,
+        "p95": 41.8,
+        "p99": 50.76,
+        "max": 53,
+        "mean": 23.93,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Piratage de compte": {
+        "count": 15,
+        "min": 11,
+        "median": 20.0,
+        "p90": 41.6,
+        "p95": 50.9,
+        "p99": 52.58,
+        "max": 53,
+        "mean": 24.13,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Divulgation de données personnelles (Doxing)": {
+        "count": 15,
+        "min": 13,
+        "median": 16.0,
+        "p90": 29.8,
+        "p95": 31.3,
+        "p99": 31.86,
+        "max": 32,
+        "mean": 20.0,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Conservation des preuves": {
+        "count": 15,
+        "min": 13,
+        "median": 21.0,
+        "p90": 36.2,
+        "p95": 42.5,
+        "p99": 45.3,
+        "max": 46,
+        "mean": 23.27,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Informations juridiques": {
+        "count": 15,
+        "min": 9,
+        "median": 20.0,
+        "p90": 24.2,
+        "p95": 31.9,
+        "p99": 44.78,
+        "max": 48,
+        "mean": 19.6,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Usurpation d'identité": {
+        "count": 15,
+        "min": 11,
+        "median": 23.0,
+        "p90": 51.8,
+        "p95": 55.1,
+        "p99": 59.02,
+        "max": 60,
+        "mean": 27.6,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Diffusion non consentie d'images": {
+        "count": 15,
+        "min": 11,
+        "median": 19.0,
+        "p90": 39.8,
+        "p95": 50.2,
+        "p99": 52.44,
+        "max": 53,
+        "mean": 22.4,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Signalement": {
+        "count": 15,
+        "min": 12,
+        "median": 19.0,
+        "p90": 23.6,
+        "p95": 24.6,
+        "p99": 25.72,
+        "max": 26,
+        "mean": 19.13,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Situation d'urgence": {
+        "count": 15,
+        "min": 10,
+        "median": 19.0,
+        "p90": 38.2,
+        "p95": 47.3,
+        "p99": 47.86,
+        "max": 48,
+        "mean": 22.2,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "Accompagnement de la victime": {
+        "count": 15,
+        "min": 9,
+        "median": 20.0,
+        "p90": 25.0,
+        "p95": 25.3,
+        "p99": 25.86,
+        "max": 26,
+        "mean": 18.47,
+        "coverage": {
+          "le_64": 15,
+          "le_96": 15,
+          "le_128": 15,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      }
+    },
+    "by_style": {
+      "boundary": {
+        "count": 33,
+        "min": 19,
+        "median": 24.0,
+        "p90": 35.8,
+        "p95": 44.8,
+        "p99": 46.68,
+        "max": 47,
+        "mean": 26.42,
+        "coverage": {
+          "le_64": 33,
+          "le_96": 33,
+          "le_128": 33,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "contextual": {
+        "count": 33,
+        "min": 13,
+        "median": 24.0,
+        "p90": 52.0,
+        "p95": 53.0,
+        "p99": 57.76,
+        "max": 60,
+        "mean": 27.15,
+        "coverage": {
+          "le_64": 33,
+          "le_96": 33,
+          "le_128": 33,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "direct": {
+        "count": 33,
+        "min": 10,
+        "median": 13.0,
+        "p90": 18.8,
+        "p95": 20.0,
+        "p99": 24.08,
+        "max": 26,
+        "mean": 14.33,
+        "coverage": {
+          "le_64": 33,
+          "le_96": 33,
+          "le_128": 33,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "indirect": {
+        "count": 33,
+        "min": 9,
+        "median": 18.0,
+        "p90": 24.8,
+        "p95": 32.4,
+        "p99": 47.44,
+        "max": 50,
+        "mean": 19.61,
+        "coverage": {
+          "le_64": 33,
+          "le_96": 33,
+          "le_128": 33,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      },
+      "paraphrase": {
+        "count": 33,
+        "min": 9,
+        "median": 21.0,
+        "p90": 47.4,
+        "p95": 49.4,
+        "p99": 52.04,
+        "max": 53,
+        "mean": 24.27,
+        "coverage": {
+          "le_64": 33,
+          "le_96": 33,
+          "le_128": 33,
+          "gt_64": 0,
+          "gt_96": 0,
+          "gt_128": 0
+        },
+        "coverage_percent": {
+          "le_64": 100.0,
+          "le_96": 100.0,
+          "le_128": 100.0
+        }
+      }
+    }
+  },
+  "overall": {
+    "count": 1100,
+    "min": 9,
+    "median": 23.0,
+    "p90": 46.0,
+    "p95": 49.0,
+    "p99": 53.01,
+    "max": 60,
+    "mean": 25.68,
+    "coverage": {
+      "le_64": 1100,
+      "le_96": 1100,
+      "le_128": 1100,
+      "gt_64": 0,
+      "gt_96": 0,
+      "gt_128": 0
+    },
+    "coverage_percent": {
+      "le_64": 100.0,
+      "le_96": 100.0,
+      "le_128": 100.0
+    }
+  },
+  "recommendation": {
+    "suggested_max_length": 96,
+    "reason": "p99 <= 96",
+    "max_observed": 60
+  },
+  "top_20_longest": [
+    {
+      "id": "train_ar_sextorsion_0087",
+      "label": "Sextorsion",
+      "style": "boundary",
+      "scenario_group": "sextorsion_scenario_0067",
+      "raw_word_count": 47,
+      "token_length": 60,
+      "processed_text": "حتى الآن لا يوجد نشر فعلي للمحتوى الحميمي ، وهذا ما يجعلني أميز بين ما يحدث وبين نشر الصور نفسه ، لكن الشخص يكرر التهديد بالمشاركة مع كل طلب جديد ، ويقول إن بقاء المحتوى بعيدا عن الناس يعتمد على استجابتي ، لذلك أشعر أنني مضطرة للرضوخ حتى لا ينفذ تهديده ."
+    },
+    {
+      "id": "train_ar_usurpation_0057",
+      "label": "Usurpation d'identité",
+      "style": "contextual",
+      "scenario_group": "usurpation_scenario_0051",
+      "raw_word_count": 43,
+      "token_length": 60,
+      "processed_text": "على Instagram أنشأ شخص حسابا ينسخ اسمي وصورتي وبعض منشوراتي ، ثم بدأ يتابع أصدقائي ويرسل لهم رسائل خاصة ، لذلك أصبح بعضهم غير قادر على التمييز بين الحساب المزيف وحسابي الحقيقي مع أنني لم أمنحه أي إذن لاستخدام هويتي أو التحدث باسمي أمام الآخرين ."
+    },
+    {
+      "id": "train_ar_usurpation_0059",
+      "label": "Usurpation d'identité",
+      "style": "contextual",
+      "scenario_group": "usurpation_scenario_0053",
+      "raw_word_count": 39,
+      "token_length": 60,
+      "processed_text": "على LinkedIn ظهر ملف ينتحل هويتي المهنية ويستخدم صورتي ومساري الدراسي والوظيفي ، ثم بدأ يتواصل مع شركات وأشخاص من شبكتي كما لو كنت أنا صاحب الملف بينما يظل حسابي الحقيقي منفصلا عن هذا الملف ولا أتحكم في الحساب المزيف ."
+    },
+    {
+      "id": "train_ar_usurpation_0017",
+      "label": "Usurpation d'identité",
+      "style": "direct",
+      "scenario_group": "usurpation_scenario_0017",
+      "raw_word_count": 43,
+      "token_length": 58,
+      "processed_text": "اكتشفت أن شخصا أنشأ حسابا مزيفا ينسخ اسمي وصورتي وبعض تفاصيل صفحتي ، ثم بدأ يراسل معارفي ويقدم نفسه لهم على أنه أنا ، رغم أن حسابي الأصلي ما زال تحت سيطرتي مع أنني لم أمنحه أي إذن لاستخدام هويتي أو التحدث باسمي أمام الآخرين ."
+    },
+    {
+      "id": "train_ar_doxing_0060",
+      "label": "Divulgation de données personnelles (Doxing)",
+      "style": "contextual",
+      "scenario_group": "doxing_scenario_0060",
+      "raw_word_count": 44,
+      "token_length": 57,
+      "processed_text": "على صفحة عامة مرتبطة بمدينة إقامتي ، وجدت منشورا يربط صورتي بعنوان المنزل ومكان العمل ومواعيد وجودي المعتادة ، وقد بدأ غرباء يتواصلون معي اعتمادا على تلك التفاصيل . ثم بدأ أشخاص غرباء يذكرون هذه التفاصيل عند مراسلتي ، ما أكد لي أن المنشور انتشر خارج الصفحة الأصلية ."
+    },
+    {
+      "id": "train_ar_sextorsion_0071",
+      "label": "Sextorsion",
+      "style": "paraphrase",
+      "scenario_group": "sextorsion_scenario_0054",
+      "raw_word_count": 45,
+      "token_length": 56,
+      "processed_text": "كلما حاولت وضع حدود جديدة في التواصل معه يعيد فتح موضوع الصور الحميمة التي يحتفظ بها ، ثم يلمح إلى أن بقاءها سرية يعتمد على مدى تعاوني ، وبعد ذلك يضيف طلبا آخر لا أريده ، فأشعر أن كل محاولة لاستعادة قراري تؤدي إلى جولة جديدة من الضغط ."
+    },
+    {
+      "id": "train_ar_sextorsion_0090",
+      "label": "Sextorsion",
+      "style": "boundary",
+      "scenario_group": "sextorsion_scenario_0069",
+      "raw_word_count": 48,
+      "token_length": 56,
+      "processed_text": "كل مرة أرفض طلبه يعود للحديث عن الصور الحميمة التي يحتفظ بها ويقول إنها قد تصل إلى أشخاص أعرفهم ، ولذلك بدأت أفكر جديا في إبلاغ جهة مختصة ، لكن هذه الفكرة جاءت بعد أسابيع من الضغط ؛ المشكلة الأساسية ما زالت أنه يستخدم المحتوى الخاص لإجباري على الاستجابة لما يريده ."
+    },
+    {
+      "id": "train_ar_accompagnement_0058",
+      "label": "Accompagnement de la victime",
+      "style": "contextual",
+      "scenario_group": "accompagnement_scenario_0052",
+      "raw_word_count": 41,
+      "token_length": 55,
+      "processed_text": "في العمل أثرت الواقعة الرقمية في تركيزي وثقتي بزملائي ، ولا أريد أن أتخذ قرارات متسرعة ، لذلك أحتاج إلى دعم يساعدني على فهم ما أستطيع فعله مع الحفاظ على راحتي وخصوصيتي مع مساعدتي على تقسيم الأمور إلى خطوات صغيرة يمكن التعامل معها ."
+    },
+    {
+      "id": "train_ar_sextorsion_0097",
+      "label": "Sextorsion",
+      "style": "boundary",
+      "scenario_group": "sextorsion_scenario_0073",
+      "raw_word_count": 45,
+      "token_length": 55,
+      "processed_text": "منذ أن بدأ يطالبني بتحويل المال مقابل بقاء الصور الحميمة سرية ، صرت أحفظ الرسائل والتواريخ واللقطات التي يظهر فيها التهديد ، ليس لأن التوثيق هو مشكلتي الأساسية ، بل لأن الشخص ما زال يكرر المطالب ويربط كل مرة عدم نشر المحتوى باستمرار الدفع أو تنفيذ ما يريده ."
+    },
+    {
+      "id": "train_ar_sextorsion_0055",
+      "label": "Sextorsion",
+      "style": "contextual",
+      "scenario_group": "sextorsion_scenario_0038",
+      "raw_word_count": 43,
+      "token_length": 54,
+      "processed_text": "تواصل معي حساب لا أعرفه وادعى أنه حصل على مقطع حميمي من هاتفي ، ولم أصدقه في البداية ، ثم أرسل لقطة واضحة تثبت امتلاكه للمقطع وطالبني بتحويل مبلغ مالي خلال يوم واحد ، وقال إن عدم الدفع سيعني إرساله إلى أشخاص موجودين في قائمة معارفي ."
+    },
+    {
+      "id": "train_ar_doxing_0080",
+      "label": "Divulgation de données personnelles (Doxing)",
+      "style": "paraphrase",
+      "scenario_group": "doxing_scenario_0080",
+      "raw_word_count": 46,
+      "token_length": 54,
+      "processed_text": "أصبح ملف كامل تقريبا عن حياتي الواقعية متاحا على الإنترنت بعد أن جمع شخص تفاصيل عن اسمي وأسرتي وسكني وعلمي أو عملي ووسائل التواصل الخاصة بي ونشرها معا . وقد جمع المنشور بين هذه التفاصيل في صورة واحدة تجعل التعرف إلي والوصول إلى محيطي الواقعي ممكنا بسهولة ."
+    },
+    {
+      "id": "train_ar_urgence_0018",
+      "label": "Situation d'urgence",
+      "style": "direct",
+      "scenario_group": "urgence_scenario_0018",
+      "raw_word_count": 41,
+      "token_length": 53,
+      "processed_text": "الشخص يعرف عنواني ومكان عملي ، وقد كتب لي منذ دقائق أنه في طريقه لمواجهتي ، ثم بدأت أتلقى اتصالات متكررة منه ، وأنا لا أشعر بالأمان لأن الخطر يبدو قريبا وفوريا وأشعر أن انتظار مزيد من الرسائل قد يزيد الخطر بدل أن يوضحه ."
+    },
+    {
+      "id": "train_ar_sextorsion_0051",
+      "label": "Sextorsion",
+      "style": "contextual",
+      "scenario_group": "sextorsion_scenario_0034",
+      "raw_word_count": 43,
+      "token_length": 53,
+      "processed_text": "بدأ الأمر برسائل عادية عبر TikTok ثم انتقلنا إلى مكالمة فيديو خاصة ، وبعد أيام أخبرني أنه سجل جزءا من المكالمة دون علمي ، ومنذ ذلك الوقت صار يحدد مبالغ مالية يريدها ويهدد بأن التسجيل سيصل إلى متابعيني إذا تجاهلت طلباته أو توقفت عن الرد ."
+    },
+    {
+      "id": "train_ar_sextorsion_0059",
+      "label": "Sextorsion",
+      "style": "contextual",
+      "scenario_group": "sextorsion_scenario_0042",
+      "raw_word_count": 41,
+      "token_length": 53,
+      "processed_text": "تحدث معي شخص لأسابيع وهو ينتحل صفة صديق أعرفه ، وبعد أن وثقت به أرسلت له صورة خاصة ، ثم كشف لاحقا أنه شخص آخر وبدأ يطالبني بالمال ، ويكرر أن الصورة ستصل إلى أفراد عائلتي إذا رفضت التحويل أو حاولت إنهاء التواصل معه ."
+    },
+    {
+      "id": "train_ar_accompagnement_0100",
+      "label": "Accompagnement de la victime",
+      "style": "boundary",
+      "scenario_group": "accompagnement_scenario_0089",
+      "raw_word_count": 41,
+      "token_length": 53,
+      "processed_text": "كان الشخص يبتزني ويضغط علي بصور خاصة ، لكن التهديد توقف حاليا ولا يوجد خطر مباشر ؛ مع ذلك ما زلت أشعر بالخوف والخجل وأحتاج إلى دعم يساعدني على تجاوز ما حدث مع مساعدتي على تقسيم الأمور إلى خطوات صغيرة يمكن التعامل معها ."
+    },
+    {
+      "id": "train_ar_sextorsion_0074",
+      "label": "Sextorsion",
+      "style": "paraphrase",
+      "scenario_group": "sextorsion_scenario_0057",
+      "raw_word_count": 44,
+      "token_length": 53,
+      "processed_text": "المحتوى الذي كان من المفترض أن يبقى بيننا تحول إلى أساس لمساومة مستمرة ؛ أحيانا يطلب المال وأحيانا يطلب قرارات شخصية لا أريدها ، وفي كل مرة يربط موافقتي ببقاء ذلك المحتوى بعيدا عن الآخرين ، لذلك لم تعد المسألة مجرد خلاف بل ضغط متكرر باستخدام الخصوصية ."
+    },
+    {
+      "id": "train_ar_accompagnement_0080",
+      "label": "Accompagnement de la victime",
+      "style": "paraphrase",
+      "scenario_group": "accompagnement_scenario_0074",
+      "raw_word_count": 40,
+      "token_length": 53,
+      "processed_text": "أحتاج إلى شخص يرافقني خلال الفترة التالية للواقعة ، لا ليقرر بدلا مني ، بل ليساعدني على فهم احتياجاتي وخياراتي وبناء خطة تناسب وضعي وتساعدني على استعادة حياتي الطبيعية تدريجيا من دون ضغط علي لاتخاذ خطوة لا أشعر أنني جاهزة لها الآن ."
+    },
+    {
+      "id": "train_ar_piratage_0060",
+      "label": "Piratage de compte",
+      "style": "contextual",
+      "scenario_group": "piratage_scenario_0035",
+      "raw_word_count": 43,
+      "token_length": 53,
+      "processed_text": "بعد أن أدخلت بياناتي في موقع ظننته صفحة تسجيل الدخول الرسمية ، بدأت المنصة ترسل لي تنبيهات من أجهزة متعددة ، ثم تغير البريد ورقم الهاتف وفقدت الحساب بالكامل ، وبعد ذلك ظهر نشاط جديد باسمي ورسائل أرسلت إلى جهات اتصال لم أتواصل معها من قبل ."
+    },
+    {
+      "id": "train_ar_sextorsion_0045",
+      "label": "Sextorsion",
+      "style": "contextual",
+      "scenario_group": "sextorsion_scenario_0028",
+      "raw_word_count": 44,
+      "token_length": 53,
+      "processed_text": "تعرفت إلى شخص في لعبة عبر الإنترنت ، وبعد أسابيع انتقل حديثنا إلى الرسائل الخاصة وأرسلت له صورا حميمة لأنني وثقت به ، لكنه بدأ لاحقا يطلب مني شراء بطاقات رقمية له ، ويقول في كل مرة إن الصور ستصل إلى لاعبين يعرفونني إذا لم أنفذ طلبه ."
+    },
+    {
+      "id": "train_ar_usurpation_0078",
+      "label": "Usurpation d'identité",
+      "style": "paraphrase",
+      "scenario_group": "usurpation_scenario_0072",
+      "raw_word_count": 40,
+      "token_length": 53,
+      "processed_text": "أواجه استخداما غير مصرح به لهويتي الرقمية ، حيث أنشأ شخص آخر ملفا يحمل اسمي وصورتي ويصدر عنه كلام وتصرفات ينسبها الناس إلي رغم أنني لم أقم بها وقد أدى ذلك إلى ارتباك لدى أشخاص يعرفونني ويظنون أنهم يتعاملون معي فعلا ."
+    }
+  ]
+}

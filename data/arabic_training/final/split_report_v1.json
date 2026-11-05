@@ -1,0 +1,460 @@
+{
+  "status": "PASS",
+  "seed": 42,
+  "benchmarks_used": false,
+  "benchmarks_note": "AR-1 et AR-2 ne sont ni lus ni utilisés.",
+  "input_file": "data\\arabic_training\\final\\arabic_train_full_v1.json",
+  "input_sha256": "7cd24f441d53a81bd75c0142e555bc8c80a3e31eb3160980b5650e93f8e322d7",
+  "strategy": {
+    "type": "grouped_exact_label_split",
+    "group_field": "scenario_group",
+    "target_train_per_label": 85,
+    "target_validation_per_label": 15,
+    "style_target_validation_per_label": {
+      "direct": 3,
+      "indirect": 3,
+      "contextual": 3,
+      "paraphrase": 3,
+      "boundary": 3
+    },
+    "style_optimization": "minimise la somme des écarts absolus à 3 exemples par style dans la validation, sans couper scenario_group"
+  },
+  "global": {
+    "train_size": 935,
+    "validation_size": 165,
+    "train_unique_ids": 935,
+    "validation_unique_ids": 165,
+    "id_overlap": 0,
+    "scenario_group_overlap": 0,
+    "train_unique_groups": 789,
+    "validation_unique_groups": 129,
+    "train_label_counts": {
+      "Signalement": 85,
+      "Usurpation d'identité": 85,
+      "Informations juridiques": 85,
+      "Situation d'urgence": 85,
+      "Divulgation de données personnelles (Doxing)": 85,
+      "Cyberharcèlement": 85,
+      "Piratage de compte": 85,
+      "Diffusion non consentie d'images": 85,
+      "Conservation des preuves": 85,
+      "Accompagnement de la victime": 85,
+      "Sextorsion": 85
+    },
+    "validation_label_counts": {
+      "Diffusion non consentie d'images": 15,
+      "Accompagnement de la victime": 15,
+      "Cyberharcèlement": 15,
+      "Informations juridiques": 15,
+      "Piratage de compte": 15,
+      "Conservation des preuves": 15,
+      "Usurpation d'identité": 15,
+      "Situation d'urgence": 15,
+      "Divulgation de données personnelles (Doxing)": 15,
+      "Signalement": 15,
+      "Sextorsion": 15
+    },
+    "train_style_counts": {
+      "paraphrase": 187,
+      "indirect": 187,
+      "boundary": 187,
+      "contextual": 187,
+      "direct": 187
+    },
+    "validation_style_counts": {
+      "indirect": 33,
+      "paraphrase": 33,
+      "contextual": 33,
+      "direct": 33,
+      "boundary": 33
+    }
+  },
+  "per_label": {
+    "Cyberharcèlement": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 8,
+      "validation_group_names": [
+        "cyber_scenario_0001",
+        "cyber_scenario_0019",
+        "cyber_scenario_0023",
+        "cyber_scenario_0053",
+        "cyber_scenario_0028",
+        "cyber_scenario_0006",
+        "cyber_scenario_0035",
+        "cyber_scenario_0041"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Sextorsion": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 11,
+      "validation_group_names": [
+        "sextorsion_scenario_0001",
+        "sextorsion_scenario_0002",
+        "sextorsion_scenario_0025",
+        "sextorsion_scenario_0026",
+        "sextorsion_scenario_0028",
+        "sextorsion_scenario_0049",
+        "sextorsion_scenario_0055",
+        "sextorsion_scenario_0071",
+        "sextorsion_scenario_0056",
+        "sextorsion_scenario_0064",
+        "sextorsion_scenario_0019"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Piratage de compte": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 9,
+      "validation_group_names": [
+        "piratage_scenario_0004",
+        "piratage_scenario_0020",
+        "piratage_scenario_0061",
+        "piratage_scenario_0015",
+        "piratage_scenario_0056",
+        "piratage_scenario_0045",
+        "piratage_scenario_0035",
+        "piratage_scenario_0034",
+        "piratage_scenario_0053"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Divulgation de données personnelles (Doxing)": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 14,
+      "validation_group_names": [
+        "doxing_scenario_0001",
+        "doxing_scenario_0004",
+        "doxing_scenario_0006",
+        "doxing_scenario_0021",
+        "doxing_scenario_0023",
+        "doxing_scenario_0076",
+        "doxing_scenario_0053",
+        "doxing_scenario_0083",
+        "doxing_scenario_0028",
+        "doxing_scenario_0091",
+        "doxing_scenario_0062",
+        "doxing_scenario_0044",
+        "doxing_scenario_0063",
+        "doxing_scenario_0054"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Conservation des preuves": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 10,
+      "validation_group_names": [
+        "preuves_scenario_0003",
+        "preuves_scenario_0025",
+        "preuves_scenario_0039",
+        "preuves_scenario_0008",
+        "preuves_scenario_0038",
+        "preuves_scenario_0069",
+        "preuves_scenario_0075",
+        "preuves_scenario_0067",
+        "preuves_scenario_0082",
+        "preuves_scenario_0086"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Informations juridiques": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 12,
+      "validation_group_names": [
+        "juridique_scenario_0003",
+        "juridique_scenario_0016",
+        "juridique_scenario_0057",
+        "juridique_scenario_0083",
+        "juridique_scenario_0030",
+        "juridique_scenario_0002",
+        "juridique_scenario_0034",
+        "juridique_scenario_0054",
+        "juridique_scenario_0079",
+        "juridique_scenario_0033",
+        "juridique_scenario_0044",
+        "juridique_scenario_0059"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Usurpation d'identité": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 12,
+      "validation_group_names": [
+        "usurpation_scenario_0003",
+        "usurpation_scenario_0005",
+        "usurpation_scenario_0008",
+        "usurpation_scenario_0053",
+        "usurpation_scenario_0080",
+        "usurpation_scenario_0022",
+        "usurpation_scenario_0025",
+        "usurpation_scenario_0039",
+        "usurpation_scenario_0069",
+        "usurpation_scenario_0072",
+        "usurpation_scenario_0041",
+        "usurpation_scenario_0071"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Diffusion non consentie d'images": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 12,
+      "validation_group_names": [
+        "diffusion_images_scenario_0002",
+        "diffusion_images_scenario_0003",
+        "diffusion_images_scenario_0080",
+        "diffusion_images_scenario_0001",
+        "diffusion_images_scenario_0021",
+        "diffusion_images_scenario_0025",
+        "diffusion_images_scenario_0029",
+        "diffusion_images_scenario_0059",
+        "diffusion_images_scenario_0066",
+        "diffusion_images_scenario_0071",
+        "diffusion_images_scenario_0042",
+        "diffusion_images_scenario_0053"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Signalement": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 14,
+      "validation_group_names": [
+        "signalement_scenario_0001",
+        "signalement_scenario_0009",
+        "signalement_scenario_0013",
+        "signalement_scenario_0029",
+        "signalement_scenario_0041",
+        "signalement_scenario_0069",
+        "signalement_scenario_0043",
+        "signalement_scenario_0061",
+        "signalement_scenario_0089",
+        "signalement_scenario_0032",
+        "signalement_scenario_0082",
+        "signalement_scenario_0047",
+        "signalement_scenario_0035",
+        "signalement_scenario_0064"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Situation d'urgence": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 14,
+      "validation_group_names": [
+        "urgence_scenario_0002",
+        "urgence_scenario_0004",
+        "urgence_scenario_0001",
+        "urgence_scenario_0036",
+        "urgence_scenario_0044",
+        "urgence_scenario_0068",
+        "urgence_scenario_0060",
+        "urgence_scenario_0090",
+        "urgence_scenario_0051",
+        "urgence_scenario_0030",
+        "urgence_scenario_0096",
+        "urgence_scenario_0021",
+        "urgence_scenario_0071",
+        "urgence_scenario_0065"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    },
+    "Accompagnement de la victime": {
+      "total": 100,
+      "train": 85,
+      "validation": 15,
+      "validation_groups": 13,
+      "validation_group_names": [
+        "accompagnement_scenario_0002",
+        "accompagnement_scenario_0077",
+        "accompagnement_scenario_0001",
+        "accompagnement_scenario_0057",
+        "accompagnement_scenario_0045",
+        "accompagnement_scenario_0024",
+        "accompagnement_scenario_0084",
+        "accompagnement_scenario_0021",
+        "accompagnement_scenario_0005",
+        "accompagnement_scenario_0048",
+        "accompagnement_scenario_0062",
+        "accompagnement_scenario_0066",
+        "accompagnement_scenario_0035"
+      ],
+      "style_balance_score": 0,
+      "train_styles": {
+        "direct": 17,
+        "indirect": 17,
+        "contextual": 17,
+        "paraphrase": 17,
+        "boundary": 17
+      },
+      "validation_styles": {
+        "direct": 3,
+        "indirect": 3,
+        "contextual": 3,
+        "paraphrase": 3,
+        "boundary": 3
+      }
+    }
+  },
+  "outputs": {
+    "train": "data\\arabic_training\\final\\arabic_train_v1.json",
+    "validation": "data\\arabic_training\\final\\arabic_validation_v1.json"
+  }
+}

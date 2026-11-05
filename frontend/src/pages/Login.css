@@ -1,0 +1,1948 @@
+/* ==========================================================
+   EMC HELPLINE — CREATIVE LOGIN
+   ========================================================== */
+
+.emc-login-page {
+  --login-purple-950: #2b185d;
+  --login-purple-900: #3b206f;
+  --login-purple-800: #4d2b8f;
+  --login-purple: #7048b8;
+  --login-purple-soft: #f2ecfb;
+
+  --login-pink: #d9549a;
+  --login-coral: #f46c75;
+  --login-orange: #f5a13e;
+  --login-green: #49bf8d;
+
+  --login-text: #241d46;
+  --login-muted: #766f83;
+  --login-border: #e6e1ec;
+
+  min-height: 100vh;
+
+  padding: 24px;
+
+  background:
+    radial-gradient(
+      circle at 88% 5%,
+      rgba(112, 72, 184, 0.08),
+      transparent 24%
+    ),
+    #f8f7fc;
+
+  color:
+    var(--login-text);
+
+  font-family:
+    Inter,
+    "Segoe UI",
+    "Noto Sans Arabic",
+    Arial,
+    sans-serif;
+}
+
+
+.emc-login-page *,
+.emc-login-page *::before,
+.emc-login-page *::after {
+  box-sizing: border-box;
+}
+
+
+.emc-login-page button,
+.emc-login-page input {
+  font: inherit;
+}
+
+
+/* ==========================================================
+   SHELL
+   ========================================================== */
+
+.emc-login-shell {
+  display: grid;
+
+  width:
+    min(
+      1240px,
+      100%
+    );
+
+  min-height:
+    calc(
+      100vh - 48px
+    );
+
+  margin:
+    0 auto;
+
+  grid-template-columns:
+    minmax(0, 0.95fr)
+    minmax(470px, 1.05fr);
+
+  overflow:
+    hidden;
+
+  border:
+    1px solid
+    #e3ddea;
+
+  border-radius:
+    30px;
+
+  background:
+    #ffffff;
+
+  box-shadow:
+    0 30px 90px
+    rgba(
+      50,
+      29,
+      82,
+      0.15
+    );
+}
+
+
+/* ==========================================================
+   LEFT VISUAL
+   ========================================================== */
+
+.emc-login-visual {
+  position:
+    relative;
+
+  display:
+    flex;
+
+  min-height:
+    720px;
+
+  flex-direction:
+    column;
+
+  overflow:
+    hidden;
+
+  padding:
+    34px;
+
+  color:
+    #ffffff;
+
+  background:
+    radial-gradient(
+      circle at 16% 4%,
+      rgba(
+        255,
+        255,
+        255,
+        0.11
+      ),
+      transparent 26%
+    ),
+    radial-gradient(
+      circle at 92% 79%,
+      rgba(
+        221,
+        78,
+        151,
+        0.23
+      ),
+      transparent 34%
+    ),
+    linear-gradient(
+      155deg,
+      #2a175b 0%,
+      #40217a 47%,
+      #5a3194 100%
+    );
+}
+
+
+/* ==========================================================
+   BRAND
+   ========================================================== */
+
+.emc-login-brand {
+  position:
+    relative;
+
+  z-index:
+    5;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  gap:
+    12px;
+}
+
+
+.emc-login-logo {
+  position:
+    relative;
+
+  display:
+    flex;
+
+  width:
+    48px;
+
+  height:
+    48px;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.2
+    );
+
+  border-radius:
+    14px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.19
+      ),
+      rgba(
+        255,
+        255,
+        255,
+        0.08
+      )
+    );
+
+  color:
+    #ffffff;
+
+  font-size:
+    12px;
+
+  font-weight:
+    850;
+
+  box-shadow:
+    inset 0 1px 0
+    rgba(
+      255,
+      255,
+      255,
+      0.12
+    );
+}
+
+
+.emc-login-logo i {
+  position:
+    absolute;
+
+  right:
+    -2px;
+
+  bottom:
+    3px;
+
+  width:
+    9px;
+
+  height:
+    9px;
+
+  border:
+    2px solid
+    #3a1f6d;
+
+  border-radius:
+    50%;
+
+  background:
+    #55d69c;
+}
+
+
+.emc-login-brand strong,
+.emc-login-brand small {
+  display:
+    block;
+}
+
+
+.emc-login-brand strong {
+  color:
+    #ffffff;
+
+  font-size:
+    18px;
+
+  font-weight:
+    760;
+}
+
+
+.emc-login-brand small {
+  margin-top:
+    4px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.64
+    );
+
+  font-size:
+    11px;
+}
+
+
+/* ==========================================================
+   LEFT CONTENT
+   ========================================================== */
+
+.emc-login-visual-content {
+  position:
+    relative;
+
+  z-index:
+    5;
+
+  width:
+    min(
+      500px,
+      100%
+    );
+
+  margin-top:
+    auto;
+
+  margin-bottom:
+    190px;
+}
+
+
+.emc-login-kicker {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  gap:
+    8px;
+
+  min-height:
+    35px;
+
+  padding:
+    0 11px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.14
+    );
+
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.86
+    );
+
+  font-size:
+    11px;
+
+  font-weight:
+    700;
+}
+
+
+.emc-login-visual-content h2 {
+  margin:
+    17px 0 0;
+
+  color:
+    #ffffff;
+
+  font-size:
+    clamp(
+      35px,
+      4vw,
+      49px
+    );
+
+  line-height:
+    1.06;
+
+  font-weight:
+    790;
+
+  letter-spacing:
+    -0.8px;
+}
+
+
+.emc-login-visual-content > p {
+  max-width:
+    490px;
+
+  margin:
+    18px 0 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.72
+    );
+
+  font-size:
+    14px;
+
+  line-height:
+    1.7;
+}
+
+
+/* ==========================================================
+   JOURNEY CARD
+   ========================================================== */
+
+.emc-login-journey-card {
+  margin-top:
+    25px;
+
+  padding:
+    15px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.13
+    );
+
+  border-radius:
+    17px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.085
+    );
+
+  backdrop-filter:
+    blur(12px);
+}
+
+
+.emc-login-journey-head {
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  gap:
+    8px;
+
+  color:
+    #ffffff;
+
+  font-size:
+    12px;
+}
+
+
+.emc-login-journey-head > span {
+  display:
+    flex;
+
+  width:
+    29px;
+
+  height:
+    29px;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  border-radius:
+    9px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.1
+    );
+
+  color:
+    #f6b05f;
+}
+
+
+.emc-login-journey {
+  display:
+    grid;
+
+  grid-template-columns:
+    auto
+    1fr
+    auto
+    1fr
+    auto
+    1fr
+    auto;
+
+  align-items:
+    center;
+
+  gap:
+    7px;
+
+  margin-top:
+    15px;
+}
+
+
+.emc-login-journey > div {
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  flex-direction:
+    column;
+
+  gap:
+    6px;
+}
+
+
+.emc-login-journey > div > span {
+  display:
+    flex;
+
+  width:
+    32px;
+
+  height:
+    32px;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  border-radius:
+    50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.11
+    );
+
+  color:
+    #ffffff;
+}
+
+
+.emc-login-journey > div:nth-of-type(2)
+> span {
+  color:
+    #f7a64a;
+}
+
+
+.emc-login-journey > div:nth-of-type(3)
+> span {
+  color:
+    #f481a6;
+}
+
+
+.emc-login-journey > div:nth-of-type(4)
+> span {
+  color:
+    #64d5a1;
+}
+
+
+.emc-login-journey small {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.68
+    );
+
+  font-size:
+    9px;
+
+  white-space:
+    nowrap;
+}
+
+
+.emc-login-journey > i {
+  display:
+    block;
+
+  height:
+    1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.12
+      ),
+      rgba(
+        255,
+        255,
+        255,
+        0.34
+      )
+    );
+}
+
+
+/* ==========================================================
+   TRUST ROW
+   ========================================================== */
+
+.emc-login-trust-row {
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    8px;
+
+  margin-top:
+    12px;
+}
+
+
+.emc-login-trust-row > span {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  gap:
+    6px;
+
+  min-height:
+    30px;
+
+  padding:
+    0 9px;
+
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.065
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.66
+    );
+
+  font-size:
+    9px;
+}
+
+
+/* ==========================================================
+   FOLDER ART
+   ========================================================== */
+
+.emc-login-folder-art {
+  position:
+    absolute;
+
+  z-index:
+    4;
+
+  right:
+    40px;
+
+  bottom:
+    30px;
+
+  width:
+    245px;
+
+  height:
+    155px;
+}
+
+
+.folder-shadow {
+  position:
+    absolute;
+
+  right:
+    10px;
+
+  bottom:
+    0;
+
+  width:
+    190px;
+
+  height:
+    30px;
+
+  border-radius:
+    50%;
+
+  background:
+    rgba(
+      20,
+      9,
+      48,
+      0.25
+    );
+
+  filter:
+    blur(16px);
+}
+
+
+.folder-back {
+  position:
+    absolute;
+
+  width:
+    165px;
+
+  height:
+    105px;
+
+  left:
+    10px;
+
+  top:
+    8px;
+
+  border-radius:
+    19px;
+
+  background:
+    #8e62d2;
+
+  transform:
+    rotate(-6deg);
+
+  opacity:
+    0.75;
+}
+
+
+.folder-main {
+  position:
+    absolute;
+
+  display:
+    flex;
+
+  width:
+    205px;
+
+  height:
+    119px;
+
+  right:
+    0;
+
+  bottom:
+    4px;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  border-radius:
+    22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #7949c3,
+      #6031ac
+    );
+
+  box-shadow:
+    0 19px 42px
+    rgba(
+      27,
+      12,
+      57,
+      0.28
+    );
+}
+
+
+.folder-main > i {
+  position:
+    absolute;
+
+  width:
+    82px;
+
+  height:
+    22px;
+
+  top:
+    20px;
+
+  border-radius:
+    7px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #f5a13e,
+      #f46c75
+    );
+}
+
+
+.folder-main > span {
+  position:
+    relative;
+
+  z-index:
+    2;
+
+  display:
+    flex;
+
+  width:
+    66px;
+
+  height:
+    66px;
+
+  margin-top:
+    29px;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.18
+    );
+
+  border-radius:
+    20px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.1
+    );
+
+  color:
+    #ffffff;
+}
+
+
+.emc-login-folder-art b {
+  position:
+    absolute;
+
+  z-index:
+    4;
+
+  border-radius:
+    50%;
+}
+
+
+.emc-login-folder-art
+.dot-one {
+  width:
+    11px;
+
+  height:
+    11px;
+
+  left:
+    -8px;
+
+  top:
+    20px;
+
+  background:
+    #f6a34b;
+}
+
+
+.emc-login-folder-art
+.dot-two {
+  width:
+    8px;
+
+  height:
+    8px;
+
+  right:
+    -11px;
+
+  top:
+    42px;
+
+  background:
+    #df559b;
+}
+
+
+.emc-login-folder-art
+.dot-three {
+  width:
+    8px;
+
+  height:
+    8px;
+
+  left:
+    22px;
+
+  bottom:
+    6px;
+
+  background:
+    #59d59f;
+}
+
+
+/* ==========================================================
+   DECORATIONS
+   ========================================================== */
+
+.emc-login-orb,
+.emc-login-line {
+  position:
+    absolute;
+
+  pointer-events:
+    none;
+}
+
+
+.emc-login-orb {
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.065
+    );
+
+  border-radius:
+    50%;
+}
+
+
+.orb-one {
+  width:
+    250px;
+
+  height:
+    250px;
+
+  right:
+    -130px;
+
+  top:
+    90px;
+}
+
+
+.orb-two {
+  width:
+    180px;
+
+  height:
+    180px;
+
+  left:
+    -100px;
+
+  bottom:
+    45px;
+}
+
+
+.emc-login-line {
+  height:
+    1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(
+        255,
+        255,
+        255,
+        0.1
+      ),
+      transparent
+    );
+}
+
+
+.line-one {
+  width:
+    270px;
+
+  top:
+    155px;
+
+  left:
+    40px;
+
+  transform:
+    rotate(-14deg);
+}
+
+
+.line-two {
+  width:
+    230px;
+
+  right:
+    10px;
+
+  bottom:
+    220px;
+
+  transform:
+    rotate(22deg);
+}
+
+
+/* ==========================================================
+   RIGHT FORM SIDE
+   ========================================================== */
+
+.emc-login-form-side {
+  display:
+    flex;
+
+  min-height:
+    720px;
+
+  flex-direction:
+    column;
+
+  padding:
+    28px 42px 36px;
+
+  background:
+    radial-gradient(
+      circle at 91% 4%,
+      rgba(
+        112,
+        72,
+        184,
+        0.055
+      ),
+      transparent 22%
+    ),
+    #ffffff;
+}
+
+
+.emc-login-topbar {
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    14px;
+}
+
+
+.emc-login-secure-badge {
+  display:
+    inline-flex;
+
+  min-height:
+    34px;
+
+  align-items:
+    center;
+
+  gap:
+    7px;
+
+  padding:
+    0 10px;
+
+  border:
+    1px solid
+    #dbeee4;
+
+  border-radius:
+    999px;
+
+  background:
+    #f4faf6;
+
+  color:
+    #438264;
+
+  font-size:
+    10px;
+
+  font-weight:
+    700;
+}
+
+
+.emc-login-language {
+  display:
+    flex;
+
+  padding:
+    3px;
+
+  border:
+    1px solid
+    #e3ddea;
+
+  border-radius:
+    999px;
+
+  background:
+    #f7f5fa;
+}
+
+
+.emc-login-language button {
+  min-height:
+    32px;
+
+  padding:
+    0 11px;
+
+  border:
+    0;
+
+  border-radius:
+    999px;
+
+  background:
+    transparent;
+
+  color:
+    #766f81;
+
+  cursor:
+    pointer;
+
+  font-size:
+    11px;
+
+  font-weight:
+    700;
+}
+
+
+.emc-login-language
+button.active {
+  background:
+    linear-gradient(
+      135deg,
+      #5d39a0,
+      #8752bd
+    );
+
+  color:
+    #ffffff;
+
+  box-shadow:
+    0 5px 13px
+    rgba(
+      96,
+      55,
+      159,
+      0.18
+    );
+}
+
+
+/* ==========================================================
+   FORM WRAP
+   ========================================================== */
+
+.emc-login-form-wrap {
+  width:
+    min(
+      500px,
+      100%
+    );
+
+  margin:
+    auto;
+
+  padding:
+    34px 0 20px;
+}
+
+
+.emc-login-form-brand {
+  display:
+    none;
+
+  align-items:
+    center;
+
+  gap:
+    10px;
+
+  margin-bottom:
+    28px;
+}
+
+
+.emc-login-small-logo {
+  display:
+    flex;
+
+  width:
+    42px;
+
+  height:
+    42px;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  border-radius:
+    12px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #7048b8,
+      #d9549a
+    );
+
+  color:
+    #ffffff;
+
+  font-size:
+    10px;
+
+  font-weight:
+    800;
+}
+
+
+.emc-login-form-brand strong,
+.emc-login-form-brand small {
+  display:
+    block;
+}
+
+
+.emc-login-form-brand strong {
+  font-size:
+    14px;
+}
+
+
+.emc-login-form-brand small {
+  margin-top:
+    3px;
+
+  color:
+    #8c8394;
+
+  font-size:
+    9px;
+}
+
+
+.emc-login-form-kicker {
+  display:
+    block;
+
+  margin-bottom:
+    9px;
+
+  color:
+    #7048b8;
+
+  font-size:
+    11px;
+
+  font-weight:
+    760;
+
+  text-transform:
+    uppercase;
+
+  letter-spacing:
+    0.055em;
+}
+
+
+.emc-login-form-wrap h1 {
+  margin:
+    0;
+
+  color:
+    var(--login-text);
+
+  font-size:
+    clamp(
+      34px,
+      3.4vw,
+      44px
+    );
+
+  line-height:
+    1.1;
+
+  letter-spacing:
+    -0.5px;
+}
+
+
+.emc-login-intro {
+  margin:
+    12px 0 0;
+
+  color:
+    var(--login-muted);
+
+  font-size:
+    14px;
+
+  line-height:
+    1.65;
+}
+
+
+/* ==========================================================
+   MESSAGES
+   ========================================================== */
+
+.emc-login-error,
+.emc-login-success {
+  margin-top:
+    17px;
+
+  padding:
+    11px 13px;
+
+  border-radius:
+    11px;
+
+  font-size:
+    11px;
+
+  line-height:
+    1.5;
+}
+
+
+.emc-login-error {
+  border:
+    1px solid
+    #efcdd3;
+
+  background:
+    #fff3f4;
+
+  color:
+    #a94c5b;
+}
+
+
+.emc-login-success {
+  border:
+    1px solid
+    #cce8da;
+
+  background:
+    #eff9f4;
+
+  color:
+    #2f7659;
+}
+
+
+/* ==========================================================
+   FORM
+   ========================================================== */
+
+.emc-login-form {
+  display:
+    grid;
+
+  gap:
+    15px;
+
+  margin-top:
+    26px;
+}
+
+
+.emc-login-form label
+> span {
+  display:
+    block;
+
+  margin-bottom:
+    7px;
+
+  color:
+    #51485d;
+
+  font-size:
+    12px;
+
+  font-weight:
+    680;
+}
+
+
+.emc-login-input {
+  display:
+    flex;
+
+  min-height:
+    49px;
+
+  align-items:
+    center;
+
+  gap:
+    9px;
+
+  padding:
+    0 12px;
+
+  border:
+    1px solid
+    #ded7e5;
+
+  border-radius:
+    12px;
+
+  background:
+    #faf9fc;
+
+  color:
+    #8b7d97;
+
+  transition:
+    border-color
+      0.16s ease,
+    box-shadow
+      0.16s ease,
+    background
+      0.16s ease;
+}
+
+
+.emc-login-input:focus-within {
+  border-color:
+    #bba8d5;
+
+  background:
+    #ffffff;
+
+  box-shadow:
+    0 0 0 4px
+    rgba(
+      112,
+      72,
+      184,
+      0.07
+    );
+}
+
+
+.emc-login-input input {
+  width:
+    100%;
+
+  min-width:
+    0;
+
+  height:
+    47px;
+
+  border:
+    0;
+
+  outline:
+    0;
+
+  background:
+    transparent;
+
+  color:
+    #241d46;
+
+  font-size:
+    13px;
+}
+
+
+.emc-login-input input::placeholder {
+  color:
+    #a8a0ae;
+}
+
+
+.emc-login-eye {
+  display:
+    flex;
+
+  width:
+    38px;
+
+  height:
+    38px;
+
+  flex:
+    0 0 38px;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  border:
+    0;
+
+  border-radius:
+    9px;
+
+  background:
+    transparent;
+
+  color:
+    #8b8293;
+
+  cursor:
+    pointer;
+}
+
+
+.emc-login-eye:hover {
+  background:
+    #f4eff8;
+
+  color:
+    #7048b8;
+}
+
+
+.emc-login-forgot {
+  display:
+    flex;
+
+  justify-content:
+    flex-end;
+
+  margin-top:
+    -4px;
+}
+
+
+[dir="rtl"]
+.emc-login-forgot {
+  justify-content:
+    flex-start;
+}
+
+
+.emc-login-forgot a,
+.emc-login-register a {
+  color:
+    #7048b8;
+
+  text-decoration:
+    none;
+
+  font-weight:
+    700;
+}
+
+
+.emc-login-forgot a {
+  font-size:
+    11px;
+}
+
+
+/* ==========================================================
+   SUBMIT
+   ========================================================== */
+
+.emc-login-submit {
+  display:
+    inline-flex;
+
+  min-height:
+    49px;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  gap:
+    9px;
+
+  margin-top:
+    2px;
+
+  border:
+    0;
+
+  border-radius:
+    12px;
+
+  background:
+    linear-gradient(
+      105deg,
+      #f5a13e 0%,
+      #f46c75 35%,
+      #d9549a 67%,
+      #7048b8 100%
+    );
+
+  color:
+    #ffffff;
+
+  cursor:
+    pointer;
+
+  font-size:
+    13px;
+
+  font-weight:
+    750;
+
+  box-shadow:
+    0 10px 22px
+    rgba(
+      214,
+      78,
+      145,
+      0.18
+    );
+
+  transition:
+    transform
+      0.16s ease,
+    box-shadow
+      0.16s ease;
+}
+
+
+.emc-login-submit:hover:not(:disabled) {
+  transform:
+    translateY(-1px);
+
+  box-shadow:
+    0 13px 27px
+    rgba(
+      214,
+      78,
+      145,
+      0.23
+    );
+}
+
+
+.emc-login-submit:disabled {
+  cursor:
+    not-allowed;
+
+  opacity:
+    0.58;
+}
+
+
+.emc-login-spinner {
+  width:
+    16px;
+
+  height:
+    16px;
+
+  border:
+    2px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.43
+    );
+
+  border-top-color:
+    #ffffff;
+
+  border-radius:
+    50%;
+
+  animation:
+    emcLoginSpin
+      0.7s linear infinite;
+}
+
+
+@keyframes emcLoginSpin {
+  to {
+    transform:
+      rotate(360deg);
+  }
+}
+
+
+.emc-login-register {
+  margin:
+    23px 0 0;
+
+  color:
+    #867d8e;
+
+  text-align:
+    center;
+
+  font-size:
+    11px;
+}
+
+
+/* ==========================================================
+   RTL
+   ========================================================== */
+
+[dir="rtl"]
+.emc-login-visual-content,
+[dir="rtl"]
+.emc-login-form-wrap {
+  text-align:
+    right;
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+@media (
+  max-width: 1050px
+) {
+  .emc-login-shell {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .emc-login-visual {
+    display:
+      none;
+  }
+
+
+  .emc-login-form-side {
+    min-height:
+      calc(
+        100vh - 48px
+      );
+  }
+
+
+  .emc-login-form-brand {
+    display:
+      flex;
+  }
+}
+
+
+@media (
+  max-width: 600px
+) {
+  .emc-login-page {
+    padding:
+      0;
+  }
+
+
+  .emc-login-shell {
+    min-height:
+      100vh;
+
+    border:
+      0;
+
+    border-radius:
+      0;
+  }
+
+
+  .emc-login-form-side {
+    min-height:
+      100vh;
+
+    padding:
+      18px;
+  }
+
+
+  .emc-login-secure-badge {
+    display:
+      none;
+  }
+
+
+  .emc-login-form-wrap {
+    padding-top:
+      25px;
+  }
+}
+
+
+/* ==========================================================
+   ACCESSIBILITY
+   ========================================================== */
+
+.emc-login-page
+button:focus-visible,
+.emc-login-page
+a:focus-visible,
+.emc-login-page
+input:focus-visible {
+  outline:
+    3px solid
+    rgba(
+      215,
+      78,
+      151,
+      0.32
+    );
+
+  outline-offset:
+    3px;
+}
+
+
+@media (
+  prefers-reduced-motion: reduce
+) {
+  .emc-login-page *,
+  .emc-login-page *::before,
+  .emc-login-page *::after {
+    animation-duration:
+      0.01ms !important;
+
+    animation-iteration-count:
+      1 !important;
+
+    transition-duration:
+      0.01ms !important;
+  }
+}

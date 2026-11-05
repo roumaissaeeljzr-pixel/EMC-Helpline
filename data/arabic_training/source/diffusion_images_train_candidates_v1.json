@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train_ar_diffusion_images_0001",
+    "text": "نشر شخص صورة خاصة بي دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0001"
+  },
+  {
+    "id": "train_ar_diffusion_images_0002",
+    "text": "تم تداول صوري الحميمة من دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0002"
+  },
+  {
+    "id": "train_ar_diffusion_images_0003",
+    "text": "أرسل شخص صورتي الخاصة إلى آخرين دون رضاي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0003"
+  },
+  {
+    "id": "train_ar_diffusion_images_0004",
+    "text": "نُشرت صورة شخصية حساسة لي من غير موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0004"
+  },
+  {
+    "id": "train_ar_diffusion_images_0005",
+    "text": "شارك شخص مقطعًا خاصًا بي مع أشخاص آخرين دون إذن.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0005"
+  },
+  {
+    "id": "train_ar_diffusion_images_0006",
+    "text": "تمت إعادة نشر صورة خاصة بي رغم أنني لم أوافق.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0006"
+  },
+  {
+    "id": "train_ar_diffusion_images_0007",
+    "text": "اكتشفت أن صورة خاصة كنت قد أرسلتها لشخص واحد أصبحت منشورة في مجموعة دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0007"
+  },
+  {
+    "id": "train_ar_diffusion_images_0008",
+    "text": "قام شخص بإرسال صور شخصية حساسة تخصني إلى معارفه من دون أن أسمح له بمشاركتها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0008"
+  },
+  {
+    "id": "train_ar_diffusion_images_0009",
+    "text": "وجدت مقطعًا خاصًا بي منشورًا على حساب عام، مع أنني لم أوافق على نشره أو تداوله.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0009"
+  },
+  {
+    "id": "train_ar_diffusion_images_0010",
+    "text": "تمت مشاركة صورة حميمة تخصني في محادثة جماعية ولم أعط أي إذن بإرسالها للآخرين.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0010"
+  },
+  {
+    "id": "train_ar_diffusion_images_0011",
+    "text": "شخص كان يملك صورة خاصة لي أرسلها إلى أصدقاء آخرين من دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0011"
+  },
+  {
+    "id": "train_ar_diffusion_images_0012",
+    "text": "ظهرت صورتي الخاصة في صفحة لا أعرفها بعد أن أعاد شخص مشاركتها دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0012"
+  },
+  {
+    "id": "train_ar_diffusion_images_0013",
+    "text": "تم نشر مقطع شخصي حساس لي على منصة اجتماعية رغم أنني لم أوافق على عرضه للناس.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0013"
+  },
+  {
+    "id": "train_ar_diffusion_images_0014",
+    "text": "أحدهم شارك صورة خاصة بي في أكثر من مجموعة وأصبحت تنتقل بين أشخاص لا أعرفهم.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0014"
+  },
+  {
+    "id": "train_ar_diffusion_images_0015",
+    "text": "اكتشفت أن شخصًا أرسل صورتي الحساسة إلى زملاء ومعارف من دون أن يطلب موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0015"
+  },
+  {
+    "id": "train_ar_diffusion_images_0016",
+    "text": "تم تداول صورة شخصية خاصة لي على الإنترنت بعدما أرسلها شخص لآخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0016"
+  },
+  {
+    "id": "train_ar_diffusion_images_0017",
+    "text": "كنت قد شاركت صورة خاصة مع شخص في سياق خاص، ثم اكتشفت أنه أرسلها إلى عدة أشخاص ونُشرت لاحقًا في مجموعة، مع أنني لم أوافق مطلقًا على أي مشاركة خارج المحادثة الأصلية.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0017"
+  },
+  {
+    "id": "train_ar_diffusion_images_0018",
+    "text": "وجدت صورًا خاصة تخصني منشورة في أكثر من حساب وصفحة، ويبدو أن شخصًا حصل عليها ثم بدأ يوزعها دون إذني، وأصبح أشخاص لا أعرفهم يشاهدونها ويتحدثون عنها وقد استمر تداول المحتوى بين أشخاص آخرين رغم أنني لم أوافق على ذلك.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0018"
+  },
+  {
+    "id": "train_ar_diffusion_images_0019",
+    "text": "تم نشر مقطع خاص بي دون موافقتي ثم أعاد عدد من الأشخاص مشاركته في مجموعات مختلفة، ولم أمنح أي طرف حق نشره أو نسخه أو إرساله إلى جمهور آخر وأصبح جمهور جديد يصل إلى هذا المحتوى خارج أي نطاق وافقت عليه.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0019"
+  },
+  {
+    "id": "train_ar_diffusion_images_0020",
+    "text": "اكتشفت أن صورة حساسة تخصني خرجت من محادثة خاصة وأصبحت متداولة بين أشخاص متعددين، وبعضهم أعاد نشرها في أماكن عامة رغم أنني لم أوافق على نشرها من الأساس مع أن الموافقة الأصلية لم تشمل أي إرسال أو نشر إلى أطراف أخرى.",
+    "label": "Diffusion non consentie d'images",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0020"
+  },
+  {
+    "id": "train_ar_diffusion_images_0021",
+    "text": "بدأ أشخاص يرسلون لي صورة خاصة لم أشاركها معهم.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0021"
+  },
+  {
+    "id": "train_ar_diffusion_images_0022",
+    "text": "أصبحت صورة شخصية حساسة لي متداولة بين الغرباء.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0022"
+  },
+  {
+    "id": "train_ar_diffusion_images_0023",
+    "text": "أخبرني أصدقاء أنهم تلقوا صورة خاصة تخصني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0023"
+  },
+  {
+    "id": "train_ar_diffusion_images_0024",
+    "text": "وجدت صورتي الخاصة في مكان لم أنشرها فيه.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0024"
+  },
+  {
+    "id": "train_ar_diffusion_images_0025",
+    "text": "أشخاص لا أعرفهم يتحدثون عن مقطع خاص بي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0025"
+  },
+  {
+    "id": "train_ar_diffusion_images_0026",
+    "text": "ظهرت صورة شخصية لي في مجموعة لم أكن عضوًا فيها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0026"
+  },
+  {
+    "id": "train_ar_diffusion_images_0027",
+    "text": "تلقيت رسائل من أشخاص يسألونني عن صورة خاصة لم أرسلها لهم، ثم عرفت أنها انتقلت بينهم.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0027"
+  },
+  {
+    "id": "train_ar_diffusion_images_0028",
+    "text": "أخبرني أحد أصدقائي أن صورة حساسة تخصني وصلت إليه من شخص آخر دون أن أرسلها أنا.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0028"
+  },
+  {
+    "id": "train_ar_diffusion_images_0029",
+    "text": "بدأت ألاحظ أن أشخاصًا من خارج محيطي شاهدوا مقطعًا شخصيًا لم أضعه في أي مكان عام.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0029"
+  },
+  {
+    "id": "train_ar_diffusion_images_0030",
+    "text": "وجدت نسخة من صورة خاصة بي منشورة في حساب لا أعرف صاحبه ولم أسمح بعرضها هناك.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0030"
+  },
+  {
+    "id": "train_ar_diffusion_images_0031",
+    "text": "أصبح بعض الناس يذكرون تفاصيل من صورة شخصية لم أشاركها إلا في محادثة خاصة.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0031"
+  },
+  {
+    "id": "train_ar_diffusion_images_0032",
+    "text": "وصلتني روابط لصفحات تعرض صورة تخصني مع أنني لم أرفعها على تلك الصفحات.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0032"
+  },
+  {
+    "id": "train_ar_diffusion_images_0033",
+    "text": "أخبرني أكثر من شخص أن صورة خاصة بي تُرسل في مجموعات مختلفة ولم أعرف من بدأ نشرها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0033"
+  },
+  {
+    "id": "train_ar_diffusion_images_0034",
+    "text": "وجدت أن مقطعًا شخصيًا انتقل من محادثة خاصة إلى قناة عامة دون أي موافقة مني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0034"
+  },
+  {
+    "id": "train_ar_diffusion_images_0035",
+    "text": "بدأت أتلقى تعليقات من غرباء على صورة حساسة لم أنشرها بنفسي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0035"
+  },
+  {
+    "id": "train_ar_diffusion_images_0036",
+    "text": "تكرر وصول نفس الصورة الخاصة إلى أشخاص مختلفين رغم أنني لم أرسلها إليهم.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0036"
+  },
+  {
+    "id": "train_ar_diffusion_images_0037",
+    "text": "في البداية لم أفهم لماذا يسألني الناس عن صورة معينة، ثم أرسل لي أحدهم نسخة منها واكتشفت أنها صورة خاصة كنت قد شاركتها في نطاق محدود وأصبحت الآن متداولة خارج ذلك النطاق.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0037"
+  },
+  {
+    "id": "train_ar_diffusion_images_0038",
+    "text": "بدأ بعض أصدقائي يحذرونني من وجود صورة حساسة تخصني في عدة مجموعات، وبعد التحقق وجدت أن الصورة نفسها نُقلت من شخص إلى آخر من دون أي موافقة مني وهو ما أدى إلى انتشار المحتوى خارج السياق الخاص الذي كان موجودًا فيه.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0038"
+  },
+  {
+    "id": "train_ar_diffusion_images_0039",
+    "text": "وصلني رابط من شخص لا أعرفه يقود إلى مقطع خاص بي، وعندما بحثت أكثر وجدت أن المقطع أعيد نشره في أكثر من مكان رغم أنني لم أنشره أصلًا وقد استمر تداول المحتوى بين أشخاص آخرين رغم أنني لم أوافق على ذلك.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0039"
+  },
+  {
+    "id": "train_ar_diffusion_images_0040",
+    "text": "اكتشفت انتشار صورة شخصية خاصة بعد أن بدأ غرباء يتواصلون معي بشأنها، وتبين أنها خرجت من سياق خاص وأصبحت تُشارك في حسابات ومجموعات لا علاقة لي بها وأصبح جمهور جديد يصل إلى هذا المحتوى خارج أي نطاق وافقت عليه.",
+    "label": "Diffusion non consentie d'images",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0040"
+  },
+  {
+    "id": "train_ar_diffusion_images_0041",
+    "text": "على Instagram نُشرت صورة خاصة بي دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0041"
+  },
+  {
+    "id": "train_ar_diffusion_images_0042",
+    "text": "في WhatsApp انتشرت صورة حساسة تخصني بين عدة مجموعات.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0042"
+  },
+  {
+    "id": "train_ar_diffusion_images_0043",
+    "text": "على Telegram تم إرسال مقطع خاص بي دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0043"
+  },
+  {
+    "id": "train_ar_diffusion_images_0044",
+    "text": "في الجامعة تداول طلاب صورة شخصية خاصة بي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0044"
+  },
+  {
+    "id": "train_ar_diffusion_images_0045",
+    "text": "على Facebook أُعيد نشر صورة لم أوافق على مشاركتها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0045"
+  },
+  {
+    "id": "train_ar_diffusion_images_0046",
+    "text": "في العمل وصلت صورة خاصة بي إلى زملاء دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0046"
+  },
+  {
+    "id": "train_ar_diffusion_images_0047",
+    "text": "على Instagram وجدت صورة حساسة تخصني منشورة في حساب عام لم أسمح له باستخدامها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0041"
+  },
+  {
+    "id": "train_ar_diffusion_images_0048",
+    "text": "في مجموعة WhatsApp انتشرت صورة كنت قد أرسلتها لشخص واحد فقط ولم أوافق على مشاركتها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0042"
+  },
+  {
+    "id": "train_ar_diffusion_images_0049",
+    "text": "على Telegram تم تداول مقطع شخصي خاص بي بين قنوات مختلفة من دون أن أعطي إذنًا بالنشر.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0043"
+  },
+  {
+    "id": "train_ar_diffusion_images_0050",
+    "text": "في الجامعة أرسل أحد الطلاب صورة خاصة تخصني إلى مجموعة تضم عددًا كبيرًا من الطلبة.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0044"
+  },
+  {
+    "id": "train_ar_diffusion_images_0051",
+    "text": "على Facebook أعاد شخص نشر صورة شخصية حساسة لي بعد أن كانت موجودة في محادثة خاصة.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0045"
+  },
+  {
+    "id": "train_ar_diffusion_images_0052",
+    "text": "في العمل وصلت صورة خاصة إلى عدد من الزملاء رغم أنني لم أشاركها معهم أو أوافق على إرسالها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0046"
+  },
+  {
+    "id": "train_ar_diffusion_images_0053",
+    "text": "على Snapchat تم حفظ صورة خاصة ثم أعيد إرسالها إلى أشخاص آخرين من دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0047"
+  },
+  {
+    "id": "train_ar_diffusion_images_0054",
+    "text": "في مجموعة عائلية أرسل شخص صورة شخصية حساسة لي لم أوافق على مشاركتها مع باقي الأعضاء.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0048"
+  },
+  {
+    "id": "train_ar_diffusion_images_0055",
+    "text": "على TikTok ظهر مقطع خاص بي في حساب آخر رغم أنني لم أنشره على المنصة.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0049"
+  },
+  {
+    "id": "train_ar_diffusion_images_0056",
+    "text": "في لعبة إلكترونية شارك لاعب صورة شخصية خاصة بي في الدردشة العامة دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0050"
+  },
+  {
+    "id": "train_ar_diffusion_images_0057",
+    "text": "على Instagram بدأت المشكلة عندما أرسل شخص صورة خاصة تخصني إلى حسابات أخرى، ثم ظهرت الصورة في صفحة عامة وأعيد نشرها مرات متعددة، مع أنني لم أوافق على استخدامها خارج المحادثة الأصلية.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0051"
+  },
+  {
+    "id": "train_ar_diffusion_images_0058",
+    "text": "في مجموعة الجامعة تم إرسال صورة حساسة تخصني ثم نقلها بعض الطلاب إلى مجموعات أخرى، وأصبحت الصورة تنتشر خارج المجموعة الأولى رغم أنني لم أسمح لأي شخص بمشاركتها مع أن الموافقة الأصلية لم تشمل أي إرسال أو نشر إلى أطراف أخرى.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0052"
+  },
+  {
+    "id": "train_ar_diffusion_images_0059",
+    "text": "على Telegram خرج مقطع خاص من محادثة محدودة ثم ظهر في قناة عامة، وبعد ذلك أعادت قنوات أخرى نشره، وكل هذا حدث من دون موافقتي على عرض المقطع أو تداوله وهو ما أدى إلى انتشار المحتوى خارج السياق الخاص الذي كان موجودًا فيه.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0053"
+  },
+  {
+    "id": "train_ar_diffusion_images_0060",
+    "text": "في بيئة العمل أرسل شخص صورة خاصة تخصني إلى أحد الزملاء، ثم انتقلت إلى أشخاص آخرين داخل المؤسسة، وأصبح عدد من الموظفين قد شاهدوها رغم أنني لم أوافق على أي مشاركة.",
+    "label": "Diffusion non consentie d'images",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0054"
+  },
+  {
+    "id": "train_ar_diffusion_images_0061",
+    "text": "تم توزيع محتوى بصري خاص بي دون رضاي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0055"
+  },
+  {
+    "id": "train_ar_diffusion_images_0062",
+    "text": "خرجت صورة خاصة بي من نطاقها دون موافقتي أمام أشخاص آخرين دون إذني أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0056"
+  },
+  {
+    "id": "train_ar_diffusion_images_0063",
+    "text": "انتشر محتوى شخصي حساس يخصني من غير إذن أمام أشخاص آخرين دون إذني أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0057"
+  },
+  {
+    "id": "train_ar_diffusion_images_0064",
+    "text": "أصبحت صورة خاصة لي متاحة لأشخاص لم أوافق عليهم أمام أشخاص آخرين دون إذني أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0058"
+  },
+  {
+    "id": "train_ar_diffusion_images_0065",
+    "text": "تمت مشاركة مقطع شخصي لي خارج السياق الذي وافقت عليه أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0059"
+  },
+  {
+    "id": "train_ar_diffusion_images_0066",
+    "text": "أعيد تداول صورة تخصني من دون الحصول على موافقتي أمام أشخاص آخرين دون إذني أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0060"
+  },
+  {
+    "id": "train_ar_diffusion_images_0067",
+    "text": "المشكلة أن محتوى بصريًا خاصًا بي أصبح يُرسل بين الناس رغم أنني لم أوافق على مشاركته معهم.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0061"
+  },
+  {
+    "id": "train_ar_diffusion_images_0068",
+    "text": "صورة كنت أعتبرها خاصة انتقلت إلى جمهور أوسع من الشخص الذي شاركتها معه في البداية.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0062"
+  },
+  {
+    "id": "train_ar_diffusion_images_0069",
+    "text": "تم تجاوز حدود الموافقة الأصلية عندما أعاد شخص إرسال صورة خاصة تخصني إلى آخرين أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0063"
+  },
+  {
+    "id": "train_ar_diffusion_images_0070",
+    "text": "أصبحت مادة شخصية حساسة مرتبطة بي متداولة في أماكن لم أسمح بنشرها فيها أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0064"
+  },
+  {
+    "id": "train_ar_diffusion_images_0071",
+    "text": "لم أوافق إلا على مشاركة محدودة، لكن الصورة نُقلت بعد ذلك إلى أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0065"
+  },
+  {
+    "id": "train_ar_diffusion_images_0072",
+    "text": "هناك محتوى بصري يخصني يُعاد نشره ونسخه خارج أي نطاق وافقت عليه أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0066"
+  },
+  {
+    "id": "train_ar_diffusion_images_0073",
+    "text": "تم نقل صورة شخصية خاصة من محادثة محدودة إلى مساحة يشاهدها عدد أكبر من الأشخاص.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0067"
+  },
+  {
+    "id": "train_ar_diffusion_images_0074",
+    "text": "أصبح مقطع خاص بي متاحًا لجمهور لم أكن أقصد مشاركته معه ولم أعط موافقة بذلك.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0068"
+  },
+  {
+    "id": "train_ar_diffusion_images_0075",
+    "text": "تم التعامل مع صورتي الخاصة كأنها قابلة للمشاركة رغم أنني لم أمنح أي إذن لإعادة إرسالها.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0069"
+  },
+  {
+    "id": "train_ar_diffusion_images_0076",
+    "text": "خرج محتوى حساس يخصني من السيطرة وأصبح ينتقل من حساب إلى آخر من دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0070"
+  },
+  {
+    "id": "train_ar_diffusion_images_0077",
+    "text": "المشكلة ليست مجرد وجود صورة لي على الإنترنت، بل أن صورة خاصة كانت ضمن سياق محدود جرى نسخها وإرسالها إلى عدة أشخاص ثم نشرها في أماكن أخرى من دون موافقتي وقد استمر تداول المحتوى بين أشخاص آخرين رغم أنني لم أوافق على ذلك.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0071"
+  },
+  {
+    "id": "train_ar_diffusion_images_0078",
+    "text": "أواجه انتشارًا غير مصرح به لمحتوى بصري شخصي، إذ انتقلت صورة حساسة من شخص واحد إلى مجموعات وحسابات متعددة وأصبحت متاحة لجمهور لم أوافق على وصوله إليها وأصبح جمهور جديد يصل إلى هذا المحتوى خارج أي نطاق وافقت عليه.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0072"
+  },
+  {
+    "id": "train_ar_diffusion_images_0079",
+    "text": "كانت لدي موافقة على وجود الصورة في سياق خاص فقط، لكن شخصًا تجاوز هذا السياق وأعاد إرسالها ونشرها، ثم استمرت إعادة المشاركة من طرف آخرين من دون الرجوع إلي مع أن الموافقة الأصلية لم تشمل أي إرسال أو نشر إلى أطراف أخرى.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0073"
+  },
+  {
+    "id": "train_ar_diffusion_images_0080",
+    "text": "أصبحت مادة خاصة تخصني تنتشر تدريجيًا بين الأشخاص والمنصات، وكل إعادة إرسال أو نشر تزيد الجمهور الذي يراها رغم أنني لم أمنح موافقة على هذا التداول من الأصل وهو ما أدى إلى انتشار المحتوى خارج السياق الخاص الذي كان موجودًا فيه.",
+    "label": "Diffusion non consentie d'images",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "diffusion_images_scenario_0074"
+  },
+  {
+    "id": "train_ar_diffusion_images_0081",
+    "text": "لم يعد يهددني بالنشر؛ لقد نشر الصورة فعلًا دون موافقتي أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0075"
+  },
+  {
+    "id": "train_ar_diffusion_images_0082",
+    "text": "تمت مشاركة الصورة بالفعل، وليست مجرد تهديد بالنشر أمام أشخاص آخرين دون إذني أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0075"
+  },
+  {
+    "id": "train_ar_diffusion_images_0083",
+    "text": "نُشرت صورتي الخاصة، وليس فقط عنواني أو رقم هاتفي أمام أشخاص آخرين دون إذني أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "diffusion_images_scenario_0076"
+  },
+  {
+    "id": "train_ar_diffusion_images_0084",
+    "text": "اكتشفت أن محتوى بصريًا شخصيًا يخصني أصبح متداولًا بين أشخاص لم أوافق على مشاركته معهم وأصبح الوصول إليه ممكنًا خارج السياق الخاص الأصلي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "diffusion_images_scenario_0077"
+  },
+  {
+    "id": "train_ar_diffusion_images_0085",
+    "text": "أحفظ رابط الصورة المنشورة ولقطات الشاشة قبل حذفها أمام أشخاص آخرين دون إذني أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "diffusion_images_scenario_0078"
+  },
+  {
+    "id": "train_ar_diffusion_images_0086",
+    "text": "تم نقل صورة خاصة تخصني من سياق محدود إلى جمهور آخر من دون الحصول على إذني وأصبح الوصول إليه ممكنًا خارج السياق الخاص الأصلي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "diffusion_images_scenario_0079"
+  },
+  {
+    "id": "train_ar_diffusion_images_0087",
+    "text": "كان يهدد سابقًا بإرسال الصورة إذا لم أستجب له، لكنه نفذ التهديد الآن ونشرها بالفعل.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0080"
+  },
+  {
+    "id": "train_ar_diffusion_images_0088",
+    "text": "لم تعد المشكلة طلب مال مقابل عدم النشر؛ الصورة أصبحت متداولة فعليًا بين أشخاص آخرين.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0080"
+  },
+  {
+    "id": "train_ar_diffusion_images_0089",
+    "text": "وصلتني تهديدات بالنشر ثم اكتشفت لاحقًا أن الصورة أُرسلت فعلًا إلى عدد من معارفي أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0080"
+  },
+  {
+    "id": "train_ar_diffusion_images_0090",
+    "text": "الشخص كان يستخدم الصورة للضغط علي، لكن ما يؤذيني الآن هو أنها نُشرت بالفعل دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0081"
+  },
+  {
+    "id": "train_ar_diffusion_images_0091",
+    "text": "تم نشر صورة خاصة مع بعض معلوماتي الشخصية، لكن المشكلة الأساسية هي تداول الصورة نفسها دون رضاي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "diffusion_images_scenario_0082"
+  },
+  {
+    "id": "train_ar_diffusion_images_0092",
+    "text": "ظهرت بيانات عني بجانب صورة حساسة، إلا أن ما أريد تصنيفه هو نشر الصورة الخاصة دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "diffusion_images_scenario_0082"
+  },
+  {
+    "id": "train_ar_diffusion_images_0093",
+    "text": "قد أقدم بلاغًا لاحقًا، لكن المشكلة الأساسية أن صورة خاصة تخصني أصبحت منشورة ومتداولة أمام أشخاص آخرين دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "diffusion_images_scenario_0083"
+  },
+  {
+    "id": "train_ar_diffusion_images_0094",
+    "text": "أفكر في إبلاغ المنصة، لكن سؤالي يبدأ من أن مقطعًا خاصًا بي نُشر دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "diffusion_images_scenario_0083"
+  },
+  {
+    "id": "train_ar_diffusion_images_0095",
+    "text": "أحتفظ بالروابط ولقطات الشاشة، لكن السبب هو أن صورة خاصة بي نُشرت بالفعل دون إذني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "diffusion_images_scenario_0084"
+  },
+  {
+    "id": "train_ar_diffusion_images_0096",
+    "text": "أريد توثيق الحسابات التي أعادت نشر الصورة، لكن الواقعة الأساسية هي انتشار المحتوى الخاص دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "diffusion_images_scenario_0084"
+  },
+  {
+    "id": "train_ar_diffusion_images_0097",
+    "text": "في البداية كان الشخص يهددني بإرسال صورة خاصة إذا لم أنفذ ما يطلبه، لكن الأمر لم يعد مجرد تهديد أو شرط؛ لقد أرسل الصورة بالفعل إلى أشخاص آخرين وأصبحت الآن متداولة من دون موافقتي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "diffusion_images_scenario_0085"
+  },
+  {
+    "id": "train_ar_diffusion_images_0098",
+    "text": "تم نشر صورة حساسة تخصني مع اسمي وبعض معلومات الاتصال، لكن ما أحتاج إلى تمييزه هنا هو أن الضرر الأساسي أصبح تداول الصورة الخاصة نفسها دون رضاي، وليس مجرد كشف البيانات الشخصية.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Divulgation de données personnelles (Doxing)",
+    "scenario_group": "diffusion_images_scenario_0086"
+  },
+  {
+    "id": "train_ar_diffusion_images_0099",
+    "text": "أعرف أن هناك جانبًا قانونيًا لما حدث وقد أحتاج إلى معرفة المسؤولية لاحقًا، لكن الواقعة الأساسية الآن هي أن شخصًا نشر صورة خاصة تخصني ثم أعاد آخرون مشاركتها من دون أي موافقة مني.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "diffusion_images_scenario_0087"
+  },
+  {
+    "id": "train_ar_diffusion_images_0100",
+    "text": "قد تكون لي حقوق قانونية بسبب ما حدث، لكن سؤالي لا يتعلق الآن بتفسير القانون؛ المشكلة أن مقطعًا خاصًا يخصني خرج من سياق محدود وأصبح منشورًا ومتداولًا بين عدة أشخاص دون رضاي.",
+    "label": "Diffusion non consentie d'images",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "diffusion_images_scenario_0087"
+  }
+]

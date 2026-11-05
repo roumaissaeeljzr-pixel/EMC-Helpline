@@ -1,0 +1,131 @@
+/* ==========================================================
+   EMC HELPLINE — SÉLECTEUR DE DOSSIER DU DASHBOARD
+   S'affiche uniquement lorsqu'une victime possède plusieurs
+   dossiers actifs.
+   ========================================================== */
+
+.guided-case-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+
+  margin-bottom: 16px;
+  padding: 16px 18px;
+
+  border: 1px solid var(--guided-border);
+  border-radius: 17px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 8px 24px
+    rgba(59, 43, 80, 0.04);
+}
+
+
+.guided-case-switcher-copy {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  min-width: 0;
+}
+
+
+.guided-case-switcher-copy > span {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background: var(--guided-purple-soft);
+  color: var(--guided-purple);
+}
+
+
+.guided-case-switcher-copy strong {
+  display: block;
+
+  color: var(--guided-text);
+
+  font-size: 16px;
+  font-weight: 760;
+}
+
+
+.guided-case-switcher-copy small {
+  display: block;
+
+  margin-top: 4px;
+
+  color: var(--guided-muted);
+
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+
+.guided-case-switcher-control {
+  position: relative;
+
+  width: min(100%, 390px);
+  flex: 0 0 min(42%, 390px);
+}
+
+
+.guided-case-switcher-control select {
+  width: 100%;
+  min-height: 46px;
+
+  padding: 0 42px 0 14px;
+
+  border: 1px solid #ddd5e4;
+  border-radius: 12px;
+
+  outline: none;
+
+  background: #faf9fc;
+  color: var(--guided-text);
+
+  font: inherit;
+  font-size: 14px;
+  font-weight: 670;
+
+  cursor: pointer;
+}
+
+
+.guided-case-switcher-control select:focus {
+  border-color: #bba8d5;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 4px
+    rgba(112, 72, 184, 0.07);
+}
+
+
+[dir="rtl"] .guided-case-switcher-control select {
+  padding:
+    0 14px 0 42px;
+}
+
+
+@media (max-width: 820px) {
+  .guided-case-switcher {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .guided-case-switcher-control {
+    width: 100%;
+    flex-basis: auto;
+  }
+}

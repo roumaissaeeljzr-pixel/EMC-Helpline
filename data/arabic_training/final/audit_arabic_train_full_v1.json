@@ -1,0 +1,408 @@
+{
+  "status": "PASS",
+  "benchmarks_used": false,
+  "benchmarks_note": "AR-1 et AR-2 ne sont ni ouverts ni lus par ce script.",
+  "source_files": [
+    {
+      "file": "cyberharcelement_train_candidates_v1.json",
+      "label": "Cyberharcèlement",
+      "count": 100,
+      "sha256": "3ba2f30f53b59d7c3410af28ec627cd6db0160c7399e843b0396306d900c1a4d",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Accompagnement de la victime": 6,
+        "Signalement": 4,
+        "Situation d'urgence": 4,
+        "Conservation des preuves": 3,
+        "Informations juridiques": 3
+      },
+      "lengths": {
+        "short_lt_15": 26,
+        "medium_15_30": 55,
+        "long_gt_30": 19
+      },
+      "scenario_groups": {
+        "unique": 53,
+        "min_size": 1,
+        "max_size": 3,
+        "mean_size": 1.8868
+      }
+    },
+    {
+      "file": "sextorsion_train_candidates_v1.json",
+      "label": "Sextorsion",
+      "count": 100,
+      "sha256": "c4d0413d63299eb09e4dba7dddd0a85fa836a5bbf5644f156ac22ac278ab1490",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Diffusion non consentie d'images": 7,
+        "Signalement": 4,
+        "Situation d'urgence": 3,
+        "Conservation des preuves": 3,
+        "Informations juridiques": 3
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 75,
+        "min_size": 1,
+        "max_size": 3,
+        "mean_size": 1.3333
+      }
+    },
+    {
+      "file": "piratage_train_candidates_v1.json",
+      "label": "Piratage de compte",
+      "count": 100,
+      "sha256": "f94d29c05ec5293aabaec0f5bb4cc9db4db397055000e9a62606f983e3c8b396",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Usurpation d'identité": 8,
+        "Signalement": 4,
+        "Conservation des preuves": 3,
+        "Divulgation de données personnelles (Doxing)": 3,
+        "Informations juridiques": 2
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 64,
+        "min_size": 1,
+        "max_size": 3,
+        "mean_size": 1.5625
+      }
+    },
+    {
+      "file": "doxing_train_candidates_v1.json",
+      "label": "Divulgation de données personnelles (Doxing)",
+      "count": 100,
+      "sha256": "5ece7becf6bddaaf18440ee6d9efafa2f6903c668a1ca567101babf89363b09b",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Usurpation d'identité": 6,
+        "Piratage de compte": 4,
+        "Signalement": 4,
+        "Conservation des preuves": 3,
+        "Informations juridiques": 3
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 91,
+        "min_size": 1,
+        "max_size": 2,
+        "mean_size": 1.0989
+      }
+    },
+    {
+      "file": "preuves_train_candidates_v1.json",
+      "label": "Conservation des preuves",
+      "count": 100,
+      "sha256": "0c9632d9443377299316c8d04e516fe9041ea5745c98a4142c8fefa38e6a35b6",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Signalement": 5,
+        "Cyberharcèlement": 4,
+        "Divulgation de données personnelles (Doxing)": 4,
+        "Diffusion non consentie d'images": 4,
+        "Piratage de compte": 3
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 89,
+        "min_size": 1,
+        "max_size": 2,
+        "mean_size": 1.1236
+      }
+    },
+    {
+      "file": "juridique_train_candidates_v1.json",
+      "label": "Informations juridiques",
+      "count": 100,
+      "sha256": "dc0c9485c1b1dc27ba59b3f287a4273f39782cefcef6303e006d672d4034d4ea",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Signalement": 4,
+        "Conservation des preuves": 4,
+        "Cyberharcèlement": 3,
+        "Divulgation de données personnelles (Doxing)": 3,
+        "Diffusion non consentie d'images": 4,
+        "Piratage de compte": 2
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 91,
+        "min_size": 1,
+        "max_size": 2,
+        "mean_size": 1.0989
+      }
+    },
+    {
+      "file": "usurpation_train_candidates_v1.json",
+      "label": "Usurpation d'identité",
+      "count": 100,
+      "sha256": "bd3b1b1e760f799583722c4e38029f1f76dc93d4e6ea4ce849325ba838dc081d",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Piratage de compte": 7,
+        "Divulgation de données personnelles (Doxing)": 4,
+        "Signalement": 3,
+        "Informations juridiques": 3,
+        "Conservation des preuves": 3
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 87,
+        "min_size": 1,
+        "max_size": 3,
+        "mean_size": 1.1494
+      }
+    },
+    {
+      "file": "diffusion_images_train_candidates_v1.json",
+      "label": "Diffusion non consentie d'images",
+      "count": 100,
+      "sha256": "0b4752e2a94493c0cf22c15743c6bf082076b31fbc5ebc4e77a63f6e35546c7c",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Sextorsion": 7,
+        "Divulgation de données personnelles (Doxing)": 4,
+        "Signalement": 3,
+        "Conservation des preuves": 3,
+        "Informations juridiques": 3
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 87,
+        "min_size": 1,
+        "max_size": 3,
+        "mean_size": 1.1494
+      }
+    },
+    {
+      "file": "signalement_train_candidates_v1.json",
+      "label": "Signalement",
+      "count": 100,
+      "sha256": "9c99e0c55568b5960b1efadaa04c37a44a96ea8ac0f9d594c634ee4b4d04f8b3",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Conservation des preuves": 4,
+        "Informations juridiques": 4,
+        "Cyberharcèlement": 3,
+        "Divulgation de données personnelles (Doxing)": 4,
+        "Diffusion non consentie d'images": 3,
+        "Piratage de compte": 2
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 96,
+        "min_size": 1,
+        "max_size": 2,
+        "mean_size": 1.0417
+      }
+    },
+    {
+      "file": "urgence_train_candidates_v1.json",
+      "label": "Situation d'urgence",
+      "count": 100,
+      "sha256": "7e55f177b466ecbc46443245d014df199cec111917a04d5b989520cd2537012a",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Cyberharcèlement": 4,
+        "Sextorsion": 4,
+        "Divulgation de données personnelles (Doxing)": 4,
+        "Signalement": 4,
+        "Accompagnement de la victime": 2,
+        "Diffusion non consentie d'images": 2
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 96,
+        "min_size": 1,
+        "max_size": 2,
+        "mean_size": 1.0417
+      }
+    },
+    {
+      "file": "accompagnement_train_candidates_v1.json",
+      "label": "Accompagnement de la victime",
+      "count": 100,
+      "sha256": "91cc24873a03c79f3e48d46c990d5d7de8a52a299d0071034078c27a35b14a2a",
+      "styles": {
+        "direct": 20,
+        "indirect": 20,
+        "contextual": 20,
+        "paraphrase": 20,
+        "boundary": 20
+      },
+      "boundary_with": {
+        "Situation d'urgence": 4,
+        "Signalement": 4,
+        "Informations juridiques": 3,
+        "Conservation des preuves": 4,
+        "Cyberharcèlement": 3,
+        "Sextorsion": 2
+      },
+      "lengths": {
+        "short_lt_15": 30,
+        "medium_15_30": 50,
+        "long_gt_30": 20
+      },
+      "scenario_groups": {
+        "unique": 89,
+        "min_size": 1,
+        "max_size": 2,
+        "mean_size": 1.1236
+      }
+    }
+  ],
+  "global": {
+    "total": 1100,
+    "label_counts": {
+      "Cyberharcèlement": 100,
+      "Sextorsion": 100,
+      "Piratage de compte": 100,
+      "Divulgation de données personnelles (Doxing)": 100,
+      "Conservation des preuves": 100,
+      "Informations juridiques": 100,
+      "Usurpation d'identité": 100,
+      "Diffusion non consentie d'images": 100,
+      "Signalement": 100,
+      "Situation d'urgence": 100,
+      "Accompagnement de la victime": 100
+    },
+    "style_counts": {
+      "direct": 220,
+      "indirect": 220,
+      "contextual": 220,
+      "paraphrase": 220,
+      "boundary": 220
+    },
+    "lengths": {
+      "short_lt_15": 326,
+      "medium_15_30": 555,
+      "long_gt_30": 219
+    },
+    "scenario_groups": {
+      "unique": 918,
+      "size_1": 745,
+      "size_2": 164,
+      "size_3": 9,
+      "max_size": 3
+    },
+    "boundary_with_counts": {
+      "Accompagnement de la victime": 8,
+      "Signalement": 39,
+      "Situation d'urgence": 11,
+      "Conservation des preuves": 30,
+      "Informations juridiques": 24,
+      "Diffusion non consentie d'images": 20,
+      "Usurpation d'identité": 14,
+      "Divulgation de données personnelles (Doxing)": 26,
+      "Piratage de compte": 18,
+      "Cyberharcèlement": 17,
+      "Sextorsion": 13
+    },
+    "duplicate_ids": 0,
+    "exact_duplicate_groups": 0,
+    "normalized_duplicate_groups": 0,
+    "same_label_jaccard_ge_050": 0,
+    "cross_label_jaccard_ge_050": 0,
+    "cross_label_max_jaccard": 0.0
+  },
+  "cross_label_similarity_file": "data\\arabic_training\\final\\cross_label_jaccard_ge_050_v1.csv",
+  "merged_dataset_file": "data\\arabic_training\\final\\arabic_train_full_v1.json"
+}

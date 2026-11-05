@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train_ar_accompagnement_0001",
+    "text": "أحتاج إلى من يساندني بعد ما حدث.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0001"
+  },
+  {
+    "id": "train_ar_accompagnement_0002",
+    "text": "أريد التحدث مع شخص يساعدني على تجاوز هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0002"
+  },
+  {
+    "id": "train_ar_accompagnement_0003",
+    "text": "أشعر بالارتباك وأحتاج إلى توجيه ودعم.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0003"
+  },
+  {
+    "id": "train_ar_accompagnement_0004",
+    "text": "أريد مساعدة لأتعامل نفسيًا مع ما تعرضت له.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0004"
+  },
+  {
+    "id": "train_ar_accompagnement_0005",
+    "text": "أحتاج إلى مرافقة خطوة بخطوة بعد هذه الإساءة.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0005"
+  },
+  {
+    "id": "train_ar_accompagnement_0006",
+    "text": "أريد أن أعرف كيف أستعيد شعوري بالأمان والثقة.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0006"
+  },
+  {
+    "id": "train_ar_accompagnement_0007",
+    "text": "أشعر بالضغط بعد ما حدث على الإنترنت، وأحتاج إلى شخص يوجهني بهدوء في الخطوات القادمة.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0007"
+  },
+  {
+    "id": "train_ar_accompagnement_0008",
+    "text": "أريد مساعدة عملية ونفسية لأفهم كيف أتعامل مع آثار هذه التجربة دون أن أبقى وحدي.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0008"
+  },
+  {
+    "id": "train_ar_accompagnement_0009",
+    "text": "منذ الواقعة وأنا متوترة، وأحتاج إلى مرافقة تساعدني على تنظيم ما ينبغي فعله بهدوء.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0009"
+  },
+  {
+    "id": "train_ar_accompagnement_0010",
+    "text": "أحتاج إلى شخص يسمعني ويشرح لي الخيارات المتاحة دون أن أشعر بأنني مضطرة لاتخاذ قرار سريع.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0010"
+  },
+  {
+    "id": "train_ar_accompagnement_0011",
+    "text": "أريد دعمًا يساعدني على استعادة الثقة بنفسي بعد الإساءة التي تعرضت لها عبر الإنترنت.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0011"
+  },
+  {
+    "id": "train_ar_accompagnement_0012",
+    "text": "أشعر بالخجل والارتباك بسبب ما حدث، وأحتاج إلى توجيه يحترم خصوصيتي ولا يحكم علي.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0012"
+  },
+  {
+    "id": "train_ar_accompagnement_0013",
+    "text": "أحتاج إلى مرافقة تساعدني على فهم الأولويات وترتيب الخطوات التي يمكنني القيام بها لاحقًا.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0013"
+  },
+  {
+    "id": "train_ar_accompagnement_0014",
+    "text": "أريد التحدث مع شخص يمكنه مساعدتي على التعامل مع الخوف والقلق بعد هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0014"
+  },
+  {
+    "id": "train_ar_accompagnement_0015",
+    "text": "أشعر أن ما حدث أثر في يومي وعلاقاتي، وأحتاج إلى دعم يساعدني على العودة تدريجيًا إلى حياتي.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0015"
+  },
+  {
+    "id": "train_ar_accompagnement_0016",
+    "text": "أحتاج إلى مساعدة لفهم ما يمكنني فعله الآن من دون أن أشعر بأن كل شيء خارج سيطرتي.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0016"
+  },
+  {
+    "id": "train_ar_accompagnement_0017",
+    "text": "منذ ما حدث على الإنترنت وأنا أشعر بالتوتر والارتباك، ولا أبحث الآن عن إجراء قانوني أو بلاغ، بل أحتاج إلى شخص يساندني ويساعدني على ترتيب أفكاري وخطواتي بهدوء مع احترام خصوصيتي والقرارات التي أشعر بأنني مستعدة لاتخاذها.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0017"
+  },
+  {
+    "id": "train_ar_accompagnement_0018",
+    "text": "أشعر أن التجربة أثرت في ثقتي بنفسي وفي قدرتي على التعامل مع الآخرين، وأريد مرافقة تساعدني على استعادة شعوري بالأمان واتخاذ قراراتي تدريجيًا من دون ضغط أو لوم من دون ضغط علي لاتخاذ خطوة لا أشعر أنني جاهزة لها الآن.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0018"
+  },
+  {
+    "id": "train_ar_accompagnement_0019",
+    "text": "أحتاج إلى دعم إنساني وعملي بعد ما تعرضت له؛ أريد أن أفهم كيف أتعامل مع المشاعر التي تركتها الواقعة، وكيف أرتب الخطوات الممكنة بطريقة تناسب وضعي ووتيرتي بحيث أستطيع استعادة الثقة والهدوء تدريجيًا بعد هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0019"
+  },
+  {
+    "id": "train_ar_accompagnement_0020",
+    "text": "ما أحتاجه في هذه المرحلة هو شخص يرافقني بعد الواقعة، يستمع لما أشعر به، ويساعدني على تحديد الأولويات والخطوات التالية من دون أن يختصر المشكلة في التبليغ أو الجانب القانوني فقط.",
+    "label": "Accompagnement de la victime",
+    "style": "direct",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0020"
+  },
+  {
+    "id": "train_ar_accompagnement_0021",
+    "text": "أشعر أنني وحدي بعد هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0021"
+  },
+  {
+    "id": "train_ar_accompagnement_0022",
+    "text": "لا أعرف كيف أتعامل مع ما أشعر به.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0022"
+  },
+  {
+    "id": "train_ar_accompagnement_0023",
+    "text": "أحتاج إلى مساندة تساعدني على استعادة الهدوء والثقة بعد التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0023"
+  },
+  {
+    "id": "train_ar_accompagnement_0024",
+    "text": "أصبحت أخاف من استخدام الإنترنت بعد الواقعة.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0024"
+  },
+  {
+    "id": "train_ar_accompagnement_0025",
+    "text": "أفكر كثيرًا فيما حدث ولا أستطيع ترتيب أفكاري.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0025"
+  },
+  {
+    "id": "train_ar_accompagnement_0026",
+    "text": "أحتاج إلى من يفهم ما أمر به دون لوم.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0026"
+  },
+  {
+    "id": "train_ar_accompagnement_0027",
+    "text": "منذ الواقعة وأنا أتجنب بعض التطبيقات لأنني أشعر بالتوتر كلما فتحتها.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0027"
+  },
+  {
+    "id": "train_ar_accompagnement_0028",
+    "text": "أصبحت أشك في كل رسالة تصلني، وأحتاج إلى مساعدة لأستعيد بعض الهدوء والثقة.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0028"
+  },
+  {
+    "id": "train_ar_accompagnement_0029",
+    "text": "لا أعرف مع من أتحدث عن هذه التجربة، وأخشى أن يحكم الآخرون علي بسبب ما حدث.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0029"
+  },
+  {
+    "id": "train_ar_accompagnement_0030",
+    "text": "أشعر أنني فقدت السيطرة على الوضع، وأحتاج إلى مساعدة لأقسم المشكلة إلى خطوات يمكن التعامل معها.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0030"
+  },
+  {
+    "id": "train_ar_accompagnement_0031",
+    "text": "كلما تذكرت ما حدث أشعر بالانزعاج، وأريد أن أعرف كيف أتعامل مع هذه المشاعر.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0031"
+  },
+  {
+    "id": "train_ar_accompagnement_0032",
+    "text": "أصبحت أتجنب الحديث مع الناس لأنني أخشى أن يعرفوا بما تعرضت له على الإنترنت.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0032"
+  },
+  {
+    "id": "train_ar_accompagnement_0033",
+    "text": "أحتاج إلى طريقة تساعدني على استعادة الروتين الطبيعي بعد أن أثرت الواقعة في يومي.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0033"
+  },
+  {
+    "id": "train_ar_accompagnement_0034",
+    "text": "لا أريد اتخاذ قرارات بسرعة، لكنني أحتاج إلى شخص يساعدني على فهم الخيارات بهدوء.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0034"
+  },
+  {
+    "id": "train_ar_accompagnement_0035",
+    "text": "أشعر بالارتباك بين عدة خطوات ممكنة، وأحتاج إلى توجيه يساعدني على ترتيب الأولويات.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0035"
+  },
+  {
+    "id": "train_ar_accompagnement_0036",
+    "text": "أصبحت ثقتي بنفسي أقل منذ الحادثة، وأحتاج إلى دعم يساعدني على تجاوز أثرها.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0036"
+  },
+  {
+    "id": "train_ar_accompagnement_0037",
+    "text": "لم أعد أعرف كيف أشرح للآخرين ما حدث، وأشعر أنني أتحمل التجربة وحدي، لذلك أحتاج إلى مساحة آمنة أتكلم فيها مع شخص يساعدني على فهم مشاعري وخياراتي من دون لوم مع مساعدتي على تقسيم الأمور إلى خطوات صغيرة يمكن التعامل معها.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0037"
+  },
+  {
+    "id": "train_ar_accompagnement_0038",
+    "text": "منذ الواقعة تغيرت علاقتي بالهاتف والمنصات، فأصبحت أتوتر من الإشعارات وأتجنب بعض الحسابات، وأشعر أنني بحاجة إلى مرافقة تدريجية تساعدني على استعادة الإحساس بالسيطرة مع احترام خصوصيتي والقرارات التي أشعر بأنني مستعدة لاتخاذها.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0038"
+  },
+  {
+    "id": "train_ar_accompagnement_0039",
+    "text": "أفكر في عدة أشياء في الوقت نفسه: ما حدث، وما قد يحدث لاحقًا، وكيف سيتعامل الآخرون معي، وهذا يجعلني عاجزة عن ترتيب أفكاري وأحتاج إلى دعم يساعدني على البدء خطوة خطوة.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0039"
+  },
+  {
+    "id": "train_ar_accompagnement_0040",
+    "text": "لا أبحث الآن عن إجابة واحدة سريعة، بل أحتاج إلى شخص يفهم أثر التجربة علي ويساعدني على اتخاذ قرارات مناسبة بوتيرتي، مع احترام خصوصيتي وما أشعر بأنني مستعدة له من دون ضغط علي لاتخاذ خطوة لا أشعر أنني جاهزة لها الآن.",
+    "label": "Accompagnement de la victime",
+    "style": "indirect",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0040"
+  },
+  {
+    "id": "train_ar_accompagnement_0041",
+    "text": "بعد ما حدث في الجامعة أحتاج إلى دعم يساعدني على الاستمرار.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0041"
+  },
+  {
+    "id": "train_ar_accompagnement_0042",
+    "text": "في العمل أشعر بالضغط بعد الإساءة الرقمية وأحتاج إلى مساندة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0042"
+  },
+  {
+    "id": "train_ar_accompagnement_0043",
+    "text": "بعد مشكلة على Instagram أصبحت متوترة وأحتاج إلى توجيه.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0043"
+  },
+  {
+    "id": "train_ar_accompagnement_0044",
+    "text": "بعد ما حدث على WhatsApp أريد التحدث مع شخص يفهمني.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0044"
+  },
+  {
+    "id": "train_ar_accompagnement_0045",
+    "text": "في المدرسة أشعر بالخجل بعد الواقعة وأحتاج إلى مساعدة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0045"
+  },
+  {
+    "id": "train_ar_accompagnement_0046",
+    "text": "بعد إساءة على Facebook أحتاج إلى استعادة ثقتي بنفسي بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0046"
+  },
+  {
+    "id": "train_ar_accompagnement_0047",
+    "text": "بعد ما حدث في الجامعة أصبحت أخشى مواجهة بعض الزملاء، وأحتاج إلى دعم يساعدني على التعامل مع الوضع.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0041"
+  },
+  {
+    "id": "train_ar_accompagnement_0048",
+    "text": "في العمل أثرت الواقعة الرقمية في تركيزي، وأريد مرافقة تساعدني على استعادة الهدوء والروتين بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0042"
+  },
+  {
+    "id": "train_ar_accompagnement_0049",
+    "text": "بعد تجربة مزعجة على Instagram أصبحت أتجنب فتح التطبيق، وأحتاج إلى دعم يعيد لي الشعور بالسيطرة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0043"
+  },
+  {
+    "id": "train_ar_accompagnement_0050",
+    "text": "بعد رسائل مؤذية على WhatsApp أشعر بالتوتر، وأريد شخصًا يساعدني على ترتيب الخطوات التالية بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0044"
+  },
+  {
+    "id": "train_ar_accompagnement_0051",
+    "text": "في المدرسة أخشى أن يعرف الآخرون بما حدث، وأحتاج إلى مساندة تحترم خصوصيتي بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0045"
+  },
+  {
+    "id": "train_ar_accompagnement_0052",
+    "text": "أبحث عن شخص يرافقني بهدوء ويساعدني على ترتيب ما أستطيع فعله لاحقًا مع مراعاة ما أشعر بأنني مستعدة له.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0046"
+  },
+  {
+    "id": "train_ar_accompagnement_0053",
+    "text": "بعد مشكلة على TikTok أشعر بالإحراج الشديد، وأحتاج إلى شخص يمكنني الحديث معه دون حكم.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0047"
+  },
+  {
+    "id": "train_ar_accompagnement_0054",
+    "text": "في محيط العائلة لا أعرف كيف أشرح ما حدث، وأحتاج إلى مساعدة لأختار من أتحدث معه.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0048"
+  },
+  {
+    "id": "train_ar_accompagnement_0055",
+    "text": "بعد واقعة على Telegram أصبحت أتوقع الأسوأ من كل رسالة، وأحتاج إلى مساندة لأستعيد هدوئي.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0049"
+  },
+  {
+    "id": "train_ar_accompagnement_0056",
+    "text": "بعد إساءة في منصة ألعاب أصبحت أتجنب اللعب مع الآخرين، وأحتاج إلى دعم لأتجاوز التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0050"
+  },
+  {
+    "id": "train_ar_accompagnement_0057",
+    "text": "بعد ما حدث في الجامعة أصبحت متوترة من رؤية بعض الأشخاص ومن استخدام المنصات التي بدأت فيها المشكلة، وأحتاج إلى مرافقة تساعدني على استعادة الشعور بالأمان ومواصلة دراستي تدريجيًا بحيث أستطيع استعادة الثقة والهدوء تدريجيًا بعد هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0051"
+  },
+  {
+    "id": "train_ar_accompagnement_0058",
+    "text": "في العمل أثرت الواقعة الرقمية في تركيزي وثقتي بزملائي، ولا أريد أن أتخذ قرارات متسرعة، لذلك أحتاج إلى دعم يساعدني على فهم ما أستطيع فعله مع الحفاظ على راحتي وخصوصيتي مع مساعدتي على تقسيم الأمور إلى خطوات صغيرة يمكن التعامل معها.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0052"
+  },
+  {
+    "id": "train_ar_accompagnement_0059",
+    "text": "بعد ما تعرضت له على Instagram أصبحت أتجنب التطبيق وأشعر بالقلق عندما تصلني إشعارات جديدة، وأريد مرافقة تساعدني على التعامل مع هذا الخوف واستعادة استخدامي الطبيعي للتقنية تدريجيًا مع احترام خصوصيتي والقرارات التي أشعر بأنني مستعدة لاتخاذها.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0053"
+  },
+  {
+    "id": "train_ar_accompagnement_0060",
+    "text": "في محيط العائلة أشعر بالحرج من الحديث عن الواقعة وأخشى ردود الفعل، لذلك أحتاج إلى شخص يساعدني على اختيار طريقة آمنة ومريحة لطلب الدعم من شخص أثق به من دون ضغط علي لاتخاذ خطوة لا أشعر أنني جاهزة لها الآن.",
+    "label": "Accompagnement de la victime",
+    "style": "contextual",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0054"
+  },
+  {
+    "id": "train_ar_accompagnement_0061",
+    "text": "أحتاج إلى مساندة بعد الضرر الذي تعرضت له بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0055"
+  },
+  {
+    "id": "train_ar_accompagnement_0062",
+    "text": "أريد مساعدة تعيد لي الشعور بالسيطرة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0056"
+  },
+  {
+    "id": "train_ar_accompagnement_0063",
+    "text": "أبحث عن دعم إنساني بعد هذه التجربة الرقمية بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0057"
+  },
+  {
+    "id": "train_ar_accompagnement_0064",
+    "text": "أحتاج إلى توجيه هادئ للمرحلة التي تلي الواقعة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0058"
+  },
+  {
+    "id": "train_ar_accompagnement_0065",
+    "text": "أريد مساحة آمنة لأتكلم عما حدث بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0059"
+  },
+  {
+    "id": "train_ar_accompagnement_0066",
+    "text": "أحتاج إلى مرافقة تحترم وتيرتي وخصوصيتي بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0060"
+  },
+  {
+    "id": "train_ar_accompagnement_0067",
+    "text": "ما أبحث عنه الآن هو دعم يساعدني على التعامل مع أثر الواقعة وليس فقط وصف ما حدث.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0061"
+  },
+  {
+    "id": "train_ar_accompagnement_0068",
+    "text": "أحتاج إلى من يساعدني على الانتقال من الشعور بالفوضى إلى خطوات واضحة يمكنني التعامل معها.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0062"
+  },
+  {
+    "id": "train_ar_accompagnement_0069",
+    "text": "أريد دعمًا يجعلني أشعر أن لدي خيارات وأنني لست مضطرة إلى مواجهة كل شيء وحدي.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0063"
+  },
+  {
+    "id": "train_ar_accompagnement_0070",
+    "text": "أحتاج إلى شخص يستمع لي ويساعدني على التفكير من دون فرض قرار معين علي بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0064"
+  },
+  {
+    "id": "train_ar_accompagnement_0071",
+    "text": "أريد مرافقة تركز على ما أحتاجه أنا بعد الواقعة وعلى ما أشعر بأنني مستعدة له.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0065"
+  },
+  {
+    "id": "train_ar_accompagnement_0072",
+    "text": "أحتاج إلى دعم يساعدني على استعادة الروتين والثقة بعد أن أثرت التجربة في حياتي اليومية.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0066"
+  },
+  {
+    "id": "train_ar_accompagnement_0073",
+    "text": "أريد مساعدة تدريجية لفهم ما يمكنني فعله الآن وما يمكن تأجيله إلى وقت لاحق بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0067"
+  },
+  {
+    "id": "train_ar_accompagnement_0074",
+    "text": "أحتاج إلى توجيه يراعي خوفي وارتباكي ويساعدني على ترتيب الخيارات بطريقة واضحة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0068"
+  },
+  {
+    "id": "train_ar_accompagnement_0075",
+    "text": "أبحث عن مساندة تساعدني على التعامل مع الشعور بالخجل والضغط بعد ما حدث بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0069"
+  },
+  {
+    "id": "train_ar_accompagnement_0076",
+    "text": "أريد أن أشعر أن هناك من يرافقني خلال الخطوات القادمة بدل أن أواجهها وحدي بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0070"
+  },
+  {
+    "id": "train_ar_accompagnement_0077",
+    "text": "أحتاج إلى مرافقة تضع احتياجاتي وراحتي في المركز، بحيث أستطيع التعبير عما أشعر به وفهم الخيارات المتاحة واتخاذ القرارات تدريجيًا من دون ضغط أو لوم أو استعجال بحيث أستطيع استعادة الثقة والهدوء تدريجيًا بعد هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0071"
+  },
+  {
+    "id": "train_ar_accompagnement_0078",
+    "text": "ما أبحث عنه هو دعم متوازن يجمع بين الاستماع لما أشعر به ومساعدتي على ترتيب ما يمكن فعله عمليًا بعد الواقعة، مع احترام ما أريد القيام به وما أفضّل تأجيله مع مساعدتي على تقسيم الأمور إلى خطوات صغيرة يمكن التعامل معها.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0072"
+  },
+  {
+    "id": "train_ar_accompagnement_0079",
+    "text": "أريد مساندة تساعدني على استعادة الشعور بالأمان والسيطرة بعد تجربة جعلتني متوترة ومشوشة، وأن أتمكن من تقسيم الخطوات القادمة إلى أمور صغيرة يمكن التعامل معها واحدة تلو الأخرى مع احترام خصوصيتي والقرارات التي أشعر بأنني مستعدة لاتخاذها.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0073"
+  },
+  {
+    "id": "train_ar_accompagnement_0080",
+    "text": "أحتاج إلى شخص يرافقني خلال الفترة التالية للواقعة، لا ليقرر بدلًا مني، بل ليساعدني على فهم احتياجاتي وخياراتي وبناء خطة تناسب وضعي وتساعدني على استعادة حياتي الطبيعية تدريجيًا من دون ضغط علي لاتخاذ خطوة لا أشعر أنني جاهزة لها الآن.",
+    "label": "Accompagnement de la victime",
+    "style": "paraphrase",
+    "boundary_with": null,
+    "scenario_group": "accompagnement_scenario_0074"
+  },
+  {
+    "id": "train_ar_accompagnement_0081",
+    "text": "أنا بأمان الآن، لكنني أحتاج إلى دعم بعد ما حدث بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "accompagnement_scenario_0075"
+  },
+  {
+    "id": "train_ar_accompagnement_0082",
+    "text": "سأبلغ لاحقًا، أما الآن فأحتاج إلى من يساندني بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "accompagnement_scenario_0076"
+  },
+  {
+    "id": "train_ar_accompagnement_0083",
+    "text": "أعرف حقوقي تقريبًا، لكنني أحتاج إلى دعم نفسي وعملي بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "accompagnement_scenario_0077"
+  },
+  {
+    "id": "train_ar_accompagnement_0084",
+    "text": "حفظت الأدلة، والآن أحتاج إلى مساعدة لأتعامل مع الأثر بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "accompagnement_scenario_0078"
+  },
+  {
+    "id": "train_ar_accompagnement_0085",
+    "text": "توقفت المضايقات، لكنني ما زلت متوترة وأحتاج إلى مساندة بطريقة هادئة ومحترمة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "accompagnement_scenario_0079"
+  },
+  {
+    "id": "train_ar_accompagnement_0086",
+    "text": "أريد دعمًا يحترم مشاعري وخصوصيتي ويساعدني على فهم الخيارات دون ضغط مع مراعاة ما أشعر بأنني مستعدة له.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "accompagnement_scenario_0080"
+  },
+  {
+    "id": "train_ar_accompagnement_0087",
+    "text": "لا يوجد خطر مباشر الآن، لكنني ما زلت خائفة بعد التهديدات وأحتاج إلى مساعدة لأستعيد شعوري بالأمان.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "accompagnement_scenario_0081"
+  },
+  {
+    "id": "train_ar_accompagnement_0088",
+    "text": "أنا في مكان آمن حاليًا، لكن أثر ما حدث ما زال يضغط علي وأحتاج إلى مرافقة هادئة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "accompagnement_scenario_0081"
+  },
+  {
+    "id": "train_ar_accompagnement_0089",
+    "text": "أفكر في تقديم بلاغ، لكن ما أحتاجه الآن هو دعم يساعدني على ترتيب أفكاري قبل اتخاذ القرار.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "accompagnement_scenario_0082"
+  },
+  {
+    "id": "train_ar_accompagnement_0090",
+    "text": "سأستخدم أدوات التبليغ لاحقًا، لكنني أحتاج أولًا إلى شخص يساعدني على التعامل مع الخوف والارتباك.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "accompagnement_scenario_0082"
+  },
+  {
+    "id": "train_ar_accompagnement_0091",
+    "text": "أعرف أن هناك جانبًا قانونيًا، لكن سؤالي الحالي هو كيف أتعامل مع الأثر النفسي والعملي للواقعة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "accompagnement_scenario_0083"
+  },
+  {
+    "id": "train_ar_accompagnement_0092",
+    "text": "لدي معلومات عن حقوقي، ومع ذلك أحتاج إلى مساندة تساعدني على استعادة الثقة والهدوء بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Informations juridiques",
+    "scenario_group": "accompagnement_scenario_0083"
+  },
+  {
+    "id": "train_ar_accompagnement_0093",
+    "text": "احتفظت بالرسائل والروابط، لكنني الآن أحتاج إلى دعم يساعدني على العودة إلى حياتي الطبيعية بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "accompagnement_scenario_0084"
+  },
+  {
+    "id": "train_ar_accompagnement_0094",
+    "text": "وثقت كل ما حدث، ومع ذلك ما زلت أشعر بالارتباك وأحتاج إلى مرافقة خلال الخطوات التالية.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "accompagnement_scenario_0084"
+  },
+  {
+    "id": "train_ar_accompagnement_0095",
+    "text": "توقفت الرسائل المسيئة، لكنني ما زلت أخشى فتح التطبيق وأحتاج إلى دعم لتجاوز هذا الخوف.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "accompagnement_scenario_0085"
+  },
+  {
+    "id": "train_ar_accompagnement_0096",
+    "text": "انتهت المضايقات المتكررة، لكن أثرها على ثقتي بنفسي ما زال مستمرًا وأحتاج إلى مساندة بطريقة هادئة ومحترمة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Cyberharcèlement",
+    "scenario_group": "accompagnement_scenario_0085"
+  },
+  {
+    "id": "train_ar_accompagnement_0097",
+    "text": "كنت في حالة خوف شديد أثناء التهديدات، لكنني الآن في مكان آمن ولا يوجد خطر مباشر؛ ما أحتاجه في هذه المرحلة هو دعم يساعدني على تهدئة نفسي واستعادة الشعور بالأمان وترتيب ما سأفعله لاحقًا.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Situation d'urgence",
+    "scenario_group": "accompagnement_scenario_0086"
+  },
+  {
+    "id": "train_ar_accompagnement_0098",
+    "text": "أعرف أنني قد أحتاج إلى تقديم بلاغ رسمي، وقد جمعت بعض المعلومات بالفعل، لكنني أشعر بالارتباك ولا أريد اتخاذ القرار تحت الضغط؛ أحتاج إلى شخص يساندني ويساعدني على التفكير بهدوء بحيث أستطيع استعادة الثقة والهدوء تدريجيًا بعد هذه التجربة.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Signalement",
+    "scenario_group": "accompagnement_scenario_0087"
+  },
+  {
+    "id": "train_ar_accompagnement_0099",
+    "text": "حفظت لقطات الشاشة والروابط وكل ما يمكن أن يثبت الواقعة، لذلك لم يعد سؤالي عن التوثيق؛ ما أحتاجه الآن هو مرافقة تساعدني على التعامل مع أثر التجربة والانتقال إلى الخطوات التالية.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Conservation des preuves",
+    "scenario_group": "accompagnement_scenario_0088"
+  },
+  {
+    "id": "train_ar_accompagnement_0100",
+    "text": "كان الشخص يبتزني ويضغط علي بصور خاصة، لكن التهديد توقف حاليًا ولا يوجد خطر مباشر؛ مع ذلك ما زلت أشعر بالخوف والخجل وأحتاج إلى دعم يساعدني على تجاوز ما حدث مع مساعدتي على تقسيم الأمور إلى خطوات صغيرة يمكن التعامل معها.",
+    "label": "Accompagnement de la victime",
+    "style": "boundary",
+    "boundary_with": "Sextorsion",
+    "scenario_group": "accompagnement_scenario_0089"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "status": "FROZEN_INTERNAL_VALIDATION",
+  "base_model": "aubmindlab/bert-base-arabertv02",
+  "selected_seed": 2026,
+  "selection_metric": "validation Macro-F1",
+  "max_length": 96,
+  "arabert_preprocessor": true,
+  "apply_farasa_segmentation": false,
+  "label2id": {
+    "Cyberharcèlement": 0,
+    "Sextorsion": 1,
+    "Piratage de compte": 2,
+    "Divulgation de données personnelles (Doxing)": 3,
+    "Conservation des preuves": 4,
+    "Informations juridiques": 5,
+    "Usurpation d'identité": 6,
+    "Diffusion non consentie d'images": 7,
+    "Signalement": 8,
+    "Situation d'urgence": 9,
+    "Accompagnement de la victime": 10
+  },
+  "id2label": {
+    "0": "Cyberharcèlement",
+    "1": "Sextorsion",
+    "2": "Piratage de compte",
+    "3": "Divulgation de données personnelles (Doxing)",
+    "4": "Conservation des preuves",
+    "5": "Informations juridiques",
+    "6": "Usurpation d'identité",
+    "7": "Diffusion non consentie d'images",
+    "8": "Signalement",
+    "9": "Situation d'urgence",
+    "10": "Accompagnement de la victime"
+  },
+  "benchmarks_used_for_selection": false,
+  "benchmarks_note": "AR-1 et AR-2 n'ont pas été lus ni utilisés pour l'entraînement, l'early stopping ou la sélection."
+}

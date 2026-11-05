@@ -1,0 +1,18 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "number_of_source_files": 10,
+  "number_of_chunks": 288,
+  "embedding_dimension": 384,
+  "chunk_size": 850,
+  "chunk_overlap": 120,
+  "languages_indexed": [
+    "ar",
+    "fr"
+  ],
+  "chunks_per_language": {
+    "ar": 124,
+    "fr": 164
+  },
+  "arabic_source_preference": "txt",
+  "metadata_version": 4
+}
